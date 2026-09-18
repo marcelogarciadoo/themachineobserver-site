@@ -15,11 +15,15 @@ $inspect = in_array('--inspect', $argv ?? [], true) || false;
 $log = [];
 
 $tmpzip = sys_get_temp_dir() . '/pesquisa_eleitoral_2026.zip';
-$ch = curl_init($ZIP_URL);
-curl_setopt_array($ch, [CURLOPT_RETURNTRANSFER => true, CURLOPT_FOLLOWLOCATION => true, CURLOPT_TIMEOUT => 120,
-    CURLOPT_HTTPHEADER => ['User-Agent: themachineobserver.com data refresh (contact via site)']]);
-$body = curl_exec($ch); $code = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE); curl_close($ch);
-if ($body === false || $code !== 200 || strlen($body) < 1000) { $m = gmdate('c') . " | download FAIL http=$code\n"; file_put_contents($LOG, $m, FILE_APPEND); exit($m); }
+$body = false; $code = 0; $err = '';
+foreach (['Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36', 'curl/8.4.0'] as $ua) {
+    $ch = curl_init($ZIP_URL);
+    curl_setopt_array($ch, [CURLOPT_RETURNTRANSFER => true, CURLOPT_FOLLOWLOCATION => true, CURLOPT_TIMEOUT => 180, CURLOPT_USERAGENT => $ua,
+        CURLOPT_HTTPHEADER => ['Accept: */*', 'Accept-Language: pt-BR,pt;q=0.9', 'Referer: https://dadosabertos.tse.jus.br/dataset/pesquisas-eleitorais-2026']]);
+    $body = curl_exec($ch); $code = (int)curl_getinfo($ch, CURLINFO_HTTP_CODE); $err = curl_error($ch); curl_close($ch);
+    if ($body !== false && $code === 200 && strlen($body) > 1000) break;
+}
+if ($body === false || $code !== 200 || strlen($body) < 1000) { $m = gmdate('c') . " | download FAIL http=$code err=$err\n"; file_put_contents($LOG, $m, FILE_APPEND); exit($m); }
 file_put_contents($tmpzip, $body);
 
 $zip = new ZipArchive();
