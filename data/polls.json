@@ -1,7 +1,7 @@
 {
  "updated": "2026-09-18",
  "version": 1,
- "notes": "AtlasIntel de janeiro usa os percentuais retrospectivos de fevereiro, com campo e amostra corroborados no Poder360. A rodada AtlasIntel de maio não foi incluída: a fonte de julho informa sua retirada da série pelo instituto. Paraná de fevereiro: amostra 2.080 conforme reprodução UOL; Exame informa 2.020. Fontes com divergências: no BTG/Nexus de 17 ago., foram mantidos 47%–44% conforme a publicação original do instituto, embora a comparação retrospectiva de 24 ago. cite 47%–45%. No Datafolha de 3 set., o campo é 1–2 set., conforme a Folha. No BTG/Nexus de 24 ago., a amostra é 2.006, conforme o instituto. Para a rodada BTG/Nexus de 14 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pela publicação da VEJA. Para a rodada Quaest de 14 set. e a CNT/MDA de 15 set., os mesmos campos foram preservados conforme as publicações do UOL. Para a rodada Indexa/Broadcast de 15 set., foram preservados conforme a publicação original do Broadcast. Para a rodada DataTrends de 16 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pela publicação parceira do Correio Braziliense. Para a rodada AtlasIntel/Bloomberg de 17 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pelo UOL. Para a rodada Gerp de 17 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pela CNN Brasil. Para a rodada Futura/100% Cidades de 17 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pela Exame.",
+ "notes": "AtlasIntel de janeiro usa os percentuais retrospectivos de fevereiro, com campo e amostra corroborados no Poder360. A rodada AtlasIntel de maio não foi incluída: a fonte de julho informa sua retirada da série pelo instituto. Paraná de fevereiro: amostra 2.080 conforme reprodução UOL; Exame informa 2.020. Fontes com divergências: no BTG/Nexus de 17 ago., foram mantidos 47%–44% conforme a publicação original do instituto, embora a comparação retrospectiva de 24 ago. cite 47%–45%. No Datafolha de 3 set., o campo é 1–2 set., conforme a Folha. No BTG/Nexus de 24 ago., a amostra é 2.006, conforme o instituto. Para a rodada BTG/Nexus de 14 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pela publicação da VEJA. Para a rodada Quaest de 14 set. e a CNT/MDA de 15 set., os mesmos campos foram preservados conforme as publicações do UOL. Para a rodada Indexa/Broadcast de 15 set., foram preservados conforme a publicação original do Broadcast. Para a rodada DataTrends de 16 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pela publicação parceira do Correio Braziliense. Para a rodada AtlasIntel/Bloomberg de 17 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pelo UOL. Para a rodada Gerp de 17 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pela CNN Brasil. Para a rodada Futura/100% Cidades de 17 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pela Exame. Para a rodada Datafolha de 17 set., o campo informado pela reportagem é 15–16 set., um dia antes do fim de campo constante do registro na TSE (15–17 set.); demais campos conforme a publicação. Para a rodada Palver de 10 ago., o campo é 3–7 ago. conforme as publicações; o registro na TSE lista o período 3–9 ago. Os registros BR-01720/2026 (Quaest, 3–6 set.) e BR-07065/2026 (Quaest, 30 ago.–1 set.) foram completados nesta atualização por correspondência exata de instituto, campo e amostra com o registro da TSE.",
  "ignored": [],
  "polls": [
   {
@@ -306,6 +306,18 @@
    "source": "https://www.cnnbrasil.com.br/eleicoes/atlas-bloomberg-lula-lidera-todos-os-cenarios-de-2o-turno/"
   },
   {
+   "pollster": "Vox Brasil",
+   "start": "2026-07-26",
+   "end": "2026-07-28",
+   "published": "2026-07-31",
+   "lula": 47.5,
+   "flavio": 41.1,
+   "sample": 2100,
+   "moe": 2.15,
+   "registration": "BR-01084/2026",
+   "source": "https://www.cartacapital.com.br/politica/vox-brasil-lula-lidera-o-1o-turno-e-derrotaria-flavio-bolsonaro-no-2o/"
+  },
+  {
    "pollster": "BTG/Nexus",
    "start": "2026-07-31",
    "end": "2026-08-02",
@@ -352,6 +364,18 @@
    "moe": 2,
    "registration": "BR-08428/2026",
    "source": "https://www.nexus.fsb.com.br/estudos-divulgados/pesquisa-btg-nexus-de-intencao-de-votos-para-presidente-do-brasil-10-de-agosto-de-2026/"
+  },
+  {
+   "pollster": "Palver",
+   "start": "2026-08-03",
+   "end": "2026-08-07",
+   "published": "2026-08-10",
+   "lula": 46,
+   "flavio": 46,
+   "sample": 5000,
+   "moe": 3,
+   "registration": "BR-06596/2026",
+   "source": "https://www.cartacapital.com.br/politica/as-intencoes-de-voto-de-lula-e-flavio-bolsonaro-em-pesquisa-de-estreia-da-palver/"
   },
   {
    "pollster": "CNT/MDA",
@@ -474,6 +498,18 @@
    "source": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-47-e-lula-42-em-2o-turno-diz-pesquisa/"
   },
   {
+   "pollster": "Indexa/Broadcast",
+   "start": "2026-08-20",
+   "end": "2026-08-23",
+   "published": "2026-08-26",
+   "lula": 46,
+   "flavio": 41,
+   "sample": 2000,
+   "moe": 2.2,
+   "registration": "BR-06366/2026",
+   "source": "https://www.jota.info/eleicoes/eleicoes-2026/indexa-broadcast-lula-marca-46-contra-41-de-flavio-bolsonaro-no-2o-turno"
+  },
+  {
    "pollster": "PoderData/Aya",
    "start": "2026-08-23",
    "end": "2026-08-26",
@@ -484,6 +520,18 @@
    "moe": 2,
    "registration": "BR-04974/2026",
    "source": "https://www.cnnbrasil.com.br/eleicoes/poderdata-aya-lula-empata-com-flavio-caiado-e-zema-no-2o-turno/"
+  },
+  {
+   "pollster": "Vox Brasil",
+   "start": "2026-08-25",
+   "end": "2026-08-27",
+   "published": "2026-08-29",
+   "lula": 44.5,
+   "flavio": 45.1,
+   "sample": 2100,
+   "moe": 2.15,
+   "registration": "BR-05519/2026",
+   "source": "https://www.cnnbrasil.com.br/eleicoes/vox-brasil-flavio-tem-451-e-lula-445-no-2o-turno/"
   },
   {
    "pollster": "AtlasIntel",
@@ -530,7 +578,7 @@
    "flavio": 41,
    "sample": 2004,
    "moe": 2,
-   "registration": "",
+   "registration": "BR-07065/2026",
    "source": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-42-ante-41-de-flavio-bolsonaro-no-2o-turno-diz-quaest/"
   },
   {
@@ -590,7 +638,7 @@
    "flavio": 41,
    "sample": 2004,
    "moe": 2,
-   "registration": "",
+   "registration": "BR-01720/2026",
    "source": "https://www.reuters.com/world/americas/lula-flavio-bolsonaro-tied-brazils-election-runoff-quaest-poll-shows-2026-09-07/"
   },
   {
@@ -784,6 +832,30 @@
    "moe": 2.2,
    "registration": "BR-00749/2026",
    "source": "https://exame.com/brasil/pesquisa-futura-flavio-bolsonaro-cresce-chega-a-481-e-abre-vantagem-contra-lula-no-2o-turno/"
+  },
+  {
+   "pollster": "Datafolha",
+   "start": "2026-09-15",
+   "end": "2026-09-16",
+   "published": "2026-09-17",
+   "lula": 46,
+   "flavio": 44,
+   "sample": 2002,
+   "moe": 2,
+   "registration": "BR-04029/2026",
+   "source": "https://www.cnnbrasil.com.br/eleicoes/datafolha-lula-tem-46-das-intencoes-de-voto-no-2o-turno-flavio-44/"
+  },
+  {
+   "pollster": "PoderData/Aya",
+   "start": "2026-09-13",
+   "end": "2026-09-16",
+   "published": "2026-09-17",
+   "lula": 44,
+   "flavio": 46,
+   "sample": 3000,
+   "moe": 1.8,
+   "registration": "BR-00360/2026",
+   "source": "https://www.poder360.com.br/poderdata/flavio-tem-46-e-lula-44-no-2o-turno-diz-poderdata-aya/"
   }
  ]
 }
