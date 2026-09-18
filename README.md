@@ -9,7 +9,7 @@ Source of truth for the site at https://themachineobserver.com (hosted on Hostin
 | Kalshi / Polymarket prices → `data/kalshi.json`, `data/polymarket.json` | `cron/update_markets.php` on Hostinger (no AI) | every 30 min |
 | New poll registrations at the TSE → `data/pending.json` | `cron/update_tse.php` on Hostinger (no AI) | hourly |
 | Poll results → `data/polls.json` | a scheduled Claude task that reads `pending.json`, finds the published numbers, validates them against the TSE registration and commits to this repository | a few times a day |
-| Files in this repository → `public_html` on Hostinger | `cron/sync_github.php` on Hostinger (pulls raw files from GitHub, no git on the server) | every 10 min |
+| `data/polls.json` in this repository → `public_html/data/polls.json` on Hostinger | `cron/sync_github.php` on Hostinger (pulls the raw file from GitHub; code files are deployed by hand) | every 10 min |
 
 Generated files (`data/kalshi.json`, `data/polymarket.json`, `data/pending.json`, `cron/*.log`) live only on the server and are git-ignored.
 
