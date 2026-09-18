@@ -1,0 +1,6 @@
+# generated on the server by the cron scripts — never committed
+data/kalshi.json
+data/polymarket.json
+data/pending.json
+data/*.tmp
+cron/*.log
