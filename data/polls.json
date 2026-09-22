@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-19",
+ "updated": "2026-09-21",
  "version": 1,
  "notes": "AtlasIntel de janeiro usa os percentuais retrospectivos de fevereiro, com campo e amostra corroborados no Poder360. A rodada AtlasIntel de maio não foi incluída: a fonte de julho informa sua retirada da série pelo instituto. Paraná de fevereiro: amostra 2.080 conforme reprodução UOL; Exame informa 2.020. Fontes com divergências: no BTG/Nexus de 17 ago., foram mantidos 47%–44% conforme a publicação original do instituto, embora a comparação retrospectiva de 24 ago. cite 47%–45%. No Datafolha de 3 set., o campo é 1–2 set., conforme a Folha. No BTG/Nexus de 24 ago., a amostra é 2.006, conforme o instituto. Para a rodada BTG/Nexus de 14 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pela publicação da VEJA. Para a rodada Quaest de 14 set. e a CNT/MDA de 15 set., os mesmos campos foram preservados conforme as publicações do UOL. Para a rodada Indexa/Broadcast de 15 set., foram preservados conforme a publicação original do Broadcast. Para a rodada DataTrends de 16 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pela publicação parceira do Correio Braziliense. Para a rodada AtlasIntel/Bloomberg de 17 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pelo UOL. Para a rodada Gerp de 17 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pela CNN Brasil. Para a rodada Futura/100% Cidades de 17 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pela Exame. Para a rodada Datafolha de 17 set., o campo informado pela reportagem é 15–16 set., um dia antes do fim de campo constante do registro na TSE (15–17 set.); demais campos conforme a publicação. Para a rodada Palver de 10 ago., o campo é 3–7 ago. conforme as publicações; o registro na TSE lista o período 3–9 ago. Os registros BR-01720/2026 (Quaest, 3–6 set.) e BR-07065/2026 (Quaest, 30 ago.–1 set.) foram completados nesta atualização por correspondência exata de instituto, campo e amostra com o registro da TSE. A rodada BTG/Nexus de 29 de junho tem amostra de 2.009 entrevistas conforme a publicação do instituto (registro consta 2.000). Para as rodadas BTG/Nexus de 13 e 27 de julho, Gerp de 8 de julho, PoderData/Aya de 16 de julho, Vox Brasil de 27 de junho e Alfa/TMC de 31 de julho, foram preservados os números, o campo, a amostra e a margem informados pelas publicações originais dos institutos ou das reportagens que os divulgaram; a publicação da Vox Brasil de 27 de junho é um dia posterior à data de divulgação constante do registro na TSE (26 de junho). Para a rodada Gerp de 9 de junho, o campo informado pela reportagem é 2–5 jun., um dia depois do início de campo constante do registro na TSE (1–5 jun.); demais campos conforme a publicação. Para as rodadas PoderData/Aya de 25 de junho e 30 de julho, Alfa Inteligência de 11 de junho, BTG/Nexus de 15 de junho, CNT/MDA de 16 de junho e Indexa/Broadcast de 23 de junho, foram preservados os números, o campo, a amostra e a margem informados pelas publicações originais dos institutos ou das reportagens que os divulgaram, com correspondência exata ao registro da TSE.",
  "ignored": [],
@@ -1024,6 +1024,30 @@
    "moe": 1.8,
    "registration": "BR-00360/2026",
    "source": "https://www.poder360.com.br/poderdata/flavio-tem-46-e-lula-44-no-2o-turno-diz-poderdata-aya/"
+  },
+  {
+   "pollster": "BTG/Nexus",
+   "start": "2026-09-18",
+   "end": "2026-09-20",
+   "published": "2026-09-21",
+   "lula": 46,
+   "flavio": 45,
+   "sample": 2006,
+   "moe": 2,
+   "registration": "BR-00485/2026",
+   "source": "https://www.nexus.fsb.com.br/estudos-divulgados/pesquisa-btg-nexus-de-intencao-de-votos-para-presidente-do-brasil-21-de-setembro-de-2026/"
+  },
+  {
+   "pollster": "Palver",
+   "start": "2026-09-15",
+   "end": "2026-09-20",
+   "published": "2026-09-21",
+   "lula": 43,
+   "flavio": 47,
+   "sample": 5000,
+   "moe": 2.8,
+   "registration": "BR-00860/2026",
+   "source": "https://palver.com/survey"
   }
  ]
 }
