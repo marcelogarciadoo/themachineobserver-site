@@ -33,6 +33,7 @@ jobs:
           cat automation/model-source.tar.gz.part-* > /tmp/model-source.tar.gz
           mkdir model-source
           tar -xzf /tmp/model-source.tar.gz -C model-source --strip-components=1
+          find model-source -type f -name '._*' -delete
           cp data/raw-polls.json model-source/incoming-raw-polls.json
       - name: Adopt new polls and execute the full gated pipeline
         working-directory: model-source
