@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-22T02:53:20.505Z",
+  "generatedAt": "2026-09-24T14:24:04.840Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -219,6 +219,77 @@
       "round": 1,
       "waveId": "Palver|BR-00860/2026|R1",
       "basis": "total respondents"
+    },
+    {
+      "pollster": "Quaest",
+      "published": "2026-09-21",
+      "start": "2026-09-17",
+      "end": "2026-09-20",
+      "sample": 2004,
+      "moe": 2,
+      "confidence": 95,
+      "registration": "BR-06004/2026",
+      "method": "In-person, household, face-to-face; three-stage cluster sample with quotas",
+      "source": "https://especiaisg1.globo/politica/eleicoes/2026/pesquisas-eleitorais/presidente/1-turno/quaest/internal/",
+      "verification": "primary-result",
+      "basis": "total respondents",
+      "values": {
+        "lula": 37,
+        "flavio": 33,
+        "cury": 6,
+        "caiado": 4,
+        "renan": 3,
+        "zema": 1,
+        "samara": 1,
+        "clariana": 0,
+        "edmilson": 0,
+        "hertz": 0,
+        "rui": 0,
+        "wilson": 0,
+        "avalanche": 0
+      },
+      "responses": {
+        "blank_null": 7,
+        "undecided": 8
+      },
+      "coverage": "complete",
+      "id": "RAW-R1-008",
+      "scenario": "Main stimulated first-round scenario",
+      "round": 1,
+      "waveId": "Quaest|BR-06004/2026|R1"
+    },
+    {
+      "pollster": "AtlasIntel/Bloomberg",
+      "published": "2026-09-23",
+      "start": "2026-09-17",
+      "end": "2026-09-22",
+      "sample": 5015,
+      "moe": 1,
+      "confidence": 95,
+      "registration": "BR-04739/2026",
+      "method": "Online recruitment using Atlas RDR (random digital recruitment)",
+      "source": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Pesquisa-Atlas_Bloomberg-Nacional-260922.pdf",
+      "verification": "primary-report",
+      "basis": "total respondents",
+      "auditNote": "TSE registration metadata lists a planned sample of 5,000; the published report states 5,015 completed interviews.",
+      "values": {
+        "lula": 45.8,
+        "flavio": 43.4,
+        "renan": 4.5,
+        "cury": 2.1,
+        "caiado": 1.3,
+        "zema": 0.9,
+        "other_grouped": 0.8
+      },
+      "responses": {
+        "blank_null": 0.7,
+        "undecided": 0.5
+      },
+      "coverage": "complete",
+      "id": "RAW-R1-009",
+      "scenario": "Main stimulated first-round scenario",
+      "round": 1,
+      "waveId": "AtlasIntel/Bloomberg|BR-04739/2026|R1"
     },
     {
       "pollster": "Quaest",
@@ -5437,6 +5508,65 @@
       "waveId": "Palver|BR-00860/2026|R2",
       "basis": "total respondents",
       "scenario": "Lula × Flávio Bolsonaro"
+    },
+    {
+      "pollster": "Quaest",
+      "published": "2026-09-21",
+      "start": "2026-09-17",
+      "end": "2026-09-20",
+      "sample": 2004,
+      "moe": 2,
+      "confidence": 95,
+      "registration": "BR-06004/2026",
+      "method": "In-person, household, face-to-face; three-stage cluster sample with quotas",
+      "source": "https://especiaisg1.globo/politica/eleicoes/2026/pesquisas-eleitorais/presidente/1-turno/quaest/internal/",
+      "verification": "primary-result",
+      "basis": "total respondents",
+      "lula": 41,
+      "flavio": 42,
+      "values": {
+        "lula": 41,
+        "flavio": 42
+      },
+      "responses": {
+        "blank_null": 14,
+        "undecided": 3
+      },
+      "coverage": "complete",
+      "auditNote": "Secondary Metrópoles coverage reverses the 14% and 3% response-category labels. CNN Brasil and JC/UOL report 14% blank/null/will not vote and 3% undecided, consistent with the Quaest/G1 presentation.",
+      "id": "RAW-R2-093",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "round": 2,
+      "waveId": "Quaest|BR-06004/2026|R2"
+    },
+    {
+      "pollster": "AtlasIntel/Bloomberg",
+      "published": "2026-09-23",
+      "start": "2026-09-17",
+      "end": "2026-09-22",
+      "sample": 5015,
+      "moe": 1,
+      "confidence": 95,
+      "registration": "BR-04739/2026",
+      "method": "Online recruitment using Atlas RDR (random digital recruitment)",
+      "source": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Pesquisa-Atlas_Bloomberg-Nacional-260922.pdf",
+      "verification": "primary-report",
+      "basis": "total respondents",
+      "auditNote": "TSE registration metadata lists a planned sample of 5,000; the published report states 5,015 completed interviews.",
+      "lula": 47.7,
+      "flavio": 47.4,
+      "values": {
+        "lula": 47.7,
+        "flavio": 47.4
+      },
+      "responses": {
+        "blank_null_undecided": 4.9
+      },
+      "coverage": "complete",
+      "id": "RAW-R2-094",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "round": 2,
+      "waveId": "AtlasIntel/Bloomberg|BR-04739/2026|R2"
     }
   ]
 }
