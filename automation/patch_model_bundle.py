@@ -34,7 +34,27 @@ def main() -> None:
             raise SystemExit("Unable to locate the release-cutoff update anchor.")
         gate_file.write_text(gate.replace(anchor, anchor + cutoff_updates), encoding="utf-8")
 
-    print("Patched model bundle for dynamic poll counts and current release cutoffs.")
+    ranking_test = root / "research/institute-rankings/test_rankings.py"
+    ranking = ranking_test.read_text(encoding="utf-8")
+    stale_count = "rows=self.data['current_corrections'];self.assertEqual(len(rows),20);self.assertEqual(len({r['institute'] for r in rows}),20)"
+    dynamic_count = "rows=self.data['current_corrections'];self.assertEqual(len(rows),len({r['institute'] for r in rows}))"
+    if dynamic_count not in ranking:
+        if ranking.count(stale_count) != 1:
+            raise SystemExit("Unable to locate the stale fixed institute-count assertion.")
+        ranking = ranking.replace(stale_count, dynamic_count)
+
+    stale_pnad = "rows=self.data['current_corrections'];self.assertEqual(sum(r['pnad_adjustment_pp'] is not None for r in rows),1)"
+    nullable_pnad = "rows=self.data['current_corrections'];missing=[r for r in rows if r['pnad_adjustment_pp'] is None]"
+    if nullable_pnad not in ranking:
+        if ranking.count(stale_pnad) != 1:
+            raise SystemExit("Unable to locate the stale fixed PNAD-count assertion.")
+        ranking = ranking.replace(
+            stale_pnad,
+            nullable_pnad + "\n  self.assertTrue(missing);self.assertTrue(all(not r['total_is_complete'] for r in missing))",
+        )
+    ranking_test.write_text(ranking, encoding="utf-8")
+
+    print("Patched model bundle for dynamic counts, nullable PNAD, and current release cutoffs.")
 
 
 if __name__ == "__main__":
