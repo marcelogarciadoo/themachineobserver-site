@@ -1,0 +1,4980 @@
+{
+  "status": "research",
+  "publicationApproved": false,
+  "limitations": [
+    "Only Datafolha's ten waves have supported demographic reconstruction; other waves retain their raw demographic composition.",
+    "Predictive interval calibration uses three independent election-rounds and is insufficient for a production forecast claim.",
+    "The probability is conditional on a Lula-Flávio runoff and valid votes; it is not an unconditional probability of winning the presidency."
+  ],
+  "adjusted": [
+    {
+      "pollster": "Quaest",
+      "start": "2026-01-08",
+      "end": "2026-01-11",
+      "published": "2026-01-14",
+      "lula": 45,
+      "flavio": 38,
+      "sample": 2004,
+      "moe": null,
+      "registration": "BR-00835/2026",
+      "source": "https://www.broadcast.com.br/ultimas-noticias/genial-quaest-lula-lidera-cenarios-no-segundo-turno-mas-vantagem-sobre-flavio-cai/",
+      "id": "RAW-R2-006",
+      "round": 2,
+      "values": {
+        "lula": 47.540813200305976,
+        "flavio": 42.21514123159117
+      },
+      "responses": {
+        "other": 10.244045568102855
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Quaest|BR-00835/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -2.540813200305979,
+          "flavio": -4.215141231591167,
+          "other": 6.755954431897146
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 45,
+        "flavio": 38
+      }
+    },
+    {
+      "pollster": "AtlasIntel",
+      "start": "2026-01-15",
+      "end": "2026-01-20",
+      "published": "2026-01-21",
+      "lula": 49.2,
+      "flavio": 44.9,
+      "sample": 5418,
+      "moe": null,
+      "registration": "BR-02804/2026",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/atlas-2o-turno-flavio-bolsonaro-sobe-e-empata-com-lula/",
+      "methodSource": "https://www.poder360.com.br/poder-pesquisas/497-dizem-que-nao-votariam-de-jeito-nenhum-em-lula/",
+      "id": "RAW-R2-007",
+      "round": 2,
+      "values": {
+        "lula": 46.484566103741955,
+        "flavio": 44.15091365507116
+      },
+      "responses": {
+        "other": 9.364520241186883
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "AtlasIntel|BR-02804/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 2.7154338962580447,
+          "flavio": 0.7490863449288396,
+          "other": -3.464520241186884
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 49.2,
+        "flavio": 44.9
+      }
+    },
+    {
+      "pollster": "Paraná Pesquisas",
+      "start": "2026-01-25",
+      "end": "2026-01-28",
+      "published": "2026-01-29",
+      "lula": 44.8,
+      "flavio": 42.2,
+      "sample": 2080,
+      "moe": null,
+      "registration": "BR-08254/2026",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/parana-pesquisas-flavio-e-tarcisio-empatam-com-lula-em-2o-turno/",
+      "id": "RAW-R2-008",
+      "round": 2,
+      "values": {
+        "lula": 44.95067138031132,
+        "flavio": 43.21539963735961
+      },
+      "responses": {
+        "other": 11.833928982329066
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Paraná Pesquisas|BR-08254/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -0.15067138031132643,
+          "flavio": -1.0153996373596068,
+          "other": 1.1660710176709332
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 44.8,
+        "flavio": 42.2
+      }
+    },
+    {
+      "pollster": "Futura",
+      "start": "2026-02-03",
+      "end": "2026-02-07",
+      "published": "2026-02-10",
+      "lula": 42.4,
+      "flavio": 48.2,
+      "sample": 2000,
+      "moe": null,
+      "registration": "BR-02276/2026",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/flavio-venceria-lula-com-48-em-segundo-turno-diz-apex/",
+      "id": "RAW-R2-009",
+      "round": 2,
+      "values": {
+        "lula": 41.91569007074377,
+        "flavio": 46.31829812708725
+      },
+      "responses": {
+        "other": 11.766011802168975
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Futura|BR-02276/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 0.48430992925622507,
+          "flavio": 1.8817018729127515,
+          "other": -2.3660118021689764
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 42.4,
+        "flavio": 48.2
+      }
+    },
+    {
+      "pollster": "Quaest",
+      "start": "2026-02-05",
+      "end": "2026-02-09",
+      "published": "2026-02-11",
+      "lula": 43,
+      "flavio": 38,
+      "sample": 2004,
+      "moe": null,
+      "registration": "BR-00249/2026",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/quaest-lula-ganharia-de-flavio-em-eventual-2o-turno/",
+      "id": "RAW-R2-010",
+      "round": 2,
+      "values": {
+        "lula": 45.540813200305976,
+        "flavio": 42.21514123159117
+      },
+      "responses": {
+        "other": 12.244045568102855
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Quaest|BR-00249/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -2.540813200305979,
+          "flavio": -4.215141231591167,
+          "other": 6.755954431897146
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 43,
+        "flavio": 38
+      }
+    },
+    {
+      "pollster": "AtlasIntel",
+      "start": "2026-02-19",
+      "end": "2026-02-24",
+      "published": "2026-02-25",
+      "lula": 46.2,
+      "flavio": 46.3,
+      "sample": 4986,
+      "moe": null,
+      "registration": "BR-07600/2026",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/atlas-2o-turno-flavio-bolsonaro-sobe-e-empata-com-lula/",
+      "id": "RAW-R2-011",
+      "round": 2,
+      "values": {
+        "lula": 43.484566103741955,
+        "flavio": 45.550913655071156
+      },
+      "responses": {
+        "other": 10.964520241186884
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "AtlasIntel|BR-07600/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 2.7154338962580447,
+          "flavio": 0.7490863449288396,
+          "other": -3.464520241186884
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 46.2,
+        "flavio": 46.3
+      }
+    },
+    {
+      "pollster": "Paraná Pesquisas",
+      "start": "2026-02-22",
+      "end": "2026-02-25",
+      "published": "2026-02-27",
+      "lula": 43.8,
+      "flavio": 44.4,
+      "sample": 2080,
+      "moe": null,
+      "registration": "BR-07974/2026",
+      "source": "https://www.gcnoticias.com.br/geral/parana-pesquisas-flavio-e-ratinho-jr-empatam-com-lula-no-2-turno/240366568",
+      "id": "RAW-R2-012",
+      "round": 2,
+      "values": {
+        "lula": 43.95067138031132,
+        "flavio": 45.415399637359606
+      },
+      "responses": {
+        "other": 10.63392898232907
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Paraná Pesquisas|BR-07974/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -0.15067138031132643,
+          "flavio": -1.0153996373596068,
+          "other": 1.1660710176709332
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 43.8,
+        "flavio": 44.4
+      }
+    },
+    {
+      "pollster": "Datafolha",
+      "start": "2026-03-03",
+      "end": "2026-03-05",
+      "published": "2026-03-07",
+      "lula": 46,
+      "flavio": 43,
+      "sample": 2004,
+      "moe": null,
+      "registration": "BR-03715/2026",
+      "source": "https://www1.folha.uol.com.br/poder/2026/03/datafolha-flavio-se-consolida-e-empata-com-lula-no-2o-turno.shtml",
+      "id": "RAW-R2-013",
+      "round": 2,
+      "values": {
+        "lula": 45.35683095105603,
+        "flavio": 42.70427662375529
+      },
+      "responses": {
+        "other": 11.938892425188673
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Datafolha|BR-03715/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": true,
+        "houseEffectApplied": true,
+        "demographicDelta": {
+          "lula": -0.016616181400003427,
+          "flavio": 0.401843347099998,
+          "other": -0.3852271657000017
+        },
+        "houseOffsets": {
+          "lula": 0.6265528675439668,
+          "flavio": 0.697566723344707,
+          "other": -1.3241195908886738
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 46,
+        "flavio": 43
+      }
+    },
+    {
+      "pollster": "Quaest",
+      "start": "2026-03-06",
+      "end": "2026-03-09",
+      "published": "2026-03-11",
+      "lula": 41,
+      "flavio": 41,
+      "sample": 2004,
+      "moe": null,
+      "registration": "BR-05809/2026",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/genial-quaest-flavio-sobe-e-empata-com-lula-no-2o-turno/",
+      "id": "RAW-R2-014",
+      "round": 2,
+      "values": {
+        "lula": 43.540813200305976,
+        "flavio": 45.21514123159117
+      },
+      "responses": {
+        "other": 11.244045568102855
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Quaest|BR-05809/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -2.540813200305979,
+          "flavio": -4.215141231591167,
+          "other": 6.755954431897146
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 41,
+        "flavio": 41
+      }
+    },
+    {
+      "pollster": "AtlasIntel",
+      "start": "2026-03-18",
+      "end": "2026-03-23",
+      "published": "2026-03-25",
+      "lula": 46.6,
+      "flavio": 47.6,
+      "sample": 5028,
+      "moe": null,
+      "registration": "BR-04227/2026",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/atlas-bloomberg-flavio-e-lula-surgem-empatados-em-cenario-de-2o-turno/",
+      "id": "RAW-R2-015",
+      "round": 2,
+      "values": {
+        "lula": 43.88456610374196,
+        "flavio": 46.85091365507116
+      },
+      "responses": {
+        "other": 9.264520241186881
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "AtlasIntel|BR-04227/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 2.7154338962580447,
+          "flavio": 0.7490863449288396,
+          "other": -3.464520241186884
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 46.6,
+        "flavio": 47.6
+      }
+    },
+    {
+      "pollster": "Paraná Pesquisas",
+      "start": "2026-03-25",
+      "end": "2026-03-28",
+      "published": "2026-03-30",
+      "lula": 44.1,
+      "flavio": 45.2,
+      "sample": 2080,
+      "moe": null,
+      "registration": "BR-00873/2026",
+      "source": "https://www.brasildefato.com.br/2026/03/30/parana-pesquisas-mostra-lula-a-frente-de-flavio-bolsonaro-no-1o-turno-e-empatados-no-2o/",
+      "id": "RAW-R2-016",
+      "round": 2,
+      "values": {
+        "lula": 44.25067138031133,
+        "flavio": 46.21539963735961
+      },
+      "responses": {
+        "other": 9.533928982329062
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Paraná Pesquisas|BR-00873/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -0.15067138031132643,
+          "flavio": -1.0153996373596068,
+          "other": 1.1660710176709332
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 44.1,
+        "flavio": 45.2
+      }
+    },
+    {
+      "pollster": "Datafolha",
+      "start": "2026-04-07",
+      "end": "2026-04-09",
+      "published": "2026-04-11",
+      "lula": 45,
+      "flavio": 46,
+      "sample": 2004,
+      "moe": null,
+      "registration": "BR-03770/2026",
+      "source": "https://www.cartacapital.com.br/politica/as-intencoes-de-voto-de-lula-e-flavio-bolsonaro-no-2o-turno-em-novo-datafolha/",
+      "id": "RAW-R2-017",
+      "round": 2,
+      "values": {
+        "lula": 44.402349294356036,
+        "flavio": 45.44480045495529
+      },
+      "responses": {
+        "other": 10.152850250688676
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Datafolha|BR-03770/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": true,
+        "houseEffectApplied": true,
+        "demographicDelta": {
+          "lula": 0.028902161899999612,
+          "flavio": 0.1423671782999989,
+          "other": -0.1712693401999985
+        },
+        "houseOffsets": {
+          "lula": 0.6265528675439668,
+          "flavio": 0.697566723344707,
+          "other": -1.3241195908886738
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 45,
+        "flavio": 46
+      }
+    },
+    {
+      "pollster": "Quaest",
+      "start": "2026-04-09",
+      "end": "2026-04-13",
+      "published": "2026-04-15",
+      "lula": 40,
+      "flavio": 42,
+      "sample": 2004,
+      "moe": null,
+      "registration": "BR-09285/2026",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/quaest-no-2o-turno-flavio-vai-a-42-lula-tem-40/",
+      "id": "RAW-R2-018",
+      "round": 2,
+      "values": {
+        "lula": 42.540813200305976,
+        "flavio": 46.21514123159117
+      },
+      "responses": {
+        "other": 11.244045568102855
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Quaest|BR-09285/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -2.540813200305979,
+          "flavio": -4.215141231591167,
+          "other": 6.755954431897146
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 40,
+        "flavio": 42
+      }
+    },
+    {
+      "pollster": "AtlasIntel",
+      "start": "2026-04-22",
+      "end": "2026-04-27",
+      "published": "2026-04-28",
+      "lula": 47.5,
+      "flavio": 47.8,
+      "sample": 5008,
+      "moe": null,
+      "registration": "BR-07992/2026",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/atlas-bloomberg-lula-empata-com-flavio-jair-e-zema-em-eventual-2o-turno/",
+      "id": "RAW-R2-019",
+      "round": 2,
+      "values": {
+        "lula": 44.78456610374195,
+        "flavio": 47.050913655071156
+      },
+      "responses": {
+        "other": 8.164520241186887
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "AtlasIntel|BR-07992/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 2.7154338962580447,
+          "flavio": 0.7490863449288396,
+          "other": -3.464520241186884
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 47.5,
+        "flavio": 47.8
+      }
+    },
+    {
+      "pollster": "Quaest",
+      "start": "2026-05-08",
+      "end": "2026-05-11",
+      "published": "2026-05-13",
+      "lula": 42,
+      "flavio": 41,
+      "sample": 2004,
+      "moe": null,
+      "registration": "BR-03598/2026",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/quaest-lula-tem-42-das-intencoes-de-voto-no-2o-turno-flavio-41/",
+      "id": "RAW-R2-020",
+      "round": 2,
+      "values": {
+        "lula": 44.540813200305976,
+        "flavio": 45.21514123159117
+      },
+      "responses": {
+        "other": 10.244045568102855
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Quaest|BR-03598/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -2.540813200305979,
+          "flavio": -4.215141231591167,
+          "other": 6.755954431897146
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 42,
+        "flavio": 41
+      }
+    },
+    {
+      "pollster": "Datafolha",
+      "start": "2026-05-12",
+      "end": "2026-05-13",
+      "published": "2026-05-16",
+      "lula": 45,
+      "flavio": 45,
+      "sample": 2004,
+      "moe": null,
+      "registration": "BR-00290/2026",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/datafolha-em-2o-turno-lula-e-flavio-empatam-com-45-antes-de-audio-vazado/",
+      "id": "RAW-R2-021",
+      "round": 2,
+      "values": {
+        "lula": 42.55723833335603,
+        "flavio": 46.288162294655294
+      },
+      "responses": {
+        "other": 11.15459937198867
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Datafolha|BR-00290/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": true,
+        "houseEffectApplied": true,
+        "demographicDelta": {
+          "lula": -1.8162087991000035,
+          "flavio": 1.9857290180000007,
+          "other": -0.16952021890000424
+        },
+        "houseOffsets": {
+          "lula": 0.6265528675439668,
+          "flavio": 0.697566723344707,
+          "other": -1.3241195908886738
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 45,
+        "flavio": 45
+      }
+    },
+    {
+      "pollster": "Datafolha",
+      "start": "2026-05-20",
+      "end": "2026-05-21",
+      "published": "2026-05-22",
+      "lula": 47,
+      "flavio": 43,
+      "sample": 2004,
+      "moe": null,
+      "registration": "BR-07489/2026",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/datafolha-lula-tem-47-e-flavio-43-no-2o-turno/",
+      "id": "RAW-R2-022",
+      "round": 2,
+      "values": {
+        "lula": 44.18064063755604,
+        "flavio": 44.659405169755296
+      },
+      "responses": {
+        "other": 11.159954192688676
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Datafolha|BR-07489/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": true,
+        "houseEffectApplied": true,
+        "demographicDelta": {
+          "lula": -2.1928064948999975,
+          "flavio": 2.3569718931000025,
+          "other": -0.16416539819999798
+        },
+        "houseOffsets": {
+          "lula": 0.6265528675439668,
+          "flavio": 0.697566723344707,
+          "other": -1.3241195908886738
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 47,
+        "flavio": 43
+      }
+    },
+    {
+      "pollster": "Gerp",
+      "start": "2026-06-02",
+      "end": "2026-06-05",
+      "published": "2026-06-09",
+      "lula": 39.1,
+      "flavio": 44.7,
+      "sample": 2000,
+      "moe": null,
+      "registration": "BR-01792/2026",
+      "source": "https://www.poder360.com.br/poder-eleicoes/flavio-bolsonaro-vence-lula-no-2o-turno-diz-pesquisa-gerp/",
+      "id": "RAW-R2-023",
+      "round": 2,
+      "values": {
+        "lula": 42.41437756896024,
+        "flavio": 42.104797032111684
+      },
+      "responses": {
+        "other": 15.480825398928074
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Gerp|BR-01792/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -3.314377568960239,
+          "flavio": 2.595202967888317,
+          "other": 0.7191746010719217
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 39.1,
+        "flavio": 44.7
+      }
+    },
+    {
+      "pollster": "Quaest",
+      "start": "2026-06-05",
+      "end": "2026-06-08",
+      "published": "2026-06-10",
+      "lula": 44,
+      "flavio": 38,
+      "sample": 2004,
+      "moe": null,
+      "registration": "BR-07661/2026",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/quaest-no-2o-turno-lula-vai-a-44-flavio-tem-38-das-intencoes-de-voto/",
+      "id": "RAW-R2-024",
+      "round": 2,
+      "values": {
+        "lula": 46.540813200305976,
+        "flavio": 42.21514123159117
+      },
+      "responses": {
+        "other": 11.244045568102855
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Quaest|BR-07661/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -2.540813200305979,
+          "flavio": -4.215141231591167,
+          "other": 6.755954431897146
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 44,
+        "flavio": 38
+      }
+    },
+    {
+      "pollster": "Alfa Inteligência",
+      "start": "2026-06-05",
+      "end": "2026-06-10",
+      "published": "2026-06-11",
+      "lula": 44,
+      "flavio": 41,
+      "sample": 1400,
+      "moe": null,
+      "registration": "BR-03496/2026",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/pesquisa-alfa-lula-e-flavio-tem-empate-tecnico-no-2o-turno-2/",
+      "id": "RAW-R2-025",
+      "round": 2,
+      "values": {
+        "lula": 45.58832531237075,
+        "flavio": 43.14797403649994
+      },
+      "responses": {
+        "other": 11.263700651129316
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Alfa Inteligência|BR-03496/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -1.5883253123707473,
+          "flavio": -2.147974036499937,
+          "other": 3.736299348870684
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 44,
+        "flavio": 41
+      }
+    },
+    {
+      "pollster": "Futura",
+      "start": "2026-06-08",
+      "end": "2026-06-12",
+      "published": "2026-06-16",
+      "lula": 48.1,
+      "flavio": 42.9,
+      "sample": 2000,
+      "moe": null,
+      "registration": "BR-01461/2026",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/futura-apex-lula-tem-481-e-flavio-429-no-2o-turno/",
+      "id": "RAW-R2-027",
+      "round": 2,
+      "values": {
+        "lula": 47.615690070743774,
+        "flavio": 41.01829812708725
+      },
+      "responses": {
+        "other": 11.366011802168977
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Futura|BR-01461/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 0.48430992925622507,
+          "flavio": 1.8817018729127515,
+          "other": -2.3660118021689764
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 48.1,
+        "flavio": 42.9
+      }
+    },
+    {
+      "pollster": "CNT/MDA",
+      "start": "2026-06-10",
+      "end": "2026-06-14",
+      "published": "2026-06-16",
+      "lula": 49.3,
+      "flavio": 36.8,
+      "sample": 2002,
+      "moe": null,
+      "registration": "BR-04256/2026",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/cnt-mda-lula-tem-493-e-flavio-368-no-2o-turno/",
+      "id": "RAW-R2-028",
+      "round": 2,
+      "values": {
+        "lula": 46.77192371337489,
+        "flavio": 41.23744500011186
+      },
+      "responses": {
+        "other": 11.99063128651325
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "CNT/MDA|BR-04256/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 2.528076286625105,
+          "flavio": -4.437445000111862,
+          "other": 1.9093687134867572
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 49.3,
+        "flavio": 36.8
+      }
+    },
+    {
+      "pollster": "BTG/Nexus",
+      "start": "2026-06-12",
+      "end": "2026-06-14",
+      "published": "2026-06-15",
+      "lula": 49,
+      "flavio": 43,
+      "sample": 2017,
+      "moe": null,
+      "registration": "BR-06645/2026",
+      "source": "https://www.nexus.fsb.com.br/estudos-divulgados/pesquisa-btg-nexus-de-intencao-de-votos-para-presidente-do-brasil-15-de-junho-de-2026/",
+      "id": "RAW-R2-026",
+      "round": 2,
+      "values": {
+        "lula": 47.67377072842782,
+        "flavio": 42.032639259077825
+      },
+      "responses": {
+        "other": 10.29359001249435
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "BTG/Nexus|BR-06645/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 1.3262292715721788,
+          "flavio": 0.9673607409221712,
+          "other": -2.29359001249435
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 49,
+        "flavio": 43
+      }
+    },
+    {
+      "pollster": "Datafolha",
+      "start": "2026-06-17",
+      "end": "2026-06-18",
+      "published": "2026-06-20",
+      "lula": 47,
+      "flavio": 43,
+      "sample": 2004,
+      "moe": null,
+      "registration": "BR-09956/2026",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/no-2o-turno-lula-tem-47-contra-43-de-flavio-bolsonaro-diz-datafolha/",
+      "id": "RAW-R2-029",
+      "round": 2,
+      "values": {
+        "lula": 45.61755468375603,
+        "flavio": 43.55014856535529
+      },
+      "responses": {
+        "other": 10.832296750888677
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Datafolha|BR-09956/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": true,
+        "houseEffectApplied": true,
+        "demographicDelta": {
+          "lula": -0.7558924487000027,
+          "flavio": 1.2477152887000003,
+          "other": -0.49182283999999754
+        },
+        "houseOffsets": {
+          "lula": 0.6265528675439668,
+          "flavio": 0.697566723344707,
+          "other": -1.3241195908886738
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 47,
+        "flavio": 43
+      }
+    },
+    {
+      "pollster": "Indexa/Broadcast",
+      "start": "2026-06-18",
+      "end": "2026-06-20",
+      "published": "2026-06-23",
+      "lula": 47,
+      "flavio": 40,
+      "sample": 2000,
+      "moe": null,
+      "registration": "BR-08944/2026",
+      "source": "https://www.congressoemfoco.com.br/noticia/119896/lula-vence-flavio-por-47-a-40-no-2-turno-aponta-pesquisa-indexa",
+      "id": "RAW-R2-030",
+      "round": 2,
+      "values": {
+        "lula": 46.85870780252734,
+        "flavio": 42.50208888165977
+      },
+      "responses": {
+        "other": 10.639203315812892
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Indexa/Broadcast|BR-08944/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 0.14129219747266197,
+          "flavio": -2.5020888816597706,
+          "other": 2.3607966841871084
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 47,
+        "flavio": 40
+      }
+    },
+    {
+      "pollster": "PoderData/Aya",
+      "start": "2026-06-21",
+      "end": "2026-06-24",
+      "published": "2026-06-25",
+      "lula": 46,
+      "flavio": 43,
+      "sample": 2400,
+      "moe": null,
+      "registration": "BR-05722/2026",
+      "source": "https://www.poder360.com.br/poderdata/lula-tem-46-contra-43-de-flavio-no-2o-turno-diz-poderdata/",
+      "id": "RAW-R2-031",
+      "round": 2,
+      "values": {
+        "lula": 46.09028158491325,
+        "flavio": 42.16367274267897
+      },
+      "responses": {
+        "other": 11.746045672407782
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "PoderData/Aya|BR-05722/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -0.09028158491324922,
+          "flavio": 0.8363272573210314,
+          "other": -0.7460456724077822
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 46,
+        "flavio": 43
+      }
+    },
+    {
+      "pollster": "Vox Brasil",
+      "start": "2026-06-23",
+      "end": "2026-06-25",
+      "published": "2026-06-27",
+      "lula": 45.3,
+      "flavio": 42.8,
+      "sample": 2100,
+      "moe": null,
+      "registration": "BR-06630/2026",
+      "source": "https://exame.com/brasil/pesquisa-vox-brasil-lula-tem-453-e-flavio-bolsonaro-428-no-2o-turno/",
+      "id": "RAW-R2-032",
+      "round": 2,
+      "values": {
+        "lula": 45.22143017050555,
+        "flavio": 42.741816225471084
+      },
+      "responses": {
+        "other": 12.036753604023362
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Vox Brasil|BR-06630/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 0.07856982949444595,
+          "flavio": 0.05818377452891119,
+          "other": -0.13675360402335715
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 45.3,
+        "flavio": 42.8
+      }
+    },
+    {
+      "pollster": "BTG/Nexus",
+      "start": "2026-06-26",
+      "end": "2026-06-28",
+      "published": "2026-06-29",
+      "lula": 47,
+      "flavio": 44,
+      "sample": 2009,
+      "moe": null,
+      "registration": "BR-08521/2026",
+      "source": "https://www.nexus.fsb.com.br/estudos-divulgados/pesquisa-btg-nexus-de-intencao-de-votos-para-presidente-do-brasil-29-de-junho-de-2026/",
+      "id": "RAW-R2-033",
+      "round": 2,
+      "values": {
+        "lula": 45.67377072842782,
+        "flavio": 43.032639259077825
+      },
+      "responses": {
+        "other": 11.29359001249435
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "BTG/Nexus|BR-08521/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 1.3262292715721788,
+          "flavio": 0.9673607409221712,
+          "other": -2.29359001249435
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 47,
+        "flavio": 44
+      }
+    },
+    {
+      "pollster": "AtlasIntel",
+      "start": "2026-06-26",
+      "end": "2026-06-30",
+      "published": "2026-07-01",
+      "lula": 48.8,
+      "flavio": 42.3,
+      "sample": 4999,
+      "moe": null,
+      "registration": "BR-04582/2026",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/atlas-bloomberg-lula-tem-488-dos-votos-no-2o-turno-flavio-423/",
+      "id": "RAW-R2-034",
+      "round": 2,
+      "values": {
+        "lula": 46.08456610374195,
+        "flavio": 41.550913655071156
+      },
+      "responses": {
+        "other": 12.36452024118689
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "AtlasIntel|BR-04582/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 2.7154338962580447,
+          "flavio": 0.7490863449288396,
+          "other": -3.464520241186884
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 48.8,
+        "flavio": 42.3
+      }
+    },
+    {
+      "pollster": "Gerp",
+      "start": "2026-07-03",
+      "end": "2026-07-07",
+      "published": "2026-07-08",
+      "lula": 42,
+      "flavio": 45,
+      "sample": 2000,
+      "moe": null,
+      "registration": "BR-03067/2026",
+      "source": "https://jovempan.com.br/politica/gerp-flavio-supera-lula-no-2o-turno-das-eleicoes/",
+      "id": "RAW-R2-035",
+      "round": 2,
+      "values": {
+        "lula": 45.31437756896024,
+        "flavio": 42.40479703211168
+      },
+      "responses": {
+        "other": 12.280825398928078
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Gerp|BR-03067/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -3.314377568960239,
+          "flavio": 2.595202967888317,
+          "other": 0.7191746010719217
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 42,
+        "flavio": 45
+      }
+    },
+    {
+      "pollster": "Futura",
+      "start": "2026-07-07",
+      "end": "2026-07-11",
+      "published": "2026-07-14",
+      "lula": 46.3,
+      "flavio": 46.1,
+      "sample": 2000,
+      "moe": null,
+      "registration": "BR-07294/2026",
+      "source": "https://www.moneytimes.com.br/futura-apex-lula-e-flavio-bolsonaro-voltam-a-empatar-nos-dois-turnos-gaep/",
+      "id": "RAW-R2-037",
+      "round": 2,
+      "values": {
+        "lula": 45.81569007074377,
+        "flavio": 44.21829812708725
+      },
+      "responses": {
+        "other": 9.966011802168978
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Futura|BR-07294/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 0.48430992925622507,
+          "flavio": 1.8817018729127515,
+          "other": -2.3660118021689764
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 46.3,
+        "flavio": 46.1
+      }
+    },
+    {
+      "pollster": "BTG/Nexus",
+      "start": "2026-07-10",
+      "end": "2026-07-12",
+      "published": "2026-07-13",
+      "lula": 47,
+      "flavio": 44,
+      "sample": 2000,
+      "moe": null,
+      "registration": "BR-07981/2026",
+      "source": "https://www.nexus.fsb.com.br/estudos-divulgados/pesquisa-btg-nexus-de-intencao-de-votos-para-presidente-do-brasil-13-de-julho-de-2026/",
+      "id": "RAW-R2-036",
+      "round": 2,
+      "values": {
+        "lula": 45.67377072842782,
+        "flavio": 43.032639259077825
+      },
+      "responses": {
+        "other": 11.29359001249435
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "BTG/Nexus|BR-07981/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 1.3262292715721788,
+          "flavio": 0.9673607409221712,
+          "other": -2.29359001249435
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 47,
+        "flavio": 44
+      }
+    },
+    {
+      "pollster": "Quaest",
+      "start": "2026-07-10",
+      "end": "2026-07-13",
+      "published": "2026-07-15",
+      "lula": 45,
+      "flavio": 37,
+      "sample": 2004,
+      "moe": null,
+      "registration": "BR-07181/2026",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/quaest-lula-tem-45-no-2o-turno-contra-37-de-flavio/",
+      "id": "RAW-R2-038",
+      "round": 2,
+      "values": {
+        "lula": 47.540813200305976,
+        "flavio": 41.21514123159117
+      },
+      "responses": {
+        "other": 11.244045568102855
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Quaest|BR-07181/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -2.540813200305979,
+          "flavio": -4.215141231591167,
+          "other": 6.755954431897146
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 45,
+        "flavio": 37
+      }
+    },
+    {
+      "pollster": "PoderData/Aya",
+      "start": "2026-07-12",
+      "end": "2026-07-15",
+      "published": "2026-07-16",
+      "lula": 45,
+      "flavio": 43,
+      "sample": 2400,
+      "moe": null,
+      "registration": "BR-00059/2026",
+      "source": "https://www.poder360.com.br/poderdata/lula-tem-45-contra-43-de-flavio-no-2o-turno-diz-poderdata-aya/",
+      "id": "RAW-R2-039",
+      "round": 2,
+      "values": {
+        "lula": 45.09028158491325,
+        "flavio": 42.16367274267897
+      },
+      "responses": {
+        "other": 12.746045672407782
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "PoderData/Aya|BR-00059/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -0.09028158491324922,
+          "flavio": 0.8363272573210314,
+          "other": -0.7460456724077822
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 45,
+        "flavio": 43
+      }
+    },
+    {
+      "pollster": "Datafolha",
+      "start": "2026-07-22",
+      "end": "2026-07-24",
+      "published": "2026-07-24",
+      "lula": 48,
+      "flavio": 43,
+      "sample": 2004,
+      "moe": null,
+      "registration": "BR-01166/2026",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/datafolha-lula-tem-48-das-intencoes-de-voto-no-2o-turno-flavio-43/",
+      "id": "RAW-R2-040",
+      "round": 2,
+      "values": {
+        "lula": 46.28965929345603,
+        "flavio": 43.47736858765529
+      },
+      "responses": {
+        "other": 10.232972118888686
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Datafolha|BR-01166/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": true,
+        "houseEffectApplied": true,
+        "demographicDelta": {
+          "lula": -1.0837878390000029,
+          "flavio": 1.1749353109999987,
+          "other": -0.09114747199998874
+        },
+        "houseOffsets": {
+          "lula": 0.6265528675439668,
+          "flavio": 0.697566723344707,
+          "other": -1.3241195908886738
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 48,
+        "flavio": 43
+      }
+    },
+    {
+      "pollster": "AtlasIntel",
+      "start": "2026-07-22",
+      "end": "2026-07-27",
+      "published": "2026-07-29",
+      "lula": 49.2,
+      "flavio": 42.9,
+      "sample": 5021,
+      "moe": null,
+      "registration": "BR-08602/2026",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/atlas-bloomberg-lula-lidera-todos-os-cenarios-de-2o-turno/",
+      "id": "RAW-R2-042",
+      "round": 2,
+      "values": {
+        "lula": 46.484566103741955,
+        "flavio": 42.15091365507116
+      },
+      "responses": {
+        "other": 11.364520241186883
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "AtlasIntel|BR-08602/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 2.7154338962580447,
+          "flavio": 0.7490863449288396,
+          "other": -3.464520241186884
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 49.2,
+        "flavio": 42.9
+      }
+    },
+    {
+      "pollster": "BTG/Nexus",
+      "start": "2026-07-24",
+      "end": "2026-07-26",
+      "published": "2026-07-27",
+      "lula": 47,
+      "flavio": 43,
+      "sample": 2004,
+      "moe": null,
+      "registration": "BR-01489/2026",
+      "source": "https://www.nexus.fsb.com.br/estudos-divulgados/pesquisa-btg-nexus-de-intencao-de-votos-para-presidente-do-brasil-27-de-julho-de-2026/",
+      "id": "RAW-R2-041",
+      "round": 2,
+      "values": {
+        "lula": 45.67377072842782,
+        "flavio": 42.032639259077825
+      },
+      "responses": {
+        "other": 12.29359001249435
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "BTG/Nexus|BR-01489/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 1.3262292715721788,
+          "flavio": 0.9673607409221712,
+          "other": -2.29359001249435
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 47,
+        "flavio": 43
+      }
+    },
+    {
+      "pollster": "Alfa/TMC",
+      "start": "2026-07-23",
+      "end": "2026-07-28",
+      "published": "2026-07-31",
+      "lula": 48,
+      "flavio": 41,
+      "sample": 2700,
+      "moe": null,
+      "registration": "BR-04488/2026",
+      "source": "https://exame.com/brasil/pesquisa-alfa-tmc-lula-tem-48-e-flavio-bolsonaro-41-no-2o-turno/",
+      "id": "RAW-R2-045",
+      "round": 2,
+      "values": {
+        "lula": 46.69990626896081,
+        "flavio": 42.07019965150377
+      },
+      "responses": {
+        "other": 11.229894079535423
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Alfa/TMC|BR-04488/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 1.3000937310391905,
+          "flavio": -1.070199651503767,
+          "other": -0.2298940795354236
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 48,
+        "flavio": 41
+      }
+    },
+    {
+      "pollster": "PoderData/Aya",
+      "start": "2026-07-26",
+      "end": "2026-07-29",
+      "published": "2026-07-30",
+      "lula": 46,
+      "flavio": 43,
+      "sample": 2400,
+      "moe": null,
+      "registration": "BR-07845/2026",
+      "source": "https://www.poder360.com.br/poderdata/lula-tem-46-contra-43-de-flavio-no-2o-turno-diz-poderdata-aya/",
+      "id": "RAW-R2-043",
+      "round": 2,
+      "values": {
+        "lula": 46.09028158491325,
+        "flavio": 42.16367274267897
+      },
+      "responses": {
+        "other": 11.746045672407782
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "PoderData/Aya|BR-07845/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -0.09028158491324922,
+          "flavio": 0.8363272573210314,
+          "other": -0.7460456724077822
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 46,
+        "flavio": 43
+      }
+    },
+    {
+      "pollster": "Vox Brasil",
+      "start": "2026-07-26",
+      "end": "2026-07-28",
+      "published": "2026-07-31",
+      "lula": 47.5,
+      "flavio": 41.1,
+      "sample": 2100,
+      "moe": null,
+      "registration": "BR-01084/2026",
+      "source": "https://www.cartacapital.com.br/politica/vox-brasil-lula-lidera-o-1o-turno-e-derrotaria-flavio-bolsonaro-no-2o/",
+      "id": "RAW-R2-044",
+      "round": 2,
+      "values": {
+        "lula": 47.42143017050555,
+        "flavio": 41.04181622547109
+      },
+      "responses": {
+        "other": 11.536753604023355
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Vox Brasil|BR-01084/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 0.07856982949444595,
+          "flavio": 0.05818377452891119,
+          "other": -0.13675360402335715
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 47.5,
+        "flavio": 41.1
+      }
+    },
+    {
+      "pollster": "BTG/Nexus",
+      "start": "2026-07-31",
+      "end": "2026-08-02",
+      "published": "2026-08-03",
+      "lula": 46,
+      "flavio": 45,
+      "sample": 2002,
+      "moe": null,
+      "registration": "BR-02874/2026",
+      "source": "https://www.nexus.fsb.com.br/estudos-divulgados/pesquisa-btg-nexus-de-intencao-de-votos-para-presidente-do-brasil-3-de-agosto-de-2026/",
+      "id": "RAW-R2-046",
+      "round": 2,
+      "values": {
+        "lula": 44.67377072842782,
+        "flavio": 44.032639259077825
+      },
+      "responses": {
+        "other": 11.29359001249435
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "BTG/Nexus|BR-02874/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 1.3262292715721788,
+          "flavio": 0.9673607409221712,
+          "other": -2.29359001249435
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 46,
+        "flavio": 45
+      }
+    },
+    {
+      "pollster": "Meio/Ideia",
+      "start": "2026-07-31",
+      "end": "2026-08-03",
+      "published": "2026-08-05",
+      "lula": 48.5,
+      "flavio": 43,
+      "sample": 1500,
+      "moe": null,
+      "registration": "BR-04579/2026",
+      "source": "https://www.poder360.com.br/poder-eleicoes-2026/lula-vence-flavio-no-2o-turno-diz-meio-ideia/",
+      "id": "RAW-R2-047",
+      "round": 2,
+      "values": {
+        "lula": 46.703214264138346,
+        "flavio": 42.20944081489388
+      },
+      "responses": {
+        "other": 11.08734492096777
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Meio/Ideia|BR-04579/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 1.796785735861652,
+          "flavio": 0.7905591851061184,
+          "other": -2.5873449209677704
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 48.5,
+        "flavio": 43
+      }
+    },
+    {
+      "pollster": "Quaest",
+      "start": "2026-07-31",
+      "end": "2026-08-03",
+      "published": "2026-08-05",
+      "lula": 44,
+      "flavio": 39,
+      "sample": 2004,
+      "moe": null,
+      "registration": "BR-06591/2026",
+      "source": "https://quaest.com.br/pesquisa-genial-quaest-recuperacao-de-flavio-bolsonaro/",
+      "id": "RAW-R2-048",
+      "round": 2,
+      "values": {
+        "lula": 46.540813200305976,
+        "flavio": 43.21514123159117
+      },
+      "responses": {
+        "other": 10.244045568102855
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Quaest|BR-06591/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -2.540813200305979,
+          "flavio": -4.215141231591167,
+          "other": 6.755954431897146
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 44,
+        "flavio": 39
+      }
+    },
+    {
+      "pollster": "Palver",
+      "start": "2026-08-03",
+      "end": "2026-08-07",
+      "published": "2026-08-10",
+      "lula": 46,
+      "flavio": 46,
+      "sample": 5000,
+      "moe": null,
+      "registration": "BR-06596/2026",
+      "source": "https://www.cartacapital.com.br/politica/as-intencoes-de-voto-de-lula-e-flavio-bolsonaro-em-pesquisa-de-estreia-da-palver/",
+      "id": "RAW-R2-050",
+      "round": 2,
+      "values": {
+        "lula": 46.255976659606915,
+        "flavio": 44.14314481806586
+      },
+      "responses": {
+        "other": 9.600878522327218
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Palver|BR-06596/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -0.2559766596069146,
+          "flavio": 1.8568551819341332,
+          "other": -1.6008785223272186
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 46,
+        "flavio": 46
+      }
+    },
+    {
+      "pollster": "Futura",
+      "start": "2026-08-03",
+      "end": "2026-08-07",
+      "published": "2026-08-11",
+      "lula": 46.5,
+      "flavio": 44,
+      "sample": 2000,
+      "moe": null,
+      "registration": "BR-08109/2026",
+      "source": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/futura-inteligencia-presidente-agosto-2026/",
+      "id": "RAW-R2-052",
+      "round": 2,
+      "values": {
+        "lula": 46.01569007074377,
+        "flavio": 42.11829812708725
+      },
+      "responses": {
+        "other": 11.866011802168977
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Futura|BR-08109/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 0.48430992925622507,
+          "flavio": 1.8817018729127515,
+          "other": -2.3660118021689764
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 46.5,
+        "flavio": 44
+      }
+    },
+    {
+      "pollster": "CNT/MDA",
+      "start": "2026-08-05",
+      "end": "2026-08-09",
+      "published": "2026-08-11",
+      "lula": 48,
+      "flavio": 39.1,
+      "sample": 2002,
+      "moe": null,
+      "registration": "BR-06935/2026",
+      "source": "https://noticias.uol.com.br/eleicoes/2026/08/11/pesquisa-cnt-mda-presidencia-lula-flavio-bolsonaro.ghtm",
+      "id": "RAW-R2-051",
+      "round": 2,
+      "values": {
+        "lula": 45.47192371337489,
+        "flavio": 43.537445000111866
+      },
+      "responses": {
+        "other": 10.990631286513242
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "CNT/MDA|BR-06935/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 2.528076286625105,
+          "flavio": -4.437445000111862,
+          "other": 1.9093687134867572
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 48,
+        "flavio": 39.1
+      }
+    },
+    {
+      "pollster": "BTG/Nexus",
+      "start": "2026-08-07",
+      "end": "2026-08-09",
+      "published": "2026-08-10",
+      "lula": 47,
+      "flavio": 44,
+      "sample": 2001,
+      "moe": null,
+      "registration": "BR-08428/2026",
+      "source": "https://www.nexus.fsb.com.br/estudos-divulgados/pesquisa-btg-nexus-de-intencao-de-votos-para-presidente-do-brasil-10-de-agosto-de-2026/",
+      "id": "RAW-R2-049",
+      "round": 2,
+      "values": {
+        "lula": 45.67377072842782,
+        "flavio": 43.032639259077825
+      },
+      "responses": {
+        "other": 11.29359001249435
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "BTG/Nexus|BR-08428/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 1.3262292715721788,
+          "flavio": 0.9673607409221712,
+          "other": -2.29359001249435
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 47,
+        "flavio": 44
+      }
+    },
+    {
+      "pollster": "Gerp",
+      "start": "2026-08-06",
+      "end": "2026-08-10",
+      "published": "2026-08-11",
+      "lula": 43,
+      "flavio": 45,
+      "sample": 2400,
+      "moe": null,
+      "registration": "BR-08045/2026",
+      "source": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-e-lula-tem-empate-tecnico-no-2o-turno-diz-gerp/",
+      "id": "RAW-R2-053",
+      "round": 2,
+      "values": {
+        "lula": 46.31437756896024,
+        "flavio": 42.40479703211168
+      },
+      "responses": {
+        "other": 11.280825398928078
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Gerp|BR-08045/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -3.314377568960239,
+          "flavio": 2.595202967888317,
+          "other": 0.7191746010719217
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 43,
+        "flavio": 45
+      }
+    },
+    {
+      "pollster": "PoderData/Aya",
+      "start": "2026-08-09",
+      "end": "2026-08-12",
+      "published": "2026-08-13",
+      "lula": 46,
+      "flavio": 45,
+      "sample": 2400,
+      "moe": null,
+      "registration": "BR-06868/2026",
+      "source": "https://www.poder360.com.br/poderdata/lula-tem-46-contra-45-de-flavio-no-2o-turno-diz-poderdata-aya/",
+      "id": "RAW-R2-054",
+      "round": 2,
+      "values": {
+        "lula": 46.09028158491325,
+        "flavio": 44.16367274267897
+      },
+      "responses": {
+        "other": 9.746045672407782
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "PoderData/Aya|BR-06868/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -0.09028158491324922,
+          "flavio": 0.8363272573210314,
+          "other": -0.7460456724077822
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 46,
+        "flavio": 45
+      }
+    },
+    {
+      "pollster": "Quaest",
+      "start": "2026-08-10",
+      "end": "2026-08-13",
+      "published": "2026-08-14",
+      "lula": 43,
+      "flavio": 40,
+      "sample": 2004,
+      "moe": null,
+      "registration": "BR-06773/2026",
+      "source": "https://www1.folha.uol.com.br/poder/2026/08/quaest-lula-tem-43-e-flavio-bolsonaro-40-em-cenario-de-segundo-turno.shtml",
+      "id": "RAW-R2-055",
+      "round": 2,
+      "values": {
+        "lula": 45.540813200305976,
+        "flavio": 44.21514123159117
+      },
+      "responses": {
+        "other": 10.244045568102855
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Quaest|BR-06773/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -2.540813200305979,
+          "flavio": -4.215141231591167,
+          "other": 6.755954431897146
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 43,
+        "flavio": 40
+      }
+    },
+    {
+      "pollster": "BTG/Nexus",
+      "start": "2026-08-14",
+      "end": "2026-08-16",
+      "published": "2026-08-17",
+      "lula": 47,
+      "flavio": 44,
+      "sample": 2003,
+      "moe": null,
+      "registration": "BR-03317/2026",
+      "source": "https://www.nexus.fsb.com.br/estudos-divulgados/pesquisa-btg-nexus-de-intencao-de-votos-para-presidente-do-brasil-17-de-agosto-de-2026/",
+      "id": "RAW-R2-056",
+      "round": 2,
+      "values": {
+        "lula": 45.67377072842782,
+        "flavio": 43.032639259077825
+      },
+      "responses": {
+        "other": 11.29359001249435
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "BTG/Nexus|BR-03317/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 1.3262292715721788,
+          "flavio": 0.9673607409221712,
+          "other": -2.29359001249435
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 47,
+        "flavio": 44
+      }
+    },
+    {
+      "pollster": "Veritá",
+      "start": "2026-08-16",
+      "end": "2026-08-20",
+      "published": "2026-08-21",
+      "lula": 42,
+      "flavio": 47.3,
+      "sample": 3840,
+      "moe": null,
+      "registration": "BR-04006/2026",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/verita-lula-perde-para-flavio-no-2o-turno-com-marcal-no-pleito-ha-empate/",
+      "id": "RAW-R2-058",
+      "round": 2,
+      "values": {
+        "lula": 43.947802022699015,
+        "flavio": 43.83236518737493
+      },
+      "responses": {
+        "other": 12.219832789926054
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Veritá|BR-04006/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -1.9478020226990127,
+          "flavio": 3.4676348126250627,
+          "other": -1.5198327899260502
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 42,
+        "flavio": 47.3
+      }
+    },
+    {
+      "pollster": "Datafolha",
+      "start": "2026-08-18",
+      "end": "2026-08-20",
+      "published": "2026-08-21",
+      "lula": 47,
+      "flavio": 43,
+      "sample": 2058,
+      "moe": null,
+      "registration": "BR-04496/2026",
+      "source": "https://www.cartacapital.com.br/politica/datafolha-mostra-com-47-no-2o-turno-contra-43-de-flavio-bolsonaro/",
+      "id": "RAW-R2-057",
+      "round": 2,
+      "values": {
+        "lula": 44.95661264975604,
+        "flavio": 44.68297388915529
+      },
+      "responses": {
+        "other": 10.360413461088672
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Datafolha|BR-04496/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": true,
+        "houseEffectApplied": true,
+        "demographicDelta": {
+          "lula": -1.416834482699997,
+          "flavio": 2.380540612499999,
+          "other": -0.963706129800002
+        },
+        "houseOffsets": {
+          "lula": 0.6265528675439668,
+          "flavio": 0.697566723344707,
+          "other": -1.3241195908886738
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 47,
+        "flavio": 43
+      }
+    },
+    {
+      "pollster": "Indexa/Broadcast",
+      "start": "2026-08-20",
+      "end": "2026-08-23",
+      "published": "2026-08-26",
+      "lula": 46,
+      "flavio": 41,
+      "sample": 2000,
+      "moe": null,
+      "registration": "BR-06366/2026",
+      "source": "https://www.jota.info/eleicoes/eleicoes-2026/indexa-broadcast-lula-marca-46-contra-41-de-flavio-bolsonaro-no-2o-turno",
+      "id": "RAW-R2-061",
+      "round": 2,
+      "values": {
+        "lula": 45.85870780252734,
+        "flavio": 43.50208888165977
+      },
+      "responses": {
+        "other": 10.639203315812892
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Indexa/Broadcast|BR-06366/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 0.14129219747266197,
+          "flavio": -2.5020888816597706,
+          "other": 2.3607966841871084
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 46,
+        "flavio": 41
+      }
+    },
+    {
+      "pollster": "BTG/Nexus",
+      "start": "2026-08-21",
+      "end": "2026-08-23",
+      "published": "2026-08-24",
+      "lula": 46,
+      "flavio": 45,
+      "sample": 2006,
+      "moe": null,
+      "registration": "BR-09028/2026",
+      "source": "https://www.nexus.fsb.com.br/estudos-divulgados/pesquisa-btg-nexus-de-intencao-de-votos-para-presidente-do-brasil-24-de-agosto-de-2026/",
+      "id": "RAW-R2-059",
+      "round": 2,
+      "values": {
+        "lula": 44.67377072842782,
+        "flavio": 44.032639259077825
+      },
+      "responses": {
+        "other": 11.29359001249435
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "BTG/Nexus|BR-09028/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 1.3262292715721788,
+          "flavio": 0.9673607409221712,
+          "other": -2.29359001249435
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 46,
+        "flavio": 45
+      }
+    },
+    {
+      "pollster": "Gerp",
+      "start": "2026-08-21",
+      "end": "2026-08-25",
+      "published": "2026-08-26",
+      "lula": 42,
+      "flavio": 47,
+      "sample": 2400,
+      "moe": null,
+      "registration": "BR-03547/2026",
+      "source": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-47-e-lula-42-em-2o-turno-diz-pesquisa/",
+      "id": "RAW-R2-060",
+      "round": 2,
+      "values": {
+        "lula": 45.31437756896024,
+        "flavio": 44.40479703211168
+      },
+      "responses": {
+        "other": 10.280825398928078
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Gerp|BR-03547/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -3.314377568960239,
+          "flavio": 2.595202967888317,
+          "other": 0.7191746010719217
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 42,
+        "flavio": 47
+      }
+    },
+    {
+      "pollster": "PoderData/Aya",
+      "start": "2026-08-23",
+      "end": "2026-08-26",
+      "published": "2026-08-27",
+      "lula": 45,
+      "flavio": 44,
+      "sample": 2400,
+      "moe": null,
+      "registration": "BR-04974/2026",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/poderdata-aya-lula-empata-com-flavio-caiado-e-zema-no-2o-turno/",
+      "id": "RAW-R2-062",
+      "round": 2,
+      "values": {
+        "lula": 45.09028158491325,
+        "flavio": 43.16367274267897
+      },
+      "responses": {
+        "other": 11.746045672407782
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "PoderData/Aya|BR-04974/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -0.09028158491324922,
+          "flavio": 0.8363272573210314,
+          "other": -0.7460456724077822
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 45,
+        "flavio": 44
+      }
+    },
+    {
+      "pollster": "Vox Brasil",
+      "start": "2026-08-25",
+      "end": "2026-08-27",
+      "published": "2026-08-29",
+      "lula": 44.5,
+      "flavio": 45.1,
+      "sample": 2100,
+      "moe": null,
+      "registration": "BR-05519/2026",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/vox-brasil-flavio-tem-451-e-lula-445-no-2o-turno/",
+      "id": "RAW-R2-063",
+      "round": 2,
+      "values": {
+        "lula": 44.42143017050555,
+        "flavio": 45.04181622547109
+      },
+      "responses": {
+        "other": 10.536753604023355
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Vox Brasil|BR-05519/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 0.07856982949444595,
+          "flavio": 0.05818377452891119,
+          "other": -0.13675360402335715
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 44.5,
+        "flavio": 45.1
+      }
+    },
+    {
+      "pollster": "AtlasIntel",
+      "start": "2026-08-25",
+      "end": "2026-08-30",
+      "published": "2026-08-31",
+      "lula": 47.1,
+      "flavio": 42.6,
+      "sample": 5014,
+      "moe": null,
+      "registration": "BR-07972/2026",
+      "source": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-471-contra-426-de-flavio-no-2o-turno-diz-pesquisa/",
+      "id": "RAW-R2-064",
+      "round": 2,
+      "values": {
+        "lula": 44.38456610374196,
+        "flavio": 41.85091365507116
+      },
+      "responses": {
+        "other": 13.764520241186881
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "AtlasIntel|BR-07972/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 2.7154338962580447,
+          "flavio": 0.7490863449288396,
+          "other": -3.464520241186884
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 47.1,
+        "flavio": 42.6
+      }
+    },
+    {
+      "pollster": "BTG/Nexus",
+      "start": "2026-08-28",
+      "end": "2026-08-30",
+      "published": "2026-08-31",
+      "lula": 46,
+      "flavio": 45,
+      "sample": 2005,
+      "moe": null,
+      "registration": "BR-08900/2026",
+      "source": "https://www.nexus.fsb.com.br/estudos-divulgados/pesquisa-btg-nexus-de-intencao-de-votos-para-presidente-do-brasil-31-de-agosto-de-2026/",
+      "id": "RAW-R2-065",
+      "round": 2,
+      "values": {
+        "lula": 44.67377072842782,
+        "flavio": 44.032639259077825
+      },
+      "responses": {
+        "other": 11.29359001249435
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "BTG/Nexus|BR-08900/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 1.3262292715721788,
+          "flavio": 0.9673607409221712,
+          "other": -2.29359001249435
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 46,
+        "flavio": 45
+      }
+    },
+    {
+      "pollster": "Real Time Big Data",
+      "start": "2026-08-27",
+      "end": "2026-08-31",
+      "published": "2026-09-01",
+      "lula": 44,
+      "flavio": 44,
+      "sample": 2000,
+      "moe": null,
+      "registration": "BR-03490/2026",
+      "source": "https://www.metropoles.com/brasil/real-time-big-data-lula-flavio-2o-turno",
+      "id": "RAW-R2-066",
+      "round": 2,
+      "values": {
+        "lula": 44.717585709685345,
+        "flavio": 44.42799554064675
+      },
+      "responses": {
+        "other": 10.854418749667907
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Real Time Big Data|BR-03490/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -0.7175857096853457,
+          "flavio": -0.42799554064674683,
+          "other": 1.1455812503320926
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 44,
+        "flavio": 44
+      }
+    },
+    {
+      "pollster": "Futura",
+      "start": "2026-08-27",
+      "end": "2026-09-01",
+      "published": "2026-09-03",
+      "lula": 45.6,
+      "flavio": 45.2,
+      "sample": 2000,
+      "moe": null,
+      "registration": "BR-02793/2026",
+      "source": "https://exame.com/brasil/pesquisa-futura-lula-tem-456-e-flavio-bolsonaro-452-em-empate-tecnico-no-2o-turno/",
+      "id": "RAW-R2-069",
+      "round": 2,
+      "values": {
+        "lula": 45.115690070743774,
+        "flavio": 43.31829812708725
+      },
+      "responses": {
+        "other": 11.566011802168973
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Futura|BR-02793/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 0.48430992925622507,
+          "flavio": 1.8817018729127515,
+          "other": -2.3660118021689764
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 45.6,
+        "flavio": 45.2
+      }
+    },
+    {
+      "pollster": "Quaest",
+      "start": "2026-08-30",
+      "end": "2026-09-01",
+      "published": "2026-09-02",
+      "lula": 42,
+      "flavio": 41,
+      "sample": 2004,
+      "moe": null,
+      "registration": "BR-07065/2026",
+      "source": "https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-42-ante-41-de-flavio-bolsonaro-no-2o-turno-diz-quaest/",
+      "id": "RAW-R2-067",
+      "round": 2,
+      "values": {
+        "lula": 44.540813200305976,
+        "flavio": 45.21514123159117
+      },
+      "responses": {
+        "other": 10.244045568102855
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Quaest|BR-07065/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -2.540813200305979,
+          "flavio": -4.215141231591167,
+          "other": 6.755954431897146
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 42,
+        "flavio": 41
+      }
+    },
+    {
+      "pollster": "PoderData/Aya",
+      "start": "2026-08-30",
+      "end": "2026-09-02",
+      "published": "2026-09-03",
+      "lula": 44,
+      "flavio": 45,
+      "sample": 3000,
+      "moe": null,
+      "registration": "BR-07561/2026",
+      "source": "https://www.poder360.com.br/poderdata/flavio-tem-45-e-lula-registra-44-no-2o-turno-diz-poderdata-aya/",
+      "id": "RAW-R2-070",
+      "round": 2,
+      "values": {
+        "lula": 44.09028158491325,
+        "flavio": 44.16367274267897
+      },
+      "responses": {
+        "other": 11.746045672407782
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "PoderData/Aya|BR-07561/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -0.09028158491324922,
+          "flavio": 0.8363272573210314,
+          "other": -0.7460456724077822
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 44,
+        "flavio": 45
+      }
+    },
+    {
+      "pollster": "Datafolha",
+      "start": "2026-09-01",
+      "end": "2026-09-02",
+      "published": "2026-09-03",
+      "lula": 46,
+      "flavio": 44,
+      "sample": 2002,
+      "moe": null,
+      "registration": "BR-03669/2026",
+      "source": "https://www1.folha.uol.com.br/poder/2026/09/datafolha-lula-tem-38-e-flavio-bolsonaro-33-no-1o-turno-cury-vai-a-8.shtml",
+      "id": "RAW-R2-068",
+      "round": 2,
+      "values": {
+        "lula": 43.529989127956036,
+        "flavio": 45.39015269815529
+      },
+      "responses": {
+        "other": 11.079858173888685
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Datafolha|BR-03669/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": true,
+        "houseEffectApplied": true,
+        "demographicDelta": {
+          "lula": -1.8434580045000004,
+          "flavio": 2.0877194214999975,
+          "other": -0.24426141699998993
+        },
+        "houseOffsets": {
+          "lula": 0.6265528675439668,
+          "flavio": 0.697566723344707,
+          "other": -1.3241195908886738
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 46,
+        "flavio": 44
+      }
+    },
+    {
+      "pollster": "Veritá",
+      "start": "2026-09-01",
+      "end": "2026-09-04",
+      "published": "2026-09-06",
+      "lula": 43.1,
+      "flavio": 48.5,
+      "sample": 3804,
+      "moe": null,
+      "registration": "BR-09426/2026",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/verita-flavio-tem-485-no-2o-turno-lula-431/",
+      "id": "RAW-R2-071",
+      "round": 2,
+      "values": {
+        "lula": 45.04780202269902,
+        "flavio": 45.032365187374936
+      },
+      "responses": {
+        "other": 9.91983278992605
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Veritá|BR-09426/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -1.9478020226990127,
+          "flavio": 3.4676348126250627,
+          "other": -1.5198327899260502
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 43.1,
+        "flavio": 48.5
+      }
+    },
+    {
+      "pollster": "Quaest",
+      "start": "2026-09-03",
+      "end": "2026-09-06",
+      "published": "2026-09-07",
+      "lula": 41,
+      "flavio": 41,
+      "sample": 2004,
+      "moe": null,
+      "registration": "BR-01720/2026",
+      "source": "https://www.reuters.com/world/americas/lula-flavio-bolsonaro-tied-brazils-election-runoff-quaest-poll-shows-2026-09-07/",
+      "id": "RAW-R2-072",
+      "round": 2,
+      "values": {
+        "lula": 43.540813200305976,
+        "flavio": 45.21514123159117
+      },
+      "responses": {
+        "other": 11.244045568102855
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Quaest|BR-01720/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -2.540813200305979,
+          "flavio": -4.215141231591167,
+          "other": 6.755954431897146
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 41,
+        "flavio": 41
+      }
+    },
+    {
+      "pollster": "BTG/Nexus",
+      "start": "2026-09-04",
+      "end": "2026-09-07",
+      "published": "2026-09-08",
+      "lula": 45,
+      "flavio": 46,
+      "sample": 2002,
+      "moe": null,
+      "registration": "BR-06790/2026",
+      "source": "https://noticias.uol.com.br/eleicoes/2026/09/08/btg-nexus-presidencial-8-de-setembro.ghtm",
+      "id": "RAW-R2-073",
+      "round": 2,
+      "values": {
+        "lula": 43.67377072842782,
+        "flavio": 45.032639259077825
+      },
+      "responses": {
+        "other": 11.29359001249435
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "BTG/Nexus|BR-06790/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 1.3262292715721788,
+          "flavio": 0.9673607409221712,
+          "other": -2.29359001249435
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 45,
+        "flavio": 46
+      }
+    },
+    {
+      "pollster": "Meio/Ideia",
+      "start": "2026-09-04",
+      "end": "2026-09-07",
+      "published": "2026-09-09",
+      "lula": 46,
+      "flavio": 46,
+      "sample": 1500,
+      "moe": null,
+      "registration": "BR-07935/2026",
+      "source": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-empatam-em-2o-turno-diz-pesquisa-meio-ideia/",
+      "id": "RAW-R2-074",
+      "round": 2,
+      "values": {
+        "lula": 44.203214264138346,
+        "flavio": 45.20944081489388
+      },
+      "responses": {
+        "other": 10.58734492096777
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Meio/Ideia|BR-07935/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 1.796785735861652,
+          "flavio": 0.7905591851061184,
+          "other": -2.5873449209677704
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 46,
+        "flavio": 46
+      }
+    },
+    {
+      "pollster": "Gerp",
+      "start": "2026-09-03",
+      "end": "2026-09-08",
+      "published": "2026-09-09",
+      "lula": 40,
+      "flavio": 47,
+      "sample": 2400,
+      "moe": null,
+      "registration": "BR-00251/2026",
+      "source": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-47-ante-40-de-lula-no-2o-turno-diz-pesquisa/",
+      "id": "RAW-R2-075",
+      "round": 2,
+      "values": {
+        "lula": 43.31437756896024,
+        "flavio": 44.40479703211168
+      },
+      "responses": {
+        "other": 12.280825398928078
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Gerp|BR-00251/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -3.314377568960239,
+          "flavio": 2.595202967888317,
+          "other": 0.7191746010719217
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 40,
+        "flavio": 47
+      }
+    },
+    {
+      "pollster": "Palver",
+      "start": "2026-09-04",
+      "end": "2026-09-08",
+      "published": "2026-09-09",
+      "lula": 44,
+      "flavio": 46,
+      "sample": 5000,
+      "moe": null,
+      "registration": "BR-05420/2026",
+      "source": "https://noticias.uol.com.br/eleicoes/2026/09/09/pesquisa-do-instituto-palver---presidente---99.ghtm",
+      "id": "RAW-R2-076",
+      "round": 2,
+      "values": {
+        "lula": 44.255976659606915,
+        "flavio": 44.14314481806586
+      },
+      "responses": {
+        "other": 11.600878522327218
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Palver|BR-05420/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -0.2559766596069146,
+          "flavio": 1.8568551819341332,
+          "other": -1.6008785223272186
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 44,
+        "flavio": 46
+      }
+    },
+    {
+      "pollster": "AtlasIntel/Bloomberg",
+      "start": "2026-09-04",
+      "end": "2026-09-09",
+      "published": "2026-09-10",
+      "lula": 46.2,
+      "flavio": 46.4,
+      "sample": 5000,
+      "moe": null,
+      "registration": "BR-01452/2026",
+      "source": "https://static.poder360.com.br/uploads/2026/09/Pesquisa-Atlas_Bloomberg-Nacional-260909-1.pdf",
+      "id": "RAW-R2-078",
+      "round": 2,
+      "values": {
+        "lula": 43.750346480943904,
+        "flavio": 44.60284316581811
+      },
+      "responses": {
+        "other": 11.646810353237989
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "AtlasIntel/Bloomberg|BR-01452/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 2.449653519056101,
+          "flavio": 1.7971568341818902,
+          "other": -4.246810353237991
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 46.2,
+        "flavio": 46.4
+      }
+    },
+    {
+      "pollster": "PoderData/Aya",
+      "start": "2026-09-06",
+      "end": "2026-09-09",
+      "published": "2026-09-10",
+      "lula": 45,
+      "flavio": 47,
+      "sample": 3000,
+      "moe": null,
+      "registration": "BR-04914/2026",
+      "source": "https://www.poder360.com.br/poderdata/flavio-tem-47-e-lula-45-no-2o-turno-diz-poderdata-aya/",
+      "id": "RAW-R2-077",
+      "round": 2,
+      "values": {
+        "lula": 45.09028158491325,
+        "flavio": 46.16367274267897
+      },
+      "responses": {
+        "other": 8.746045672407782
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "PoderData/Aya|BR-04914/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -0.09028158491324922,
+          "flavio": 0.8363272573210314,
+          "other": -0.7460456724077822
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 45,
+        "flavio": 47
+      }
+    },
+    {
+      "pollster": "Futura/100% Cidades",
+      "start": "2026-09-04",
+      "end": "2026-09-10",
+      "published": "2026-09-11",
+      "lula": 45,
+      "flavio": 45.4,
+      "sample": 2000,
+      "moe": null,
+      "registration": "BR-02322/2026",
+      "source": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-454-contra-45-de-lula-no-2o-turno-diz-pesquisa/",
+      "id": "RAW-R2-080",
+      "round": 2,
+      "values": {
+        "lula": 45.253880565025746,
+        "flavio": 43.21770695523098
+      },
+      "responses": {
+        "other": 11.528412479743272
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Futura/100% Cidades|BR-02322/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -0.25388056502574907,
+          "flavio": 2.18229304476902,
+          "other": -1.928412479743271
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 45,
+        "flavio": 45.4
+      }
+    },
+    {
+      "pollster": "Datafolha",
+      "start": "2026-09-08",
+      "end": "2026-09-10",
+      "published": "2026-09-11",
+      "lula": 46,
+      "flavio": 44,
+      "sample": 2002,
+      "moe": null,
+      "registration": "BR-01833/2026",
+      "source": "https://www1.folha.uol.com.br/poder/2026/09/datafolha-lula-tem-39-e-flavio-bolsonaro-35-em-primeiro-turno.shtml",
+      "id": "RAW-R2-079",
+      "round": 2,
+      "values": {
+        "lula": 44.185151550556036,
+        "flavio": 45.210617644355295
+      },
+      "responses": {
+        "other": 10.604230805088665
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Datafolha|BR-01833/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": true,
+        "houseEffectApplied": true,
+        "demographicDelta": {
+          "lula": -1.1882955819000003,
+          "flavio": 1.9081843677000023,
+          "other": -0.7198887858000091
+        },
+        "houseOffsets": {
+          "lula": 0.6265528675439668,
+          "flavio": 0.697566723344707,
+          "other": -1.3241195908886738
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 46,
+        "flavio": 44
+      }
+    },
+    {
+      "pollster": "Quaest",
+      "start": "2026-09-10",
+      "end": "2026-09-13",
+      "published": "2026-09-14",
+      "lula": 40,
+      "flavio": 42,
+      "sample": 2004,
+      "moe": null,
+      "registration": "BR-03607/2026",
+      "source": "https://noticias.uol.com.br/eleicoes/2026/09/14/quaest-presidenciaveis.ghtm",
+      "id": "RAW-R2-082",
+      "round": 2,
+      "values": {
+        "lula": 42.540813200305976,
+        "flavio": 46.21514123159117
+      },
+      "responses": {
+        "other": 11.244045568102855
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Quaest|BR-03607/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -2.540813200305979,
+          "flavio": -4.215141231591167,
+          "other": 6.755954431897146
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 40,
+        "flavio": 42
+      }
+    },
+    {
+      "pollster": "CNT/MDA",
+      "start": "2026-09-09",
+      "end": "2026-09-13",
+      "published": "2026-09-15",
+      "lula": 47.3,
+      "flavio": 40,
+      "sample": 2002,
+      "moe": null,
+      "registration": "BR-06902/2026",
+      "source": "https://noticias.uol.com.br/eleicoes/2026/09/15/pesquisa-cntmda-lula-flavio-bolsonaro.ghtm",
+      "id": "RAW-R2-083",
+      "round": 2,
+      "values": {
+        "lula": 44.77192371337489,
+        "flavio": 44.437445000111865
+      },
+      "responses": {
+        "other": 10.790631286513246
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "CNT/MDA|BR-06902/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 2.528076286625105,
+          "flavio": -4.437445000111862,
+          "other": 1.9093687134867572
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 47.3,
+        "flavio": 40
+      }
+    },
+    {
+      "pollster": "Indexa/Broadcast",
+      "start": "2026-09-10",
+      "end": "2026-09-13",
+      "published": "2026-09-15",
+      "lula": 43,
+      "flavio": 42,
+      "sample": 2000,
+      "moe": null,
+      "registration": "BR-03482/2026",
+      "source": "https://www.broadcast.com.br/news/indexa-broadcast-lula-perde-terreno-no-sudeste-entre-eleitores-de-25-a-34-anos-e-com-ensino-medio/",
+      "id": "RAW-R2-084",
+      "round": 2,
+      "values": {
+        "lula": 42.85870780252734,
+        "flavio": 44.50208888165977
+      },
+      "responses": {
+        "other": 12.639203315812892
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Indexa/Broadcast|BR-03482/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 0.14129219747266197,
+          "flavio": -2.5020888816597706,
+          "other": 2.3607966841871084
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 43,
+        "flavio": 42
+      }
+    },
+    {
+      "pollster": "BTG/Nexus",
+      "start": "2026-09-11",
+      "end": "2026-09-13",
+      "published": "2026-09-14",
+      "lula": 47,
+      "flavio": 46,
+      "sample": 2003,
+      "moe": null,
+      "registration": "BR-04076/2026",
+      "source": "https://veja.abril.com.br/politica/a-nova-pesquisa-btg-nexus-sobre-a-disputa-lula-x-flavio-a-tres-semanas-da-eleicao/",
+      "id": "RAW-R2-081",
+      "round": 2,
+      "values": {
+        "lula": 45.67377072842782,
+        "flavio": 45.032639259077825
+      },
+      "responses": {
+        "other": 9.29359001249435
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "BTG/Nexus|BR-04076/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 1.3262292715721788,
+          "flavio": 0.9673607409221712,
+          "other": -2.29359001249435
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 47,
+        "flavio": 46
+      }
+    },
+    {
+      "pollster": "DataTrends",
+      "start": "2026-09-12",
+      "end": "2026-09-14",
+      "published": "2026-09-16",
+      "lula": 44,
+      "flavio": 45,
+      "sample": 2000,
+      "moe": null,
+      "registration": "BR-08691/2026",
+      "source": "https://www.correiobraziliense.com.br/politica/2026/09/7501704-datatrends-aponta-lula-na-lideranca-do-1-turno-e-empates-tecnicos-no-2.html",
+      "id": "RAW-R2-085",
+      "round": 2,
+      "values": {
+        "lula": 44.24850057673716,
+        "flavio": 45.20477405990499
+      },
+      "responses": {
+        "other": 10.546725363357853
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "DataTrends|BR-08691/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -0.24850057673715725,
+          "flavio": -0.20477405990498992,
+          "other": 0.4532746366421472
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 44,
+        "flavio": 45
+      }
+    },
+    {
+      "pollster": "AtlasIntel/Bloomberg",
+      "start": "2026-09-11",
+      "end": "2026-09-16",
+      "published": "2026-09-17",
+      "lula": 46.8,
+      "flavio": 47.2,
+      "sample": 5018,
+      "moe": null,
+      "registration": "BR-06221/2026",
+      "source": "https://noticias.uol.com.br/eleicoes/2026/09/17/atlasbloomberg-lula-e-flavio-aparecem-tecnicamente-empatados-no-2-turno.ghtm",
+      "id": "RAW-R2-086",
+      "round": 2,
+      "values": {
+        "lula": 44.3503464809439,
+        "flavio": 45.40284316581811
+      },
+      "responses": {
+        "other": 10.24681035323799
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "AtlasIntel/Bloomberg|BR-06221/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 2.449653519056101,
+          "flavio": 1.7971568341818902,
+          "other": -4.246810353237991
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 46.8,
+        "flavio": 47.2
+      }
+    },
+    {
+      "pollster": "Futura/100% Cidades",
+      "start": "2026-09-11",
+      "end": "2026-09-15",
+      "published": "2026-09-17",
+      "lula": 43.7,
+      "flavio": 48.1,
+      "sample": 2000,
+      "moe": null,
+      "registration": "BR-00749/2026",
+      "source": "https://exame.com/brasil/pesquisa-futura-flavio-bolsonaro-cresce-chega-a-481-e-abre-vantagem-contra-lula-no-2o-turno/",
+      "id": "RAW-R2-088",
+      "round": 2,
+      "values": {
+        "lula": 43.95388056502575,
+        "flavio": 45.91770695523098
+      },
+      "responses": {
+        "other": 10.128412479743266
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Futura/100% Cidades|BR-00749/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -0.25388056502574907,
+          "flavio": 2.18229304476902,
+          "other": -1.928412479743271
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 43.7,
+        "flavio": 48.1
+      }
+    },
+    {
+      "pollster": "PoderData/Aya",
+      "start": "2026-09-13",
+      "end": "2026-09-16",
+      "published": "2026-09-17",
+      "lula": 44,
+      "flavio": 46,
+      "sample": 3000,
+      "moe": null,
+      "registration": "BR-00360/2026",
+      "source": "https://www.poder360.com.br/poderdata/flavio-tem-46-e-lula-44-no-2o-turno-diz-poderdata-aya/",
+      "id": "RAW-R2-090",
+      "round": 2,
+      "values": {
+        "lula": 44.09028158491325,
+        "flavio": 45.16367274267897
+      },
+      "responses": {
+        "other": 10.746045672407782
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "PoderData/Aya|BR-00360/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -0.09028158491324922,
+          "flavio": 0.8363272573210314,
+          "other": -0.7460456724077822
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 44,
+        "flavio": 46
+      }
+    },
+    {
+      "pollster": "Gerp",
+      "start": "2026-09-14",
+      "end": "2026-09-16",
+      "published": "2026-09-17",
+      "lula": 43,
+      "flavio": 50,
+      "sample": 2400,
+      "moe": null,
+      "registration": "BR-00535/2026",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/gerp-flavio-tem-50-no-2o-turno-lula-43/",
+      "id": "RAW-R2-087",
+      "round": 2,
+      "values": {
+        "lula": 46.31437756896024,
+        "flavio": 47.40479703211168
+      },
+      "responses": {
+        "other": 6.280825398928078
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Gerp|BR-00535/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -3.314377568960239,
+          "flavio": 2.595202967888317,
+          "other": 0.7191746010719217
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 43,
+        "flavio": 50
+      }
+    },
+    {
+      "pollster": "Datafolha",
+      "start": "2026-09-15",
+      "end": "2026-09-16",
+      "published": "2026-09-17",
+      "lula": 46,
+      "flavio": 44,
+      "sample": 2002,
+      "moe": null,
+      "registration": "BR-04029/2026",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/datafolha-lula-tem-46-das-intencoes-de-voto-no-2o-turno-flavio-44/",
+      "id": "RAW-R2-089",
+      "round": 2,
+      "values": {
+        "lula": 44.185151550556036,
+        "flavio": 45.210617644355295
+      },
+      "responses": {
+        "other": 10.604230805088665
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Datafolha|BR-04029/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": true,
+        "houseEffectApplied": true,
+        "demographicDelta": {
+          "lula": -1.1882955819000003,
+          "flavio": 1.9081843677000023,
+          "other": -0.7198887858000091
+        },
+        "houseOffsets": {
+          "lula": 0.6265528675439668,
+          "flavio": 0.697566723344707,
+          "other": -1.3241195908886738
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 46,
+        "flavio": 44
+      }
+    },
+    {
+      "pollster": "Palver",
+      "start": "2026-09-15",
+      "end": "2026-09-20",
+      "published": "2026-09-21",
+      "lula": 43,
+      "flavio": 47,
+      "sample": 5000,
+      "moe": null,
+      "registration": "BR-00860/2026",
+      "source": "https://palver.com/survey",
+      "id": "RAW-R2-092",
+      "round": 2,
+      "values": {
+        "lula": 43.255976659606915,
+        "flavio": 45.14314481806586
+      },
+      "responses": {
+        "other": 11.600878522327218
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Palver|BR-00860/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -0.2559766596069146,
+          "flavio": 1.8568551819341332,
+          "other": -1.6008785223272186
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 43,
+        "flavio": 47
+      }
+    },
+    {
+      "pollster": "Quaest",
+      "start": "2026-09-17",
+      "end": "2026-09-20",
+      "published": "2026-09-21",
+      "lula": 41,
+      "flavio": 42,
+      "sample": 2004,
+      "moe": null,
+      "registration": "BR-06004/2026",
+      "source": "https://especiaisg1.globo/politica/eleicoes/2026/pesquisas-eleitorais/presidente/1-turno/quaest/internal/",
+      "auditNote": "Secondary Metrópoles coverage reverses the 14% and 3% response-category labels. CNN Brasil and JC/UOL report 14% blank/null/will not vote and 3% undecided, consistent with the Quaest/G1 presentation.",
+      "id": "RAW-R2-093",
+      "round": 2,
+      "values": {
+        "lula": 43.540813200305976,
+        "flavio": 46.21514123159117
+      },
+      "responses": {
+        "other": 10.244045568102855
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Quaest|BR-06004/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -2.540813200305979,
+          "flavio": -4.215141231591167,
+          "other": 6.755954431897146
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 41,
+        "flavio": 42
+      }
+    },
+    {
+      "pollster": "BTG/Nexus",
+      "start": "2026-09-18",
+      "end": "2026-09-20",
+      "published": "2026-09-21",
+      "lula": 46,
+      "flavio": 45,
+      "sample": 2006,
+      "moe": null,
+      "registration": "BR-00485/2026",
+      "source": "https://www.nexus.fsb.com.br/estudos-divulgados/pesquisa-btg-nexus-de-intencao-de-votos-para-presidente-do-brasil-21-de-setembro-de-2026/",
+      "id": "RAW-R2-091",
+      "round": 2,
+      "values": {
+        "lula": 44.67377072842782,
+        "flavio": 44.032639259077825
+      },
+      "responses": {
+        "other": 11.29359001249435
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "BTG/Nexus|BR-00485/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 1.3262292715721788,
+          "flavio": 0.9673607409221712,
+          "other": -2.29359001249435
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 46,
+        "flavio": 45
+      }
+    },
+    {
+      "pollster": "AtlasIntel/Bloomberg",
+      "start": "2026-09-17",
+      "end": "2026-09-22",
+      "published": "2026-09-23",
+      "lula": 47.7,
+      "flavio": 47.4,
+      "sample": 5015,
+      "moe": null,
+      "registration": "BR-04739/2026",
+      "source": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Pesquisa-Atlas_Bloomberg-Nacional-260922.pdf",
+      "auditNote": "TSE registration metadata lists a planned sample of 5,000; the published report states 5,015 completed interviews.",
+      "id": "RAW-R2-094",
+      "round": 2,
+      "values": {
+        "lula": 45.250346480943904,
+        "flavio": 45.60284316581811
+      },
+      "responses": {
+        "other": 9.146810353237989
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "AtlasIntel/Bloomberg|BR-04739/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 2.449653519056101,
+          "flavio": 1.7971568341818902,
+          "other": -4.246810353237991
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 47.7,
+        "flavio": 47.4
+      }
+    },
+    {
+      "pollster": "Alfa Inteligência",
+      "start": "2026-09-18",
+      "end": "2026-09-23",
+      "published": "2026-09-24",
+      "lula": 43,
+      "flavio": 43,
+      "sample": 2700,
+      "moe": null,
+      "registration": "BR-02512/2026",
+      "source": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/alfa-inteligencia-presidente-setembro-2026/",
+      "id": "RAW-R2-095",
+      "round": 2,
+      "values": {
+        "lula": 44.58832531237075,
+        "flavio": 45.14797403649994
+      },
+      "responses": {
+        "other": 10.263700651129316
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Alfa Inteligência|BR-02512/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -1.5883253123707473,
+          "flavio": -2.147974036499937,
+          "other": 3.736299348870684
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 43,
+        "flavio": 43
+      }
+    },
+    {
+      "pollster": "PoderData/Aya",
+      "start": "2026-09-20",
+      "end": "2026-09-23",
+      "published": "2026-09-24",
+      "lula": 45,
+      "flavio": 46,
+      "sample": 3000,
+      "moe": null,
+      "registration": "BR-01739/2026",
+      "source": "https://www.poder360.com.br/poderdata/flavio-tem-46-e-lula-45-no-2o-turno-diz-poderdata-aya/",
+      "id": "RAW-R2-096",
+      "round": 2,
+      "values": {
+        "lula": 45.09028158491325,
+        "flavio": 45.16367274267897
+      },
+      "responses": {
+        "other": 9.746045672407782
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "PoderData/Aya|BR-01739/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -0.09028158491324922,
+          "flavio": 0.8363272573210314,
+          "other": -0.7460456724077822
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 45,
+        "flavio": 46
+      }
+    },
+    {
+      "pollster": "Real Time Big Data",
+      "start": "2026-09-19",
+      "end": "2026-09-23",
+      "published": "2026-09-24",
+      "lula": 44,
+      "flavio": 45,
+      "sample": 2000,
+      "moe": null,
+      "registration": "BR-04202/2026",
+      "source": "https://static.poder360.com.br/uploads/2026/09/Pesquisa-presidencial-Real-Time-Big-Data-24-set-2026.pdf",
+      "id": "RAW-R2-097",
+      "round": 2,
+      "values": {
+        "lula": 44.717585709685345,
+        "flavio": 45.42799554064675
+      },
+      "responses": {
+        "other": 9.854418749667907
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Real Time Big Data|BR-04202/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -0.7175857096853457,
+          "flavio": -0.42799554064674683,
+          "other": 1.1455812503320926
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 44,
+        "flavio": 45
+      }
+    },
+    {
+      "pollster": "Futura/100% Cidades",
+      "start": "2026-09-19",
+      "end": "2026-09-23",
+      "published": "2026-09-24",
+      "lula": 43.7,
+      "flavio": 49.4,
+      "sample": 2000,
+      "moe": null,
+      "registration": "BR-05268/2026",
+      "source": "https://static.poder360.com.br/uploads/2026/09/R_BR_Setembro_3.pdf",
+      "id": "RAW-R2-098",
+      "round": 2,
+      "values": {
+        "lula": 43.95388056502575,
+        "flavio": 47.21770695523098
+      },
+      "responses": {
+        "other": 8.82841247974327
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Futura/100% Cidades|BR-05268/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -0.25388056502574907,
+          "flavio": 2.18229304476902,
+          "other": -1.928412479743271
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 43.7,
+        "flavio": 49.4
+      }
+    },
+    {
+      "pollster": "Palver",
+      "start": "2026-09-20",
+      "end": "2026-09-23",
+      "published": "2026-09-24",
+      "lula": 45,
+      "flavio": 48,
+      "sample": 5000,
+      "moe": null,
+      "registration": "BR-09587/2026",
+      "source": "https://palver.com/survey",
+      "id": "RAW-R2-099",
+      "round": 2,
+      "values": {
+        "lula": 45.255976659606915,
+        "flavio": 46.14314481806586
+      },
+      "responses": {
+        "other": 8.600878522327218
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Palver|BR-09587/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": -0.2559766596069146,
+          "flavio": 1.8568551819341332,
+          "other": -1.6008785223272186
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 45,
+        "flavio": 48
+      }
+    },
+    {
+      "pollster": "Datafolha",
+      "start": "2026-09-22",
+      "end": "2026-09-23",
+      "published": "2026-09-24",
+      "lula": 47,
+      "flavio": 45,
+      "sample": 2002,
+      "moe": null,
+      "registration": "BR-00304/2026",
+      "source": "https://www1.folha.uol.com.br/poder/2026/09/datafolha-lula-tem-40-e-flavio-bolsonaro-36-em-1o-turno-rivais-empatam-em-2o-turno.shtml",
+      "auditNote": "Some accompanying coverage describes fieldwork through 24 September; the commissioned Folha result page states interviews were conducted on 22 and 23 September, which is used here.",
+      "id": "RAW-R2-100",
+      "round": 2,
+      "values": {
+        "lula": 46.373447132456036,
+        "flavio": 44.30243327665529
+      },
+      "responses": {
+        "other": 9.324119590888674
+      },
+      "coverage": "partial",
+      "confidence": null,
+      "method": null,
+      "verification": "inherited-source-linked",
+      "waveId": "Datafolha|BR-00304/2026|R2",
+      "basis": "total respondents",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "adjustment": {
+        "demographicApplied": false,
+        "houseEffectApplied": true,
+        "demographicDelta": null,
+        "houseOffsets": {
+          "lula": 0.6265528675439668,
+          "flavio": 0.697566723344707,
+          "other": -1.3241195908886738
+        },
+        "engine": "adjustment-core-0.2.0"
+      },
+      "rawValues": {
+        "lula": 47,
+        "flavio": 45
+      }
+    }
+  ],
+  "simulation": {
+    "draws": 50000,
+    "seed": 20260921,
+    "flavioMean": 50.06908948757729,
+    "lulaMean": 49.93091051242271,
+    "flavioWinProbability": 0.50718,
+    "lulaWinProbability": 0.49282,
+    "tieProbability": 0,
+    "monteCarloSe": 0.002235837416271586,
+    "intervals": {
+      "0.5": [
+        47.87659444391922,
+        52.2521306487841
+      ],
+      "0.8": [
+        45.96391051919051,
+        54.20712983692066
+      ],
+      "0.95": [
+        43.793321197703364,
+        56.33350288868127
+      ]
+    },
+    "histogram": [
+      {
+        "lower": 0,
+        "upper": 1,
+        "count": 0
+      },
+      {
+        "lower": 1,
+        "upper": 2,
+        "count": 0
+      },
+      {
+        "lower": 2,
+        "upper": 3,
+        "count": 0
+      },
+      {
+        "lower": 3,
+        "upper": 4,
+        "count": 0
+      },
+      {
+        "lower": 4,
+        "upper": 5,
+        "count": 0
+      },
+      {
+        "lower": 5,
+        "upper": 6,
+        "count": 0
+      },
+      {
+        "lower": 6,
+        "upper": 7,
+        "count": 0
+      },
+      {
+        "lower": 7,
+        "upper": 8,
+        "count": 0
+      },
+      {
+        "lower": 8,
+        "upper": 9,
+        "count": 0
+      },
+      {
+        "lower": 9,
+        "upper": 10,
+        "count": 0
+      },
+      {
+        "lower": 10,
+        "upper": 11,
+        "count": 0
+      },
+      {
+        "lower": 11,
+        "upper": 12,
+        "count": 0
+      },
+      {
+        "lower": 12,
+        "upper": 13,
+        "count": 0
+      },
+      {
+        "lower": 13,
+        "upper": 14,
+        "count": 0
+      },
+      {
+        "lower": 14,
+        "upper": 15,
+        "count": 0
+      },
+      {
+        "lower": 15,
+        "upper": 16,
+        "count": 0
+      },
+      {
+        "lower": 16,
+        "upper": 17,
+        "count": 0
+      },
+      {
+        "lower": 17,
+        "upper": 18,
+        "count": 0
+      },
+      {
+        "lower": 18,
+        "upper": 19,
+        "count": 0
+      },
+      {
+        "lower": 19,
+        "upper": 20,
+        "count": 0
+      },
+      {
+        "lower": 20,
+        "upper": 21,
+        "count": 0
+      },
+      {
+        "lower": 21,
+        "upper": 22,
+        "count": 0
+      },
+      {
+        "lower": 22,
+        "upper": 23,
+        "count": 0
+      },
+      {
+        "lower": 23,
+        "upper": 24,
+        "count": 0
+      },
+      {
+        "lower": 24,
+        "upper": 25,
+        "count": 0
+      },
+      {
+        "lower": 25,
+        "upper": 26,
+        "count": 0
+      },
+      {
+        "lower": 26,
+        "upper": 27,
+        "count": 0
+      },
+      {
+        "lower": 27,
+        "upper": 28,
+        "count": 0
+      },
+      {
+        "lower": 28,
+        "upper": 29,
+        "count": 0
+      },
+      {
+        "lower": 29,
+        "upper": 30,
+        "count": 0
+      },
+      {
+        "lower": 30,
+        "upper": 31,
+        "count": 0
+      },
+      {
+        "lower": 31,
+        "upper": 32,
+        "count": 0
+      },
+      {
+        "lower": 32,
+        "upper": 33,
+        "count": 0
+      },
+      {
+        "lower": 33,
+        "upper": 34,
+        "count": 0
+      },
+      {
+        "lower": 34,
+        "upper": 35,
+        "count": 0
+      },
+      {
+        "lower": 35,
+        "upper": 36,
+        "count": 0
+      },
+      {
+        "lower": 36,
+        "upper": 37,
+        "count": 2
+      },
+      {
+        "lower": 37,
+        "upper": 38,
+        "count": 2
+      },
+      {
+        "lower": 38,
+        "upper": 39,
+        "count": 9
+      },
+      {
+        "lower": 39,
+        "upper": 40,
+        "count": 25
+      },
+      {
+        "lower": 40,
+        "upper": 41,
+        "count": 81
+      },
+      {
+        "lower": 41,
+        "upper": 42,
+        "count": 173
+      },
+      {
+        "lower": 42,
+        "upper": 43,
+        "count": 414
+      },
+      {
+        "lower": 43,
+        "upper": 44,
+        "count": 753
+      },
+      {
+        "lower": 44,
+        "upper": 45,
+        "count": 1330
+      },
+      {
+        "lower": 45,
+        "upper": 46,
+        "count": 2307
+      },
+      {
+        "lower": 46,
+        "upper": 47,
+        "count": 3535
+      },
+      {
+        "lower": 47,
+        "upper": 48,
+        "count": 4434
+      },
+      {
+        "lower": 48,
+        "upper": 49,
+        "count": 5447
+      },
+      {
+        "lower": 49,
+        "upper": 50,
+        "count": 6129
+      },
+      {
+        "lower": 50,
+        "upper": 51,
+        "count": 6001
+      },
+      {
+        "lower": 51,
+        "upper": 52,
+        "count": 5571
+      },
+      {
+        "lower": 52,
+        "upper": 53,
+        "count": 4699
+      },
+      {
+        "lower": 53,
+        "upper": 54,
+        "count": 3541
+      },
+      {
+        "lower": 54,
+        "upper": 55,
+        "count": 2428
+      },
+      {
+        "lower": 55,
+        "upper": 56,
+        "count": 1532
+      },
+      {
+        "lower": 56,
+        "upper": 57,
+        "count": 825
+      },
+      {
+        "lower": 57,
+        "upper": 58,
+        "count": 436
+      },
+      {
+        "lower": 58,
+        "upper": 59,
+        "count": 194
+      },
+      {
+        "lower": 59,
+        "upper": 60,
+        "count": 84
+      },
+      {
+        "lower": 60,
+        "upper": 61,
+        "count": 33
+      },
+      {
+        "lower": 61,
+        "upper": 62,
+        "count": 7
+      },
+      {
+        "lower": 62,
+        "upper": 63,
+        "count": 8
+      },
+      {
+        "lower": 63,
+        "upper": 64,
+        "count": 0
+      },
+      {
+        "lower": 64,
+        "upper": 65,
+        "count": 0
+      },
+      {
+        "lower": 65,
+        "upper": 66,
+        "count": 0
+      },
+      {
+        "lower": 66,
+        "upper": 67,
+        "count": 0
+      },
+      {
+        "lower": 67,
+        "upper": 68,
+        "count": 0
+      },
+      {
+        "lower": 68,
+        "upper": 69,
+        "count": 0
+      },
+      {
+        "lower": 69,
+        "upper": 70,
+        "count": 0
+      },
+      {
+        "lower": 70,
+        "upper": 71,
+        "count": 0
+      },
+      {
+        "lower": 71,
+        "upper": 72,
+        "count": 0
+      },
+      {
+        "lower": 72,
+        "upper": 73,
+        "count": 0
+      },
+      {
+        "lower": 73,
+        "upper": 74,
+        "count": 0
+      },
+      {
+        "lower": 74,
+        "upper": 75,
+        "count": 0
+      },
+      {
+        "lower": 75,
+        "upper": 76,
+        "count": 0
+      },
+      {
+        "lower": 76,
+        "upper": 77,
+        "count": 0
+      },
+      {
+        "lower": 77,
+        "upper": 78,
+        "count": 0
+      },
+      {
+        "lower": 78,
+        "upper": 79,
+        "count": 0
+      },
+      {
+        "lower": 79,
+        "upper": 80,
+        "count": 0
+      },
+      {
+        "lower": 80,
+        "upper": 81,
+        "count": 0
+      },
+      {
+        "lower": 81,
+        "upper": 82,
+        "count": 0
+      },
+      {
+        "lower": 82,
+        "upper": 83,
+        "count": 0
+      },
+      {
+        "lower": 83,
+        "upper": 84,
+        "count": 0
+      },
+      {
+        "lower": 84,
+        "upper": 85,
+        "count": 0
+      },
+      {
+        "lower": 85,
+        "upper": 86,
+        "count": 0
+      },
+      {
+        "lower": 86,
+        "upper": 87,
+        "count": 0
+      },
+      {
+        "lower": 87,
+        "upper": 88,
+        "count": 0
+      },
+      {
+        "lower": 88,
+        "upper": 89,
+        "count": 0
+      },
+      {
+        "lower": 89,
+        "upper": 90,
+        "count": 0
+      },
+      {
+        "lower": 90,
+        "upper": 91,
+        "count": 0
+      },
+      {
+        "lower": 91,
+        "upper": 92,
+        "count": 0
+      },
+      {
+        "lower": 92,
+        "upper": 93,
+        "count": 0
+      },
+      {
+        "lower": 93,
+        "upper": 94,
+        "count": 0
+      },
+      {
+        "lower": 94,
+        "upper": 95,
+        "count": 0
+      },
+      {
+        "lower": 95,
+        "upper": 96,
+        "count": 0
+      },
+      {
+        "lower": 96,
+        "upper": 97,
+        "count": 0
+      },
+      {
+        "lower": 97,
+        "upper": 98,
+        "count": 0
+      },
+      {
+        "lower": 98,
+        "upper": 99,
+        "count": 0
+      },
+      {
+        "lower": 99,
+        "upper": 100,
+        "count": 0
+      }
+    ],
+    "basis": "valid votes",
+    "conditionalMatchup": "Lula vs Flavio"
+  },
+  "validation": {
+    "passed": true,
+    "metrics": {
+      "elections": 3,
+      "baselineMae": 5.696274596426174,
+      "adjustedMae": 5.204067850682398,
+      "rmse": 5.894473146735945,
+      "coverage95": 0.8666666666666667,
+      "meanWidth95": 19.5250144802139
+    }
+  },
+  "engine": "adjustment-core-0.2.0",
+  "modelVersion": "observer-election-day-calibration-v1",
+  "cutoff": "2026-09-24",
+  "componentCalibration": {
+    "baseAssumptions": {
+      "currentFutureCorrelation": 0,
+      "futureMeanValidShiftPct": 0,
+      "turnoutCompositionShiftPct": 0,
+      "unresolvedAllocation": "proportional conditional-valid normalization"
+    },
+    "conditionalMatchup": "Lula vs Flavio",
+    "current": {
+      "flavioConditionalValidPct": 50.09782732569956,
+      "flavioTotalRespondentsPct": 45.59626286881533,
+      "lulaTotalRespondentsPct": 45.418188860561386,
+      "otherOrUnresolvedPct": 8.985548270623283
+    },
+    "cutoff": "2026-09-24",
+    "historicalDirectionalMeanValidShiftFlavioPct": 4.063145270821627,
+    "historicalRunoffInvalidMeanPct": 7.078831752710622,
+    "identification": {
+      "blankNullUndecided": "The current two-candidate total is observed. Historical runoff invalid-vote rates bound how much of the unresolved pool may remain outside valid votes; allocation is tested rather than assumed known.",
+      "correlations": "Current/future correlation is not identified and is zero in the base model; -0.5 and +0.5 are reported as sensitivity bounds.",
+      "futureMovement": "Zero-centered in the base model. The directional historical mean is sensitivity-only because the four long-horizon cutoffs represent only two election-rounds and the same opposing candidate.",
+      "turnoutComposition": "Not identified from aggregate poll tables; evaluated only as a symmetric sensitivity shift.",
+      "turnoutRate": "Observed historically but not used to shift candidate preference without respondent-level likely-voter evidence."
+    },
+    "longHorizonErrors": [
+      {
+        "election": "2022 first round",
+        "horizonDays": 60,
+        "marginErrorPp": 4.14820372352033,
+        "twoCandidateTotalErrorPp": 10.38410529340814,
+        "validShareErrorFlavioPct": 3.0705866734829783
+      },
+      {
+        "election": "2022 first round",
+        "horizonDays": 30,
+        "marginErrorPp": 2.1144015933671723,
+        "twoCandidateTotalErrorPp": 8.68153305336969,
+        "validShareErrorFlavioPct": 1.6539868698304474
+      },
+      {
+        "election": "2022 second round",
+        "horizonDays": 60,
+        "marginErrorPp": 9.584582993212802,
+        "twoCandidateTotalErrorPp": 5.467350486066593,
+        "validShareErrorFlavioPct": 5.382885193969315
+      },
+      {
+        "election": "2022 second round",
+        "horizonDays": 30,
+        "marginErrorPp": 11.169266226123591,
+        "twoCandidateTotalErrorPp": 3.9526576604744577,
+        "validShareErrorFlavioPct": 6.145122346003767
+      }
+    ],
+    "marginTotalErrorCorrelation": {
+      "independentElectionRounds": 2,
+      "raw": -0.9058090800532268,
+      "shrinkageFactor": 0.3333333333333333,
+      "shrunk": -0.30193636001774227,
+      "usedInBaseSimulation": false
+    },
+    "modelVersion": "observer-election-day-calibration-v1",
+    "officialRunoffOutcomes": [
+      {
+        "invalidVoteShareOfTurnoutPct": 9.569885054141967,
+        "source": {
+          "sha256": "bc054d7e2441933cae77993db6aad5f6477478c464860e9fa663e2bef947220e",
+          "url": "https://apps.tre-sc.jus.br/site/fileadmin/arquivos/jurisprudencia/clipping/2019/02_19/05.pdf"
+        },
+        "turnoutRatePct": 78.7029150473383,
+        "validVoteShareOfTurnoutPct": 90.43011494585804,
+        "year": 2018
+      },
+      {
+        "invalidVoteShareOfTurnoutPct": 4.587778451279277,
+        "source": {
+          "sha256": "eaea7b10c490c160cadc07fff16b11e003e51f556b5204922fc1d225bf1233d7",
+          "url": "https://resultados.tse.jus.br/oficial/ele2022/545/dados-simplificados/br/br-c0001-e000545-r.json"
+        },
+        "turnoutRatePct": 79.41842908653783,
+        "validVoteShareOfTurnoutPct": 95.41222154872072,
+        "year": 2022
+      }
+    ],
+    "potentiallyResolvingPoolPct": 1.9067165179126615,
+    "releaseDecision": {
+      "approved": false,
+      "reason": "Turnout composition and unresolved allocation are not identifiable from aggregate public tables; only two historical runoffs and three scored election-rounds are available."
+    },
+    "schemaVersion": "1.0",
+    "targetElectionDate": "2026-10-25"
+  },
+  "sensitivityAnalysis": {
+    "baseSeed": 20260921,
+    "cutoff": "2026-09-24",
+    "drawsPerScenario": 50000,
+    "envelope": {
+      "flavioMeanValidPct": [
+        46.070552044434514,
+        54.168948351377274
+      ],
+      "flavioWinProbability": [
+        0.11016,
+        0.90424
+      ]
+    },
+    "interpretation": "The envelope is a sensitivity range across explicit assumptions, not a confidence interval and not a model-averaged forecast.",
+    "modelVersion": "observer-election-day-calibration-v1",
+    "publicationApproved": false,
+    "scenarios": [
+      {
+        "assumptionClass": "base",
+        "currentFutureCorrelation": 0,
+        "draws": 50000,
+        "flavioMeanValidPct": 50.08480308215141,
+        "flavioWinProbability": 0.51058,
+        "id": "base",
+        "interval80": [
+          45.93176338271929,
+          54.22628385746817
+        ],
+        "interval95": [
+          43.7866700749515,
+          56.4058503328541
+        ],
+        "label": "Zero-centered calibrated base",
+        "meanShiftValidPct": 0,
+        "monteCarloSe": 0.002235567326653349,
+        "seed": 20260921
+      },
+      {
+        "assumptionClass": "future-movement sensitivity",
+        "currentFutureCorrelation": 0,
+        "draws": 50000,
+        "flavioMeanValidPct": 54.168948351377274,
+        "flavioWinProbability": 0.90424,
+        "id": "historical-direction",
+        "interval80": [
+          50.08092295824231,
+          58.26461918387351
+        ],
+        "interval95": [
+          47.899930048304526,
+          60.433405997630935
+        ],
+        "label": "Observed 30/60-day directional mean",
+        "meanShiftValidPct": 4.063145270821627,
+        "monteCarloSe": 0.0013159788934477632,
+        "seed": 20260922
+      },
+      {
+        "assumptionClass": "future-movement sensitivity",
+        "currentFutureCorrelation": 0,
+        "draws": 50000,
+        "flavioMeanValidPct": 46.070552044434514,
+        "flavioWinProbability": 0.11016,
+        "id": "historical-direction-symmetric",
+        "interval80": [
+          41.98828640114701,
+          50.17338894746882
+        ],
+        "interval95": [
+          39.88919738775821,
+          52.311338196427066
+        ],
+        "label": "Symmetric directional guardrail",
+        "meanShiftValidPct": -4.063145270821627,
+        "monteCarloSe": 0.0014001769488175414,
+        "seed": 20260923
+      },
+      {
+        "assumptionClass": "unidentified turnout sensitivity",
+        "currentFutureCorrelation": 0,
+        "draws": 50000,
+        "flavioMeanValidPct": 48.6010410791258,
+        "flavioWinProbability": 0.33074,
+        "id": "turnout-lula",
+        "interval80": [
+          44.488691780139796,
+          52.74991855892487
+        ],
+        "interval95": [
+          42.36680570992954,
+          54.89991071141523
+        ],
+        "label": "Turnout composition favors Lula",
+        "meanShiftValidPct": -1.5,
+        "monteCarloSe": 0.002104048727572629,
+        "seed": 20260924
+      },
+      {
+        "assumptionClass": "unidentified turnout sensitivity",
+        "currentFutureCorrelation": 0,
+        "draws": 50000,
+        "flavioMeanValidPct": 51.56471075833905,
+        "flavioWinProbability": 0.68654,
+        "id": "turnout-flavio",
+        "interval80": [
+          47.47842781223691,
+          55.672230693938076
+        ],
+        "interval95": [
+          45.34970513080609,
+          57.779026055073096
+        ],
+        "label": "Turnout composition favors Flavio",
+        "meanShiftValidPct": 1.5,
+        "monteCarloSe": 0.0020746220301539266,
+        "seed": 20260925
+      },
+      {
+        "assumptionClass": "unresolved-allocation sensitivity",
+        "currentFutureCorrelation": 0,
+        "draws": 50000,
+        "flavioMeanValidPct": 49.903745072205425,
+        "flavioWinProbability": 0.4878,
+        "id": "unresolved-40",
+        "interval80": [
+          45.7839013994666,
+          54.035250027725986
+        ],
+        "interval95": [
+          43.651851807506205,
+          56.185001475870656
+        ],
+        "label": "40% of resolving pool to Flavio",
+        "meanShiftValidPct": -0.20720460708911048,
+        "monteCarloSe": 0.0022354022456819713,
+        "seed": 20260926
+      },
+      {
+        "assumptionClass": "unresolved-allocation sensitivity",
+        "currentFutureCorrelation": 0,
+        "draws": 50000,
+        "flavioMeanValidPct": 50.32122826918963,
+        "flavioWinProbability": 0.53936,
+        "id": "unresolved-60",
+        "interval80": [
+          46.21283273772822,
+          54.42755725868162
+        ],
+        "interval95": [
+          44.050049185738885,
+          56.61985586485073
+        ],
+        "label": "60% of resolving pool to Flavio",
+        "meanShiftValidPct": 0.20318982808164066,
+        "monteCarloSe": 0.002229128934808393,
+        "seed": 20260927
+      },
+      {
+        "assumptionClass": "correlation sensitivity",
+        "currentFutureCorrelation": -0.5,
+        "draws": 50000,
+        "flavioMeanValidPct": 50.10044029648589,
+        "flavioWinProbability": 0.5129,
+        "id": "negative-correlation",
+        "interval80": [
+          46.48529628989994,
+          53.719231959789276
+        ],
+        "interval95": [
+          44.56856089239508,
+          55.64501979123989
+        ],
+        "label": "Current/future correlation -0.5",
+        "meanShiftValidPct": 0,
+        "monteCarloSe": 0.002235323645470606,
+        "seed": 20260928
+      },
+      {
+        "assumptionClass": "correlation sensitivity",
+        "currentFutureCorrelation": 0.5,
+        "draws": 50000,
+        "flavioMeanValidPct": 50.09247591288946,
+        "flavioWinProbability": 0.50982,
+        "id": "positive-correlation",
+        "interval80": [
+          45.56137348384596,
+          54.65800778833545
+        ],
+        "interval95": [
+          43.20062436559673,
+          57.0810670583614
+        ],
+        "label": "Current/future correlation +0.5",
+        "meanShiftValidPct": 0,
+        "monteCarloSe": 0.0022356366771011786,
+        "seed": 20260929
+      }
+    ],
+    "schemaVersion": "1.0"
+  },
+  "hashes": {
+    "data/raw-polls.js": "6d9224c93e98d4d724d9b793594167a87f635ff330e3f3ef46414a18cb19a2ec",
+    "data/adjustment-inputs.js": "3a62a931e9fd627c9454909ee1c1c94171b00b5ad73c87de39cc5689025d7fd0",
+    "adjustment-engine.js": "6d93533ba152f2bfafe8b8e7b18dee071d253a16f840ac56fb9933f7d76cd626"
+  }
+}

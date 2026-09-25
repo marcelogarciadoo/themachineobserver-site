@@ -1,0 +1,31 @@
+{
+  "version": "raw-v3",
+  "firstRound": 95,
+  "secondRound": 95,
+  "sourceUpdated": "2026-09-24",
+  "sourceUrls": {
+    "runoff": "https://themachineobserver.com/data/polls.json",
+    "kalshi": "https://themachineobserver.com/data/kalshi.json",
+    "polymarket": "https://themachineobserver.com/data/polymarket.json"
+  },
+  "files": {
+    "data/sources/first-round.json": "388c1c77a69ea3bc4f6e8f9523bb050e8f5a3a6e3d88591f79d297f777343205",
+    "data/sources/first-round-additions.json": "992fe32f2e69447e0a2c2adbfeed8d0f0d55bddfaee3dfa6923b117c16ce36c6",
+    "data/sources/first-round-source-map.json": "fb7cfc2d1bfd3b7cf282a5cc99852e56735c744ee249337e998cd1a5b1e42b09",
+    "data/sources/runoff.json": "e463667a1d2e88753da3dcc3f68a943e84ab8967b88b4b07768a5bf8a7b28540",
+    "data/kalshi.json": "993f3ea948b7fde60fb36f7605235e68bf891eaa06c039dd3eb63999ef519a82",
+    "data/polymarket.json": "4854e97c6a9bb84ddc969b336fbfed2cdf1cef49d18fc7f3a962a2bba73cec00"
+  },
+  "transformations": [
+    "Published first-round results transcribed from linked reports/articles; metadata inheritance is explicit. Original runoff fields and stable legacy IDs retained.",
+    "No PNAD, bias correction, imputation, valid-vote rescaling or prediction. Descriptive trailing 7-day averages are computed separately for charts.",
+    "The browser loads data/raw-polls.json with no-store semantics and falls back to the bundled module only when the runtime feed is unavailable."
+  ],
+  "limitations": [
+    "95 first-round waves matched to 95 runoff waves; one representative stimulated scenario per wave. Candidate/category coverage remains partial in some releases; alternative scenarios are not fully transcribed.",
+    "Runoff records inherit existing Observer provenance and source reconciliation notes; not all 95 source reports were independently re-audited.",
+    "First-round scenarios have different tested candidate lists. Missing candidate values remain missing.",
+    "Published margins are survey-wide maxima, not candidate-specific model intervals.",
+    "Market files preserve provider timestamps. Browser refresh is automatic; the owned Hostinger scheduler must keep the public artifact current."
+  ]
+}
