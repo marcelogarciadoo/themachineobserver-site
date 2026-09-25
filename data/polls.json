@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-25",
+ "updated": "2026-09-24",
  "version": 1,
  "notes": "AtlasIntel de janeiro usa os percentuais retrospectivos de fevereiro, com campo e amostra corroborados no Poder360. A rodada AtlasIntel de maio não foi incluída: a fonte de julho informa sua retirada da série pelo instituto. Paraná de fevereiro: amostra 2.080 conforme reprodução UOL; Exame informa 2.020. Fontes com divergências: no BTG/Nexus de 17 ago., foram mantidos 47%–44% conforme a publicação original do instituto, embora a comparação retrospectiva de 24 ago. cite 47%–45%. No Datafolha de 3 set., o campo é 1–2 set., conforme a Folha. No BTG/Nexus de 24 ago., a amostra é 2.006, conforme o instituto. Para a rodada BTG/Nexus de 14 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pela publicação da VEJA. Para a rodada Quaest de 14 set. e a CNT/MDA de 15 set., os mesmos campos foram preservados conforme as publicações do UOL. Para a rodada Indexa/Broadcast de 15 set., foram preservados conforme a publicação original do Broadcast. Para a rodada DataTrends de 16 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pela publicação parceira do Correio Braziliense. Para a rodada AtlasIntel/Bloomberg de 17 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pelo UOL. Para a rodada Gerp de 17 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pela CNN Brasil. Para a rodada Futura/100% Cidades de 17 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pela Exame. Para a rodada Datafolha de 17 set., o campo informado pela reportagem é 15–16 set., um dia antes do fim de campo constante do registro na TSE (15–17 set.); demais campos conforme a publicação. Para a rodada Palver de 10 ago., o campo é 3–7 ago. conforme as publicações; o registro na TSE lista o período 3–9 ago. Os registros BR-01720/2026 (Quaest, 3–6 set.) e BR-07065/2026 (Quaest, 30 ago.–1 set.) foram completados nesta atualização por correspondência exata de instituto, campo e amostra com o registro da TSE. A rodada BTG/Nexus de 29 de junho tem amostra de 2.009 entrevistas conforme a publicação do instituto (registro consta 2.000). Para as rodadas BTG/Nexus de 13 e 27 de julho, Gerp de 8 de julho, PoderData/Aya de 16 de julho, Vox Brasil de 27 de junho e Alfa/TMC de 31 de julho, foram preservados os números, o campo, a amostra e a margem informados pelas publicações originais dos institutos ou das reportagens que os divulgaram; a publicação da Vox Brasil de 27 de junho é um dia posterior à data de divulgação constante do registro na TSE (26 de junho). Para a rodada Gerp de 9 de junho, o campo informado pela reportagem é 2–5 jun., um dia depois do início de campo constante do registro na TSE (1–5 jun.); demais campos conforme a publicação. Para as rodadas PoderData/Aya de 25 de junho e 30 de julho, Alfa Inteligência de 11 de junho, BTG/Nexus de 15 de junho, CNT/MDA de 16 de junho e Indexa/Broadcast de 23 de junho, foram preservados os números, o campo, a amostra e a margem informados pelas publicações originais dos institutos ou das reportagens que os divulgaram, com correspondência exata ao registro da TSE.",
  "ignored": [],
@@ -258,18 +258,6 @@
    "source": "https://www.nexus.fsb.com.br/estudos-divulgados/pesquisa-btg-nexus-de-intencao-de-votos-para-presidente-do-brasil-15-de-junho-de-2026/"
   },
   {
-   "pollster": "Futura",
-   "start": "2026-06-08",
-   "end": "2026-06-12",
-   "published": "2026-06-16",
-   "lula": 48.1,
-   "flavio": 42.9,
-   "sample": 2000,
-   "moe": 2.2,
-   "registration": "BR-01461/2026",
-   "source": "https://www.cnnbrasil.com.br/eleicoes/futura-apex-lula-tem-481-e-flavio-429-no-2o-turno/"
-  },
-  {
    "pollster": "CNT/MDA",
    "start": "2026-06-10",
    "end": "2026-06-14",
@@ -280,6 +268,18 @@
    "moe": 2.2,
    "registration": "BR-04256/2026",
    "source": "https://www.cnnbrasil.com.br/eleicoes/cnt-mda-lula-tem-493-e-flavio-368-no-2o-turno/"
+  },
+  {
+   "pollster": "Futura",
+   "start": "2026-06-08",
+   "end": "2026-06-12",
+   "published": "2026-06-16",
+   "lula": 48.1,
+   "flavio": 42.9,
+   "sample": 2000,
+   "moe": 2.2,
+   "registration": "BR-01461/2026",
+   "source": "https://www.cnnbrasil.com.br/eleicoes/futura-apex-lula-tem-481-e-flavio-429-no-2o-turno/"
   },
   {
    "pollster": "Datafolha",
@@ -462,18 +462,6 @@
    "source": "https://www.poder360.com.br/poderdata/lula-tem-46-contra-43-de-flavio-no-2o-turno-diz-poderdata-aya/"
   },
   {
-   "pollster": "Vox Brasil",
-   "start": "2026-07-26",
-   "end": "2026-07-28",
-   "published": "2026-07-31",
-   "lula": 47.5,
-   "flavio": 41.1,
-   "sample": 2100,
-   "moe": 2.15,
-   "registration": "BR-01084/2026",
-   "source": "https://www.cartacapital.com.br/politica/vox-brasil-lula-lidera-o-1o-turno-e-derrotaria-flavio-bolsonaro-no-2o/"
-  },
-  {
    "pollster": "Alfa/TMC",
    "start": "2026-07-23",
    "end": "2026-07-28",
@@ -484,6 +472,18 @@
    "moe": 1.8,
    "registration": "BR-04488/2026",
    "source": "https://exame.com/brasil/pesquisa-alfa-tmc-lula-tem-48-e-flavio-bolsonaro-41-no-2o-turno/"
+  },
+  {
+   "pollster": "Vox Brasil",
+   "start": "2026-07-26",
+   "end": "2026-07-28",
+   "published": "2026-07-31",
+   "lula": 47.5,
+   "flavio": 41.1,
+   "sample": 2100,
+   "moe": 2.15,
+   "registration": "BR-01084/2026",
+   "source": "https://www.cartacapital.com.br/politica/vox-brasil-lula-lidera-o-1o-turno-e-derrotaria-flavio-bolsonaro-no-2o/"
   },
   {
    "pollster": "BTG/Nexus",
@@ -822,18 +822,6 @@
    "source": "https://noticias.uol.com.br/eleicoes/2026/09/08/btg-nexus-presidencial-8-de-setembro.ghtm"
   },
   {
-   "pollster": "Meio/Ideia",
-   "start": "2026-09-04",
-   "end": "2026-09-07",
-   "published": "2026-09-09",
-   "lula": 46,
-   "flavio": 46,
-   "sample": 1500,
-   "moe": 2.5,
-   "registration": "BR-07935/2026",
-   "source": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-empatam-em-2o-turno-diz-pesquisa-meio-ideia/"
-  },
-  {
    "pollster": "Gerp",
    "start": "2026-09-03",
    "end": "2026-09-08",
@@ -844,6 +832,18 @@
    "moe": 2,
    "registration": "BR-00251/2026",
    "source": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-47-ante-40-de-lula-no-2o-turno-diz-pesquisa/"
+  },
+  {
+   "pollster": "Meio/Ideia",
+   "start": "2026-09-04",
+   "end": "2026-09-07",
+   "published": "2026-09-09",
+   "lula": 46,
+   "flavio": 46,
+   "sample": 1500,
+   "moe": 2.5,
+   "registration": "BR-07935/2026",
+   "source": "https://www.poder360.com.br/poder-eleicoes-2026/lula-e-flavio-empatam-em-2o-turno-diz-pesquisa-meio-ideia/"
   },
   {
    "pollster": "Palver",
@@ -858,18 +858,6 @@
    "source": "https://noticias.uol.com.br/eleicoes/2026/09/09/pesquisa-do-instituto-palver---presidente---99.ghtm"
   },
   {
-   "pollster": "PoderData/Aya",
-   "start": "2026-09-06",
-   "end": "2026-09-09",
-   "published": "2026-09-10",
-   "lula": 45,
-   "flavio": 47,
-   "sample": 3000,
-   "moe": 1.8,
-   "registration": "BR-04914/2026",
-   "source": "https://www.poder360.com.br/poderdata/flavio-tem-47-e-lula-45-no-2o-turno-diz-poderdata-aya/"
-  },
-  {
    "pollster": "AtlasIntel/Bloomberg",
    "start": "2026-09-04",
    "end": "2026-09-09",
@@ -880,6 +868,18 @@
    "moe": 1,
    "registration": "BR-01452/2026",
    "source": "https://static.poder360.com.br/uploads/2026/09/Pesquisa-Atlas_Bloomberg-Nacional-260909-1.pdf"
+  },
+  {
+   "pollster": "PoderData/Aya",
+   "start": "2026-09-06",
+   "end": "2026-09-09",
+   "published": "2026-09-10",
+   "lula": 45,
+   "flavio": 47,
+   "sample": 3000,
+   "moe": 1.8,
+   "registration": "BR-04914/2026",
+   "source": "https://www.poder360.com.br/poderdata/flavio-tem-47-e-lula-45-no-2o-turno-diz-poderdata-aya/"
   },
   {
    "pollster": "Datafolha",
@@ -978,16 +978,16 @@
    "source": "https://noticias.uol.com.br/eleicoes/2026/09/17/atlasbloomberg-lula-e-flavio-aparecem-tecnicamente-empatados-no-2-turno.ghtm"
   },
   {
-   "pollster": "Gerp",
-   "start": "2026-09-14",
+   "pollster": "Datafolha",
+   "start": "2026-09-15",
    "end": "2026-09-16",
    "published": "2026-09-17",
-   "lula": 43,
-   "flavio": 50,
-   "sample": 2400,
+   "lula": 46,
+   "flavio": 44,
+   "sample": 2002,
    "moe": 2,
-   "registration": "BR-00535/2026",
-   "source": "https://www.cnnbrasil.com.br/eleicoes/gerp-flavio-tem-50-no-2o-turno-lula-43/"
+   "registration": "BR-04029/2026",
+   "source": "https://www.cnnbrasil.com.br/eleicoes/datafolha-lula-tem-46-das-intencoes-de-voto-no-2o-turno-flavio-44/"
   },
   {
    "pollster": "Futura/100% Cidades",
@@ -1002,16 +1002,16 @@
    "source": "https://exame.com/brasil/pesquisa-futura-flavio-bolsonaro-cresce-chega-a-481-e-abre-vantagem-contra-lula-no-2o-turno/"
   },
   {
-   "pollster": "Datafolha",
-   "start": "2026-09-15",
+   "pollster": "Gerp",
+   "start": "2026-09-14",
    "end": "2026-09-16",
    "published": "2026-09-17",
-   "lula": 46,
-   "flavio": 44,
-   "sample": 2002,
+   "lula": 43,
+   "flavio": 50,
+   "sample": 2400,
    "moe": 2,
-   "registration": "BR-04029/2026",
-   "source": "https://www.cnnbrasil.com.br/eleicoes/datafolha-lula-tem-46-das-intencoes-de-voto-no-2o-turno-flavio-44/"
+   "registration": "BR-00535/2026",
+   "source": "https://www.cnnbrasil.com.br/eleicoes/gerp-flavio-tem-50-no-2o-turno-lula-43/"
   },
   {
    "pollster": "PoderData/Aya",
@@ -1084,6 +1084,42 @@
    "moe": 1.8,
    "registration": "BR-02512/2026",
    "source": "https://www.cnnbrasil.com.br/eleicoes/pesquisa-alfa-lula-e-flavio-tem-empate-tecnico-no-2o-turno-2/"
+  },
+  {
+   "pollster": "Datafolha",
+   "start": "2026-09-22",
+   "end": "2026-09-23",
+   "published": "2026-09-24",
+   "lula": 47,
+   "flavio": 45,
+   "sample": 2002,
+   "moe": 2,
+   "registration": "BR-00304/2026",
+   "source": "https://www1.folha.uol.com.br/poder/2026/09/datafolha-lula-tem-40-e-flavio-bolsonaro-36-em-1o-turno-rivais-empatam-em-2o-turno.shtml"
+  },
+  {
+   "pollster": "Futura/100% Cidades",
+   "start": "2026-09-19",
+   "end": "2026-09-23",
+   "published": "2026-09-24",
+   "lula": 43.7,
+   "flavio": 49.4,
+   "sample": 2000,
+   "moe": 2.2,
+   "registration": "BR-05268/2026",
+   "source": "https://static.poder360.com.br/uploads/2026/09/R_BR_Setembro_3.pdf"
+  },
+  {
+   "pollster": "Palver",
+   "start": "2026-09-20",
+   "end": "2026-09-23",
+   "published": "2026-09-24",
+   "lula": 45,
+   "flavio": 48,
+   "sample": 5000,
+   "moe": 2.5,
+   "registration": "BR-09587/2026",
+   "source": "https://palver.com/survey"
   },
   {
    "pollster": "PoderData/Aya",

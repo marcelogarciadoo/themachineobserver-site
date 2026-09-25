@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-24T14:24:04.840Z",
+  "generatedAt": "2026-09-25T12:27:57.125882Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -290,6 +290,213 @@
       "scenario": "Main stimulated first-round scenario",
       "round": 1,
       "waveId": "AtlasIntel/Bloomberg|BR-04739/2026|R1"
+    },
+    {
+      "pollster": "Alfa Inteligência",
+      "start": "2026-09-18",
+      "end": "2026-09-23",
+      "published": "2026-09-24",
+      "sample": 2700,
+      "moe": 1.8,
+      "confidence": 95,
+      "registration": "BR-02512/2026",
+      "method": "In-person interviews",
+      "source": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/alfa-inteligencia-presidente-setembro-2026/",
+      "verification": "contracting-outlet-result",
+      "basis": "total respondents",
+      "values": {
+        "lula": 40,
+        "flavio": 33,
+        "cury": 6,
+        "caiado": 5,
+        "renan": 3,
+        "zema": 1
+      },
+      "responses": {
+        "other_candidates": 1,
+        "blank_null": 6,
+        "undecided": 5
+      },
+      "coverage": "grouped",
+      "scenario": "Main stimulated first-round scenario",
+      "waveId": "Alfa Inteligência|BR-02512/2026|R1",
+      "round": 1,
+      "id": "RAW-R1-010"
+    },
+    {
+      "pollster": "PoderData/Aya",
+      "start": "2026-09-20",
+      "end": "2026-09-23",
+      "published": "2026-09-24",
+      "sample": 3000,
+      "moe": 1.8,
+      "confidence": 95,
+      "registration": "BR-01739/2026",
+      "method": "Telephone interviews to mobile and landline numbers using IVR/URA",
+      "source": "https://www.poder360.com.br/poderdata/flavio-tem-46-e-lula-45-no-2o-turno-diz-poderdata-aya/",
+      "verification": "primary-result",
+      "basis": "total respondents",
+      "values": {
+        "lula": 41,
+        "flavio": 39,
+        "cury": 6,
+        "renan": 3,
+        "caiado": 2,
+        "zema": 1,
+        "rui": 1,
+        "samara": 1,
+        "clariana": 1,
+        "grassi": 0,
+        "avalanche": 0,
+        "hertz": 0,
+        "edmilson": 0
+      },
+      "responses": {
+        "blank_null": 4,
+        "undecided": 2
+      },
+      "coverage": "complete",
+      "auditNote": "Published whole-number percentages sum to 101% because of rounding, as PoderData warns can occur.",
+      "scenario": "Main stimulated first-round scenario",
+      "waveId": "PoderData/Aya|BR-01739/2026|R1",
+      "round": 1,
+      "id": "RAW-R1-011"
+    },
+    {
+      "pollster": "Real Time Big Data",
+      "start": "2026-09-19",
+      "end": "2026-09-23",
+      "published": "2026-09-24",
+      "sample": 2000,
+      "moe": 2,
+      "confidence": 95,
+      "registration": "BR-04202/2026",
+      "method": "Telephone interviews with digital recruitment/messages",
+      "source": "https://static.poder360.com.br/uploads/2026/09/Pesquisa-presidencial-Real-Time-Big-Data-24-set-2026.pdf",
+      "verification": "primary-report",
+      "basis": "total respondents",
+      "values": {
+        "lula": 41,
+        "flavio": 37,
+        "cury": 6,
+        "renan": 6,
+        "caiado": 2,
+        "zema": 1
+      },
+      "responses": {
+        "other_candidates": 1,
+        "blank_null": 3,
+        "undecided": 3
+      },
+      "coverage": "grouped",
+      "scenario": "Main stimulated first-round scenario",
+      "waveId": "Real Time Big Data|BR-04202/2026|R1",
+      "round": 1,
+      "id": "RAW-R1-012"
+    },
+    {
+      "pollster": "Futura/100% Cidades",
+      "start": "2026-09-19",
+      "end": "2026-09-23",
+      "published": "2026-09-24",
+      "sample": 2000,
+      "moe": 2.2,
+      "confidence": 95,
+      "registration": "BR-05268/2026",
+      "method": "Computer-assisted telephone interviewing (CATI)",
+      "source": "https://static.poder360.com.br/uploads/2026/09/R_BR_Setembro_3.pdf",
+      "verification": "primary-report",
+      "basis": "total respondents",
+      "values": {
+        "flavio": 40.4,
+        "lula": 38.4,
+        "caiado": 5.7,
+        "cury": 5.6,
+        "renan": 2.4,
+        "zema": 0.9,
+        "samara": 0.5,
+        "rui": 0.3,
+        "avalanche": 0.2,
+        "edmilson": 0.1,
+        "hertz": 0.1,
+        "clariana": 0
+      },
+      "responses": {
+        "blank_null": 2.1,
+        "undecided": 3.2
+      },
+      "coverage": "complete",
+      "auditNote": "Published one-decimal percentages sum to 99.9% because of rounding.",
+      "scenario": "Main stimulated first-round scenario",
+      "waveId": "Futura/100% Cidades|BR-05268/2026|R1",
+      "round": 1,
+      "id": "RAW-R1-013"
+    },
+    {
+      "pollster": "Palver",
+      "start": "2026-09-20",
+      "end": "2026-09-23",
+      "published": "2026-09-24",
+      "sample": 5000,
+      "moe": 2.5,
+      "confidence": 95,
+      "registration": "BR-09587/2026",
+      "method": "Online non-probability survey recruited through internet ads with demographic quotas and iterative raking to IBGE/TSE targets",
+      "source": "https://palver.com/survey",
+      "verification": "primary-report",
+      "basis": "total respondents",
+      "values": {
+        "lula": 43,
+        "flavio": 43,
+        "renan": 8,
+        "cury": 2,
+        "caiado": 1,
+        "zema": 1
+      },
+      "responses": {
+        "other_candidates": 1,
+        "blank_null_abstain": 1,
+        "undecided": 1
+      },
+      "coverage": "grouped",
+      "auditNote": "The published rounded categories sum to 101%; the institute reports whole percentages.",
+      "scenario": "Main stimulated first-round scenario",
+      "waveId": "Palver|BR-09587/2026|R1",
+      "round": 1,
+      "id": "RAW-R1-014"
+    },
+    {
+      "pollster": "Datafolha",
+      "start": "2026-09-22",
+      "end": "2026-09-23",
+      "published": "2026-09-24",
+      "sample": 2002,
+      "moe": 2,
+      "confidence": 95,
+      "registration": "BR-00304/2026",
+      "method": "In-person interviews with voters aged 16+ in 125 municipalities",
+      "source": "https://www1.folha.uol.com.br/poder/2026/09/datafolha-lula-tem-40-e-flavio-bolsonaro-36-em-1o-turno-rivais-empatam-em-2o-turno.shtml",
+      "verification": "primary-result",
+      "basis": "total respondents",
+      "values": {
+        "lula": 40,
+        "flavio": 36,
+        "cury": 5,
+        "caiado": 4,
+        "renan": 3,
+        "zema": 1,
+        "samara": 1
+      },
+      "responses": {
+        "blank_null": 5,
+        "undecided": 2
+      },
+      "coverage": "partial",
+      "auditNote": "Candidates below 1% are omitted rather than recorded as zero. Some accompanying coverage describes fieldwork through 24 September; the commissioned Folha result page states interviews were conducted on 22 and 23 September, which is used here.",
+      "scenario": "Main stimulated first-round scenario",
+      "waveId": "Datafolha|BR-00304/2026|R1",
+      "round": 1,
+      "id": "RAW-R1-015"
     },
     {
       "pollster": "Quaest",
@@ -5567,6 +5774,181 @@
       "scenario": "Lula × Flávio Bolsonaro",
       "round": 2,
       "waveId": "AtlasIntel/Bloomberg|BR-04739/2026|R2"
+    },
+    {
+      "pollster": "Alfa Inteligência",
+      "start": "2026-09-18",
+      "end": "2026-09-23",
+      "published": "2026-09-24",
+      "sample": 2700,
+      "moe": 1.8,
+      "confidence": 95,
+      "registration": "BR-02512/2026",
+      "method": "In-person interviews",
+      "source": "https://www.gazetadopovo.com.br/eleicoes/2026/pesquisa-eleitoral-2026/alfa-inteligencia-presidente-setembro-2026/",
+      "verification": "contracting-outlet-result",
+      "basis": "total respondents",
+      "lula": 43,
+      "flavio": 43,
+      "values": {
+        "lula": 43,
+        "flavio": 43
+      },
+      "responses": {
+        "blank_null": 7,
+        "undecided": 7
+      },
+      "coverage": "complete",
+      "scenario": "Lula vs Flávio Bolsonaro runoff",
+      "waveId": "Alfa Inteligência|BR-02512/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-095"
+    },
+    {
+      "pollster": "PoderData/Aya",
+      "start": "2026-09-20",
+      "end": "2026-09-23",
+      "published": "2026-09-24",
+      "sample": 3000,
+      "moe": 1.8,
+      "confidence": 95,
+      "registration": "BR-01739/2026",
+      "method": "Telephone interviews to mobile and landline numbers using IVR/URA",
+      "source": "https://www.poder360.com.br/poderdata/flavio-tem-46-e-lula-45-no-2o-turno-diz-poderdata-aya/",
+      "verification": "primary-result",
+      "basis": "total respondents",
+      "lula": 45,
+      "flavio": 46,
+      "values": {
+        "lula": 45,
+        "flavio": 46
+      },
+      "responses": {
+        "blank_null": 7,
+        "undecided": 2
+      },
+      "coverage": "complete",
+      "scenario": "Lula vs Flávio Bolsonaro runoff",
+      "waveId": "PoderData/Aya|BR-01739/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-096"
+    },
+    {
+      "pollster": "Real Time Big Data",
+      "start": "2026-09-19",
+      "end": "2026-09-23",
+      "published": "2026-09-24",
+      "sample": 2000,
+      "moe": 2,
+      "confidence": 95,
+      "registration": "BR-04202/2026",
+      "method": "Telephone interviews with digital recruitment/messages",
+      "source": "https://static.poder360.com.br/uploads/2026/09/Pesquisa-presidencial-Real-Time-Big-Data-24-set-2026.pdf",
+      "verification": "primary-report",
+      "basis": "total respondents",
+      "lula": 44,
+      "flavio": 45,
+      "values": {
+        "lula": 44,
+        "flavio": 45
+      },
+      "responses": {
+        "blank_null": 8,
+        "undecided": 3
+      },
+      "coverage": "complete",
+      "scenario": "Lula vs Flávio Bolsonaro runoff",
+      "waveId": "Real Time Big Data|BR-04202/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-097"
+    },
+    {
+      "pollster": "Futura/100% Cidades",
+      "start": "2026-09-19",
+      "end": "2026-09-23",
+      "published": "2026-09-24",
+      "sample": 2000,
+      "moe": 2.2,
+      "confidence": 95,
+      "registration": "BR-05268/2026",
+      "method": "Computer-assisted telephone interviewing (CATI)",
+      "source": "https://static.poder360.com.br/uploads/2026/09/R_BR_Setembro_3.pdf",
+      "verification": "primary-report",
+      "basis": "total respondents",
+      "lula": 43.7,
+      "flavio": 49.4,
+      "values": {
+        "lula": 43.7,
+        "flavio": 49.4
+      },
+      "responses": {
+        "blank_null": 5.6,
+        "undecided": 1.3
+      },
+      "coverage": "complete",
+      "scenario": "Lula vs Flávio Bolsonaro runoff",
+      "waveId": "Futura/100% Cidades|BR-05268/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-098"
+    },
+    {
+      "pollster": "Palver",
+      "start": "2026-09-20",
+      "end": "2026-09-23",
+      "published": "2026-09-24",
+      "sample": 5000,
+      "moe": 2.5,
+      "confidence": 95,
+      "registration": "BR-09587/2026",
+      "method": "Online non-probability survey recruited through internet ads with demographic quotas and iterative raking to IBGE/TSE targets",
+      "source": "https://palver.com/survey",
+      "verification": "primary-report",
+      "basis": "total respondents",
+      "lula": 45,
+      "flavio": 48,
+      "values": {
+        "lula": 45,
+        "flavio": 48
+      },
+      "responses": {
+        "blank_null_abstain": 6,
+        "undecided": 1
+      },
+      "coverage": "complete",
+      "scenario": "Lula vs Flávio Bolsonaro runoff",
+      "waveId": "Palver|BR-09587/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-099"
+    },
+    {
+      "pollster": "Datafolha",
+      "start": "2026-09-22",
+      "end": "2026-09-23",
+      "published": "2026-09-24",
+      "sample": 2002,
+      "moe": 2,
+      "confidence": 95,
+      "registration": "BR-00304/2026",
+      "method": "In-person interviews with voters aged 16+ in 125 municipalities",
+      "source": "https://www1.folha.uol.com.br/poder/2026/09/datafolha-lula-tem-40-e-flavio-bolsonaro-36-em-1o-turno-rivais-empatam-em-2o-turno.shtml",
+      "verification": "primary-result",
+      "basis": "total respondents",
+      "lula": 47,
+      "flavio": 45,
+      "values": {
+        "lula": 47,
+        "flavio": 45
+      },
+      "responses": {
+        "blank_null": 7,
+        "undecided": 1
+      },
+      "coverage": "complete",
+      "auditNote": "Some accompanying coverage describes fieldwork through 24 September; the commissioned Folha result page states interviews were conducted on 22 and 23 September, which is used here.",
+      "scenario": "Lula vs Flávio Bolsonaro runoff",
+      "waveId": "Datafolha|BR-00304/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-100"
     }
   ]
 }
