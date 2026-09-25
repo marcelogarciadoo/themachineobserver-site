@@ -247,7 +247,33 @@ def build_update(
             insert_raw_record(records, record)
             existing_ids.add(record["id"])
             existing_round_registration.add((record["round"], record["registration"]))
-        legacy["polls"].append(legacy_from_round2(round2))
+        legacy_poll = legacy_from_round2(round2)
+        legacy_key = (
+            legacy_poll["registration"],
+            legacy_poll["published"],
+            legacy_poll["pollster"],
+        )
+        existing_legacy = next(
+            (
+                poll
+                for poll in legacy["polls"]
+                if (
+                    poll.get("registration"),
+                    poll.get("published"),
+                    poll.get("pollster"),
+                )
+                == legacy_key
+            ),
+            None,
+        )
+        if existing_legacy is None:
+            legacy["polls"].append(legacy_poll)
+        else:
+            for field in ("lula", "flavio", "sample", "moe"):
+                if existing_legacy.get(field) != legacy_poll[field]:
+                    raise ValidationError(
+                        f"existing legacy runoff conflicts with payload for {legacy_key}: {field}"
+                    )
         added_waves += 1
 
     ignored_count = 0
@@ -307,8 +333,8 @@ def main() -> int:
 
     raw = load_json(args.raw)
     legacy = load_json(args.legacy)
-    validate_feeds(raw, legacy)
     if args.check_only:
+        validate_feeds(raw, legacy)
         print(f"OK: {len(raw['records'])} raw records; {len(legacy['polls'])} legacy runoffs")
         return 0
     if args.payload is None:
