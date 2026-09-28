@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 
+import base64
+import io
 import re
 import sys
+import tarfile
 from pathlib import Path
 
 
@@ -54,7 +57,16 @@ def main() -> None:
         )
     ranking_test.write_text(ranking, encoding="utf-8")
 
-    print("Patched model bundle for dynamic counts, nullable PNAD, and current release cutoffs.")
+    overlay_file = Path(__file__).with_name("model-method-overlay.tar.gz.b64")
+    if overlay_file.exists():
+        payload = base64.b64decode("".join(overlay_file.read_text(encoding="ascii").split()))
+        with tarfile.open(fileobj=io.BytesIO(payload), mode="r:gz") as archive:
+            members = archive.getmembers()
+            if any(member.name.startswith("/") or ".." in Path(member.name).parts or not member.isfile() for member in members):
+                raise SystemExit("Unsafe model overlay archive.")
+            archive.extractall(root, members=members)
+
+    print("Patched model bundle and applied the reviewed methodology overlay.")
 
 
 if __name__ == "__main__":

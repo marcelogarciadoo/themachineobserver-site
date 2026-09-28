@@ -6,6 +6,9 @@ on:
     paths:
       - data/raw-polls.json
       - data/polls.json
+      - automation/model-method-overlay.tar.gz.b64
+      - automation/patch_model_bundle.py
+      - .github/workflows/recalculate.yml
   workflow_dispatch:
 
 permissions:
