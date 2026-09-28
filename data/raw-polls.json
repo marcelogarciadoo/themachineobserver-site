@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T12:27:57.125882Z",
+  "generatedAt": "2026-09-28T19:27:46.019044Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -497,6 +497,39 @@
       "waveId": "Datafolha|BR-00304/2026|R1",
       "round": 1,
       "id": "RAW-R1-015"
+    },
+    {
+      "pollster": "BTG/Nexus",
+      "start": "2026-09-25",
+      "end": "2026-09-27",
+      "published": "2026-09-28",
+      "sample": 2000,
+      "moe": 2,
+      "confidence": 95,
+      "registration": "BR-07557/2026",
+      "method": "Computer-assisted telephone interviewing (CATI) using random digit dialing (RDD)",
+      "source": "https://sbtnews.sbt.com.br/noticia/eleicoes/btg-nexus-lula-tem-46-e-flavio-bolsonaro-44-no-2-turno",
+      "verification": "secondary-result corroborated by TSE registration metadata",
+      "basis": "total respondents",
+      "values": {
+        "lula": 42,
+        "flavio": 37,
+        "cury": 5,
+        "caiado": 5,
+        "renan": 4,
+        "zema": 1,
+        "samara": 1
+      },
+      "responses": {
+        "blank_null": 3,
+        "undecided": 2
+      },
+      "coverage": "partial",
+      "auditNote": "Official TSE registry data confirms BR-07557/2026, Nexus, national presidential scope, 25–27 September fieldwork, 2,000 interviews, CATI/RDD, ±2 p.p. and 95% confidence. The institute's own result page was not yet published when ingested; published coverage reports the result. Six candidates described only as below 1% are omitted rather than recorded as zero.",
+      "scenario": "Main stimulated first-round scenario",
+      "waveId": "BTG/Nexus|BR-07557/2026|R1",
+      "round": 1,
+      "id": "RAW-R1-016"
     },
     {
       "pollster": "Quaest",
@@ -5949,6 +5982,36 @@
       "waveId": "Datafolha|BR-00304/2026|R2",
       "round": 2,
       "id": "RAW-R2-100"
+    },
+    {
+      "pollster": "BTG/Nexus",
+      "start": "2026-09-25",
+      "end": "2026-09-27",
+      "published": "2026-09-28",
+      "sample": 2000,
+      "moe": 2,
+      "confidence": 95,
+      "registration": "BR-07557/2026",
+      "method": "Computer-assisted telephone interviewing (CATI) using random digit dialing (RDD)",
+      "source": "https://sbtnews.sbt.com.br/noticia/eleicoes/btg-nexus-lula-tem-46-e-flavio-bolsonaro-44-no-2-turno",
+      "verification": "secondary-result corroborated by TSE registration metadata",
+      "basis": "total respondents",
+      "lula": 46,
+      "flavio": 44,
+      "values": {
+        "lula": 46,
+        "flavio": 44
+      },
+      "responses": {
+        "blank_null": 8,
+        "undecided": 1
+      },
+      "coverage": "complete",
+      "auditNote": "Official TSE registry data confirms BR-07557/2026, Nexus, national presidential scope, 25–27 September fieldwork, 2,000 interviews, CATI/RDD, ±2 p.p. and 95% confidence. The institute's own result page was not yet published when ingested; published coverage reports the result. Rounded published categories sum to 99%.",
+      "scenario": "Lula vs Flávio Bolsonaro runoff",
+      "waveId": "BTG/Nexus|BR-07557/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-101"
     }
   ]
 }
