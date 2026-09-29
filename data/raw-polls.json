@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-28T19:27:46.019044Z",
+  "generatedAt": "2026-09-29T13:18:44.813469Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -530,6 +530,134 @@
       "waveId": "BTG/Nexus|BR-07557/2026|R1",
       "round": 1,
       "id": "RAW-R1-016"
+    },
+    {
+      "pollster": "AtlasIntel/Bloomberg",
+      "start": "2026-09-23",
+      "end": "2026-09-28",
+      "published": "2026-09-29",
+      "sample": 5005,
+      "moe": 1,
+      "confidence": 95,
+      "registration": "BR-04391/2026",
+      "method": "Online recruitment using Atlas RDR (random digital recruitment)",
+      "source": "https://noticias.uol.com.br/eleicoes/2026/09/29/atlasbloomberg-lula-e-flavio-tem-empate-tecnico-no-2-turno.ghtm",
+      "verification": "secondary-result corroborated by TSE registration metadata",
+      "basis": "total respondents",
+      "values": {
+        "lula": 45.3,
+        "flavio": 42.2,
+        "renan": 5.2,
+        "cury": 2,
+        "caiado": 1.8,
+        "zema": 0.9,
+        "other": 0.5
+      },
+      "responses": {
+        "blank_null": 0.9,
+        "undecided": 1.2
+      },
+      "coverage": "complete",
+      "auditNote": "The TSE registry mirror lists a planned sample of 5,000; the published result reports 5,005 completed interviews.",
+      "scenario": "Main stimulated first-round scenario",
+      "waveId": "AtlasIntel/Bloomberg|BR-04391/2026|R1",
+      "round": 1,
+      "id": "RAW-R1-017"
+    },
+    {
+      "pollster": "Palver",
+      "start": "2026-09-24",
+      "end": "2026-09-27",
+      "published": "2026-09-29",
+      "sample": 5000,
+      "moe": 2.4,
+      "confidence": 95,
+      "registration": "BR-02990/2026",
+      "method": "Online survey recruited through social-media ads; raking calibration to official demographic, 2022 runoff vote and TSE party-affiliation targets",
+      "source": "https://www.palver.com.br/api/surveys/voting-intention-2026-september-w5/report",
+      "verification": "primary-report",
+      "basis": "total respondents",
+      "values": {
+        "lula": 44,
+        "flavio": 44,
+        "renan": 8,
+        "cury": 1,
+        "caiado": 1,
+        "zema": 1,
+        "other": 0
+      },
+      "responses": {
+        "blank_null": 1,
+        "undecided": 1
+      },
+      "coverage": "complete",
+      "auditNote": "The Palver report and published result give fieldwork as 24-27 September; the TSE registry mirror lists 24-28 September. Rounded published categories sum to 101%.",
+      "scenario": "Main stimulated first-round scenario",
+      "waveId": "Palver|BR-02990/2026|R1",
+      "round": 1,
+      "id": "RAW-R1-018"
+    },
+    {
+      "pollster": "Vox Brasil",
+      "start": "2026-09-26",
+      "end": "2026-09-28",
+      "published": "2026-09-29",
+      "sample": 2100,
+      "moe": 2.15,
+      "confidence": 95,
+      "registration": "BR-00895/2026",
+      "method": "Face-to-face household interviews",
+      "source": "https://exame.com/brasil/pesquisa-vox-brasil-lula-tem-411-e-flavio-bolsonaro-378-no-1o-turno/",
+      "verification": "secondary-result corroborated by TSE registration metadata",
+      "basis": "total respondents",
+      "values": {
+        "lula": 41.1,
+        "flavio": 37.8,
+        "other": 10.8
+      },
+      "responses": {
+        "blank_null": 3.5,
+        "undecided": 6.8
+      },
+      "coverage": "complete",
+      "auditNote": "The source reports the principal candidate totals and explicitly states that the residual 10.8% belongs to the remaining candidates; it is stored as a grouped category.",
+      "scenario": "Main stimulated first-round scenario",
+      "waveId": "Vox Brasil|BR-00895/2026|R1",
+      "round": 1,
+      "id": "RAW-R1-019"
+    },
+    {
+      "pollster": "Quaest",
+      "start": "2026-09-24",
+      "end": "2026-09-27",
+      "published": "2026-09-28",
+      "sample": 2004,
+      "moe": 2,
+      "confidence": 95,
+      "registration": "BR-06520/2026",
+      "method": "Face-to-face interviews with voters aged 16 and older",
+      "source": "https://noticias.uol.com.br/eleicoes/2026/09/28/quaest-pesquisa-presidencial.amp.htm",
+      "verification": "secondary-result corroborated by TSE registration metadata",
+      "basis": "total respondents",
+      "values": {
+        "lula": 39,
+        "flavio": 34,
+        "cury": 4,
+        "caiado": 4,
+        "renan": 3,
+        "zema": 1,
+        "other": 0
+      },
+      "responses": {
+        "blank_null": 10,
+        "undecided": 5
+      },
+      "coverage": "complete",
+      "auditNote": "The result page reports all principal stimulated first-round categories and the Lula-Flavio runoff, with institute, field dates, sample, margin, confidence and TSE registration.",
+      "scenario": "Main stimulated first-round scenario",
+      "waveId": "Quaest|BR-06520/2026|R1",
+      "round": 1,
+      "id": "RAW-R1-020"
     },
     {
       "pollster": "Quaest",
@@ -6012,6 +6140,122 @@
       "waveId": "BTG/Nexus|BR-07557/2026|R2",
       "round": 2,
       "id": "RAW-R2-101"
+    },
+    {
+      "pollster": "AtlasIntel/Bloomberg",
+      "start": "2026-09-23",
+      "end": "2026-09-28",
+      "published": "2026-09-29",
+      "sample": 5005,
+      "moe": 1,
+      "confidence": 95,
+      "registration": "BR-04391/2026",
+      "method": "Online recruitment using Atlas RDR (random digital recruitment)",
+      "source": "https://noticias.uol.com.br/eleicoes/2026/09/29/atlasbloomberg-lula-e-flavio-tem-empate-tecnico-no-2-turno.ghtm",
+      "verification": "secondary-result corroborated by TSE registration metadata",
+      "basis": "total respondents",
+      "lula": 47.6,
+      "flavio": 47.7,
+      "values": {
+        "lula": 47.6,
+        "flavio": 47.7
+      },
+      "responses": {
+        "blank_null_undecided": 4.8
+      },
+      "coverage": "complete",
+      "auditNote": "The TSE registry mirror lists a planned sample of 5,000; the published result reports 5,005 completed interviews. Published rounded categories sum to 100.1%.",
+      "scenario": "Lula vs Flavio Bolsonaro runoff",
+      "waveId": "AtlasIntel/Bloomberg|BR-04391/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-102"
+    },
+    {
+      "pollster": "Palver",
+      "start": "2026-09-24",
+      "end": "2026-09-27",
+      "published": "2026-09-29",
+      "sample": 5000,
+      "moe": 2.4,
+      "confidence": 95,
+      "registration": "BR-02990/2026",
+      "method": "Online survey recruited through social-media ads; raking calibration to official demographic, 2022 runoff vote and TSE party-affiliation targets",
+      "source": "https://www.palver.com.br/api/surveys/voting-intention-2026-september-w5/report",
+      "verification": "primary-report",
+      "basis": "total respondents",
+      "lula": 45,
+      "flavio": 47,
+      "values": {
+        "lula": 45,
+        "flavio": 47
+      },
+      "responses": {
+        "blank_null": 7,
+        "undecided": 1
+      },
+      "coverage": "complete",
+      "auditNote": "The Palver report and published result give fieldwork as 24-27 September; the TSE registry mirror lists 24-28 September.",
+      "scenario": "Lula vs Flavio Bolsonaro runoff",
+      "waveId": "Palver|BR-02990/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-103"
+    },
+    {
+      "pollster": "Vox Brasil",
+      "start": "2026-09-26",
+      "end": "2026-09-28",
+      "published": "2026-09-29",
+      "sample": 2100,
+      "moe": 2.15,
+      "confidence": 95,
+      "registration": "BR-00895/2026",
+      "method": "Face-to-face household interviews",
+      "source": "https://exame.com/brasil/pesquisa-vox-brasil-lula-tem-411-e-flavio-bolsonaro-378-no-1o-turno/",
+      "verification": "secondary-result corroborated by TSE registration metadata",
+      "basis": "total respondents",
+      "lula": 44.7,
+      "flavio": 45.2,
+      "values": {
+        "lula": 44.7,
+        "flavio": 45.2
+      },
+      "responses": {},
+      "coverage": "partial",
+      "auditNote": "The published article gives the two candidate totals but does not split the remaining 10.1% between blank/null/no-vote and undecided; those categories are left missing, not zero.",
+      "scenario": "Lula vs Flavio Bolsonaro runoff",
+      "waveId": "Vox Brasil|BR-00895/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-104"
+    },
+    {
+      "pollster": "Quaest",
+      "start": "2026-09-24",
+      "end": "2026-09-27",
+      "published": "2026-09-28",
+      "sample": 2004,
+      "moe": 2,
+      "confidence": 95,
+      "registration": "BR-06520/2026",
+      "method": "Face-to-face interviews with voters aged 16 and older",
+      "source": "https://noticias.uol.com.br/eleicoes/2026/09/28/quaest-pesquisa-presidencial.amp.htm",
+      "verification": "secondary-result corroborated by TSE registration metadata",
+      "basis": "total respondents",
+      "lula": 42,
+      "flavio": 42,
+      "values": {
+        "lula": 42,
+        "flavio": 42
+      },
+      "responses": {
+        "blank_null": 13,
+        "undecided": 3
+      },
+      "coverage": "complete",
+      "auditNote": "The result page reports all runoff categories and confirms institute, field dates, sample, margin, confidence and TSE registration.",
+      "scenario": "Lula vs Flavio Bolsonaro runoff",
+      "waveId": "Quaest|BR-06520/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-105"
     }
   ]
 }
