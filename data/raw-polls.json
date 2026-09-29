@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T13:18:44.813469Z",
+  "generatedAt": "2026-09-29T19:24:59.566Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -658,6 +658,45 @@
       "waveId": "Quaest|BR-06520/2026|R1",
       "round": 1,
       "id": "RAW-R1-020"
+    },
+    {
+      "pollster": "Gerp",
+      "start": "2026-09-24",
+      "end": "2026-09-28",
+      "published": "2026-09-29",
+      "sample": 2400,
+      "moe": 2,
+      "confidence": 95.55,
+      "registration": "BR-03929/2026",
+      "method": "Computer-assisted telephone interviewing (GerpCati)",
+      "source": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/PRESIDENCIA-DO-BRASIL-29a-Relatorio-Presidencia-2026-DIVULGACAO-2-1.pdf",
+      "verification": "primary-report",
+      "basis": "total respondents",
+      "values": {
+        "flavio": 42,
+        "lula": 40,
+        "cury": 5,
+        "caiado": 3,
+        "renan": 3,
+        "samara": 1,
+        "zema": 1,
+        "rui": 0,
+        "grassi": 0,
+        "edmilson": 0,
+        "hertz": 0,
+        "avalanche": 0,
+        "clariana": 0
+      },
+      "responses": {
+        "blank_null": 2,
+        "undecided": 3
+      },
+      "coverage": "complete",
+      "scenario": "Main stimulated first-round scenario",
+      "waveId": "Gerp|BR-03929/2026|R1",
+      "auditNote": "The institute report is embedded by CNN Brasil. Published first-round categories total 100%.",
+      "round": 1,
+      "id": "RAW-R1-021"
     },
     {
       "pollster": "Quaest",
@@ -6256,6 +6295,36 @@
       "waveId": "Quaest|BR-06520/2026|R2",
       "round": 2,
       "id": "RAW-R2-105"
+    },
+    {
+      "pollster": "Gerp",
+      "start": "2026-09-24",
+      "end": "2026-09-28",
+      "published": "2026-09-29",
+      "sample": 2400,
+      "moe": 2,
+      "confidence": 95.55,
+      "registration": "BR-03929/2026",
+      "method": "Computer-assisted telephone interviewing (GerpCati)",
+      "source": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/PRESIDENCIA-DO-BRASIL-29a-Relatorio-Presidencia-2026-DIVULGACAO-2-1.pdf",
+      "verification": "primary-report",
+      "basis": "total respondents",
+      "lula": 43,
+      "flavio": 50,
+      "values": {
+        "lula": 43,
+        "flavio": 50
+      },
+      "responses": {
+        "blank_null": 5,
+        "undecided": 1
+      },
+      "coverage": "complete",
+      "scenario": "Lula vs Flavio Bolsonaro runoff",
+      "waveId": "Gerp|BR-03929/2026|R2",
+      "auditNote": "Published rounded runoff categories total 99%.",
+      "round": 2,
+      "id": "RAW-R2-106"
     }
   ]
 }

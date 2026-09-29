@@ -1182,6 +1182,18 @@
    "source": "https://noticias.uol.com.br/eleicoes/2026/09/29/atlasbloomberg-lula-e-flavio-tem-empate-tecnico-no-2-turno.ghtm"
   },
   {
+   "pollster": "Gerp",
+   "start": "2026-09-24",
+   "end": "2026-09-28",
+   "published": "2026-09-29",
+   "lula": 43,
+   "flavio": 50,
+   "sample": 2400,
+   "moe": 2,
+   "registration": "BR-03929/2026",
+   "source": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/PRESIDENCIA-DO-BRASIL-29a-Relatorio-Presidencia-2026-DIVULGACAO-2-1.pdf"
+  },
+  {
    "pollster": "Palver",
    "start": "2026-09-24",
    "end": "2026-09-27",
