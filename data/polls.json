@@ -1218,6 +1218,30 @@
    "source": "https://exame.com/brasil/pesquisa-vox-brasil-lula-tem-411-e-flavio-bolsonaro-378-no-1o-turno/"
   },
   {
+   "pollster": "Futura/100% Cidades",
+   "start": "2026-09-25",
+   "end": "2026-09-29",
+   "published": "2026-09-30",
+   "lula": 43.5,
+   "flavio": 49,
+   "sample": 2000,
+   "moe": 2.2,
+   "registration": "BR-01122/2026",
+   "source": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Relatorio_BR_Setembro_4_2057fa.pdf"
+  },
+  {
+   "pollster": "Indexa/Broadcast",
+   "start": "2026-09-27",
+   "end": "2026-09-29",
+   "published": "2026-09-30",
+   "lula": 43,
+   "flavio": 42,
+   "sample": 2000,
+   "moe": 2.2,
+   "registration": "BR-00698/2026",
+   "source": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/09/Relatorio-Pesquisa-Nacional-6a-Rodada-Imprensa.pdf"
+  },
+  {
    "pollster": "Meio/Ideia",
    "start": "2026-09-25",
    "end": "2026-09-28",
