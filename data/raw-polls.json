@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T19:24:59.566Z",
+  "generatedAt": "2026-09-30T13:27:21.962Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -697,6 +697,45 @@
       "auditNote": "The institute report is embedded by CNN Brasil. Published first-round categories total 100%.",
       "round": 1,
       "id": "RAW-R1-021"
+    },
+    {
+      "pollster": "Meio/Ideia",
+      "start": "2026-09-25",
+      "end": "2026-09-28",
+      "published": "2026-09-30",
+      "sample": 2000,
+      "moe": 2.2,
+      "confidence": 95,
+      "registration": "BR-08706/2026",
+      "method": "Telephone survey using random digit dialing (RDD) and probability proportional to size (PPT)",
+      "source": "https://www.canalmeio.com.br/wp-content/uploads/2026/09/Pesquisa-Meio_Ideia-Setembro2.pdf",
+      "verification": "primary-report",
+      "basis": "total respondents",
+      "values": {
+        "lula": 39.4,
+        "flavio": 38.4,
+        "cury": 6.7,
+        "renan": 4.5,
+        "caiado": 4.4,
+        "zema": 3.5,
+        "samara": 0.4,
+        "clariana": 0.3,
+        "hertz": 0.3,
+        "grassi": 0.1,
+        "avalanche": 0.1,
+        "rui": 0.1,
+        "edmilson": 0.1
+      },
+      "responses": {
+        "blank_null": 0.7,
+        "undecided": 1.5
+      },
+      "coverage": "complete",
+      "scenario": "Main stimulated first-round scenario",
+      "waveId": "Meio/Ideia|BR-08706/2026|R1",
+      "auditNote": "Published rounded first-round categories sum to 100.5%.",
+      "round": 1,
+      "id": "RAW-R1-022"
     },
     {
       "pollster": "Quaest",
@@ -6325,6 +6364,36 @@
       "auditNote": "Published rounded runoff categories total 99%.",
       "round": 2,
       "id": "RAW-R2-106"
+    },
+    {
+      "pollster": "Meio/Ideia",
+      "start": "2026-09-25",
+      "end": "2026-09-28",
+      "published": "2026-09-30",
+      "sample": 2000,
+      "moe": 2.2,
+      "confidence": 95,
+      "registration": "BR-08706/2026",
+      "method": "Telephone survey using random digit dialing (RDD) and probability proportional to size (PPT)",
+      "source": "https://www.canalmeio.com.br/wp-content/uploads/2026/09/Pesquisa-Meio_Ideia-Setembro2.pdf",
+      "verification": "primary-report",
+      "basis": "total respondents",
+      "lula": 48.5,
+      "flavio": 48.0,
+      "values": {
+        "lula": 48.5,
+        "flavio": 48.0
+      },
+      "responses": {
+        "blank_null": 2.1,
+        "undecided": 1.5
+      },
+      "coverage": "complete",
+      "scenario": "Lula vs Flavio Bolsonaro runoff",
+      "waveId": "Meio/Ideia|BR-08706/2026|R2",
+      "auditNote": "Published rounded runoff categories sum to 100.1%.",
+      "round": 2,
+      "id": "RAW-R2-107"
     }
   ]
 }
