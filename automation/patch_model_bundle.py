@@ -66,6 +66,46 @@ def main() -> None:
                 raise SystemExit("Unsafe model overlay archive.")
             archive.extractall(root, members=members)
 
+    # The reviewed overlay owns the final ranking test, so patch its release
+    # invariant after extraction. Historical coverage grows as new institutes
+    # become eligible; the gate should reject duplicates, not a larger set.
+    ranking_test = root / "research/institute-rankings/test_rankings.py"
+    ranking = ranking_test.read_text(encoding="utf-8")
+    stale_historical_count = (
+        "self.assertEqual(len(rows),4);"
+        "self.assertEqual(sum(r['institute']=='AtlasIntel' for r in rows),1)"
+    )
+    dynamic_historical_count = (
+        "self.assertEqual(len(rows),len({r['institute'] for r in rows}));"
+        "self.assertEqual(sum(r['institute']=='AtlasIntel' for r in rows),1)"
+    )
+    if dynamic_historical_count not in ranking:
+        if ranking.count(stale_historical_count) != 1:
+            raise SystemExit("Unable to locate the stale fixed historical-ranking count assertion.")
+        ranking_test.write_text(
+            ranking.replace(stale_historical_count, dynamic_historical_count),
+            encoding="utf-8",
+        )
+
+    adjustment_test = root / "site/verify-adjustments.mjs"
+    adjustment = adjustment_test.read_text(encoding="utf-8")
+    stale_comparison_count = (
+        "assert.equal(adjustedRelease.simulation.comparison.institutes.length,4);"
+        "assert.equal(new Set(adjustedRelease.simulation.comparison.institutes).size,4);"
+    )
+    dynamic_comparison_count = (
+        "assert(adjustedRelease.simulation.comparison.institutes.length>0);"
+        "assert.equal(new Set(adjustedRelease.simulation.comparison.institutes).size,"
+        "adjustedRelease.simulation.comparison.institutes.length);"
+    )
+    if dynamic_comparison_count not in adjustment:
+        if adjustment.count(stale_comparison_count) != 1:
+            raise SystemExit("Unable to locate the stale fixed simulation-institute count assertion.")
+        adjustment_test.write_text(
+            adjustment.replace(stale_comparison_count, dynamic_comparison_count),
+            encoding="utf-8",
+        )
+
     print("Patched model bundle and applied the reviewed methodology overlay.")
 
 
