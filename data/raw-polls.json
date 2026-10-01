@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-30T19:28:22.912Z",
+  "generatedAt": "2026-10-01T13:33:38.218506Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -812,6 +812,39 @@
       "waveId": "Futura/100% Cidades|BR-01122/2026|R1",
       "round": 1,
       "id": "RAW-R1-024"
+    },
+    {
+      "pollster": "Real Time Big Data",
+      "start": "2026-09-26",
+      "end": "2026-09-30",
+      "published": "2026-10-01",
+      "sample": 2000,
+      "moe": 2,
+      "confidence": 95,
+      "registration": "BR-09503/2026",
+      "method": "Telephone interviews",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-lula-tem-43-no-1o-turno-flavio-39/",
+      "verification": "contracting-outlet-full-report",
+      "values": {
+        "lula": 43,
+        "flavio": 39,
+        "renan": 4,
+        "cury": 3,
+        "caiado": 3,
+        "zema": 1
+      },
+      "responses": {
+        "other_candidates": 1,
+        "blank_null": 3,
+        "undecided": 3
+      },
+      "coverage": "grouped",
+      "scenario": "Main stimulated first-round scenario",
+      "waveId": "Real Time Big Data|BR-09503/2026|R1",
+      "basis": "total respondents",
+      "auditNote": "CNN Brasil's first-round article embeds the full institute report; companion runoff result: https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-flavio-tem-46-no-2o-turno-lula-45/",
+      "round": 1,
+      "id": "RAW-R1-025"
     },
     {
       "pollster": "Quaest",
@@ -6529,6 +6562,36 @@
       "waveId": "Futura/100% Cidades|BR-01122/2026|R2",
       "round": 2,
       "id": "RAW-R2-109"
+    },
+    {
+      "pollster": "Real Time Big Data",
+      "start": "2026-09-26",
+      "end": "2026-09-30",
+      "published": "2026-10-01",
+      "sample": 2000,
+      "moe": 2,
+      "confidence": 95,
+      "registration": "BR-09503/2026",
+      "method": "Telephone interviews",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-lula-tem-43-no-1o-turno-flavio-39/",
+      "verification": "contracting-outlet-full-report",
+      "lula": 45,
+      "flavio": 46,
+      "values": {
+        "lula": 45,
+        "flavio": 46
+      },
+      "responses": {
+        "blank_null": 5,
+        "undecided": 4
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Real Time Big Data|BR-09503/2026|R2",
+      "basis": "total respondents",
+      "auditNote": "Runoff figures verified in CNN Brasil companion publication: https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-flavio-tem-46-no-2o-turno-lula-45/",
+      "round": 2,
+      "id": "RAW-R2-110"
     }
   ]
 }
