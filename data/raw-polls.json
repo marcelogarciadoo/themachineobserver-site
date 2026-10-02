@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T01:33:20.992288Z",
+  "generatedAt": "2026-10-02T07:33:47.180251Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -884,6 +884,44 @@
       "auditNote": "TSE registry lists fieldwork 2026-09-28 to 2026-10-01 and sample 2,506. The Folha article text says fieldwork began Tuesday 2026-09-29; CNN's summary reports 2,002 interviews. Registry and Folha's sample statement support 2,506, so registry metadata is used.",
       "round": 1,
       "id": "RAW-R1-026"
+    },
+    {
+      "pollster": "Vox Brasil",
+      "start": "2026-09-29",
+      "end": "2026-10-01",
+      "published": "2026-10-02",
+      "sample": 2100,
+      "moe": 2.15,
+      "confidence": 95,
+      "registration": "BR-00148/2026",
+      "method": "In-person household interviews",
+      "source": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/RELATORIO-VOX-BRASIL-NACIONAL-8-02-10-2026.pdf",
+      "verification": "primary-report",
+      "values": {
+        "flavio": 41.2,
+        "lula": 40.4,
+        "caiado": 3.3,
+        "renan": 2.2,
+        "zema": 1.3,
+        "cury": 1.2,
+        "edmilson": 0.2,
+        "grassi": 0,
+        "avalanche": 0,
+        "clariana": 0,
+        "rui": 0,
+        "hertz": 0,
+        "samara": 0
+      },
+      "responses": {
+        "blank_null": 3.2,
+        "undecided": 7
+      },
+      "coverage": "complete",
+      "scenario": "Main stimulated first-round scenario",
+      "waveId": "Vox Brasil|BR-00148/2026|R1",
+      "basis": "total respondents",
+      "round": 1,
+      "id": "RAW-R1-027"
     },
     {
       "pollster": "Quaest",
@@ -6661,6 +6699,35 @@
       "auditNote": "TSE registry lists fieldwork 2026-09-28 to 2026-10-01 and sample 2,506. The Folha article text says fieldwork began Tuesday 2026-09-29; CNN's summary reports 2,002 interviews. Registry and Folha's sample statement support 2,506, so registry metadata is used.",
       "round": 2,
       "id": "RAW-R2-111"
+    },
+    {
+      "pollster": "Vox Brasil",
+      "start": "2026-09-29",
+      "end": "2026-10-01",
+      "published": "2026-10-02",
+      "sample": 2100,
+      "moe": 2.15,
+      "confidence": 95,
+      "registration": "BR-00148/2026",
+      "method": "In-person household interviews",
+      "source": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/RELATORIO-VOX-BRASIL-NACIONAL-8-02-10-2026.pdf",
+      "verification": "primary-report",
+      "lula": 45.2,
+      "flavio": 48.2,
+      "values": {
+        "lula": 45.2,
+        "flavio": 48.2
+      },
+      "responses": {
+        "blank_null": 2.5,
+        "undecided": 4.1
+      },
+      "coverage": "complete",
+      "scenario": "Lula x Flavio Bolsonaro",
+      "waveId": "Vox Brasil|BR-00148/2026|R2",
+      "basis": "total respondents",
+      "round": 2,
+      "id": "RAW-R2-112"
     }
   ]
 }
