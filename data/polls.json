@@ -1254,6 +1254,18 @@
    "source": "https://www.canalmeio.com.br/wp-content/uploads/2026/09/Pesquisa-Meio_Ideia-Setembro2.pdf"
   },
   {
+   "pollster": "Datafolha",
+   "start": "2026-09-28",
+   "end": "2026-10-01",
+   "published": "2026-10-01",
+   "lula": 48,
+   "flavio": 45,
+   "sample": 2506,
+   "moe": 2,
+   "registration": "BR-08039/2026",
+   "source": "https://www1.folha.uol.com.br/poder/2026/10/datafolha-lula-tem-45-e-flavio-bolsonaro-40-em-votos-validos-no-1o-turno.shtml"
+  },
+  {
    "pollster": "Real Time Big Data",
    "start": "2026-09-26",
    "end": "2026-09-30",

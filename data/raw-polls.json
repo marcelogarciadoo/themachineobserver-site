@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-01T13:33:38.218506Z",
+  "generatedAt": "2026-10-02T01:33:20.992288Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -845,6 +845,45 @@
       "auditNote": "CNN Brasil's first-round article embeds the full institute report; companion runoff result: https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-flavio-tem-46-no-2o-turno-lula-45/",
       "round": 1,
       "id": "RAW-R1-025"
+    },
+    {
+      "pollster": "Datafolha",
+      "start": "2026-09-28",
+      "end": "2026-10-01",
+      "published": "2026-10-01",
+      "sample": 2506,
+      "moe": 2,
+      "confidence": 95,
+      "registration": "BR-08039/2026",
+      "method": "In-person interviews at population-flow points",
+      "source": "https://www1.folha.uol.com.br/poder/2026/10/datafolha-lula-tem-45-e-flavio-bolsonaro-40-em-votos-validos-no-1o-turno.shtml",
+      "verification": "contracting-outlet-report",
+      "values": {
+        "lula": 42,
+        "flavio": 38,
+        "cury": 4,
+        "caiado": 3,
+        "renan": 3,
+        "zema": 1,
+        "samara": 1,
+        "grassi": 1,
+        "edmilson": 0,
+        "rui": 0,
+        "avalanche": 0,
+        "clariana": 0,
+        "hertz": 0
+      },
+      "responses": {
+        "blank_null": 5,
+        "undecided": 2
+      },
+      "coverage": "complete",
+      "scenario": "Main stimulated first-round scenario",
+      "waveId": "Datafolha|BR-08039/2026|R1",
+      "basis": "total respondents",
+      "auditNote": "TSE registry lists fieldwork 2026-09-28 to 2026-10-01 and sample 2,506. The Folha article text says fieldwork began Tuesday 2026-09-29; CNN's summary reports 2,002 interviews. Registry and Folha's sample statement support 2,506, so registry metadata is used.",
+      "round": 1,
+      "id": "RAW-R1-026"
     },
     {
       "pollster": "Quaest",
@@ -6592,6 +6631,36 @@
       "auditNote": "Runoff figures verified in CNN Brasil companion publication: https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-flavio-tem-46-no-2o-turno-lula-45/",
       "round": 2,
       "id": "RAW-R2-110"
+    },
+    {
+      "pollster": "Datafolha",
+      "start": "2026-09-28",
+      "end": "2026-10-01",
+      "published": "2026-10-01",
+      "sample": 2506,
+      "moe": 2,
+      "confidence": 95,
+      "registration": "BR-08039/2026",
+      "method": "In-person interviews at population-flow points",
+      "source": "https://www1.folha.uol.com.br/poder/2026/10/datafolha-lula-tem-45-e-flavio-bolsonaro-40-em-votos-validos-no-1o-turno.shtml",
+      "verification": "contracting-outlet-report",
+      "lula": 48,
+      "flavio": 45,
+      "values": {
+        "lula": 48,
+        "flavio": 45
+      },
+      "responses": {
+        "blank_null": 6,
+        "undecided": 1
+      },
+      "coverage": "complete",
+      "scenario": "Lula x Flavio Bolsonaro",
+      "waveId": "Datafolha|BR-08039/2026|R2",
+      "basis": "total respondents",
+      "auditNote": "TSE registry lists fieldwork 2026-09-28 to 2026-10-01 and sample 2,506. The Folha article text says fieldwork began Tuesday 2026-09-29; CNN's summary reports 2,002 interviews. Registry and Folha's sample statement support 2,506, so registry metadata is used.",
+      "round": 2,
+      "id": "RAW-R2-111"
     }
   ]
 }
