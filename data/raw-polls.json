@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T13:38:29.686347Z",
+  "generatedAt": "2026-10-03T19:39:36.554996Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -961,6 +961,39 @@
       "auditNote": "Published rounded first-round categories sum to 99%.",
       "round": 1,
       "id": "RAW-R1-028"
+    },
+    {
+      "pollster": "CNT/MDA",
+      "start": "2026-09-29",
+      "end": "2026-10-02",
+      "published": "2026-10-03",
+      "sample": 2002,
+      "moe": 2.2,
+      "confidence": 95,
+      "registration": "BR-04756/2026",
+      "method": "Face-to-face interviews in households and flow points",
+      "source": "https://data.cnt.org.br/destaques/pesquisa-cnt-de-opiniao-171-rodada/",
+      "verification": "contracting-outlet result corroborated by TSE registration metadata",
+      "values": {
+        "lula": 43.1,
+        "flavio": 38,
+        "cury": 3.2,
+        "caiado": 3,
+        "renan": 1.5,
+        "zema": 0.8,
+        "other": 0.5
+      },
+      "responses": {
+        "blank_null": 4,
+        "undecided": 4.7
+      },
+      "coverage": "complete",
+      "scenario": "Main stimulated first-round scenario",
+      "waveId": "CNT/MDA|BR-04756/2026|R1",
+      "basis": "total respondents",
+      "auditNote": "The TSE registry lists 2,002 planned interviews and fieldwork from 29 September to 2 October; published coverage reports 2,007 interviews and sometimes gives the start as 30 September. Published rounded first-round categories sum to 98.8%, so the unexplained 1.2 points are left missing rather than assigned.",
+      "round": 1,
+      "id": "RAW-R1-029"
     },
     {
       "pollster": "Quaest",
@@ -6796,6 +6829,36 @@
       "basis": "total respondents",
       "round": 2,
       "id": "RAW-R2-113"
+    },
+    {
+      "pollster": "CNT/MDA",
+      "start": "2026-09-29",
+      "end": "2026-10-02",
+      "published": "2026-10-03",
+      "sample": 2002,
+      "moe": 2.2,
+      "confidence": 95,
+      "registration": "BR-04756/2026",
+      "method": "Face-to-face interviews in households and flow points",
+      "source": "https://data.cnt.org.br/destaques/pesquisa-cnt-de-opiniao-171-rodada/",
+      "verification": "contracting-outlet result corroborated by TSE registration metadata",
+      "lula": 47.3,
+      "flavio": 43.1,
+      "values": {
+        "lula": 47.3,
+        "flavio": 43.1
+      },
+      "responses": {
+        "blank_null": 7.6,
+        "undecided": 1.9
+      },
+      "coverage": "complete",
+      "scenario": "Lula x Flavio Bolsonaro",
+      "waveId": "CNT/MDA|BR-04756/2026|R2",
+      "basis": "total respondents",
+      "auditNote": "The TSE registry lists 2,002 planned interviews and fieldwork from 29 September to 2 October; published coverage reports 2,007 interviews and sometimes gives the start as 30 September.",
+      "round": 2,
+      "id": "RAW-R2-114"
     }
   ]
 }
