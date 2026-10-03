@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-02T07:33:47.180251Z",
+  "generatedAt": "2026-10-03T13:38:29.686347Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -922,6 +922,45 @@
       "basis": "total respondents",
       "round": 1,
       "id": "RAW-R1-027"
+    },
+    {
+      "pollster": "PoderData/Aya",
+      "start": "2026-09-30",
+      "end": "2026-10-02",
+      "published": "2026-10-03",
+      "sample": 4000,
+      "moe": 1.5,
+      "confidence": 95,
+      "registration": "BR-03519/2026",
+      "method": "Automated telephone interviews (IVR)",
+      "source": "https://admin.cnnbrasil.com.br/wp-content/uploads/2026/10/Relatorio-PoderData-Eleitoral-3out26.pdf",
+      "verification": "primary-report",
+      "values": {
+        "lula": 42,
+        "flavio": 41,
+        "cury": 3,
+        "renan": 3,
+        "caiado": 2,
+        "rui": 1,
+        "zema": 1,
+        "samara": 0,
+        "clariana": 0,
+        "avalanche": 0,
+        "hertz": 0,
+        "grassi": 0,
+        "edmilson": 0
+      },
+      "responses": {
+        "blank_null": 4,
+        "undecided": 2
+      },
+      "coverage": "complete",
+      "scenario": "Main stimulated first-round scenario",
+      "waveId": "PoderData/Aya|BR-03519/2026|R1",
+      "basis": "total respondents",
+      "auditNote": "Published rounded first-round categories sum to 99%.",
+      "round": 1,
+      "id": "RAW-R1-028"
     },
     {
       "pollster": "Quaest",
@@ -6728,6 +6767,35 @@
       "basis": "total respondents",
       "round": 2,
       "id": "RAW-R2-112"
+    },
+    {
+      "pollster": "PoderData/Aya",
+      "start": "2026-09-30",
+      "end": "2026-10-02",
+      "published": "2026-10-03",
+      "sample": 4000,
+      "moe": 1.5,
+      "confidence": 95,
+      "registration": "BR-03519/2026",
+      "method": "Automated telephone interviews (IVR)",
+      "source": "https://admin.cnnbrasil.com.br/wp-content/uploads/2026/10/Relatorio-PoderData-Eleitoral-3out26.pdf",
+      "verification": "primary-report",
+      "lula": 46,
+      "flavio": 46,
+      "values": {
+        "lula": 46,
+        "flavio": 46
+      },
+      "responses": {
+        "blank_null": 7,
+        "undecided": 1
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "PoderData/Aya|BR-03519/2026|R2",
+      "basis": "total respondents",
+      "round": 2,
+      "id": "RAW-R2-113"
     }
   ]
 }
