@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-04T07:37:09.810140Z",
+  "generatedAt": "2026-10-04T13:37:34.045640Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -1066,6 +1066,38 @@
       "auditNote": "Quaest also published a separate 46%-45% likely-voter valid-vote estimate. This record stores the documented total-respondent result (40%-38%), consistent with the site's raw-poll basis.",
       "round": 1,
       "id": "RAW-R1-031"
+    },
+    {
+      "pollster": "AtlasIntel/Bloomberg",
+      "start": "2026-09-27",
+      "end": "2026-10-02",
+      "published": "2026-10-03",
+      "sample": 4945,
+      "moe": 1,
+      "confidence": 95,
+      "registration": "BR-00999/2026",
+      "method": "Random Digital Recruitment (Atlas RDR) with iterative post-stratification",
+      "source": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-Atlas_Bloomberg-Nacional-261003.pdf",
+      "verification": "primary report, with total-response chart values independently transcribed by the publishing outlet",
+      "basis": "total respondents",
+      "values": {
+        "lula": 46.7,
+        "flavio": 43.8,
+        "renan": 4.6,
+        "cury": 2.1,
+        "caiado": 1.4,
+        "other": 0.9
+      },
+      "responses": {
+        "blank_null": 0.3,
+        "undecided": 0.3
+      },
+      "coverage": "complete",
+      "scenario": "Main stimulated first-round scenario",
+      "waveId": "AtlasIntel/Bloomberg|BR-00999/2026|R1",
+      "auditNote": "The TSE registration planned 5,000 interviews; the final primary report states 4,945 completed respondents. Published rounded categories sum to 100.1%. Total-response values were cross-checked against https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-470-dos-votos-validos-ante-441-de-flavio-diz-atlasintel/.",
+      "round": 1,
+      "id": "RAW-R1-032"
     },
     {
       "pollster": "Quaest",
@@ -6991,6 +7023,35 @@
       "auditNote": "The runoff is stored on the total-respondent basis; likely-voter valid-vote estimates are not substituted.",
       "round": 2,
       "id": "RAW-R2-116"
+    },
+    {
+      "pollster": "AtlasIntel/Bloomberg",
+      "start": "2026-09-27",
+      "end": "2026-10-02",
+      "published": "2026-10-03",
+      "sample": 4945,
+      "moe": 1,
+      "confidence": 95,
+      "registration": "BR-00999/2026",
+      "method": "Random Digital Recruitment (Atlas RDR) with iterative post-stratification",
+      "source": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-Atlas_Bloomberg-Nacional-261003.pdf",
+      "verification": "primary report, with total-response chart values independently transcribed by the publishing outlet",
+      "basis": "total respondents",
+      "lula": 47.6,
+      "flavio": 47.4,
+      "values": {
+        "lula": 47.6,
+        "flavio": 47.4
+      },
+      "responses": {
+        "blank_null_undecided": 5
+      },
+      "coverage": "complete",
+      "scenario": "Lula x Flavio Bolsonaro",
+      "waveId": "AtlasIntel/Bloomberg|BR-00999/2026|R2",
+      "auditNote": "The TSE registration planned 5,000 interviews; the final primary report states 4,945 completed respondents. Blank, null and undecided responses were published only as one grouped 5% category and are not split or imputed.",
+      "round": 2,
+      "id": "RAW-R2-117"
     }
   ]
 }

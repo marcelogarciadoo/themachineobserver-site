@@ -38,6 +38,34 @@
   {
    "registration": "BR-09465/2026",
    "reason": "State-level Santa Catarina survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-02318/2026",
+   "reason": "State-level Goias survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-02167/2026",
+   "reason": "State-level Mato Grosso survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-01487/2026",
+   "reason": "State-level survey designed for one federation unit; not a national presidential poll."
+  },
+  {
+   "registration": "BR-01023/2026",
+   "reason": "State-level Mato Grosso do Sul survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-02089/2026",
+   "reason": "State-level Espirito Santo survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-03703/2026",
+   "reason": "State-level Tocantins survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-04559/2026",
+   "reason": "State-level Rondonia survey; not a national presidential poll."
   }
  ],
  "polls": [
@@ -1325,6 +1353,18 @@
    "moe": 2.15,
    "registration": "BR-00148/2026",
    "source": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/RELATORIO-VOX-BRASIL-NACIONAL-8-02-10-2026.pdf"
+  },
+  {
+   "pollster": "AtlasIntel/Bloomberg",
+   "start": "2026-09-27",
+   "end": "2026-10-02",
+   "published": "2026-10-03",
+   "lula": 47.6,
+   "flavio": 47.4,
+   "sample": 4945,
+   "moe": 1,
+   "registration": "BR-00999/2026",
+   "source": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-Atlas_Bloomberg-Nacional-261003.pdf"
   },
   {
    "pollster": "CNT/MDA",
