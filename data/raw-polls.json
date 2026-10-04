@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-03T19:39:36.554996Z",
+  "generatedAt": "2026-10-04T01:42:42.104866Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -994,6 +994,78 @@
       "auditNote": "The TSE registry lists 2,002 planned interviews and fieldwork from 29 September to 2 October; published coverage reports 2,007 interviews and sometimes gives the start as 30 September. Published rounded first-round categories sum to 98.8%, so the unexplained 1.2 points are left missing rather than assigned.",
       "round": 1,
       "id": "RAW-R1-029"
+    },
+    {
+      "pollster": "Palver",
+      "start": "2026-09-30",
+      "end": "2026-10-03",
+      "published": "2026-10-03",
+      "sample": 5000,
+      "moe": 2.4,
+      "confidence": 95,
+      "registration": "BR-00198/2026",
+      "method": "Online survey recruited through social-media ads; raking calibration to official demographic, 2022 runoff-vote and TSE party-affiliation targets",
+      "source": "https://www.palver.com/api/surveys/voting-intention-2026-october-w6/report",
+      "verification": "primary report",
+      "values": {
+        "lula": 43,
+        "flavio": 47,
+        "renan": 7,
+        "cury": 1,
+        "caiado": 1,
+        "zema": 0,
+        "other": 0
+      },
+      "responses": {
+        "blank_null": 0,
+        "undecided": 0
+      },
+      "coverage": "complete",
+      "scenario": "Main stimulated first-round scenario",
+      "waveId": "Palver|BR-00198/2026|R1",
+      "basis": "total respondents",
+      "auditNote": "The primary press-release comparison table misprints the field end as 03/10/2027; the registration, report wave and publication establish 03/10/2026. Published rounded first-round categories sum to 99%.",
+      "round": 1,
+      "id": "RAW-R1-030"
+    },
+    {
+      "pollster": "Quaest",
+      "start": "2026-10-02",
+      "end": "2026-10-03",
+      "published": "2026-10-03",
+      "sample": 3702,
+      "moe": 2,
+      "confidence": 95,
+      "registration": "BR-02197/2026",
+      "method": "Face-to-face household interviews",
+      "source": "https://jc.uol.com.br/politica/2026/10/03/quaest-aponta-empate-tecnico-entre-lula-e-flavio-bolsonaro-na-vespera-da-eleicao.html",
+      "verification": "published national result corroborated by TSE registration metadata",
+      "values": {
+        "lula": 40,
+        "flavio": 38,
+        "caiado": 3,
+        "renan": 3,
+        "cury": 3,
+        "zema": 0,
+        "samara": 0,
+        "clariana": 0,
+        "edmilson": 0,
+        "hertz": 0,
+        "rui": 0,
+        "grassi": 0,
+        "avalanche": 0
+      },
+      "responses": {
+        "blank_null": 10,
+        "undecided": 3
+      },
+      "coverage": "complete",
+      "scenario": "Main stimulated first-round scenario",
+      "waveId": "Quaest|BR-02197/2026|R1",
+      "basis": "total respondents",
+      "auditNote": "Quaest also published a separate 46%-45% likely-voter valid-vote estimate. This record stores the documented total-respondent result (40%-38%), consistent with the site's raw-poll basis.",
+      "round": 1,
+      "id": "RAW-R1-031"
     },
     {
       "pollster": "Quaest",
@@ -6859,6 +6931,66 @@
       "auditNote": "The TSE registry lists 2,002 planned interviews and fieldwork from 29 September to 2 October; published coverage reports 2,007 interviews and sometimes gives the start as 30 September.",
       "round": 2,
       "id": "RAW-R2-114"
+    },
+    {
+      "pollster": "Palver",
+      "start": "2026-09-30",
+      "end": "2026-10-03",
+      "published": "2026-10-03",
+      "sample": 5000,
+      "moe": 2.4,
+      "confidence": 95,
+      "registration": "BR-00198/2026",
+      "method": "Online survey recruited through social-media ads; raking calibration to official demographic, 2022 runoff-vote and TSE party-affiliation targets",
+      "source": "https://www.palver.com/api/surveys/voting-intention-2026-october-w6/report",
+      "verification": "primary report",
+      "lula": 44,
+      "flavio": 49,
+      "values": {
+        "lula": 44,
+        "flavio": 49
+      },
+      "responses": {
+        "blank_null": 6,
+        "undecided": 1
+      },
+      "coverage": "complete",
+      "scenario": "Lula x Flavio Bolsonaro",
+      "waveId": "Palver|BR-00198/2026|R2",
+      "basis": "total respondents",
+      "auditNote": "The primary press-release comparison table misprints the field end as 03/10/2027; the registration, report wave and publication establish 03/10/2026.",
+      "round": 2,
+      "id": "RAW-R2-115"
+    },
+    {
+      "pollster": "Quaest",
+      "start": "2026-10-02",
+      "end": "2026-10-03",
+      "published": "2026-10-03",
+      "sample": 3702,
+      "moe": 2,
+      "confidence": 95,
+      "registration": "BR-02197/2026",
+      "method": "Face-to-face household interviews",
+      "source": "https://jc.uol.com.br/politica/2026/10/03/quaest-aponta-empate-tecnico-entre-lula-e-flavio-bolsonaro-na-vespera-da-eleicao.html",
+      "verification": "published national result corroborated by TSE registration metadata",
+      "lula": 42,
+      "flavio": 44,
+      "values": {
+        "lula": 42,
+        "flavio": 44
+      },
+      "responses": {
+        "blank_null": 13,
+        "undecided": 1
+      },
+      "coverage": "complete",
+      "scenario": "Lula x Flavio Bolsonaro",
+      "waveId": "Quaest|BR-02197/2026|R2",
+      "basis": "total respondents",
+      "auditNote": "The runoff is stored on the total-respondent basis; likely-voter valid-vote estimates are not substituted.",
+      "round": 2,
+      "id": "RAW-R2-116"
     }
   ]
 }
