@@ -66,6 +66,38 @@
   {
    "registration": "BR-04559/2026",
    "reason": "State-level Rondonia survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-09812/2026",
+   "reason": "District-level Distrito Federal survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-09756/2026",
+   "reason": "State-level Ceara survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-09668/2026",
+   "reason": "State-level Tocantins survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-09600/2026",
+   "reason": "State-level Sergipe survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-09385/2026",
+   "reason": "Regional Planalto Norte de Santa Catarina survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-08779/2026",
+   "reason": "State-level Espirito Santo survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-08300/2026",
+   "reason": "State-level Sao Paulo survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-08164/2026",
+   "reason": "State-level Para survey; not a national presidential poll."
   }
  ],
  "polls": [
