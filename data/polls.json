@@ -130,6 +130,38 @@
   {
    "registration": "BR-07121/2026",
    "reason": "Municipal Jundiai, Sao Paulo survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-07092/2026",
+   "reason": "State-level Paraiba survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-07025/2026",
+   "reason": "State-level Sao Paulo survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-06929/2026",
+   "reason": "State-level Rio Grande do Sul survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-06707/2026",
+   "reason": "State-level Maranhao survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-06469/2026",
+   "reason": "State-level Ceara survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-06423/2026",
+   "reason": "State-level Para survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-06245/2026",
+   "reason": "State-level Piaui survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-06091/2026",
+   "reason": "State-level Parana survey; not a national presidential poll."
   }
  ],
  "polls": [
