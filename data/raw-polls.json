@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-05T07:41:54.098378Z",
+  "generatedAt": "2026-10-05T13:44:28.467786Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -1098,6 +1098,45 @@
       "auditNote": "The TSE registration planned 5,000 interviews; the final primary report states 4,945 completed respondents. Published rounded categories sum to 100.1%. Total-response values were cross-checked against https://www.poder360.com.br/poder-eleicoes-2026/lula-tem-470-dos-votos-validos-ante-441-de-flavio-diz-atlasintel/.",
       "round": 1,
       "id": "RAW-R1-032"
+    },
+    {
+      "pollster": "Datafolha",
+      "start": "2026-10-02",
+      "end": "2026-10-03",
+      "published": "2026-10-04",
+      "sample": 4006,
+      "moe": 2,
+      "confidence": 95,
+      "registration": "BR-01708/2026",
+      "method": "Face-to-face quantitative survey using a structured questionnaire at population-flow points in 122 municipalities",
+      "source": "https://media.folha.uol.com.br/datafolha/2026/10/04/clhx3ko6h42kpfw2vumafq.pdf",
+      "verification": "primary institute report",
+      "basis": "total respondents",
+      "coverage": "complete",
+      "values": {
+        "lula": 42,
+        "flavio": 40,
+        "caiado": 4,
+        "cury": 3,
+        "renan": 3,
+        "zema": 0,
+        "samara": 0,
+        "rui": 0,
+        "clariana": 0,
+        "edmilson": 0,
+        "wilson": 0,
+        "leonardo": 0,
+        "hertz": 0
+      },
+      "responses": {
+        "blank_null": 4,
+        "undecided": 3
+      },
+      "scenario": "Main stimulated first-round scenario",
+      "waveId": "Datafolha|BR-01708/2026|R1",
+      "auditNote": "The TSE mirror lists disclosure date 2026-10-03; Datafolha published the full report on 2026-10-04. Rounded published categories sum to 99%.",
+      "round": 1,
+      "id": "RAW-R1-033"
     },
     {
       "pollster": "Quaest",
@@ -7052,6 +7091,36 @@
       "auditNote": "The TSE registration planned 5,000 interviews; the final primary report states 4,945 completed respondents. Blank, null and undecided responses were published only as one grouped 5% category and are not split or imputed.",
       "round": 2,
       "id": "RAW-R2-117"
+    },
+    {
+      "pollster": "Datafolha",
+      "start": "2026-10-02",
+      "end": "2026-10-03",
+      "published": "2026-10-04",
+      "sample": 4006,
+      "moe": 2,
+      "confidence": 95,
+      "registration": "BR-01708/2026",
+      "method": "Face-to-face quantitative survey using a structured questionnaire at population-flow points in 122 municipalities",
+      "source": "https://media.folha.uol.com.br/datafolha/2026/10/04/clhx3ko6h42kpfw2vumafq.pdf",
+      "verification": "primary institute report",
+      "basis": "total respondents",
+      "coverage": "complete",
+      "lula": 47,
+      "flavio": 46,
+      "values": {
+        "lula": 47,
+        "flavio": 46
+      },
+      "responses": {
+        "blank_null": 6,
+        "undecided": 2
+      },
+      "scenario": "Lula x Flavio Bolsonaro",
+      "waveId": "Datafolha|BR-01708/2026|R2",
+      "auditNote": "The TSE mirror lists disclosure date 2026-10-03; Datafolha published the full report on 2026-10-04. Rounded published categories sum to 101%.",
+      "round": 2,
+      "id": "RAW-R2-118"
     }
   ]
 }

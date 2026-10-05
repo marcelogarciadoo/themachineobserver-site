@@ -162,6 +162,34 @@
   {
    "registration": "BR-06091/2026",
    "reason": "State-level Parana survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-05847/2026",
+   "reason": "District-level Distrito Federal survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-05846/2026",
+   "reason": "State-level Piaui survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-05720/2026",
+   "reason": "State-level Amapa survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-05661/2026",
+   "reason": "District-level Distrito Federal survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-05588/2026",
+   "reason": "State-level Maranhao survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-05471/2026",
+   "reason": "State-level Sergipe survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-05406/2026",
+   "reason": "State-level Rio Grande do Norte survey; not a national presidential poll."
   }
  ],
  "polls": [
@@ -1509,6 +1537,18 @@
    "moe": 2,
    "registration": "BR-02197/2026",
    "source": "https://jc.uol.com.br/politica/2026/10/03/quaest-aponta-empate-tecnico-entre-lula-e-flavio-bolsonaro-na-vespera-da-eleicao.html"
+  },
+  {
+   "pollster": "Datafolha",
+   "start": "2026-10-02",
+   "end": "2026-10-03",
+   "published": "2026-10-04",
+   "lula": 47,
+   "flavio": 46,
+   "sample": 4006,
+   "moe": 2,
+   "registration": "BR-01708/2026",
+   "source": "https://media.folha.uol.com.br/datafolha/2026/10/04/clhx3ko6h42kpfw2vumafq.pdf"
   }
  ]
 }
