@@ -298,6 +298,30 @@
   {
    "registration": "BR-09999/2026",
    "reason": "State-level Sao Paulo survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-05946/2026",
+   "reason": "State-level Goias survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-08027/2026",
+   "reason": "State-level Amapa survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-08474/2026",
+   "reason": "Regional Baixada Santista survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-02981/2026",
+   "reason": "State-level Bahia survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-09128/2026",
+   "reason": "State-level Parana survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-01974/2026",
+   "reason": "State-level Rio Grande do Norte survey; not a national presidential poll."
   }
  ],
  "polls": [
@@ -1573,6 +1597,18 @@
    "moe": 2,
    "registration": "BR-09503/2026",
    "source": "https://www.cnnbrasil.com.br/eleicoes/real-time-big-data-lula-tem-43-no-1o-turno-flavio-39/"
+  },
+  {
+   "pollster": "DataTrends",
+   "start": "2026-09-28",
+   "end": "2026-09-30",
+   "published": "2026-10-02",
+   "lula": 45,
+   "flavio": 45,
+   "sample": 2000,
+   "moe": 2.19,
+   "registration": "BR-04414/2026",
+   "source": "https://institutodatatrends.com/pesquisas/62533/lula-tem-41-e-flavio-bolsonaro-39-na-reta-final-da-disputa-presidencial"
   },
   {
    "pollster": "Vox Brasil",

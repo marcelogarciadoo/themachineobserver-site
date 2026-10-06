@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-06T13:46:28.137878Z",
+  "generatedAt": "2026-10-06T19:48:08.046149Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -1175,6 +1175,38 @@
       "auditNote": "The TSE registry lists planned fieldwork from 2026-09-29 to 2026-10-03; the published primary report documents actual fieldwork from 2026-10-02 to 2026-10-03, which is used here.",
       "round": 1,
       "id": "RAW-R1-034"
+    },
+    {
+      "pollster": "DataTrends",
+      "start": "2026-09-28",
+      "end": "2026-09-30",
+      "published": "2026-10-02",
+      "sample": 2000,
+      "moe": 2.19,
+      "confidence": 95,
+      "registration": "BR-04414/2026",
+      "method": "Automated telephone survey (IVR) with a structured questionnaire and national coverage",
+      "source": "https://institutodatatrends.com/pesquisas/62533/lula-tem-41-e-flavio-bolsonaro-39-na-reta-final-da-disputa-presidencial",
+      "verification": "primary institute report",
+      "basis": "total respondents",
+      "coverage": "partial",
+      "values": {
+        "lula": 41,
+        "flavio": 39,
+        "cury": 4,
+        "renan": 4,
+        "caiado": 3,
+        "zema": 1
+      },
+      "responses": {
+        "blank_null": 4,
+        "undecided": 4
+      },
+      "scenario": "Main stimulated first-round scenario",
+      "waveId": "DataTrends|BR-04414/2026|R1",
+      "auditNote": "The primary institute release reports 2,000 interviews, while the TSE registry lists a planned sample of 1,200 for BR-04414/2026. The published figure is stored and the discrepancy is explicitly preserved. The institute page is dated 2026-10-03 but states the poll was released on Friday, 2026-10-02, matching the TSE disclosure date. Candidates described only as below 1% are left missing rather than assigned zero.",
+      "round": 1,
+      "id": "RAW-R1-035"
     },
     {
       "pollster": "Quaest",
@@ -7189,6 +7221,36 @@
       "auditNote": "The TSE registry lists planned fieldwork from 2026-09-29 to 2026-10-03; the published primary report documents actual fieldwork from 2026-10-02 to 2026-10-03, which is used here.",
       "round": 2,
       "id": "RAW-R2-119"
+    },
+    {
+      "pollster": "DataTrends",
+      "start": "2026-09-28",
+      "end": "2026-09-30",
+      "published": "2026-10-02",
+      "sample": 2000,
+      "moe": 2.19,
+      "confidence": 95,
+      "registration": "BR-04414/2026",
+      "method": "Automated telephone survey (IVR) with a structured questionnaire and national coverage",
+      "source": "https://institutodatatrends.com/pesquisas/62533/lula-tem-41-e-flavio-bolsonaro-39-na-reta-final-da-disputa-presidencial",
+      "verification": "primary institute report",
+      "basis": "total respondents",
+      "coverage": "complete",
+      "lula": 45,
+      "flavio": 45,
+      "values": {
+        "lula": 45,
+        "flavio": 45
+      },
+      "responses": {
+        "blank_null": 7,
+        "undecided": 3
+      },
+      "scenario": "Lula x Flavio Bolsonaro",
+      "waveId": "DataTrends|BR-04414/2026|R2",
+      "auditNote": "The primary institute release reports 2,000 interviews, while the TSE registry lists a planned sample of 1,200 for BR-04414/2026. The published figure is stored and the discrepancy is explicitly preserved. The institute page is dated 2026-10-03 but states the poll was released on Friday, 2026-10-02, matching the TSE disclosure date.",
+      "round": 2,
+      "id": "RAW-R2-120"
     }
   ]
 }
