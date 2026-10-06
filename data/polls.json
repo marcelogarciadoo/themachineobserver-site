@@ -246,6 +246,30 @@
   {
    "registration": "BR-02628/2026",
    "reason": "State-level Rio Grande do Sul survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-02478/2026",
+   "reason": "State-level Rio Grande do Norte survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-02454/2026",
+   "reason": "State-level Pernambuco survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-02298/2026",
+   "reason": "State-level Amapa survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-01993/2026",
+   "reason": "State-level Piaui survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-01814/2026",
+   "reason": "Municipal Macaparana, Pernambuco survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-01717/2026",
+   "reason": "State-level Roraima survey; not a national presidential poll."
   }
  ],
  "polls": [
@@ -1557,6 +1581,18 @@
    "moe": 2.2,
    "registration": "BR-04756/2026",
    "source": "https://data.cnt.org.br/destaques/pesquisa-cnt-de-opiniao-171-rodada/"
+  },
+  {
+   "pollster": "Futura/100% Cidades",
+   "start": "2026-10-02",
+   "end": "2026-10-03",
+   "published": "2026-10-03",
+   "lula": 45.1,
+   "flavio": 48,
+   "sample": 2000,
+   "moe": 2.2,
+   "registration": "BR-02431/2026",
+   "source": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Relatorio_Tracking_Nacional_1_Turno_Final_Votos_Validos-3.pdf"
   },
   {
    "pollster": "Palver",

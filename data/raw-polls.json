@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-06T01:46:01.153618Z",
+  "generatedAt": "2026-10-06T07:52:21.430894Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -1137,6 +1137,44 @@
       "auditNote": "The TSE mirror lists disclosure date 2026-10-03; Datafolha published the full report on 2026-10-04. Rounded published categories sum to 99%.",
       "round": 1,
       "id": "RAW-R1-033"
+    },
+    {
+      "pollster": "Futura/100% Cidades",
+      "start": "2026-10-02",
+      "end": "2026-10-03",
+      "published": "2026-10-03",
+      "sample": 2000,
+      "moe": 2.2,
+      "confidence": 95,
+      "registration": "BR-02431/2026",
+      "method": "CATI telephone survey with a structured questionnaire and national quota sampling",
+      "source": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Relatorio_Tracking_Nacional_1_Turno_Final_Votos_Validos-3.pdf",
+      "verification": "primary institute report",
+      "basis": "total respondents",
+      "coverage": "complete",
+      "values": {
+        "lula": 40.5,
+        "flavio": 42.5,
+        "cury": 3.9,
+        "caiado": 3.7,
+        "renan": 2.6,
+        "zema": 0.8,
+        "samara": 0.4,
+        "edmilson": 0.2,
+        "rui": 0.1,
+        "clariana": 0.1,
+        "wilson": 0.1,
+        "hertz": 0.1
+      },
+      "responses": {
+        "blank_null": 2.6,
+        "undecided": 2.4
+      },
+      "scenario": "Main stimulated first-round scenario",
+      "waveId": "Futura/100% Cidades|BR-02431/2026|R1",
+      "auditNote": "The TSE registry lists planned fieldwork from 2026-09-29 to 2026-10-03; the published primary report documents actual fieldwork from 2026-10-02 to 2026-10-03, which is used here.",
+      "round": 1,
+      "id": "RAW-R1-034"
     },
     {
       "pollster": "Quaest",
@@ -7121,6 +7159,36 @@
       "auditNote": "The TSE mirror lists disclosure date 2026-10-03; Datafolha published the full report on 2026-10-04. Rounded published categories sum to 101%.",
       "round": 2,
       "id": "RAW-R2-118"
+    },
+    {
+      "pollster": "Futura/100% Cidades",
+      "start": "2026-10-02",
+      "end": "2026-10-03",
+      "published": "2026-10-03",
+      "sample": 2000,
+      "moe": 2.2,
+      "confidence": 95,
+      "registration": "BR-02431/2026",
+      "method": "CATI telephone survey with a structured questionnaire and national quota sampling",
+      "source": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Relatorio_Tracking_Nacional_1_Turno_Final_Votos_Validos-3.pdf",
+      "verification": "primary institute report",
+      "basis": "total respondents",
+      "coverage": "complete",
+      "lula": 45.1,
+      "flavio": 48,
+      "values": {
+        "lula": 45.1,
+        "flavio": 48
+      },
+      "responses": {
+        "blank_null": 5.7,
+        "undecided": 1.2
+      },
+      "scenario": "Lula x Flavio Bolsonaro",
+      "waveId": "Futura/100% Cidades|BR-02431/2026|R2",
+      "auditNote": "The TSE registry lists planned fieldwork from 2026-09-29 to 2026-10-03; the published primary report documents actual fieldwork from 2026-10-02 to 2026-10-03, which is used here.",
+      "round": 2,
+      "id": "RAW-R2-119"
     }
   ]
 }
