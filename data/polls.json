@@ -270,6 +270,34 @@
   {
    "registration": "BR-01717/2026",
    "reason": "State-level Roraima survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-01177/2026",
+   "reason": "State-level Bahia survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-01068/2026",
+   "reason": "State-level Minas Gerais survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-00886/2026",
+   "reason": "State-level Bahia survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-00600/2026",
+   "reason": "State-level Parana survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-00437/2026",
+   "reason": "State-level Rio de Janeiro survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-00261/2026",
+   "reason": "State-level Santa Catarina survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-09999/2026",
+   "reason": "State-level Sao Paulo survey; not a national presidential poll."
   }
  ],
  "polls": [
