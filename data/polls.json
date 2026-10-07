@@ -406,6 +406,30 @@
   {
    "registration": "BR-04670/2026",
    "reason": "State-level Alagoas survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-04666/2026",
+   "reason": "State-level Piaui survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-04390/2026",
+   "reason": "State-level Paraiba survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-04074/2026",
+   "reason": "Municipal Santos, Sao Paulo survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-03535/2026",
+   "reason": "Municipal Planaltina, Goias survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-03463/2026",
+   "reason": "State-level Rio Grande do Norte survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-02312/2026",
+   "reason": "State-level Tocantins survey; not a national presidential poll."
   }
  ],
  "polls": [
