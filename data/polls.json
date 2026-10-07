@@ -322,6 +322,34 @@
   {
    "registration": "BR-01974/2026",
    "reason": "State-level Rio Grande do Norte survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-02268/2026",
+   "reason": "State-level Acre survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-07864/2026",
+   "reason": "State-level Goias survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-08274/2026",
+   "reason": "District-level Distrito Federal survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-08782/2026",
+   "reason": "State-level Ceara survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-01892/2026",
+   "reason": "State-level Paraiba survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-07086/2026",
+   "reason": "Municipal Caico, Rio Grande do Norte survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-04252/2026",
+   "reason": "State-level Alagoas survey; not a national presidential poll."
   }
  ],
  "polls": [
