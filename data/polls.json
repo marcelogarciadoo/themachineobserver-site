@@ -378,6 +378,34 @@
   {
    "registration": "BR-09608/2026",
    "reason": "Municipal Formosa, Goias survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-09847/2026",
+   "reason": "State-level Para survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-09649/2026",
+   "reason": "State-level Alagoas survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-08748/2026",
+   "reason": "Municipal Natal, Rio Grande do Norte survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-08646/2026",
+   "reason": "State-level Sao Paulo survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-05362/2026",
+   "reason": "State-level Minas Gerais survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-05342/2026",
+   "reason": "State-level Amazonas survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-04670/2026",
+   "reason": "State-level Alagoas survey; not a national presidential poll."
   }
  ],
  "polls": [
