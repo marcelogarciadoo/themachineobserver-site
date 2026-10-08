@@ -430,6 +430,30 @@
   {
    "registration": "BR-02312/2026",
    "reason": "State-level Tocantins survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-02068/2026",
+   "reason": "State-level Mato Grosso do Sul survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-01448/2026",
+   "reason": "District Federal survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-01346/2026",
+   "reason": "State-level Espirito Santo survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-00731/2026",
+   "reason": "State-level Bahia survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-00001/2026",
+   "reason": "State-level Espirito Santo survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-09852/2026",
+   "reason": "State-level Rio Grande do Norte survey; not a national presidential poll."
   }
  ],
  "polls": [
@@ -1765,6 +1789,18 @@
    "moe": 2.2,
    "registration": "BR-02431/2026",
    "source": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Relatorio_Tracking_Nacional_1_Turno_Final_Votos_Validos-3.pdf"
+  },
+  {
+   "pollster": "Instituto França",
+   "start": "2026-09-28",
+   "end": "2026-10-02",
+   "published": "2026-10-03",
+   "lula": 45.88,
+   "flavio": 45.01,
+   "sample": 2000,
+   "moe": 2.2,
+   "registration": "BR-02928/2026",
+   "source": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-Franca_Brasil_Presidente_1o-turno.pdf"
   },
   {
    "pollster": "Palver",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-07T19:47:27.333775Z",
+  "generatedAt": "2026-10-08T01:49:09.331963Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -1207,6 +1207,45 @@
       "auditNote": "The primary institute release reports 2,000 interviews, while the TSE registry lists a planned sample of 1,200 for BR-04414/2026. The published figure is stored and the discrepancy is explicitly preserved. The institute page is dated 2026-10-03 but states the poll was released on Friday, 2026-10-02, matching the TSE disclosure date. Candidates described only as below 1% are left missing rather than assigned zero.",
       "round": 1,
       "id": "RAW-R1-035"
+    },
+    {
+      "pollster": "Instituto França",
+      "start": "2026-09-28",
+      "end": "2026-10-02",
+      "published": "2026-10-03",
+      "sample": 2000,
+      "moe": 2.2,
+      "confidence": 95,
+      "registration": "BR-02928/2026",
+      "method": "Telephone survey (CATI) with a structured questionnaire and national coverage",
+      "source": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-Franca_Brasil_Presidente_1o-turno.pdf",
+      "verification": "primary institute report",
+      "basis": "total respondents",
+      "auditNote": "The primary report and TSE registration agree on institute, national scope, field dates, sample size, registration, margin of error and confidence. The registry mirror classifies scope as unknown, but the registered methodology and the primary report explicitly state national coverage. Percentages are stored over total respondents.",
+      "coverage": "complete",
+      "values": {
+        "lula": 40.62,
+        "flavio": 37.49,
+        "cury": 4.52,
+        "caiado": 3.47,
+        "renan": 3.22,
+        "zema": 1.19,
+        "samara": 0.68,
+        "grassi": 0.41,
+        "clariana": 0.28,
+        "rui": 0.21,
+        "hertz": 0.18,
+        "avalanche": 0.17,
+        "edmilson": 0.12
+      },
+      "responses": {
+        "blank_null": 2.25,
+        "undecided": 5.19
+      },
+      "scenario": "Main stimulated first-round scenario with all candidates",
+      "waveId": "Instituto França|BR-02928/2026|R1",
+      "round": 1,
+      "id": "RAW-R1-036"
     },
     {
       "pollster": "Quaest",
@@ -7251,6 +7290,36 @@
       "auditNote": "The primary institute release reports 2,000 interviews, while the TSE registry lists a planned sample of 1,200 for BR-04414/2026. The published figure is stored and the discrepancy is explicitly preserved. The institute page is dated 2026-10-03 but states the poll was released on Friday, 2026-10-02, matching the TSE disclosure date.",
       "round": 2,
       "id": "RAW-R2-120"
+    },
+    {
+      "pollster": "Instituto França",
+      "start": "2026-09-28",
+      "end": "2026-10-02",
+      "published": "2026-10-03",
+      "sample": 2000,
+      "moe": 2.2,
+      "confidence": 95,
+      "registration": "BR-02928/2026",
+      "method": "Telephone survey (CATI) with a structured questionnaire and national coverage",
+      "source": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-Franca_Brasil_Presidente_1o-turno.pdf",
+      "verification": "primary institute report",
+      "basis": "total respondents",
+      "auditNote": "The primary report and TSE registration agree on institute, national scope, field dates, sample size, registration, margin of error and confidence. The registry mirror classifies scope as unknown, but the registered methodology and the primary report explicitly state national coverage. Percentages are stored over total respondents.",
+      "coverage": "complete",
+      "lula": 45.88,
+      "flavio": 45.01,
+      "values": {
+        "lula": 45.88,
+        "flavio": 45.01
+      },
+      "responses": {
+        "blank_null": 3.54,
+        "undecided": 5.57
+      },
+      "scenario": "Lula x Flávio Bolsonaro",
+      "waveId": "Instituto França|BR-02928/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-121"
     }
   ]
 }
