@@ -73,18 +73,18 @@ def main() -> None:
     adopter_file = root / "site/adopt-runtime-raw.mjs"
     adopter = adopter_file.read_text(encoding="utf-8")
     strict_adopter_pairing = (
-        "if(first.length!==runoff.length)throw Error(\`Unpaired runtime feed: \${first.length} first-round, \${runoff.length} runoff\`);\\n"
-        "const key=row=>\`\${row.pollster}|\${row.registration||row.end}\`;\\n"
-        "const firstKeys=new Set(first.map(key));\\n"
-        "for(const row of runoff)if(!firstKeys.has(key(row)))throw Error(\`Missing first-round pair for \${row.registration}\`);\\n"
+        "if(first.length!==runoff.length)throw Error(`Unpaired runtime feed: ${first.length} first-round, ${runoff.length} runoff`);\n"
+        "const key=row=>`${row.pollster}|${row.registration||row.end}`;\n"
+        "const firstKeys=new Set(first.map(key));\n"
+        "for(const row of runoff)if(!firstKeys.has(key(row)))throw Error(`Missing first-round pair for ${row.registration}`);\n"
     )
     if strict_adopter_pairing in adopter:
         adopter = adopter.replace(strict_adopter_pairing, "", 1)
     elif "Unpaired runtime feed" in adopter or "Missing first-round pair" in adopter:
         raise SystemExit("Unable to relax the runtime adopter paired-round validation.")
     adopter = adopter.replace(
-        "console.log(\`Adopted \${first.length} paired waves from the runtime feed.\`);",
-        "console.log(\`Adopted \${first.length} first-round and \${runoff.length} runoff records from the runtime feed.\`);",
+        "console.log(`Adopted ${first.length} paired waves from the runtime feed.`);",
+        "console.log(`Adopted ${first.length} first-round and ${runoff.length} runoff records from the runtime feed.`);",
     )
     adopter_file.write_text(adopter, encoding="utf-8")
 
