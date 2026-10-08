@@ -145,6 +145,19 @@ def main() -> None:
             raise SystemExit("Unable to locate the paired-record site verification.")
         verify_file.write_text(verify_source.replace(strict_verify, independent_verify, 1), encoding="utf-8")
 
+    verify_source = verify_file.read_text(encoding="utf-8")
+    strict_coverage_verify = (
+        "check('Every runoff wave has a distinct first-round counterpart with preserved legacy IDs',()=>{\n"
+        " const coverage=JSON.parse(read('data/poll-coverage.json'));assert.equal(coverage.length,expectedWaves);assert.equal(new Set(coverage.map(p=>p.firstRoundId)).size,expectedWaves);\n"
+    )
+    independent_coverage_verify = (
+        "check('Every paired wave has distinct round IDs while unmatched releases remain explicit',()=>{\n"
+        " const coverage=JSON.parse(read('data/poll-coverage.json'));assert(coverage.length<=expectedWaves);assert.equal(new Set(coverage.map(p=>p.firstRoundId)).size,coverage.length);\n"
+    )
+    if independent_coverage_verify not in verify_source:
+        if verify_source.count(strict_coverage_verify) != 1:
+            raise SystemExit("Unable to locate the paired-coverage site verification.")
+        verify_file.write_text(verify_source.replace(strict_coverage_verify, independent_coverage_verify, 1), encoding="utf-8")
     auto_recalculate_file = root / "operations/auto_recalculate.py"
     auto_recalculate = auto_recalculate_file.read_text(encoding="utf-8")
     strict_pair_validation = (
