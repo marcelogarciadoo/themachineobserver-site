@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Atomically add verified poll waves to both Observer raw feeds.
+"""Atomically add or verify poll releases in the Observer raw feeds.
 
 The research worker supplies a JSON payload. This command validates the full
 result before replacing either file; Git then publishes both files in one
@@ -104,6 +104,12 @@ def validate_record(record: dict[str, Any], expected_round: int | None = None) -
         match = EXISTING_ID_RE.fullmatch(str(record_id))
         if not match or int(match.group(1)) != round_number:
             raise ValidationError(f"invalid record id for round {round_number}: {record_id!r}")
+    if record.get("verification") == "provisional-source":
+        audit_note = record.get("auditNote")
+        if not isinstance(audit_note, str) or not audit_note.startswith("PROVISIONAL —"):
+            raise ValidationError(
+                "provisional records require an auditNote beginning with 'PROVISIONAL —'"
+            )
 
 
 def next_id(records: list[dict[str, Any]], round_number: int) -> str:
@@ -128,7 +134,7 @@ def insert_raw_record(records: list[dict[str, Any]], record: dict[str, Any]) -> 
 
 
 def legacy_from_round2(record: dict[str, Any]) -> dict[str, Any]:
-    return {
+    legacy = {
         key: record[key]
         for key in (
             "pollster",
@@ -143,6 +149,10 @@ def legacy_from_round2(record: dict[str, Any]) -> dict[str, Any]:
             "source",
         )
     }
+    for key in ("verification", "auditNote"):
+        if key in record:
+            legacy[key] = record[key]
+    return legacy
 
 
 def validate_feeds(raw: dict[str, Any], legacy: dict[str, Any]) -> None:
@@ -207,22 +217,65 @@ def build_update(
         raise ValidationError("payload must contain non-empty waves and/or ignored arrays")
     records = raw["records"]
     existing_ids = {record.get("id") for record in records}
-    existing_round_registration = {
-        (record.get("round"), record.get("registration")) for record in records
+    records_by_round_registration = {
+        (record.get("round"), record.get("registration")): record for record in records
     }
     added_waves = 0
 
     for wave in waves:
         if not isinstance(wave, dict):
             raise ValidationError("each wave must be an object")
-        round1 = wave.get("round1")
-        round2 = wave.get("round2")
-        if not isinstance(round1, dict) or not isinstance(round2, dict):
-            raise ValidationError("each wave requires round1 and round2 objects")
-        round1 = dict(round1)
-        round2 = dict(round2)
-        for number, record in ((1, round1), (2, round2)):
+        supplied = []
+        for number, name in ((1, "round1"), (2, "round2")):
+            value = wave.get(name)
+            if value is None:
+                continue
+            if not isinstance(value, dict):
+                raise ValidationError(f"{name} must be an object when supplied")
+            supplied.append((number, dict(value)))
+        if not supplied:
+            raise ValidationError("each wave requires round1 and/or round2")
+        if len(supplied) == 2:
+            round1, round2 = supplied[0][1], supplied[1][1]
+            shared = (
+                "registration",
+                "pollster",
+                "start",
+                "end",
+                "published",
+                "sample",
+                "moe",
+                "source",
+            )
+            for field in shared:
+                if round1.get(field) != round2.get(field):
+                    raise ValidationError(f"round pair differs on {field}")
+
+        changed_round2 = None
+        for number, record in supplied:
             record["round"] = number
+            existing = records_by_round_registration.get((number, record.get("registration")))
+            if existing is not None:
+                if existing.get("verification") != "provisional-source":
+                    raise ValidationError(
+                        f"registration already present for round {number}: {record['registration']}"
+                    )
+                if record.get("verification") == "provisional-source":
+                    raise ValidationError(
+                        f"provisional registration already present for round {number}: "
+                        f"{record['registration']}"
+                    )
+                incoming_id = record.get("id")
+                if incoming_id is not None and incoming_id != existing.get("id"):
+                    raise ValidationError("a provisional upgrade must preserve the existing record id")
+                record["id"] = existing["id"]
+                validate_record(record, number)
+                records[records.index(existing)] = record
+                records_by_round_registration[(number, record["registration"])] = record
+                if number == 2:
+                    changed_round2 = record
+                continue
+
             expected_id = next_id(records, number)
             if not record.get("id"):
                 record["id"] = expected_id
@@ -235,19 +288,21 @@ def build_update(
                 )
             if record["id"] in existing_ids:
                 raise ValidationError(f"duplicate raw id: {record['id']}")
-            if (number, record["registration"]) in existing_round_registration:
+            if (number, record["registration"]) in records_by_round_registration:
                 raise ValidationError(
                     f"registration already present for round {number}: {record['registration']}"
                 )
-        shared = ("registration", "pollster", "start", "end", "published", "sample", "moe", "source")
-        for field in shared:
-            if round1[field] != round2[field]:
-                raise ValidationError(f"round pair differs on {field}")
-        for record in (round1, round2):
             insert_raw_record(records, record)
             existing_ids.add(record["id"])
-            existing_round_registration.add((record["round"], record["registration"]))
-        legacy_poll = legacy_from_round2(round2)
+            records_by_round_registration[(number, record["registration"])] = record
+            if number == 2:
+                changed_round2 = record
+
+        if changed_round2 is None:
+            added_waves += 1
+            continue
+
+        legacy_poll = legacy_from_round2(changed_round2)
         legacy_key = (
             legacy_poll["registration"],
             legacy_poll["published"],
@@ -257,23 +312,15 @@ def build_update(
             (
                 poll
                 for poll in legacy["polls"]
-                if (
-                    poll.get("registration"),
-                    poll.get("published"),
-                    poll.get("pollster"),
-                )
-                == legacy_key
+                if poll.get("registration") == legacy_poll["registration"]
             ),
             None,
         )
         if existing_legacy is None:
             legacy["polls"].append(legacy_poll)
         else:
-            for field in ("lula", "flavio", "sample", "moe"):
-                if existing_legacy.get(field) != legacy_poll[field]:
-                    raise ValidationError(
-                        f"existing legacy runoff conflicts with payload for {legacy_key}: {field}"
-                    )
+            existing_legacy.clear()
+            existing_legacy.update(legacy_poll)
         added_waves += 1
 
     ignored_count = 0
