@@ -86,7 +86,36 @@ def main() -> None:
         "console.log(`Adopted ${first.length} paired waves from the runtime feed.`);",
         "console.log(`Adopted ${first.length} first-round and ${runoff.length} runoff records from the runtime feed.`);",
     )
+    runoff_start = adopter.index("const cleanRunoff=")
+    runoff_end = adopter.index("const updated=", runoff_start)
+    enhanced_runoff = """const cleanRunoff=runoff.map(row=>({
+  pollster:row.pollster,start:row.start,end:row.end,published:row.published,
+  lula:row.values.lula,flavio:row.values.flavio,sample:row.sample,moe:row.moe,
+  registration:row.registration,source:row.source,
+  responses:row.responses||{},coverage:row.coverage||'partial',
+  confidence:row.confidence??null,method:row.method??null,
+  verification:row.verification||'inherited-source-linked',
+  basis:row.basis||'total respondents',
+  ...(row.methodSource?{methodSource:row.methodSource}:{}),
+  ...(row.auditNote?{auditNote:row.auditNote}:{})
+}));
+"""
+    adopter = adopter[:runoff_start] + enhanced_runoff + adopter[runoff_end:]
     adopter_file.write_text(adopter, encoding="utf-8")
+
+    import_file = root / "site/import-raw.mjs"
+    import_source = import_file.read_text(encoding="utf-8")
+    records_start = import_source.index("const records=")
+    records_end = import_source.index("for(const p of records)", records_start)
+    independent_records = """const records=[...first.map(p=>({...p,round:1,verification:p.verification||'primary-result'})),...inherited.polls.map((p,i)=>({...p,id:p.id||`RAW-R2-${String(i+6).padStart(3,'0')}`,round:2,values:p.values||{lula:p.lula,flavio:p.flavio},responses:p.responses||{},coverage:p.coverage||'partial',confidence:p.confidence??null,method:p.method??null,verification:p.verification||'inherited-source-linked'}))].map(p=>({...p,waveId:`${p.pollster}|${p.registration||p.end}|R${p.round}`,basis:p.basis||'total respondents',scenario:p.round===2?'Lula × Flávio Bolsonaro':p.scenario||'Main stimulated first-round scenario'}));
+"""
+    import_source = import_source[:records_start] + independent_records + import_source[records_end:]
+    coverage_start = import_source.index("const coverage=")
+    coverage_end = import_source.index("writeFileSync(new URL('data/poll-coverage.json'", coverage_start)
+    independent_coverage = """const coverage=inherited.polls.flatMap((p,i)=>{const match=records.find(r=>r.round===1&&r.pollster===p.pollster&&r.registration===p.registration&&r.end===p.end);if(!match)return [];const second=records.find(r=>r.round===2&&r.pollster===p.pollster&&r.registration===p.registration&&r.end===p.end);return [{wave:i+1,pollster:p.pollster,published:p.published,registration:p.registration,firstRoundId:match.id,secondRoundId:second?.id||null,firstRoundSource:match.source,scenario:match.scenario,candidateCount:Object.keys(match.values).length,categoryCoverage:match.coverage,metadataStatus:match.metadataStatus||'transcribed'}];});
+"""
+    import_source = import_source[:coverage_start] + independent_coverage + import_source[coverage_end:]
+    import_file.write_text(import_source, encoding="utf-8")
 
     auto_recalculate_file = root / "operations/auto_recalculate.py"
     auto_recalculate = auto_recalculate_file.read_text(encoding="utf-8")
