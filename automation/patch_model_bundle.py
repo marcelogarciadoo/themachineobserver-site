@@ -66,6 +66,86 @@ def main() -> None:
                 raise SystemExit("Unsafe model overlay archive.")
             archive.extractall(root, members=members)
 
+    # Raw publication is allowed to arrive one round at a time. The forecast
+    # consumes runoff rows, while raw first-round pages consume first-round
+    # rows; neither data surface should fabricate a counterpart solely to keep
+    # the two record counts equal.
+    auto_recalculate_file = root / "operations/auto_recalculate.py"
+    auto_recalculate = auto_recalculate_file.read_text(encoding="utf-8")
+    strict_pair_validation = (
+        '    if len(rounds[1]) != len(rounds[2]):\n'
+        '        raise ValueError("first- and second-round record counts must match")\n'
+        '    pairs = {(row.get("pollster"), row.get("registration") or row.get("end")) for row in rounds[1]}\n'
+        '    for row in rounds[2]:\n'
+        '        if (row.get("pollster"), row.get("registration") or row.get("end")) not in pairs:\n'
+        '            raise ValueError("runoff record lacks a first-round pair: " + str(row.get("registration")))\n'
+    )
+    round_specific_validation = (
+        '    if not rounds[2]:\n'
+        '        raise ValueError("runtime feed must contain at least one second-round record")\n'
+    )
+    if round_specific_validation not in auto_recalculate:
+        if auto_recalculate.count(strict_pair_validation) != 1:
+            raise SystemExit("Unable to locate the strict paired-round runtime validation.")
+        auto_recalculate_file.write_text(
+            auto_recalculate.replace(strict_pair_validation, round_specific_validation),
+            encoding="utf-8",
+        )
+
+    database_file = root / "database/manage.py"
+    database = database_file.read_text(encoding="utf-8")
+    strict_database_pairing = (
+        '    round_counts = {round_number: sum(row["round"] == round_number for row in records) for round_number in (1, 2)}\n'
+        '    if round_counts[1] != round_counts[2]:\n'
+        '        raise RuntimeError("Expected paired first-/second-round records; got {}".format(round_counts))\n'
+    )
+    if strict_database_pairing in database:
+        database = database.replace(strict_database_pairing, "", 1)
+    elif "Expected paired first-/second-round records" in database:
+        raise SystemExit("Unable to relax the database paired-round validation.")
+
+    strict_expected_counts = (
+        '    wave_count = sum(row["round"] == 2 for row in poll_records)\n'
+        '    expected = {\n'
+        '        "integrity": "ok", "foreign_key_violations": 0, "polls": poll_count,\n'
+        '        "first_round_polls": wave_count, "second_round_polls": wave_count, "election_results": 4,\n'
+    )
+    round_specific_expected_counts = (
+        '    first_round_count = sum(row["round"] == 1 for row in poll_records)\n'
+        '    wave_count = sum(row["round"] == 2 for row in poll_records)\n'
+        '    expected = {\n'
+        '        "integrity": "ok", "foreign_key_violations": 0, "polls": poll_count,\n'
+        '        "first_round_polls": first_round_count, "second_round_polls": wave_count, "election_results": 4,\n'
+    )
+    if round_specific_expected_counts not in database:
+        if database.count(strict_expected_counts) != 1:
+            raise SystemExit("Unable to locate the database expected-count block.")
+        database = database.replace(strict_expected_counts, round_specific_expected_counts, 1)
+    database_file.write_text(database, encoding="utf-8")
+
+    database_test_file = root / "database/test_database.py"
+    database_test = database_test_file.read_text(encoding="utf-8")
+    strict_test_counts = (
+        '        wave_count = sum(row["round"] == 2 for row in records)\n'
+        '        self.assertEqual(self.counts["polls"], len(records))\n'
+        '        self.assertEqual(self.counts["first_round_polls"], wave_count)\n'
+        '        self.assertEqual(self.counts["second_round_polls"], wave_count)\n'
+    )
+    round_specific_test_counts = (
+        '        first_round_count = sum(row["round"] == 1 for row in records)\n'
+        '        wave_count = sum(row["round"] == 2 for row in records)\n'
+        '        self.assertEqual(self.counts["polls"], len(records))\n'
+        '        self.assertEqual(self.counts["first_round_polls"], first_round_count)\n'
+        '        self.assertEqual(self.counts["second_round_polls"], wave_count)\n'
+    )
+    if round_specific_test_counts not in database_test:
+        if database_test.count(strict_test_counts) != 1:
+            raise SystemExit("Unable to locate the database paired-count test.")
+        database_test_file.write_text(
+            database_test.replace(strict_test_counts, round_specific_test_counts, 1),
+            encoding="utf-8",
+        )
+
     # The reviewed overlay owns the final ranking test, so patch its release
     # invariant after extraction. Historical coverage grows as new institutes
     # become eligible; the gate should reject duplicates, not a larger set.
