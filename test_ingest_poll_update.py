@@ -70,6 +70,72 @@ class IngestPollUpdateTests(unittest.TestCase):
         with self.assertRaises(MODULE.ValidationError):
             MODULE.build_update(copy.deepcopy(self.raw), copy.deepcopy(self.legacy), payload)
 
+    def test_accepts_provisional_round2_only_with_visible_audit_note(self):
+        payload = self.new_payload()
+        round2 = payload["waves"][0]["round2"]
+        round2["verification"] = "provisional-source"
+        round2["auditNote"] = (
+            "PROVISIONAL — Published from an explicit contracting-outlet release; "
+            "primary report verification is pending."
+        )
+        payload["waves"] = [{"round2": round2}]
+
+        raw, legacy, waves, ignored = MODULE.build_update(
+            copy.deepcopy(self.raw), copy.deepcopy(self.legacy), payload
+        )
+
+        self.assertEqual((waves, ignored), (1, 0))
+        self.assertEqual(len(raw["records"]), len(self.raw["records"]) + 1)
+        self.assertEqual(len(legacy["polls"]), len(self.legacy["polls"]) + 1)
+        matching_legacy = next(
+            poll for poll in legacy["polls"] if poll["registration"] == "BR-99999/2026"
+        )
+        self.assertEqual(matching_legacy["verification"], "provisional-source")
+        MODULE.validate_feeds(raw, legacy)
+
+    def test_rejects_provisional_record_without_audit_note(self):
+        payload = self.new_payload()
+        round2 = payload["waves"][0]["round2"]
+        round2["verification"] = "provisional-source"
+        payload["waves"] = [{"round2": round2}]
+        with self.assertRaises(MODULE.ValidationError):
+            MODULE.build_update(copy.deepcopy(self.raw), copy.deepcopy(self.legacy), payload)
+
+    def test_primary_source_upgrades_existing_provisional_record(self):
+        provisional = self.new_payload()
+        round2 = provisional["waves"][0]["round2"]
+        round2["verification"] = "provisional-source"
+        round2["auditNote"] = "PROVISIONAL — Primary report verification is pending."
+        provisional["waves"] = [{"round2": round2}]
+        raw, legacy, _, _ = MODULE.build_update(
+            copy.deepcopy(self.raw), copy.deepcopy(self.legacy), provisional
+        )
+        provisional_record = next(
+            record for record in raw["records"] if record.get("registration") == "BR-99999/2026"
+        )
+
+        verified = self.new_payload()
+        verified_round2 = verified["waves"][0]["round2"]
+        verified_round2["lula"] = 48
+        verified_round2["values"]["lula"] = 48
+        verified["waves"] = [{"round2": verified_round2}]
+        upgraded_raw, upgraded_legacy, waves, ignored = MODULE.build_update(raw, legacy, verified)
+        upgraded_record = next(
+            record
+            for record in upgraded_raw["records"]
+            if record.get("registration") == "BR-99999/2026" and record.get("round") == 2
+        )
+
+        self.assertEqual((waves, ignored), (1, 0))
+        self.assertEqual(upgraded_record["id"], provisional_record["id"])
+        self.assertEqual(upgraded_record["verification"], "primary-result")
+        self.assertEqual(upgraded_record["lula"], 48)
+        matching_legacy = next(
+            poll for poll in upgraded_legacy["polls"] if poll["registration"] == "BR-99999/2026"
+        )
+        self.assertEqual(matching_legacy["lula"], 48)
+        MODULE.validate_feeds(upgraded_raw, upgraded_legacy)
+
     def test_rejects_legacy_only_divergence(self):
         legacy = copy.deepcopy(self.legacy)
         legacy["polls"][-1]["lula"] += 1
