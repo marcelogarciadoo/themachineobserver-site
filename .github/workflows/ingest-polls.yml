@@ -1,10 +1,10 @@
-name: Ingest verified polls
+name: Ingest published polls
 
 on:
   workflow_dispatch:
     inputs:
       payload_base64:
-        description: Base64-encoded verified poll-update JSON
+        description: Base64-encoded audited poll-update JSON
         required: true
         type: string
   issues:
@@ -37,7 +37,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Decode the verified update
+      - name: Decode the audited update
         shell: bash
         env:
           EVENT_NAME: ${{ github.event_name }}
@@ -93,7 +93,7 @@ jobs:
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add data/raw-polls.json data/polls.json
           update_date="$(python3 -c 'import json,os; print(json.load(open(os.environ["RUNNER_TEMP"] + "/poll-update.json")).get("updateDate", "verified-update"))')"
-          git commit -m "polls: verified update ${update_date}"
+          git commit -m "polls: audited update ${update_date}"
           git push origin HEAD:main
       - name: Trigger the full gated recalculation
         if: >-
@@ -112,7 +112,7 @@ jobs:
           if [[ "$ISSUE_TITLE" == "[poll-ingest-test] "* ]]; then
             message="Payload validated successfully in test mode; no repository data was changed."
           else
-            message="Verified payload ingested atomically and the full recalculation was dispatched."
+            message="Audited payload ingested atomically and the full recalculation was dispatched."
           fi
           gh issue comment "$ISSUE_NUMBER" --body "$message"
           gh issue close "$ISSUE_NUMBER" --reason completed
