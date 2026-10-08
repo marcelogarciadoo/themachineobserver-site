@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-08T07:49:02.929949Z",
+  "generatedAt": "2026-10-08T13:51:11.820713Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -7320,6 +7320,36 @@
       "waveId": "Instituto França|BR-02928/2026|R2",
       "round": 2,
       "id": "RAW-R2-121"
+    },
+    {
+      "pollster": "PoderData/Aya",
+      "start": "2026-10-05",
+      "end": "2026-10-07",
+      "published": "2026-10-08",
+      "sample": 3000,
+      "moe": 1.8,
+      "confidence": 95,
+      "registration": "BR-08134/2026",
+      "method": "Phone IVR (cell and landline)",
+      "source": "https://www.poder360.com.br/poderdata/flavio-tem-53-contra-47-de-lula-no-2o-turno-diz-poderdata-aya/",
+      "verification": "provisional-source",
+      "auditNote": "PROVISIONAL — Published immediately from PoderData/Aya’s contracting-outlet release; total-response figures are corroborated by SBT News, while the primary full report remains pending and will be rechecked. / PROVISÓRIO — Publicado imediatamente a partir da divulgação do PoderData/Aya; os percentuais sobre o total dos entrevistados são corroborados pelo SBT News, enquanto o relatório integral primário ainda será conferido.",
+      "basis": "total respondents",
+      "lula": 44,
+      "flavio": 49,
+      "values": {
+        "lula": 44,
+        "flavio": 49
+      },
+      "responses": {
+        "blank_null": 5,
+        "undecided": 2
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "PoderData/Aya|BR-08134/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-122"
     }
   ]
 }
