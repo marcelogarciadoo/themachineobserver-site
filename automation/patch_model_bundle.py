@@ -105,6 +105,19 @@ def main() -> None:
 
     import_file = root / "site/import-raw.mjs"
     import_source = import_file.read_text(encoding="utf-8")
+    strict_additions = (
+        "for(const a of first.length<inherited.polls.length?additions:[]){\n"
+        " const p=inherited.polls[a.wave-1],s=sourceMap[a.wave-1];\n"
+    )
+    independent_additions = (
+        "for(const a of additions){\n"
+        " const p=inherited.polls[a.wave-1],s=sourceMap[a.wave-1];\n"
+        " if(first.some(row=>row.pollster===p.pollster&&row.registration===p.registration&&row.end===p.end))continue;\n"
+    )
+    if independent_additions not in import_source:
+        if import_source.count(strict_additions) != 1:
+            raise SystemExit("Unable to locate the first-round additions loop.")
+        import_source = import_source.replace(strict_additions, independent_additions, 1)
     records_start = import_source.index("const records=")
     records_end = import_source.index("for(const p of records)", records_start)
     independent_records = """const records=[...first.map(p=>({...p,round:1,verification:p.verification||'primary-result'})),...inherited.polls.map((p,i)=>({...p,id:p.id||`RAW-R2-${String(i+6).padStart(3,'0')}`,round:2,values:p.values||{lula:p.lula,flavio:p.flavio},responses:p.responses||{},coverage:p.coverage||'partial',confidence:p.confidence??null,method:p.method??null,verification:p.verification||'inherited-source-linked'}))].map(p=>({...p,waveId:`${p.pollster}|${p.registration||p.end}|R${p.round}`,basis:p.basis||'total respondents',scenario:p.round===2?'Lula × Flávio Bolsonaro':p.scenario||'Main stimulated first-round scenario'}));
@@ -116,6 +129,21 @@ def main() -> None:
 """
     import_source = import_source[:coverage_start] + independent_coverage + import_source[coverage_end:]
     import_file.write_text(import_source, encoding="utf-8")
+
+    verify_file = root / "site/verify.mjs"
+    verify_source = verify_file.read_text(encoding="utf-8")
+    strict_verify = (
+        "check('paired unique source-linked records, with valid dates and published values',()=>{\n"
+        " assert.equal(records.length,expectedWaves*2);assert.equal(records.filter(p=>p.round===1).length,expectedWaves);assert.equal(records.filter(p=>p.round===2).length,expectedWaves);assert.equal(new Set(records.map(p=>p.id)).size,records.length);\n"
+    )
+    independent_verify = (
+        "check('round-specific unique source-linked records, with valid dates and published values',()=>{\n"
+        " const manifest=JSON.parse(read('data/raw-manifest.json'));assert.equal(records.length,manifest.firstRound+expectedWaves);assert.equal(records.filter(p=>p.round===1).length,manifest.firstRound);assert.equal(records.filter(p=>p.round===2).length,expectedWaves);assert.equal(new Set(records.map(p=>p.id)).size,records.length);\n"
+    )
+    if independent_verify not in verify_source:
+        if verify_source.count(strict_verify) != 1:
+            raise SystemExit("Unable to locate the paired-record site verification.")
+        verify_file.write_text(verify_source.replace(strict_verify, independent_verify, 1), encoding="utf-8")
 
     auto_recalculate_file = root / "operations/auto_recalculate.py"
     auto_recalculate = auto_recalculate_file.read_text(encoding="utf-8")
