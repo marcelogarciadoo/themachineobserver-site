@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-09T01:50:17.781608Z",
+  "generatedAt": "2026-10-09T07:51:31.212305Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -7380,6 +7380,36 @@
       "waveId": "Datafolha|BR-02949/2026|R2",
       "round": 2,
       "id": "RAW-R2-123"
+    },
+    {
+      "pollster": "Vox Brasil",
+      "start": "2026-10-05",
+      "end": "2026-10-07",
+      "published": "2026-10-09",
+      "sample": 2100,
+      "moe": 2.15,
+      "confidence": 95,
+      "registration": "BR-09623/2026",
+      "method": "In-person household interviews",
+      "lula": 44.2,
+      "flavio": 42.7,
+      "values": {
+        "lula": 44.2,
+        "flavio": 42.7
+      },
+      "responses": {
+        "blank_null": 3.4,
+        "undecided": 9.7
+      },
+      "coverage": "complete",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/vox-lula-tem-442-das-intencoes-de-voto-no-2o-turno-flavio-427/",
+      "verification": "provisional-source",
+      "auditNote": "PROVISIONAL — Published immediately from CNN Brasil’s explicit report of the Vox Brasil results; the primary institute/TSE result document remains pending and will be rechecked. / PROVISÓRIO — Publicado imediatamente a partir da divulgação explícita dos resultados pela CNN Brasil; o documento primário do instituto/TSE ainda será conferido.",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Vox Brasil|BR-09623/2026|R2",
+      "basis": "total respondents",
+      "round": 2,
+      "id": "RAW-R2-124"
     }
   ]
 }
