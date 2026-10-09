@@ -1899,6 +1899,20 @@
    "auditNote": "PRIMARY REPORT — PoderData/Aya’s full report confirms the previously provisional total-response figures: Flávio Bolsonaro 49%, Lula 44%, blank/null 5%, and undecided 2%. / RELATÓRIO PRIMÁRIO — O relatório integral do PoderData/Aya confirma os percentuais anteriormente provisórios sobre o total dos entrevistados: Flávio Bolsonaro 49%, Lula 44%, branco/nulo 5% e indecisos 2%."
   },
   {
+   "pollster": "AtlasIntel/Bloomberg",
+   "start": "2026-10-03",
+   "end": "2026-10-08",
+   "published": "2026-10-09",
+   "lula": 45.7,
+   "flavio": 51.1,
+   "sample": 5026,
+   "moe": 1,
+   "registration": "BR-03663/2026",
+   "source": "https://cdn1.atlasintel.org/pesquisa_atlas_bloomberg__nacional_261009_3da0d6d3d6d32fe1.pdf",
+   "verification": "primary-report",
+   "auditNote": "The TSE registration planned 5,000 interviews; the final primary report states 5,026 completed respondents. Blank, null and undecided responses were published only as one grouped 3.2% category and are not split or imputed."
+  },
+  {
    "pollster": "Vox Brasil",
    "start": "2026-10-05",
    "end": "2026-10-07",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-09T07:51:31.212305Z",
+  "generatedAt": "2026-10-09T13:52:10.854087Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -7410,6 +7410,35 @@
       "basis": "total respondents",
       "round": 2,
       "id": "RAW-R2-124"
+    },
+    {
+      "pollster": "AtlasIntel/Bloomberg",
+      "start": "2026-10-03",
+      "end": "2026-10-08",
+      "published": "2026-10-09",
+      "sample": 5026,
+      "moe": 1,
+      "confidence": 95,
+      "registration": "BR-03663/2026",
+      "method": "Random Digital Recruitment (Atlas RDR) with iterative post-stratification",
+      "lula": 45.7,
+      "flavio": 51.1,
+      "values": {
+        "lula": 45.7,
+        "flavio": 51.1
+      },
+      "responses": {
+        "blank_null_undecided": 3.2
+      },
+      "coverage": "complete",
+      "source": "https://cdn1.atlasintel.org/pesquisa_atlas_bloomberg__nacional_261009_3da0d6d3d6d32fe1.pdf",
+      "verification": "primary-report",
+      "auditNote": "The TSE registration planned 5,000 interviews; the final primary report states 5,026 completed respondents. Blank, null and undecided responses were published only as one grouped 3.2% category and are not split or imputed.",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "AtlasIntel/Bloomberg|BR-03663/2026|R2",
+      "basis": "total respondents",
+      "round": 2,
+      "id": "RAW-R2-125"
     }
   ]
 }
