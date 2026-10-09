@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-09T13:52:10.854087Z",
+  "generatedAt": "2026-10-09T19:52:53.445420Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -1246,6 +1246,72 @@
       "waveId": "Instituto França|BR-02928/2026|R1",
       "round": 1,
       "id": "RAW-R1-036"
+    },
+    {
+      "pollster": "Palver",
+      "start": "2026-09-04",
+      "end": "2026-09-07",
+      "published": "2026-09-21",
+      "sample": 5000,
+      "moe": 2.6,
+      "confidence": 95,
+      "registration": "BR-06100/2026",
+      "method": "Online opt-in survey via social-media advertisements; demographic quotas and iterative raking including party affiliation",
+      "values": {
+        "lula": 40,
+        "flavio": 40,
+        "renan": 9,
+        "cury": 5,
+        "caiado": 1,
+        "zema": 1,
+        "marcal": 1
+      },
+      "responses": {
+        "other_candidates": 1,
+        "blank_null_not_vote": 1,
+        "undecided": 1
+      },
+      "coverage": "complete",
+      "source": "https://www.palver.com.br/api/surveys/voting-intention-2026-september-w2-v2/report",
+      "verification": "primary-report",
+      "auditNote": "This is Palver’s official recalibration of the same 5,000 interviews previously published as BR-05420/2026; the institute states that this version supersedes the earlier report. The primary report states fieldwork from 4–7 September and publication on 21 September, while the TSE registry lists planned fieldwork through 9 September and disclosure eligibility on 20 September.",
+      "scenario": "Main stimulated first-round scenario",
+      "waveId": "Palver|BR-06100/2026|R1",
+      "basis": "total respondents",
+      "round": 1,
+      "id": "RAW-R1-037"
+    },
+    {
+      "pollster": "American Analytics",
+      "start": "2026-09-15",
+      "end": "2026-09-20",
+      "published": "2026-09-23",
+      "sample": 2000,
+      "moe": 2.5,
+      "confidence": 95,
+      "registration": "BR-02587/2026",
+      "method": "In-person interviews using a structured questionnaire",
+      "values": {
+        "lula": 38,
+        "flavio": 34,
+        "cury": 5,
+        "caiado": 4,
+        "renan": 4,
+        "zema": 1
+      },
+      "responses": {
+        "blank_null": 6,
+        "undecided": 8
+      },
+      "coverage": "complete",
+      "source": "https://timesbrasil.com.br/brasil/decisao-2026-lula-e-flavio-bolsonaro-estao-empatados-numericamente-em-43-no-2o-turno-indica-pesquisa-american-analytics-times-brasil-cnbc/",
+      "verification": "contracting-outlet-result",
+      "auditNote": "Times Brasil/CNBC, the contracting outlet, reports a ±2.5 pp margin and prints the registration with an extra digit; TSE metadata confirms the normalized registration BR-02587/2026 and lists a planned ±2.2 pp margin. Published results and dates are retained as reported.",
+      "scenario": "Main stimulated first-round scenario",
+      "waveId": "American Analytics|BR-02587/2026|R1",
+      "basis": "total respondents",
+      "round": 1,
+      "id": "RAW-R1-038"
     },
     {
       "pollster": "Quaest",
@@ -7439,6 +7505,66 @@
       "basis": "total respondents",
       "round": 2,
       "id": "RAW-R2-125"
+    },
+    {
+      "pollster": "Palver",
+      "start": "2026-09-04",
+      "end": "2026-09-07",
+      "published": "2026-09-21",
+      "sample": 5000,
+      "moe": 2.6,
+      "confidence": 95,
+      "registration": "BR-06100/2026",
+      "method": "Online opt-in survey via social-media advertisements; demographic quotas and iterative raking including party affiliation",
+      "lula": 44,
+      "flavio": 47,
+      "values": {
+        "lula": 44,
+        "flavio": 47
+      },
+      "responses": {
+        "blank_null_not_vote": 8,
+        "undecided": 1
+      },
+      "coverage": "complete",
+      "source": "https://www.palver.com.br/api/surveys/voting-intention-2026-september-w2-v2/report",
+      "verification": "primary-report",
+      "auditNote": "This is Palver’s official recalibration of the same 5,000 interviews previously published as BR-05420/2026; the institute states that this version supersedes the earlier report. The primary report states fieldwork from 4–7 September and publication on 21 September, while the TSE registry lists planned fieldwork through 9 September and disclosure eligibility on 20 September.",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Palver|BR-06100/2026|R2",
+      "basis": "total respondents",
+      "round": 2,
+      "id": "RAW-R2-126"
+    },
+    {
+      "pollster": "American Analytics",
+      "start": "2026-09-15",
+      "end": "2026-09-20",
+      "published": "2026-09-23",
+      "sample": 2000,
+      "moe": 2.5,
+      "confidence": 95,
+      "registration": "BR-02587/2026",
+      "method": "In-person interviews using a structured questionnaire",
+      "lula": 43,
+      "flavio": 43,
+      "values": {
+        "lula": 43,
+        "flavio": 43
+      },
+      "responses": {
+        "blank_null": 6,
+        "undecided": 8
+      },
+      "coverage": "complete",
+      "source": "https://timesbrasil.com.br/brasil/decisao-2026-lula-e-flavio-bolsonaro-estao-empatados-numericamente-em-43-no-2o-turno-indica-pesquisa-american-analytics-times-brasil-cnbc/",
+      "verification": "contracting-outlet-result",
+      "auditNote": "Times Brasil/CNBC, the contracting outlet, reports a ±2.5 pp margin and prints the registration with an extra digit; TSE metadata confirms the normalized registration BR-02587/2026 and lists a planned ±2.2 pp margin. Published results and dates are retained as reported.",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "American Analytics|BR-02587/2026|R2",
+      "basis": "total respondents",
+      "round": 2,
+      "id": "RAW-R2-127"
     }
   ]
 }

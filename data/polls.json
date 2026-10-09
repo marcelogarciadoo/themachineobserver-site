@@ -474,6 +474,10 @@
   {
    "registration": "BR-08563/2026",
    "reason": "State-level Parana survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-04482/2026",
+   "reason": "District Federal survey; not a national presidential poll."
   }
  ],
  "polls": [
@@ -1523,6 +1527,20 @@
    "source": "https://palver.com/survey"
   },
   {
+   "pollster": "Palver",
+   "start": "2026-09-04",
+   "end": "2026-09-07",
+   "published": "2026-09-21",
+   "lula": 44,
+   "flavio": 47,
+   "sample": 5000,
+   "moe": 2.6,
+   "registration": "BR-06100/2026",
+   "source": "https://www.palver.com.br/api/surveys/voting-intention-2026-september-w2-v2/report",
+   "verification": "primary-report",
+   "auditNote": "This is Palver’s official recalibration of the same 5,000 interviews previously published as BR-05420/2026; the institute states that this version supersedes the earlier report. The primary report states fieldwork from 4–7 September and publication on 21 September, while the TSE registry lists planned fieldwork through 9 September and disclosure eligibility on 20 September."
+  },
+  {
    "pollster": "Quaest",
    "start": "2026-09-17",
    "end": "2026-09-20",
@@ -1533,6 +1551,20 @@
    "moe": 2,
    "registration": "BR-06004/2026",
    "source": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-42-e-lula-41-em-2o-turno-diz-quaest/"
+  },
+  {
+   "pollster": "American Analytics",
+   "start": "2026-09-15",
+   "end": "2026-09-20",
+   "published": "2026-09-23",
+   "lula": 43,
+   "flavio": 43,
+   "sample": 2000,
+   "moe": 2.5,
+   "registration": "BR-02587/2026",
+   "source": "https://timesbrasil.com.br/brasil/decisao-2026-lula-e-flavio-bolsonaro-estao-empatados-numericamente-em-43-no-2o-turno-indica-pesquisa-american-analytics-times-brasil-cnbc/",
+   "verification": "contracting-outlet-result",
+   "auditNote": "Times Brasil/CNBC, the contracting outlet, reports a ±2.5 pp margin and prints the registration with an extra digit; TSE metadata confirms the normalized registration BR-02587/2026 and lists a planned ±2.2 pp margin. Published results and dates are retained as reported."
   },
   {
    "pollster": "AtlasIntel/Bloomberg",
