@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-08T19:50:43.490219Z",
+  "generatedAt": "2026-10-09T01:50:17.781608Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -7350,6 +7350,36 @@
       "waveId": "PoderData/Aya|BR-08134/2026|R2",
       "round": 2,
       "id": "RAW-R2-122"
+    },
+    {
+      "pollster": "Datafolha",
+      "start": "2026-10-06",
+      "end": "2026-10-08",
+      "published": "2026-10-08",
+      "sample": 2520,
+      "moe": 2,
+      "confidence": 95,
+      "registration": "BR-02949/2026",
+      "method": "Face-to-face interviews at population-flow points",
+      "source": "https://www1.folha.uol.com.br/poder/2026/10/datafolha-flavio-bolsonaro-tem-52-e-lula-48-em-votos-validos-no-segundo-turno.shtml",
+      "verification": "contracting-outlet-result",
+      "auditNote": "CONTRACTING OUTLET RESULT — Folha de S.Paulo, which commissioned the poll with TV Globo, published the complete total-response result; TSE registry metadata confirms the national scope, field dates, sample, method, margin of error, and registration. / RESULTADO DO CONTRATANTE — A Folha de S.Paulo, que encomendou a pesquisa com a TV Globo, publicou o resultado completo sobre o total dos entrevistados; os metadados do registro no TSE confirmam abrangência nacional, datas de campo, amostra, método, margem de erro e registro.",
+      "basis": "total respondents",
+      "lula": 45,
+      "flavio": 49,
+      "values": {
+        "lula": 45,
+        "flavio": 49
+      },
+      "responses": {
+        "blank_null": 5,
+        "undecided": 1
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Datafolha|BR-02949/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-123"
     }
   ]
 }
