@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-10T01:53:04.388858Z",
+  "generatedAt": "2026-10-10T19:53:15.966379Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -7565,6 +7565,36 @@
       "basis": "total respondents",
       "round": 2,
       "id": "RAW-R2-127"
+    },
+    {
+      "pollster": "Ipespe/Abrapel",
+      "start": "2026-10-06",
+      "end": "2026-10-08",
+      "published": "2026-10-10",
+      "lula": 44,
+      "flavio": 49,
+      "sample": 1500,
+      "moe": 2.6,
+      "registration": "BR-00933/2026",
+      "source": "https://www1.folha.uol.com.br/poder/2026/10/flavio-bolsonaro-tem-527-dos-votos-validos-no-2o-turno-contra-473-de-lula-diz-ipespe.shtml",
+      "responses": {
+        "blank_null": 5,
+        "undecided": 3
+      },
+      "coverage": "complete",
+      "confidence": 95.45,
+      "method": "Telephone interviews using structured questionnaires with landline and mobile respondents",
+      "verification": "provisional-source",
+      "basis": "total respondents",
+      "auditNote": "PROVISIONAL — Published immediately from Folha de S.Paulo’s explicit total-response report; the primary Ipespe/TSE result document remains pending and will be rechecked. / PROVISÓRIO — Publicado imediatamente a partir da divulgação explícita dos resultados sobre o total de entrevistados pela Folha de S.Paulo; o documento primário do Ipespe/TSE ainda será conferido.",
+      "round": 2,
+      "values": {
+        "lula": 44,
+        "flavio": 49
+      },
+      "waveId": "Ipespe/Abrapel|BR-00933/2026|R2",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "id": "RAW-R2-128"
     }
   ]
 }
