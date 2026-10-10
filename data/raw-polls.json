@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-09T19:52:53.445420Z",
+  "generatedAt": "2026-10-10T01:53:04.388858Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -7452,29 +7452,29 @@
       "start": "2026-10-05",
       "end": "2026-10-07",
       "published": "2026-10-09",
-      "sample": 2100,
-      "moe": 2.15,
-      "confidence": 95,
-      "registration": "BR-09623/2026",
-      "method": "In-person household interviews",
       "lula": 44.2,
       "flavio": 42.7,
-      "values": {
-        "lula": 44.2,
-        "flavio": 42.7
-      },
+      "sample": 2100,
+      "moe": 2.15,
+      "registration": "BR-09623/2026",
+      "source": "https://static.poder360.com.br/uploads/2026/10/pesquisa-vox-brasil-9out2026.pdf",
       "responses": {
         "blank_null": 3.4,
         "undecided": 9.7
       },
       "coverage": "complete",
-      "source": "https://www.cnnbrasil.com.br/eleicoes/vox-lula-tem-442-das-intencoes-de-voto-no-2o-turno-flavio-427/",
-      "verification": "provisional-source",
-      "auditNote": "PROVISIONAL — Published immediately from CNN Brasil’s explicit report of the Vox Brasil results; the primary institute/TSE result document remains pending and will be rechecked. / PROVISÓRIO — Publicado imediatamente a partir da divulgação explícita dos resultados pela CNN Brasil; o documento primário do instituto/TSE ainda será conferido.",
-      "scenario": "Lula × Flávio Bolsonaro",
-      "waveId": "Vox Brasil|BR-09623/2026|R2",
+      "confidence": 95,
+      "method": "In-person household interviews",
+      "verification": "primary-report",
       "basis": "total respondents",
+      "auditNote": "Primary Vox Brasil report retrieved and verified; values, field dates, sample, margin of error, confidence and national scope match the provisional publication. This submission upgrades the source without changing the published result. / Relatório primário do Vox Brasil recuperado e conferido; valores, datas de campo, amostra, margem de erro, confiança e abrangência nacional coincidem com a publicação provisória. Este envio atualiza a fonte sem alterar o resultado publicado.",
       "round": 2,
+      "values": {
+        "lula": 44.2,
+        "flavio": 42.7
+      },
+      "waveId": "Vox Brasil|BR-09623/2026|R2",
+      "scenario": "Lula × Flávio Bolsonaro",
       "id": "RAW-R2-124"
     },
     {

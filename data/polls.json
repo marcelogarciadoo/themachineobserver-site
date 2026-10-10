@@ -1954,9 +1954,9 @@
    "sample": 2100,
    "moe": 2.15,
    "registration": "BR-09623/2026",
-   "source": "https://www.cnnbrasil.com.br/eleicoes/vox-lula-tem-442-das-intencoes-de-voto-no-2o-turno-flavio-427/",
-   "verification": "provisional-source",
-   "auditNote": "PROVISIONAL — Published immediately from CNN Brasil’s explicit report of the Vox Brasil results; the primary institute/TSE result document remains pending and will be rechecked. / PROVISÓRIO — Publicado imediatamente a partir da divulgação explícita dos resultados pela CNN Brasil; o documento primário do instituto/TSE ainda será conferido."
+   "source": "https://static.poder360.com.br/uploads/2026/10/pesquisa-vox-brasil-9out2026.pdf",
+   "verification": "primary-report",
+   "auditNote": "Primary Vox Brasil report retrieved and verified; values, field dates, sample, margin of error, confidence and national scope match the provisional publication. This submission upgrades the source without changing the published result. / Relatório primário do Vox Brasil recuperado e conferido; valores, datas de campo, amostra, margem de erro, confiança e abrangência nacional coincidem com a publicação provisória. Este envio atualiza a fonte sem alterar o resultado publicado."
   }
  ]
 }
