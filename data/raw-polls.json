@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T07:54:51.105459Z",
+  "generatedAt": "2026-10-11T20:34:35.983657Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -7625,6 +7625,36 @@
       "waveId": "Gerp|BR-08168/2026|R2",
       "scenario": "Lula × Flávio Bolsonaro",
       "id": "RAW-R2-129"
+    },
+    {
+      "pollster": "DataTrends",
+      "start": "2026-10-07",
+      "end": "2026-10-09",
+      "published": "2026-10-11",
+      "lula": 44,
+      "flavio": 50,
+      "sample": 2000,
+      "moe": 2.19,
+      "registration": "BR-03576/2026",
+      "source": "https://www.gp1.com.br/brasil/noticia/2026/10/11/flavio-bolsonaro-tem-531-dos-votos-validos-no-segundo-turno-e-lula-469-diz-datatrends-633734.html",
+      "responses": {
+        "none": 5,
+        "undecided": 1
+      },
+      "coverage": "complete",
+      "confidence": 95,
+      "method": "Automated telephone interviews",
+      "verification": "provisional-source",
+      "basis": "total respondents",
+      "auditNote": "PROVISIONAL — Published immediately from GP1’s explicit national total-response report; the primary DataTrends/TSE result document remains pending and will be rechecked. / PROVISÓRIO — Publicado imediatamente a partir da divulgação nacional explícita dos resultados sobre o total de entrevistados pelo GP1; o documento primário do DataTrends/TSE ainda será conferido.",
+      "round": 2,
+      "values": {
+        "lula": 44,
+        "flavio": 50
+      },
+      "waveId": "DataTrends|BR-03576/2026|R2",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "id": "RAW-R2-130"
     }
   ]
 }

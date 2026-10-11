@@ -1985,6 +1985,20 @@
    "source": "https://ipespe.org.br/wp-content/uploads/2026/10/TCK-CAMPANHA-01_-IPESPE-ABRAPEL_2T_-6-a-8-OUT-2026_vf.pdf",
    "verification": "primary-report",
    "auditNote": "Primary Ipespe/Abrapel report confirms the stimulated total-response result: Flávio Bolsonaro 49%, Lula 44%, blank/null 5%, and undecided 3%. This replaces the provisional Folha source without value changes. / O relatório primário do Ipespe/Abrapel confirma o resultado estimulado sobre o total de entrevistados: Flávio Bolsonaro 49%, Lula 44%, branco/nulo 5% e indecisos 3%. Esta atualização substitui a fonte provisória da Folha sem alteração dos valores."
+  },
+  {
+   "pollster": "DataTrends",
+   "start": "2026-10-07",
+   "end": "2026-10-09",
+   "published": "2026-10-11",
+   "lula": 44,
+   "flavio": 50,
+   "sample": 2000,
+   "moe": 2.19,
+   "registration": "BR-03576/2026",
+   "source": "https://www.gp1.com.br/brasil/noticia/2026/10/11/flavio-bolsonaro-tem-531-dos-votos-validos-no-segundo-turno-e-lula-469-diz-datatrends-633734.html",
+   "verification": "provisional-source",
+   "auditNote": "PROVISIONAL — Published immediately from GP1’s explicit national total-response report; the primary DataTrends/TSE result document remains pending and will be rechecked. / PROVISÓRIO — Publicado imediatamente a partir da divulgação nacional explícita dos resultados sobre o total de entrevistados pelo GP1; o documento primário do DataTrends/TSE ainda será conferido."
   }
  ]
 }
