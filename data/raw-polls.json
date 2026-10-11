@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-11T01:53:29.030151Z",
+  "generatedAt": "2026-10-11T07:54:51.105459Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -7595,6 +7595,36 @@
       "waveId": "Ipespe/Abrapel|BR-00933/2026|R2",
       "scenario": "Lula × Flávio Bolsonaro",
       "id": "RAW-R2-128"
+    },
+    {
+      "pollster": "Gerp",
+      "start": "2026-10-01",
+      "end": "2026-10-03",
+      "published": "2026-10-04",
+      "lula": 46,
+      "flavio": 49,
+      "sample": 2400,
+      "moe": 2,
+      "registration": "BR-08168/2026",
+      "source": "https://jovempan.com.br/politica/gerp-flavio-bolsonaro-49-lula-46-empate-segundo-turno-2026/",
+      "responses": {
+        "none": 4,
+        "undecided": 1
+      },
+      "coverage": "complete",
+      "confidence": 95.55,
+      "method": "Telephone interviews",
+      "verification": "provisional-source",
+      "basis": "total respondents",
+      "auditNote": "PROVISIONAL — Published immediately from Jovem Pan’s explicit national total-response report; the primary Gerp/TSE result document remains pending and will be rechecked. / PROVISÓRIO — Publicado imediatamente a partir da divulgação nacional explícita dos resultados sobre o total de entrevistados pela Jovem Pan; o documento primário do Gerp/TSE ainda será conferido.",
+      "round": 2,
+      "values": {
+        "lula": 46,
+        "flavio": 49
+      },
+      "waveId": "Gerp|BR-08168/2026|R2",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "id": "RAW-R2-129"
     }
   ]
 }
