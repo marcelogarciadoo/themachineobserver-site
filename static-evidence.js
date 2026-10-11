@@ -1,0 +1,6 @@
+import {records} from './data/raw-polls.js';
+const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+export function staticEvidence(lang,round){
+ const pt=lang==='pt',list=records.filter(r=>r.round===round).sort((a,b)=>b.published.localeCompare(a.published));
+ return `<section><h2>${pt?'Pesquisas publicadas':'Published polls'} · ${round}º ${pt?'turno':'round'}</h2><p>${pt?'Percentuais brutos sobre o total de entrevistados; sem correção ou projeção. Uma lista de candidatos por rodada; categorias ausentes não são zero.':'Raw percentages of all respondents; no correction or projection. One candidate list per wave; missing categories are not zero.'}</p><div class="table-scroll"><table><thead><tr><th>${pt?'Instituto':'Institute'}</th><th>${pt?'Divulgação':'Publication'}</th><th>Lula</th><th>Flávio Bolsonaro</th><th>${pt?'Fonte':'Source'}</th></tr></thead><tbody>${list.map(p=>`<tr><td>${escape(p.pollster)}</td><td><time datetime="${p.published}">${p.published}</time></td><td>${p.values.lula}%</td><td>${p.values.flavio}%</td><td><a href="${escape(p.source)}">${escape(p.registration)}</a></td></tr>`).join('')}</tbody></table></div></section>`;
+}
