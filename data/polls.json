@@ -1968,9 +1968,9 @@
    "sample": 1500,
    "moe": 2.6,
    "registration": "BR-00933/2026",
-   "source": "https://www1.folha.uol.com.br/poder/2026/10/flavio-bolsonaro-tem-527-dos-votos-validos-no-2o-turno-contra-473-de-lula-diz-ipespe.shtml",
-   "verification": "provisional-source",
-   "auditNote": "PROVISIONAL — Published immediately from Folha de S.Paulo’s explicit total-response report; the primary Ipespe/TSE result document remains pending and will be rechecked. / PROVISÓRIO — Publicado imediatamente a partir da divulgação explícita dos resultados sobre o total de entrevistados pela Folha de S.Paulo; o documento primário do Ipespe/TSE ainda será conferido."
+   "source": "https://ipespe.org.br/wp-content/uploads/2026/10/TCK-CAMPANHA-01_-IPESPE-ABRAPEL_2T_-6-a-8-OUT-2026_vf.pdf",
+   "verification": "primary-report",
+   "auditNote": "Primary Ipespe/Abrapel report confirms the stimulated total-response result: Flávio Bolsonaro 49%, Lula 44%, blank/null 5%, and undecided 3%. This replaces the provisional Folha source without value changes. / O relatório primário do Ipespe/Abrapel confirma o resultado estimulado sobre o total de entrevistados: Flávio Bolsonaro 49%, Lula 44%, branco/nulo 5% e indecisos 3%. Esta atualização substitui a fonte provisória da Folha sem alteração dos valores."
   }
  ]
 }
