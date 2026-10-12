@@ -534,6 +534,34 @@
   {
    "registration": "BR-03654/2026",
    "reason": "Mato Grosso-only electorate sample, not a national presidential poll; the TSE methodology and sampling plan explicitly limit the 3,080 interviews to Mato Grosso."
+  },
+  {
+   "registration": "BR-03616/2026",
+   "reason": "Anápolis, Goiás municipal electorate sample, not a national presidential poll; the TSE methodology explicitly limits all 706 interviews to voters in Anápolis-GO."
+  },
+  {
+   "registration": "BR-03604/2026",
+   "reason": "Minas Gerais-only electorate sample, not a national presidential poll; the TSE methodology explicitly defines the Minas Gerais electorate as the survey universe."
+  },
+  {
+   "registration": "BR-02676/2026",
+   "reason": "São Paulo-only electorate sample, not a national presidential poll; the TSE methodology explicitly defines the São Paulo electorate as the survey universe."
+  },
+  {
+   "registration": "BR-02444/2026",
+   "reason": "Paraíba-only electorate sample, not a national presidential poll; the TSE methodology explicitly limits the survey to a representative sample of Paraíba voters."
+  },
+  {
+   "registration": "BR-01598/2026",
+   "reason": "Rio Grande do Norte-only electorate sample, not a national presidential poll; the TSE sampling plan limits all 2,000 interviews to Rio Grande do Norte."
+  },
+  {
+   "registration": "BR-01272/2026",
+   "reason": "Rio de Janeiro-only electorate sample, not a national presidential poll; the TSE methodology explicitly defines the Rio de Janeiro electorate as the survey universe."
+  },
+  {
+   "registration": "BR-00950/2026",
+   "reason": "Pernambuco-only electorate sample, not a national presidential poll; the TSE methodology explicitly defines the Pernambuco electorate as the survey universe."
   }
  ],
  "polls": [
