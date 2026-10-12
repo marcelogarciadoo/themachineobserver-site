@@ -478,6 +478,10 @@
   {
    "registration": "BR-04482/2026",
    "reason": "District Federal survey; not a national presidential poll."
+  },
+  {
+   "registration": "BR-04487/2026",
+   "reason": "Rio Grande do Norte-only electorate sample, not a national presidential poll; the same 1,500 interviews were registered jointly under RN-09503/2026 and BR-04487/2026."
   }
  ],
  "polls": [
