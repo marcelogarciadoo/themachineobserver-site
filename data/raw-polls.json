@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-12T08:38:05.994264Z",
+  "generatedAt": "2026-10-12T14:38:31.200594Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -7631,29 +7631,29 @@
       "start": "2026-10-07",
       "end": "2026-10-09",
       "published": "2026-10-11",
-      "lula": 44,
-      "flavio": 50,
       "sample": 2000,
       "moe": 2.19,
-      "registration": "BR-03576/2026",
-      "source": "https://www.gp1.com.br/brasil/noticia/2026/10/11/flavio-bolsonaro-tem-531-dos-votos-validos-no-segundo-turno-e-lula-469-diz-datatrends-633734.html",
-      "responses": {
-        "none": 5,
-        "undecided": 1
-      },
-      "coverage": "complete",
       "confidence": 95,
-      "method": "Automated telephone interviews",
-      "verification": "provisional-source",
+      "registration": "BR-03576/2026",
+      "method": "Automated telephone interviews (URA/DTMF)",
+      "source": "https://static.poder360.com.br/uploads/2026/10/pesquisa-datatrends-nacional-11out2026.pdf",
+      "verification": "primary-report",
+      "auditNote": "PRIMARY REPORT — DataTrends’ full report confirms the previously provisional total-response figures: Flávio Bolsonaro 50%, Lula 44%, blank/null 5%, and undecided 1%. / RELATÓRIO PRIMÁRIO — O relatório integral do DataTrends confirma os percentuais anteriormente provisórios sobre o total dos entrevistados: Flávio Bolsonaro 50%, Lula 44%, branco/nulo 5% e indecisos 1%.",
       "basis": "total respondents",
-      "auditNote": "PROVISIONAL — Published immediately from GP1’s explicit national total-response report; the primary DataTrends/TSE result document remains pending and will be rechecked. / PROVISÓRIO — Publicado imediatamente a partir da divulgação nacional explícita dos resultados sobre o total de entrevistados pelo GP1; o documento primário do DataTrends/TSE ainda será conferido.",
-      "round": 2,
+      "lula": 44,
+      "flavio": 50,
       "values": {
         "lula": 44,
         "flavio": 50
       },
-      "waveId": "DataTrends|BR-03576/2026|R2",
+      "responses": {
+        "blank_null": 5,
+        "undecided": 1
+      },
+      "coverage": "complete",
       "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "DataTrends|BR-03576/2026|R2",
+      "round": 2,
       "id": "RAW-R2-130"
     }
   ]

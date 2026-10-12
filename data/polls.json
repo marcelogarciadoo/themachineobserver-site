@@ -510,6 +510,30 @@
   {
    "registration": "BR-07902/2026",
    "reason": "Rio Grande do Norte-only electorate sample, not a national presidential poll; the TSE methodology explicitly describes a representative sample of RN voters."
+  },
+  {
+   "registration": "BR-07816/2026",
+   "reason": "Roraima-only electorate sample for governor and senator, not a national presidential poll; the TSE methodology explicitly limits the 1,079 interviews to Roraima voters."
+  },
+  {
+   "registration": "BR-07287/2026",
+   "reason": "Minas Gerais-only electorate sample, not a national presidential poll; the TSE methodology explicitly limits the survey to Minas Gerais voters."
+  },
+  {
+   "registration": "BR-06680/2026",
+   "reason": "Rio Grande do Norte-only electorate sample, not a national presidential poll; the TSE methodology limits all 2,300 interviews to Rio Grande do Norte."
+  },
+  {
+   "registration": "BR-04825/2026",
+   "reason": "Rio Grande do Norte-only electorate sample, not a national presidential poll; the TSE methodology covers 64 municipalities in Rio Grande do Norte."
+  },
+  {
+   "registration": "BR-03902/2026",
+   "reason": "Amapá-only electorate sample, not a national presidential poll; the TSE methodology explicitly defines Amapá voters as the survey universe."
+  },
+  {
+   "registration": "BR-03654/2026",
+   "reason": "Mato Grosso-only electorate sample, not a national presidential poll; the TSE methodology and sampling plan explicitly limit the 3,080 interviews to Mato Grosso."
   }
  ],
  "polls": [
@@ -2028,9 +2052,9 @@
    "sample": 2000,
    "moe": 2.19,
    "registration": "BR-03576/2026",
-   "source": "https://www.gp1.com.br/brasil/noticia/2026/10/11/flavio-bolsonaro-tem-531-dos-votos-validos-no-segundo-turno-e-lula-469-diz-datatrends-633734.html",
-   "verification": "provisional-source",
-   "auditNote": "PROVISIONAL — Published immediately from GP1’s explicit national total-response report; the primary DataTrends/TSE result document remains pending and will be rechecked. / PROVISÓRIO — Publicado imediatamente a partir da divulgação nacional explícita dos resultados sobre o total de entrevistados pelo GP1; o documento primário do DataTrends/TSE ainda será conferido."
+   "source": "https://static.poder360.com.br/uploads/2026/10/pesquisa-datatrends-nacional-11out2026.pdf",
+   "verification": "primary-report",
+   "auditNote": "PRIMARY REPORT — DataTrends’ full report confirms the previously provisional total-response figures: Flávio Bolsonaro 50%, Lula 44%, blank/null 5%, and undecided 1%. / RELATÓRIO PRIMÁRIO — O relatório integral do DataTrends confirma os percentuais anteriormente provisórios sobre o total dos entrevistados: Flávio Bolsonaro 50%, Lula 44%, branco/nulo 5% e indecisos 1%."
   }
  ]
 }
