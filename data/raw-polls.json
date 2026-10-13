@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-13T09:39:35.834900Z",
+  "generatedAt": "2026-10-13T15:50:25.444527Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -7655,6 +7655,124 @@
       "waveId": "DataTrends|BR-03576/2026|R2",
       "round": 2,
       "id": "RAW-R2-130"
+    },
+    {
+      "pollster": "Futura Inteligência",
+      "start": "2026-10-07",
+      "end": "2026-10-10",
+      "published": "2026-10-13",
+      "sample": 2000,
+      "moe": 2.2,
+      "confidence": 95,
+      "registration": "BR-00650/2026",
+      "method": "Computer-assisted telephone interviews (CATI)",
+      "source": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-Futura-presidente.pdf",
+      "verification": "primary-report",
+      "basis": "total respondents",
+      "lula": 46.6,
+      "flavio": 50,
+      "values": {
+        "lula": 46.6,
+        "flavio": 50
+      },
+      "responses": {
+        "blank_null": 1.7,
+        "undecided": 1.7
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Futura Inteligência|BR-00650/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-131"
+    },
+    {
+      "pollster": "PoderData/Aya",
+      "start": "2026-10-10",
+      "end": "2026-10-12",
+      "published": "2026-10-13",
+      "sample": 3000,
+      "moe": 1.8,
+      "confidence": 95,
+      "registration": "BR-01209/2026",
+      "method": "Automated telephone interviews (IVR), mobile and landline",
+      "source": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Relatorio-PoderData-Eleitoral-12out26.pdf",
+      "verification": "primary-report",
+      "basis": "total respondents",
+      "lula": 46,
+      "flavio": 48,
+      "values": {
+        "lula": 46,
+        "flavio": 48
+      },
+      "responses": {
+        "blank_null": 5,
+        "undecided": 2
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "PoderData/Aya|BR-01209/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-132"
+    },
+    {
+      "pollster": "Nexus",
+      "start": "2026-10-10",
+      "end": "2026-10-12",
+      "published": "2026-10-13",
+      "sample": 2002,
+      "moe": 2,
+      "confidence": 95,
+      "registration": "BR-07997/2026",
+      "method": "Telephone interviews",
+      "source": "https://www.nexus.fsb.com.br/estudos-divulgados/pesquisa-btg-nexus-de-intencao-de-votos-para-presidente-do-brasil-13-de-outubro-de-2026/",
+      "verification": "primary-institute-release",
+      "auditNote": "PRIMARY — The institute release reports 2,002 completed interviews, while the TSE registry CSV lists a planned sample of 2,000; the completed-sample figure is preserved. / PRIMÁRIO — A divulgação do instituto informa 2.002 entrevistas concluídas, enquanto o CSV do registro do TSE lista uma amostra planejada de 2.000; foi preservado o total efetivamente concluído.",
+      "basis": "total respondents",
+      "lula": 45,
+      "flavio": 48,
+      "values": {
+        "lula": 45,
+        "flavio": 48
+      },
+      "responses": {
+        "blank_null": 5,
+        "undecided": 2
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Nexus|BR-07997/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-133"
+    },
+    {
+      "pollster": "Gerp",
+      "start": "2026-10-08",
+      "end": "2026-10-12",
+      "published": "2026-10-13",
+      "sample": 2400,
+      "moe": 2,
+      "confidence": 95.55,
+      "registration": "BR-07877/2026",
+      "method": "Telephone interviews",
+      "source": "https://www.cnnbrasil.com.br/eleicoes/gerp-flavio-tem-55-dos-votos-validos-no-2o-turno-lula-45/",
+      "verification": "provisional-source",
+      "auditNote": "PROVISIONAL — Published immediately from CNN Brasil’s report and corroborated by Folha de Patrocínio; directly accessible primary Gerp/TSE result documentation remains pending and will be rechecked. The reported total-response categories sum to 101% and are preserved exactly as published. / PROVISÓRIO — Publicado imediatamente a partir da matéria da CNN Brasil e corroborado pela Folha de Patrocínio; a documentação primária diretamente acessível do Gerp/TSE ainda será conferida. As categorias publicadas sobre o total de entrevistados somam 101% e foram preservadas exatamente como divulgadas.",
+      "basis": "total respondents",
+      "lula": 44,
+      "flavio": 53,
+      "values": {
+        "lula": 44,
+        "flavio": 53
+      },
+      "responses": {
+        "none": 1,
+        "undecided": 3
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Gerp|BR-07877/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-134"
     }
   ]
 }
