@@ -582,6 +582,14 @@
   {
    "registration": "BR-03483/2026",
    "reason": "Acre-only electorate sample, not a national presidential poll; the TSE sampling plan limits all 1,344 interviews to Acre voters."
+  },
+  {
+   "registration": "BR-00643/2026",
+   "reason": "Alagoas-only electorate sample, not a national presidential poll; the TSE methodology limits all 1,200 interviews to voters in Alagoas."
+  },
+  {
+   "registration": "BR-00597/2026",
+   "reason": "Santa Catarina-only electorate sample, not a national presidential poll; the TSE methodology and sampling plan limit all 1,008 interviews to Santa Catarina voters."
   }
  ],
  "polls": [
