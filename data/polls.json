@@ -622,6 +622,26 @@
   {
    "registration": "BR-07507/2026",
    "reason": "State-only Mato Grosso presidential poll; not a national presidential poll."
+  },
+  {
+   "registration": "BR-05556/2026",
+   "reason": "Municipal survey of voters in Água Branca, Piauí; not a national presidential poll."
+  },
+  {
+   "registration": "BR-05522/2026",
+   "reason": "Municipal survey of voters in Campo Maior, Piauí; not a national presidential poll."
+  },
+  {
+   "registration": "BR-05193/2026",
+   "reason": "State-only Rio de Janeiro presidential poll; not a national presidential poll."
+  },
+  {
+   "registration": "BR-03142/2026",
+   "reason": "Regional survey limited to 19 municipalities in the Araguaia region of Mato Grosso; not a national presidential poll."
+  },
+  {
+   "registration": "BR-02421/2026",
+   "reason": "Municipal survey of voters in Nova Venécia, Espírito Santo; not a national presidential poll."
   }
  ],
  "polls": [
@@ -2197,6 +2217,20 @@
    "registration": "BR-01209/2026",
    "source": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Relatorio-PoderData-Eleitoral-12out26.pdf",
    "verification": "primary-report"
+  },
+  {
+   "pollster": "Quaest",
+   "start": "2026-10-10",
+   "end": "2026-10-13",
+   "published": "2026-10-14",
+   "lula": 44,
+   "flavio": 46,
+   "sample": 2154,
+   "moe": 2,
+   "registration": "BR-08729/2026",
+   "source": "https://sbt.news/noticia/eleicoes/quaest-flavio-bolsonaro-tem-46-e-lula-44-no-2-turno",
+   "verification": "provisional-source",
+   "auditNote": "PROVISIONAL — Published immediately from SBT News; Quaest’s primary report and TSE result documentation remain pending and will be rechecked. Registration metadata were taken from the current TSE registry CSV because the JSON cache is stale. / PROVISÓRIO — Publicado imediatamente a partir do SBT News; o relatório primário da Quaest e a documentação de resultados do TSE ainda serão conferidos. Os metadados do registro foram obtidos no CSV atual do cadastro do TSE porque o cache JSON está desatualizado."
   }
  ]
 }

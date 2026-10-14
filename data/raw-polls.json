@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-14T15:53:56.573989Z",
+  "generatedAt": "2026-10-14T21:54:02.664296Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -7773,6 +7773,36 @@
       "waveId": "Gerp|BR-07877/2026|R2",
       "round": 2,
       "id": "RAW-R2-134"
+    },
+    {
+      "pollster": "Quaest",
+      "start": "2026-10-10",
+      "end": "2026-10-13",
+      "published": "2026-10-14",
+      "sample": 2154,
+      "moe": 2,
+      "confidence": 95,
+      "registration": "BR-08729/2026",
+      "method": "In-person household interviews",
+      "source": "https://sbt.news/noticia/eleicoes/quaest-flavio-bolsonaro-tem-46-e-lula-44-no-2-turno",
+      "verification": "provisional-source",
+      "auditNote": "PROVISIONAL — Published immediately from SBT News; Quaest’s primary report and TSE result documentation remain pending and will be rechecked. Registration metadata were taken from the current TSE registry CSV because the JSON cache is stale. / PROVISÓRIO — Publicado imediatamente a partir do SBT News; o relatório primário da Quaest e a documentação de resultados do TSE ainda serão conferidos. Os metadados do registro foram obtidos no CSV atual do cadastro do TSE porque o cache JSON está desatualizado.",
+      "basis": "total respondents",
+      "lula": 44,
+      "flavio": 46,
+      "values": {
+        "lula": 44,
+        "flavio": 46
+      },
+      "responses": {
+        "blank_null": 9,
+        "undecided": 1
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Quaest|BR-08729/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-135"
     }
   ]
 }
