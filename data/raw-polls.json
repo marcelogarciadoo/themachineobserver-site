@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-13T15:50:25.444527Z",
+  "generatedAt": "2026-10-14T00:11:26.309718Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -7753,10 +7753,10 @@
       "moe": 2,
       "confidence": 95.55,
       "registration": "BR-07877/2026",
-      "method": "Telephone interviews",
-      "source": "https://www.cnnbrasil.com.br/eleicoes/gerp-flavio-tem-55-dos-votos-validos-no-2o-turno-lula-45/",
-      "verification": "provisional-source",
-      "auditNote": "PROVISIONAL — Published immediately from CNN Brasil’s report and corroborated by Folha de Patrocínio; directly accessible primary Gerp/TSE result documentation remains pending and will be rechecked. The reported total-response categories sum to 101% and are preserved exactly as published. / PROVISÓRIO — Publicado imediatamente a partir da matéria da CNN Brasil e corroborado pela Folha de Patrocínio; a documentação primária diretamente acessível do Gerp/TSE ainda será conferida. As categorias publicadas sobre o total de entrevistados somam 101% e foram preservadas exatamente como divulgadas.",
+      "method": "Computer-assisted telephone interviews (GerpCati)",
+      "source": "https://static.poder360.com.br/uploads/2026/10/PRESIDENCIA_DO_BRASIL_32o_Relatorio_Presidencia_2026_primeiro.pdf",
+      "verification": "primary-report",
+      "auditNote": "PRIMARY REPORT — Gerp’s full report confirms the provisional total-response result without value changes: Flávio Bolsonaro 53%, Lula 44%, none 1%, and undecided 3%. The reported categories sum to 101% because of rounding, as the report explicitly permits. / RELATÓRIO PRIMÁRIO — O relatório integral do Gerp confirma o resultado provisório sobre o total de entrevistados sem alteração dos valores: Flávio Bolsonaro 53%, Lula 44%, nenhum 1% e indecisos 3%. As categorias publicadas somam 101% por arredondamento, variação expressamente admitida pelo relatório.",
       "basis": "total respondents",
       "lula": 44,
       "flavio": 53,
