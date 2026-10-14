@@ -602,6 +602,26 @@
   {
    "registration": "BR-01973/2026",
    "reason": "Espírito Santo-only electorate sample, not a national presidential poll; the TSE methodology explicitly defines Espírito Santo residents as the survey universe."
+  },
+  {
+   "registration": "BR-00242/2026",
+   "reason": "State-only Rio Grande do Norte presidential poll; not a national presidential poll."
+  },
+  {
+   "registration": "BR-09816/2026",
+   "reason": "State-only Espírito Santo presidential poll; not a national presidential poll."
+  },
+  {
+   "registration": "BR-08476/2026",
+   "reason": "State-only Acre presidential poll; not a national presidential poll."
+  },
+  {
+   "registration": "BR-07647/2026",
+   "reason": "State-only Mato Grosso presidential poll; not a national presidential poll."
+  },
+  {
+   "registration": "BR-07507/2026",
+   "reason": "State-only Mato Grosso presidential poll; not a national presidential poll."
   }
  ],
  "polls": [
