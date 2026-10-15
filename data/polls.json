@@ -658,6 +658,14 @@
   {
    "registration": "BR-09891/2026",
    "reason": "State-only presidential poll covering São Paulo; not a national Brazil poll."
+  },
+  {
+   "registration": "BR-08546/2026",
+   "reason": "State-only presidential poll covering Rio Grande do Sul; not a national Brazil poll."
+  },
+  {
+   "registration": "BR-08467/2026",
+   "reason": "State-only presidential poll covering Minas Gerais; not a national Brazil poll."
   }
  ],
  "polls": [
@@ -2247,6 +2255,34 @@
    "source": "https://sbt.news/noticia/eleicoes/quaest-flavio-bolsonaro-tem-46-e-lula-44-no-2-turno",
    "verification": "provisional-source",
    "auditNote": "PROVISIONAL — Published immediately from SBT News; Quaest’s primary report and TSE result documentation remain pending and will be rechecked. Registration metadata were taken from the current TSE registry CSV because the JSON cache is stale. / PROVISÓRIO — Publicado imediatamente a partir do SBT News; o relatório primário da Quaest e a documentação de resultados do TSE ainda serão conferidos. Os metadados do registro foram obtidos no CSV atual do cadastro do TSE porque o cache JSON está desatualizado."
+  },
+  {
+   "pollster": "Indexa/Broadcast",
+   "start": "2026-10-13",
+   "end": "2026-10-14",
+   "published": "2026-10-15",
+   "lula": 42,
+   "flavio": 44,
+   "sample": 2000,
+   "moe": 2.2,
+   "registration": "BR-04629/2026",
+   "source": "https://exame.com/brasil/flavio-bolsonaro-e-lula-empatam-tecnicamente-no-2o-turno-diz-indexa-broadcast/",
+   "verification": "provisional-source",
+   "auditNote": "PROVISIONAL — Published immediately from Exame, corroborated by JOTA and the current TSE registry CSV; the primary Indexa/Broadcast report remains pending and will be rechecked. The JSON metadata cache is stale, so registration metadata were taken from the current CSV. / PROVISÓRIO — Publicado imediatamente a partir da Exame, com corroboração do JOTA e do CSV atual do cadastro do TSE; o relatório primário da Indexa/Broadcast ainda será conferido. O cache JSON está desatualizado, por isso os metadados do registro foram obtidos no CSV atual."
+  },
+  {
+   "pollster": "Palver",
+   "start": "2026-10-10",
+   "end": "2026-10-13",
+   "published": "2026-10-15",
+   "lula": 49,
+   "flavio": 50,
+   "sample": 5000,
+   "moe": 2.3,
+   "registration": "BR-08028/2026",
+   "source": "https://www.palver.com/api/surveys/voting-intention-2026-october-w7/report",
+   "verification": "primary-report",
+   "auditNote": "The primary Palver report identifies BR-08028/2026 and fieldwork from 10–13 October. Its press release contains the legacy header BR-00198/2026 and a narrative typo BR-09028/2026, while the current TSE registry CSV confirms BR-08028/2026 and lists planned fieldwork through 14 October. The completed field dates from the primary report were used; the JSON metadata cache is stale."
   }
  ]
 }

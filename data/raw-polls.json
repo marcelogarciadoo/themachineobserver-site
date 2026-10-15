@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T10:01:22.503955Z",
+  "generatedAt": "2026-10-15T16:02:18.218187Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -7803,6 +7803,67 @@
       "waveId": "Quaest|BR-08729/2026|R2",
       "round": 2,
       "id": "RAW-R2-135"
+    },
+    {
+      "pollster": "Palver",
+      "start": "2026-10-10",
+      "end": "2026-10-13",
+      "published": "2026-10-15",
+      "sample": 5000,
+      "moe": 2.3,
+      "confidence": 95,
+      "registration": "BR-08028/2026",
+      "method": "Online non-probability survey recruited through social-media ads; demographic quotas and iterative raking to IBGE/TSE targets including 2026 first-round vote",
+      "source": "https://www.palver.com/api/surveys/voting-intention-2026-october-w7/report",
+      "verification": "primary-report",
+      "auditNote": "The primary Palver report identifies BR-08028/2026 and fieldwork from 10–13 October. Its press release contains the legacy header BR-00198/2026 and a narrative typo BR-09028/2026, while the current TSE registry CSV confirms BR-08028/2026 and lists planned fieldwork through 14 October. The completed field dates from the primary report were used; the JSON metadata cache is stale.",
+      "basis": "total respondents",
+      "lula": 49,
+      "flavio": 50,
+      "values": {
+        "lula": 49,
+        "flavio": 50
+      },
+      "responses": {
+        "blank_null_not_vote": 1,
+        "undecided": 0
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Palver|BR-08028/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-136"
+    },
+    {
+      "pollster": "Indexa/Broadcast",
+      "start": "2026-10-13",
+      "end": "2026-10-14",
+      "published": "2026-10-15",
+      "sample": 2000,
+      "moe": 2.2,
+      "confidence": 95,
+      "registration": "BR-04629/2026",
+      "method": "Individual telephone interviews",
+      "source": "https://exame.com/brasil/flavio-bolsonaro-e-lula-empatam-tecnicamente-no-2o-turno-diz-indexa-broadcast/",
+      "verification": "provisional-source",
+      "auditNote": "PROVISIONAL — Published immediately from Exame, corroborated by JOTA and the current TSE registry CSV; the primary Indexa/Broadcast report remains pending and will be rechecked. The JSON metadata cache is stale, so registration metadata were taken from the current CSV. / PROVISÓRIO — Publicado imediatamente a partir da Exame, com corroboração do JOTA e do CSV atual do cadastro do TSE; o relatório primário da Indexa/Broadcast ainda será conferido. O cache JSON está desatualizado, por isso os metadados do registro foram obtidos no CSV atual.",
+      "basis": "total respondents",
+      "lula": 42,
+      "flavio": 44,
+      "values": {
+        "lula": 42,
+        "flavio": 44
+      },
+      "responses": {
+        "no_vote": 8,
+        "blank_null": 4,
+        "undecided": 2
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Indexa/Broadcast|BR-04629/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-137"
     }
   ]
 }
