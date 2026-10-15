@@ -650,6 +650,14 @@
   {
    "registration": "BR-00633/2026",
    "reason": "State-only Bahia presidential poll; not a national presidential poll."
+  },
+  {
+   "registration": "BR-09952/2026",
+   "reason": "State-only presidential poll covering Pará; not a national Brazil poll."
+  },
+  {
+   "registration": "BR-09891/2026",
+   "reason": "State-only presidential poll covering São Paulo; not a national Brazil poll."
   }
  ],
  "polls": [
