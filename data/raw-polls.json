@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-15T16:02:18.218187Z",
+  "generatedAt": "2026-10-15T22:06:13.226815Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -7864,6 +7864,36 @@
       "waveId": "Indexa/Broadcast|BR-04629/2026|R2",
       "round": 2,
       "id": "RAW-R2-137"
+    },
+    {
+      "pollster": "Datafolha",
+      "start": "2026-10-13",
+      "end": "2026-10-15",
+      "published": "2026-10-15",
+      "sample": 2520,
+      "moe": 2,
+      "confidence": 95,
+      "registration": "BR-00466/2026",
+      "method": "In-person interviews at population-flow locations",
+      "source": "https://www1.folha.uol.com.br/poder/2026/10/datafolha-flavio-bolsonaro-tem-51-e-lula-49-dos-votos-validos-um-empate-tecnico.shtml",
+      "verification": "provisional-source",
+      "auditNote": "PROVISIONAL — Published immediately from Folha de S.Paulo’s official result page, with registration metadata from the current TSE registry CSV; Datafolha’s accessible full primary report remains pending and will be rechecked. The JSON metadata cache is stale. / PROVISÓRIO — Publicado imediatamente a partir da página oficial de resultados da Folha de S.Paulo, com metadados do registro obtidos no CSV atual do cadastro do TSE; o relatório primário completo e acessível do Datafolha ainda será conferido. O cache JSON está desatualizado.",
+      "basis": "total respondents",
+      "lula": 45,
+      "flavio": 47,
+      "values": {
+        "lula": 45,
+        "flavio": 47
+      },
+      "responses": {
+        "blank_null_not_vote": 6,
+        "undecided": 2
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Datafolha|BR-00466/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-138"
     }
   ]
 }

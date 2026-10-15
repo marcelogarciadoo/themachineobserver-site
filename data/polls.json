@@ -666,6 +666,26 @@
   {
    "registration": "BR-08467/2026",
    "reason": "State-only presidential poll covering Minas Gerais; not a national Brazil poll."
+  },
+  {
+   "registration": "BR-02724/2026",
+   "reason": "State-only Acre presidential poll; not a national Brazil poll."
+  },
+  {
+   "registration": "BR-07422/2026",
+   "reason": "State-only Piauí presidential poll; not a national Brazil poll."
+  },
+  {
+   "registration": "BR-05155/2026",
+   "reason": "State-only São Paulo presidential poll; not a national Brazil poll."
+  },
+  {
+   "registration": "BR-00531/2026",
+   "reason": "District-only Federal District presidential poll; not a national Brazil poll."
+  },
+  {
+   "registration": "BR-04194/2026",
+   "reason": "State-only Ceará presidential poll; not a national Brazil poll."
   }
  ],
  "polls": [
@@ -2255,6 +2275,20 @@
    "source": "https://sbt.news/noticia/eleicoes/quaest-flavio-bolsonaro-tem-46-e-lula-44-no-2-turno",
    "verification": "provisional-source",
    "auditNote": "PROVISIONAL — Published immediately from SBT News; Quaest’s primary report and TSE result documentation remain pending and will be rechecked. Registration metadata were taken from the current TSE registry CSV because the JSON cache is stale. / PROVISÓRIO — Publicado imediatamente a partir do SBT News; o relatório primário da Quaest e a documentação de resultados do TSE ainda serão conferidos. Os metadados do registro foram obtidos no CSV atual do cadastro do TSE porque o cache JSON está desatualizado."
+  },
+  {
+   "pollster": "Datafolha",
+   "start": "2026-10-13",
+   "end": "2026-10-15",
+   "published": "2026-10-15",
+   "lula": 45,
+   "flavio": 47,
+   "sample": 2520,
+   "moe": 2,
+   "registration": "BR-00466/2026",
+   "source": "https://www1.folha.uol.com.br/poder/2026/10/datafolha-flavio-bolsonaro-tem-51-e-lula-49-dos-votos-validos-um-empate-tecnico.shtml",
+   "verification": "provisional-source",
+   "auditNote": "PROVISIONAL — Published immediately from Folha de S.Paulo’s official result page, with registration metadata from the current TSE registry CSV; Datafolha’s accessible full primary report remains pending and will be rechecked. The JSON metadata cache is stale. / PROVISÓRIO — Publicado imediatamente a partir da página oficial de resultados da Folha de S.Paulo, com metadados do registro obtidos no CSV atual do cadastro do TSE; o relatório primário completo e acessível do Datafolha ainda será conferido. O cache JSON está desatualizado."
   },
   {
    "pollster": "Indexa/Broadcast",
