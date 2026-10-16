@@ -698,6 +698,14 @@
   {
    "registration": "BR-08289/2026",
    "reason": "State-only Pernambuco presidential poll; not a national Brazil poll."
+  },
+  {
+   "registration": "BR-07472/2026",
+   "reason": "State-only Mato Grosso do Sul presidential poll covering 18 municipalities; not a national Brazil poll."
+  },
+  {
+   "registration": "BR-05839/2026",
+   "reason": "Municipal presidential poll limited to voters in Paracatu, Minas Gerais; not a national Brazil poll."
   }
  ],
  "polls": [
