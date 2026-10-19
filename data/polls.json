@@ -2343,6 +2343,34 @@
    "auditNote": "The Datafolha primary report says completed fieldwork was 13–14 October and the institute's original release was published 16 October. The prior provisional row used the TSE's planned 13–15 October field period and a 15 October publication date; both are corrected here. Candidate and response percentages are unchanged."
   },
   {
+   "pollster": "Veritá",
+   "start": "2026-10-12",
+   "end": "2026-10-16",
+   "published": "2026-10-17",
+   "lula": 47.7,
+   "flavio": 49.7,
+   "sample": 15554,
+   "moe": 1,
+   "registration": "BR-01107/2026",
+   "source": "https://brasil.arvor.co/fontes/verita_17102026.pdf",
+   "verification": "primary-report",
+   "auditNote": "The original Veritá report is preserved by Arvor rather than linked from the institute's site. Its runoff table (PDF page 9, printed page 13) reports 49.7% Flávio, 47.7% Lula, 1.5% blank/null and 1.1% don't know/no answer over all respondents. PB Vale's 47.6%/45.6% totals conflict with the report and are not used."
+  },
+  {
+   "pollster": "Vox Brasil",
+   "start": "2026-10-15",
+   "end": "2026-10-17",
+   "published": "2026-10-18",
+   "lula": 46.4,
+   "flavio": 44.6,
+   "sample": 2100,
+   "moe": 2.15,
+   "registration": "BR-04332/2026",
+   "source": "https://exame.com/brasil/pesquisa-vox-brasil-lula-tem-51-e-flavio-bolsonaro-49-em-empate-tecnico/",
+   "verification": "provisional-source",
+   "auditNote": "PROVISIONAL — Exame published the national stimulated runoff over all respondents, and GZH independently reported the same totals, response categories, fieldwork, sample and registration. The institute's original report/PDF was not located and must be rechecked. Published categories total 99.9% because of rounding; no normalization is applied."
+  },
+  {
    "pollster": "AtlasIntel",
    "start": "2026-10-13",
    "end": "2026-10-18",
