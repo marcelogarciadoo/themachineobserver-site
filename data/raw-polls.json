@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T13:03:20.578481Z",
+  "generatedAt": "2026-10-19T19:20:04.526234Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -7926,6 +7926,35 @@
       "id": "RAW-R2-142"
     },
     {
+      "pollster": "Ipespe/Abrapel",
+      "start": "2026-10-13",
+      "end": "2026-10-15",
+      "published": "2026-10-17",
+      "sample": 1500,
+      "moe": 2.6,
+      "confidence": 95.45,
+      "registration": "BR-00223/2026",
+      "method": "Telephone interviews with a structured questionnaire using landline and mobile numbers",
+      "source": "https://ipespe.org.br/wp-content/uploads/2026/10/TRK-CAMPANHA-02_-IPESPE-ABRAPEL_2T_-13-a-15-OUT-2026.pdf",
+      "verification": "primary-report",
+      "basis": "total respondents",
+      "lula": 46,
+      "flavio": 48,
+      "values": {
+        "lula": 46,
+        "flavio": 48
+      },
+      "responses": {
+        "blank_null": 3,
+        "undecided_no_response": 3
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Ipespe/Abrapel|BR-00223/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-144"
+    },
+    {
       "pollster": "Vox Brasil",
       "start": "2026-10-15",
       "end": "2026-10-17",
@@ -8043,6 +8072,66 @@
       "waveId": "PoderData/Aya|BR-02586/2026|R2",
       "round": 2,
       "id": "RAW-R2-141"
+    },
+    {
+      "pollster": "Futura Inteligência",
+      "start": "2026-10-16",
+      "end": "2026-10-17",
+      "published": "2026-10-19",
+      "sample": 2000,
+      "moe": 2.2,
+      "confidence": 95,
+      "registration": "BR-06715/2026",
+      "method": "Computer-assisted telephone interviewing (CATI)",
+      "source": "https://static.poder360.com.br/uploads/2026/10/pesquisa-futura-eleicao-presidencial-19out2026.pdf",
+      "verification": "primary-report",
+      "auditNote": "The original institute report identifies 16–17 October fieldwork and BR-06715/2026. A CNN article heading erroneously states 14–15 October, while its methodology paragraph and the TSE registry agree with the report. The four published stimulated categories sum to 100.1% due to rounding; no normalization is applied.",
+      "basis": "total respondents",
+      "lula": 47.5,
+      "flavio": 48.3,
+      "values": {
+        "lula": 47.5,
+        "flavio": 48.3
+      },
+      "responses": {
+        "none_blank_null": 2.4,
+        "undecided_no_response": 1.9
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Futura Inteligência|BR-06715/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-145"
+    },
+    {
+      "pollster": "DataTrends",
+      "start": "2026-10-15",
+      "end": "2026-10-17",
+      "published": "2026-10-19",
+      "sample": 2000,
+      "moe": 2.19,
+      "confidence": 95,
+      "registration": "BR-04454/2026",
+      "method": "Automated telephone interviews (URA/IVR) via fixed and mobile numbers across all 27 federation units",
+      "source": "https://www.faroldabahia.com.br/noticia/datatrends-flavio-bolsonaro-tem-51-5-dos-votos-validos-contra-48-5-de-lula-na-disputa-presidencial?amp=1",
+      "verification": "provisional-source",
+      "auditNote": "PROVISIONAL — Farol da Bahia published the national stimulated total-respondent figures and all response categories; GP1 independently reported the same. The TSE registry CSV generated 19 October confirms registration, planned fieldwork, sample, national scope and automated telephone method. The institute's original report/PDF was not located and must be rechecked.",
+      "basis": "total respondents",
+      "lula": 46,
+      "flavio": 49,
+      "values": {
+        "lula": 46,
+        "flavio": 49
+      },
+      "responses": {
+        "blank_null": 4,
+        "undecided_no_response": 1
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "DataTrends|BR-04454/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-146"
     }
   ]
 }
