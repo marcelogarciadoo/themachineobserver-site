@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-16T10:07:13.493131Z",
+  "generatedAt": "2026-10-19T11:43:31.775420Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -7866,18 +7866,19 @@
       "id": "RAW-R2-137"
     },
     {
+      "id": "RAW-R2-138",
       "pollster": "Datafolha",
       "start": "2026-10-13",
-      "end": "2026-10-15",
-      "published": "2026-10-15",
+      "end": "2026-10-14",
+      "published": "2026-10-16",
       "sample": 2520,
       "moe": 2,
       "confidence": 95,
       "registration": "BR-00466/2026",
       "method": "In-person interviews at population-flow locations",
-      "source": "https://www1.folha.uol.com.br/poder/2026/10/datafolha-flavio-bolsonaro-tem-51-e-lula-49-dos-votos-validos-um-empate-tecnico.shtml",
-      "verification": "provisional-source",
-      "auditNote": "PROVISIONAL — Published immediately from Folha de S.Paulo’s official result page, with registration metadata from the current TSE registry CSV; Datafolha’s accessible full primary report remains pending and will be rechecked. The JSON metadata cache is stale. / PROVISÓRIO — Publicado imediatamente a partir da página oficial de resultados da Folha de S.Paulo, com metadados do registro obtidos no CSV atual do cadastro do TSE; o relatório primário completo e acessível do Datafolha ainda será conferido. O cache JSON está desatualizado.",
+      "source": "https://media.folha.uol.com.br/datafolha/2026/10/16/2sq1uhzy7x0w7caugz-gotqrxffgtdsqnx7qkfqfhs0.pdf",
+      "verification": "primary-report",
+      "auditNote": "The Datafolha primary report says completed fieldwork was 13–14 October and the institute's original release was published 16 October. The prior provisional row used the TSE's planned 13–15 October field period and a 15 October publication date; both are corrected here. Candidate and response percentages are unchanged.",
       "basis": "total respondents",
       "lula": 45,
       "flavio": 47,
@@ -7892,8 +7893,96 @@
       "coverage": "complete",
       "scenario": "Lula × Flávio Bolsonaro",
       "waveId": "Datafolha|BR-00466/2026|R2",
+      "round": 2
+    },
+    {
+      "pollster": "AtlasIntel",
+      "start": "2026-10-13",
+      "end": "2026-10-18",
+      "published": "2026-10-19",
+      "sample": 4998,
+      "moe": 1,
+      "confidence": 95,
+      "registration": "BR-02418/2026",
+      "method": "Random digital recruitment (Atlas RDR)",
+      "source": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Pesquisa-Atlas_Bloomberg-Nacional-261019.pdf",
+      "verification": "primary-report",
+      "auditNote": "The primary report lists 4,998 completed respondents; the registration calendar lists 5,000 planned interviews. The completed sample is preserved.",
+      "basis": "total respondents",
+      "lula": 47.6,
+      "flavio": 49.8,
+      "values": {
+        "lula": 47.6,
+        "flavio": 49.8
+      },
+      "responses": {
+        "blank_null_undecided": 2.6
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "AtlasIntel|BR-02418/2026|R2",
       "round": 2,
-      "id": "RAW-R2-138"
+      "id": "RAW-R2-139"
+    },
+    {
+      "pollster": "Nexus",
+      "start": "2026-10-16",
+      "end": "2026-10-18",
+      "published": "2026-10-19",
+      "sample": 2002,
+      "moe": 2,
+      "confidence": 95,
+      "registration": "BR-04499/2026",
+      "method": "Computer-assisted telephone interviews (CATI)",
+      "source": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-presidencial-BTG-Nexus-19out2026.pdf",
+      "verification": "primary-report",
+      "auditNote": "The primary report lists 2,002 completed interviews; the registration calendar lists 2,000 planned interviews. The completed sample is preserved. The report notes possible 0.1-point rounding differences.",
+      "basis": "total respondents",
+      "lula": 45.9,
+      "flavio": 46.5,
+      "values": {
+        "lula": 45.9,
+        "flavio": 46.5
+      },
+      "responses": {
+        "none_blank_null": 4.7,
+        "undecided": 2.9
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Nexus|BR-04499/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-140"
+    },
+    {
+      "pollster": "PoderData/Aya",
+      "start": "2026-10-16",
+      "end": "2026-10-18",
+      "published": "2026-10-19",
+      "sample": 3000,
+      "moe": 1.8,
+      "confidence": 95,
+      "registration": "BR-02586/2026",
+      "method": "Automated telephone interviews (IVR), mobile and landline",
+      "source": "https://static.poder360.com.br/uploads/2026/10/Relatorio-PoderData-Eleitoral-18out26.pdf",
+      "verification": "primary-report",
+      "auditNote": "The published total-response categories sum to 101% because of whole-number rounding; the original report states that rounded totals can differ from 100%.",
+      "basis": "total respondents",
+      "lula": 46,
+      "flavio": 49,
+      "values": {
+        "lula": 46,
+        "flavio": 49
+      },
+      "responses": {
+        "blank_null": 4,
+        "undecided": 2
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "PoderData/Aya|BR-02586/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-141"
     }
   ]
 }

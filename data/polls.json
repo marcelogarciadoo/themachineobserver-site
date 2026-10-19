@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16",
+ "updated": "2026-10-19",
  "version": 1,
  "notes": "AtlasIntel de janeiro usa os percentuais retrospectivos de fevereiro, com campo e amostra corroborados no Poder360. A rodada AtlasIntel de maio não foi incluída: a fonte de julho informa sua retirada da série pelo instituto. Paraná de fevereiro: amostra 2.080 conforme reprodução UOL; Exame informa 2.020. Fontes com divergências: no BTG/Nexus de 17 ago., foram mantidos 47%–44% conforme a publicação original do instituto, embora a comparação retrospectiva de 24 ago. cite 47%–45%. No Datafolha de 3 set., o campo é 1–2 set., conforme a Folha. No BTG/Nexus de 24 ago., a amostra é 2.006, conforme o instituto. Para a rodada BTG/Nexus de 14 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pela publicação da VEJA. Para a rodada Quaest de 14 set. e a CNT/MDA de 15 set., os mesmos campos foram preservados conforme as publicações do UOL. Para a rodada Indexa/Broadcast de 15 set., foram preservados conforme a publicação original do Broadcast. Para a rodada DataTrends de 16 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pela publicação parceira do Correio Braziliense. Para a rodada AtlasIntel/Bloomberg de 17 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pelo UOL. Para a rodada Gerp de 17 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pela CNN Brasil. Para a rodada Futura/100% Cidades de 17 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pela Exame. Para a rodada Datafolha de 17 set., o campo informado pela reportagem é 15–16 set., um dia antes do fim de campo constante do registro na TSE (15–17 set.); demais campos conforme a publicação. Para a rodada Palver de 10 ago., o campo é 3–7 ago. conforme as publicações; o registro na TSE lista o período 3–9 ago. Os registros BR-01720/2026 (Quaest, 3–6 set.) e BR-07065/2026 (Quaest, 30 ago.–1 set.) foram completados nesta atualização por correspondência exata de instituto, campo e amostra com o registro da TSE. A rodada BTG/Nexus de 29 de junho tem amostra de 2.009 entrevistas conforme a publicação do instituto (registro consta 2.000). Para as rodadas BTG/Nexus de 13 e 27 de julho, Gerp de 8 de julho, PoderData/Aya de 16 de julho, Vox Brasil de 27 de junho e Alfa/TMC de 31 de julho, foram preservados os números, o campo, a amostra e a margem informados pelas publicações originais dos institutos ou das reportagens que os divulgaram; a publicação da Vox Brasil de 27 de junho é um dia posterior à data de divulgação constante do registro na TSE (26 de junho). Para a rodada Gerp de 9 de junho, o campo informado pela reportagem é 2–5 jun., um dia depois do início de campo constante do registro na TSE (1–5 jun.); demais campos conforme a publicação. Para as rodadas PoderData/Aya de 25 de junho e 30 de julho, Alfa Inteligência de 11 de junho, BTG/Nexus de 15 de junho, CNT/MDA de 16 de junho e Indexa/Broadcast de 23 de junho, foram preservados os números, o campo, a amostra e a margem informados pelas publicações originais dos institutos ou das reportagens que os divulgaram, com correspondência exata ao registro da TSE.",
  "ignored": [
@@ -706,6 +706,10 @@
   {
    "registration": "BR-05839/2026",
    "reason": "Municipal presidential poll limited to voters in Paracatu, Minas Gerais; not a national Brazil poll."
+  },
+  {
+   "registration": "BR-09051/2026",
+   "reason": "Tocantins-only electorate sample, not a national presidential poll; the TSE's 18 October registry CSV explicitly limits the methodology to voters in Tocantins."
   }
  ],
  "polls": [
@@ -2297,20 +2301,6 @@
    "auditNote": "PROVISIONAL — Published immediately from SBT News; Quaest’s primary report and TSE result documentation remain pending and will be rechecked. Registration metadata were taken from the current TSE registry CSV because the JSON cache is stale. / PROVISÓRIO — Publicado imediatamente a partir do SBT News; o relatório primário da Quaest e a documentação de resultados do TSE ainda serão conferidos. Os metadados do registro foram obtidos no CSV atual do cadastro do TSE porque o cache JSON está desatualizado."
   },
   {
-   "pollster": "Datafolha",
-   "start": "2026-10-13",
-   "end": "2026-10-15",
-   "published": "2026-10-15",
-   "lula": 45,
-   "flavio": 47,
-   "sample": 2520,
-   "moe": 2,
-   "registration": "BR-00466/2026",
-   "source": "https://www1.folha.uol.com.br/poder/2026/10/datafolha-flavio-bolsonaro-tem-51-e-lula-49-dos-votos-validos-um-empate-tecnico.shtml",
-   "verification": "provisional-source",
-   "auditNote": "PROVISIONAL — Published immediately from Folha de S.Paulo’s official result page, with registration metadata from the current TSE registry CSV; Datafolha’s accessible full primary report remains pending and will be rechecked. The JSON metadata cache is stale. / PROVISÓRIO — Publicado imediatamente a partir da página oficial de resultados da Folha de S.Paulo, com metadados do registro obtidos no CSV atual do cadastro do TSE; o relatório primário completo e acessível do Datafolha ainda será conferido. O cache JSON está desatualizado."
-  },
-  {
    "pollster": "Indexa/Broadcast",
    "start": "2026-10-13",
    "end": "2026-10-14",
@@ -2337,6 +2327,62 @@
    "source": "https://www.palver.com/api/surveys/voting-intention-2026-october-w7/report",
    "verification": "primary-report",
    "auditNote": "The primary Palver report identifies BR-08028/2026 and fieldwork from 10–13 October. Its press release contains the legacy header BR-00198/2026 and a narrative typo BR-09028/2026, while the current TSE registry CSV confirms BR-08028/2026 and lists planned fieldwork through 14 October. The completed field dates from the primary report were used; the JSON metadata cache is stale."
+  },
+  {
+   "pollster": "Datafolha",
+   "start": "2026-10-13",
+   "end": "2026-10-14",
+   "published": "2026-10-16",
+   "lula": 45,
+   "flavio": 47,
+   "sample": 2520,
+   "moe": 2,
+   "registration": "BR-00466/2026",
+   "source": "https://media.folha.uol.com.br/datafolha/2026/10/16/2sq1uhzy7x0w7caugz-gotqrxffgtdsqnx7qkfqfhs0.pdf",
+   "verification": "primary-report",
+   "auditNote": "The Datafolha primary report says completed fieldwork was 13–14 October and the institute's original release was published 16 October. The prior provisional row used the TSE's planned 13–15 October field period and a 15 October publication date; both are corrected here. Candidate and response percentages are unchanged."
+  },
+  {
+   "pollster": "AtlasIntel",
+   "start": "2026-10-13",
+   "end": "2026-10-18",
+   "published": "2026-10-19",
+   "lula": 47.6,
+   "flavio": 49.8,
+   "sample": 4998,
+   "moe": 1,
+   "registration": "BR-02418/2026",
+   "source": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Pesquisa-Atlas_Bloomberg-Nacional-261019.pdf",
+   "verification": "primary-report",
+   "auditNote": "The primary report lists 4,998 completed respondents; the registration calendar lists 5,000 planned interviews. The completed sample is preserved."
+  },
+  {
+   "pollster": "Nexus",
+   "start": "2026-10-16",
+   "end": "2026-10-18",
+   "published": "2026-10-19",
+   "lula": 45.9,
+   "flavio": 46.5,
+   "sample": 2002,
+   "moe": 2,
+   "registration": "BR-04499/2026",
+   "source": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-presidencial-BTG-Nexus-19out2026.pdf",
+   "verification": "primary-report",
+   "auditNote": "The primary report lists 2,002 completed interviews; the registration calendar lists 2,000 planned interviews. The completed sample is preserved. The report notes possible 0.1-point rounding differences."
+  },
+  {
+   "pollster": "PoderData/Aya",
+   "start": "2026-10-16",
+   "end": "2026-10-18",
+   "published": "2026-10-19",
+   "lula": 46,
+   "flavio": 49,
+   "sample": 3000,
+   "moe": 1.8,
+   "registration": "BR-02586/2026",
+   "source": "https://static.poder360.com.br/uploads/2026/10/Relatorio-PoderData-Eleitoral-18out26.pdf",
+   "verification": "primary-report",
+   "auditNote": "The published total-response categories sum to 101% because of whole-number rounding; the original report states that rounded totals can differ from 100%."
   }
  ]
 }
