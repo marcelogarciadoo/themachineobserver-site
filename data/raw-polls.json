@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T19:20:04.526234Z",
+  "generatedAt": "2026-10-20T00:41:07.646376Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -7894,6 +7894,125 @@
       "scenario": "Lula × Flávio Bolsonaro",
       "waveId": "Datafolha|BR-00466/2026|R2",
       "round": 2
+    },
+    {
+      "pollster": "CNT/MDA",
+      "start": "2026-10-13",
+      "end": "2026-10-15",
+      "published": "2026-10-16",
+      "sample": 2014,
+      "moe": 2.2,
+      "confidence": 95,
+      "registration": "BR-00652/2026",
+      "method": "In-person, household and street-intercept interviews",
+      "source": "https://data.cnt.org.br/wp-content/uploads/2026/10/Relatorio-Pesquisa-CNT-de-Opiniao-R172-OUTUBRO26.pdf",
+      "verification": "primary-report",
+      "auditNote": "The CNT/MDA original report states 2,014 completed interviews, while the TSE registration CSV lists a planned sample of 2,002; the reported result and actual sample are preserved.",
+      "basis": "total respondents",
+      "lula": 45.9,
+      "flavio": 46.8,
+      "values": {
+        "lula": 45.9,
+        "flavio": 46.8
+      },
+      "responses": {
+        "blank_null": 4.9,
+        "undecided": 2.4
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "CNT/MDA|BR-00652/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-147"
+    },
+    {
+      "pollster": "Futura Inteligência",
+      "start": "2026-10-14",
+      "end": "2026-10-15",
+      "published": "2026-10-16",
+      "sample": 2000,
+      "moe": 2.2,
+      "confidence": 95,
+      "registration": "BR-03764/2026",
+      "method": "Computer-assisted telephone interviewing (CATI)",
+      "source": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Relatorio_BR_Out_2_V2_ComTexto_Final.pdf",
+      "verification": "primary-report",
+      "auditNote": "The original Futura report states fieldwork on 14–15 October, whereas the TSE registration CSV lists 13–15 October. The four published stimulated categories total 100.1% because of decimal rounding; no normalization was applied.",
+      "basis": "total respondents",
+      "lula": 47.5,
+      "flavio": 49,
+      "values": {
+        "lula": 47.5,
+        "flavio": 49
+      },
+      "responses": {
+        "none_blank_null": 1.5,
+        "undecided_no_response": 2.1
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Futura Inteligência|BR-03764/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-148"
+    },
+    {
+      "pollster": "PoderData/Aya",
+      "start": "2026-10-13",
+      "end": "2026-10-15",
+      "published": "2026-10-16",
+      "sample": 3000,
+      "moe": 1.8,
+      "confidence": 95,
+      "registration": "BR-04258/2026",
+      "method": "Automated telephone interviews (IVR), mobile and landline",
+      "source": "https://static.poder360.com.br/uploads/2026/10/Relatorio-PoderData-Eleitoral-15out26.pdf",
+      "verification": "primary-report",
+      "basis": "total respondents",
+      "lula": 47,
+      "flavio": 47,
+      "values": {
+        "lula": 47,
+        "flavio": 47
+      },
+      "responses": {
+        "blank_null": 4,
+        "undecided": 2
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "PoderData/Aya|BR-04258/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-149"
+    },
+    {
+      "pollster": "Gerp",
+      "start": "2026-10-14",
+      "end": "2026-10-16",
+      "published": "2026-10-16",
+      "sample": 2400,
+      "moe": 2,
+      "confidence": 95.55,
+      "registration": "BR-05187/2026",
+      "method": "Computer-assisted telephone interviewing (GerpCati)",
+      "source": "https://static.poder360.com.br/uploads/2026/10/PesquisaGerp-presidente-16out2026.pdf",
+      "verification": "primary-report",
+      "auditNote": "The original Gerp report confirms fieldwork on 14–16 October and publication on 16 October. The TSE registry CSV lists a 13 October disclosure date, before fieldwork ended; the report's actual dates are preserved.",
+      "basis": "total respondents",
+      "lula": 45,
+      "flavio": 50,
+      "values": {
+        "lula": 45,
+        "flavio": 50
+      },
+      "responses": {
+        "none": 2,
+        "undecided_no_response": 3
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Gerp|BR-05187/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-150"
     },
     {
       "pollster": "Veritá",

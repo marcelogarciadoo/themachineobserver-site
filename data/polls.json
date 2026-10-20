@@ -722,6 +722,10 @@
   {
    "registration": "BR-02615/2026",
    "reason": "Rio Grande do Norte-only electorate sample, not a national presidential poll; the TSE 19 October registry methodology explicitly limits interviews to RN domiciled voters."
+  },
+  {
+   "registration": "BR-02003/2026",
+   "reason": "Rio Grande do Norte-only electorate sample, not a national presidential poll; the TSE 19 October registry sampling plan explicitly defines the universe as voters in Rio Grande do Norte."
   }
  ],
  "polls": [
@@ -2341,6 +2345,20 @@
    "auditNote": "The primary Palver report identifies BR-08028/2026 and fieldwork from 10–13 October. Its press release contains the legacy header BR-00198/2026 and a narrative typo BR-09028/2026, while the current TSE registry CSV confirms BR-08028/2026 and lists planned fieldwork through 14 October. The completed field dates from the primary report were used; the JSON metadata cache is stale."
   },
   {
+   "pollster": "CNT/MDA",
+   "start": "2026-10-13",
+   "end": "2026-10-15",
+   "published": "2026-10-16",
+   "lula": 45.9,
+   "flavio": 46.8,
+   "sample": 2014,
+   "moe": 2.2,
+   "registration": "BR-00652/2026",
+   "source": "https://data.cnt.org.br/wp-content/uploads/2026/10/Relatorio-Pesquisa-CNT-de-Opiniao-R172-OUTUBRO26.pdf",
+   "verification": "primary-report",
+   "auditNote": "The CNT/MDA original report states 2,014 completed interviews, while the TSE registration CSV lists a planned sample of 2,002; the reported result and actual sample are preserved."
+  },
+  {
    "pollster": "Datafolha",
    "start": "2026-10-13",
    "end": "2026-10-14",
@@ -2353,6 +2371,47 @@
    "source": "https://media.folha.uol.com.br/datafolha/2026/10/16/2sq1uhzy7x0w7caugz-gotqrxffgtdsqnx7qkfqfhs0.pdf",
    "verification": "primary-report",
    "auditNote": "The Datafolha primary report says completed fieldwork was 13–14 October and the institute's original release was published 16 October. The prior provisional row used the TSE's planned 13–15 October field period and a 15 October publication date; both are corrected here. Candidate and response percentages are unchanged."
+  },
+  {
+   "pollster": "Futura Inteligência",
+   "start": "2026-10-14",
+   "end": "2026-10-15",
+   "published": "2026-10-16",
+   "lula": 47.5,
+   "flavio": 49,
+   "sample": 2000,
+   "moe": 2.2,
+   "registration": "BR-03764/2026",
+   "source": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Relatorio_BR_Out_2_V2_ComTexto_Final.pdf",
+   "verification": "primary-report",
+   "auditNote": "The original Futura report states fieldwork on 14–15 October, whereas the TSE registration CSV lists 13–15 October. The four published stimulated categories total 100.1% because of decimal rounding; no normalization was applied."
+  },
+  {
+   "pollster": "Gerp",
+   "start": "2026-10-14",
+   "end": "2026-10-16",
+   "published": "2026-10-16",
+   "lula": 45,
+   "flavio": 50,
+   "sample": 2400,
+   "moe": 2,
+   "registration": "BR-05187/2026",
+   "source": "https://static.poder360.com.br/uploads/2026/10/PesquisaGerp-presidente-16out2026.pdf",
+   "verification": "primary-report",
+   "auditNote": "The original Gerp report confirms fieldwork on 14–16 October and publication on 16 October. The TSE registry CSV lists a 13 October disclosure date, before fieldwork ended; the report's actual dates are preserved."
+  },
+  {
+   "pollster": "PoderData/Aya",
+   "start": "2026-10-13",
+   "end": "2026-10-15",
+   "published": "2026-10-16",
+   "lula": 47,
+   "flavio": 47,
+   "sample": 3000,
+   "moe": 1.8,
+   "registration": "BR-04258/2026",
+   "source": "https://static.poder360.com.br/uploads/2026/10/Relatorio-PoderData-Eleitoral-15out26.pdf",
+   "verification": "primary-report"
   },
   {
    "pollster": "Ipespe/Abrapel",
