@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T07:05:03.967906Z",
+  "generatedAt": "2026-10-20T13:01:53.777022Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -8251,6 +8251,126 @@
       "waveId": "DataTrends|BR-04454/2026|R2",
       "id": "RAW-R2-146",
       "round": 2
+    },
+    {
+      "pollster": "Instituto Ranking Pesquisa",
+      "start": "2026-10-14",
+      "end": "2026-10-16",
+      "published": "2026-10-20",
+      "sample": 2100,
+      "moe": 2.15,
+      "confidence": 95,
+      "registration": "BR-00152/2026",
+      "method": "In-person household interviews with a structured questionnaire and cluster sampling",
+      "source": "https://fonte83.com.br/politica/pesquisa-nacional-data-ranking-lula-tem-504-e-flavio-496-no-2o-turno/",
+      "verification": "primary-report",
+      "auditNote": "The original publishing partner Fonte83 released the total-respondent stimulated runoff on 20 October: Lula 45.4%, Flávio 44.6%, blank/null/none 6%, and no answer 4%. Its methodology paragraph gives a 2.15-point margin, while an earlier sentence rounds this to two points. The TSE national registration independently confirms the sample, fieldwork and household method. Publication was one day after the registered disclosure date.",
+      "basis": "total respondents",
+      "lula": 45.4,
+      "flavio": 44.6,
+      "values": {
+        "lula": 45.4,
+        "flavio": 44.6
+      },
+      "responses": {
+        "blank_null_none": 6,
+        "undecided_no_response": 4
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Instituto Ranking Pesquisa|BR-00152/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-151"
+    },
+    {
+      "pollster": "Real Time Big Data",
+      "start": "2026-10-15",
+      "end": "2026-10-19",
+      "published": "2026-10-20",
+      "sample": 2000,
+      "moe": 2,
+      "confidence": 95,
+      "registration": "BR-02952/2026",
+      "method": "Telephone interviews by human interviewers, with initial telephone calls and digital messages",
+      "source": "https://static.poder360.com.br/uploads/2026/10/Presidencial-BR-02952-2026-Out26.pdf",
+      "verification": "primary-report",
+      "auditNote": "Real Time Big Data's original 48-page report, hosted by Poder360, shows the stimulated total-respondent runoff on page 8: Flávio 48%, Lula 45%, blank/null 5%, and no answer 2%. Its methodology page states 2,000 interviews, 15–19 October, a two-point margin and 95% confidence. The TSE national registry confirms the protocol, sample and fieldwork.",
+      "basis": "total respondents",
+      "lula": 45,
+      "flavio": 48,
+      "values": {
+        "lula": 45,
+        "flavio": 48
+      },
+      "responses": {
+        "blank_null": 5,
+        "undecided_no_response": 2
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Real Time Big Data|BR-02952/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-152"
+    },
+    {
+      "pollster": "Alfa Inteligência",
+      "start": "2026-10-15",
+      "end": "2026-10-19",
+      "published": "2026-10-20",
+      "sample": 2700,
+      "moe": 1.9,
+      "confidence": 95,
+      "registration": "BR-00820/2026",
+      "method": "Personal interviews with structured questionnaires and two-stage cluster sampling, as described in the original institute report; TSE registration describes telephone interviews",
+      "source": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/1291026_NACIONAL_2700E_15a1910.pdf",
+      "verification": "primary-report",
+      "auditNote": "Alfa Inteligência's original 48-page report, hosted by CNN Brasil, shows the stimulated total-respondent runoff on report page 13: Flávio 48.8%, Lula 45.9%, none/blank/null 3.5%, and no answer 1.8%. The original report describes personal interviews, but the TSE national registration's methodology text describes telephone interviews; this unresolved method discrepancy is recorded without changing the published vote figures.",
+      "basis": "total respondents",
+      "lula": 45.9,
+      "flavio": 48.8,
+      "values": {
+        "lula": 45.9,
+        "flavio": 48.8
+      },
+      "responses": {
+        "none_blank_null": 3.5,
+        "undecided_no_response": 1.8
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Alfa Inteligência|BR-00820/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-153"
+    },
+    {
+      "pollster": "Instituto França",
+      "start": "2026-10-16",
+      "end": "2026-10-20",
+      "published": "2026-10-20",
+      "sample": 3000,
+      "moe": 1.8,
+      "confidence": 95,
+      "registration": "BR-07896/2026",
+      "method": "CATI telephone interviews with a structured questionnaire, according to the TSE registration",
+      "source": "https://fanf1.com.br/2026/10/20/instituto-franca-flavio-tem-508-e-lula-492-indecisos-sao-quase-9/",
+      "verification": "provisional-source",
+      "auditNote": "PROVISIONAL — Fan F1 published the total-respondent runoff and all response categories at 07:09 on 20 October; Política de Fato independently reports the same figures. The TSE national registration confirms the sample, 16–20 October fieldwork and CATI method. The original institute report was not located. The publication and registered fieldwork end fall on the same date; recheck the completed fieldwork timing and original report when available.",
+      "basis": "total respondents",
+      "lula": 39.65,
+      "flavio": 40.95,
+      "values": {
+        "lula": 39.65,
+        "flavio": 40.95
+      },
+      "responses": {
+        "blank_null_none": 10.56,
+        "undecided_no_response": 8.84
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Instituto França|BR-07896/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-154"
     }
   ]
 }
