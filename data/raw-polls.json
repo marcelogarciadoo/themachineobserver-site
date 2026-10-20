@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T00:41:07.646376Z",
+  "generatedAt": "2026-10-20T06:54:58.774129Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -8232,9 +8232,9 @@
       "confidence": 95,
       "registration": "BR-04454/2026",
       "method": "Automated telephone interviews (URA/IVR) via fixed and mobile numbers across all 27 federation units",
-      "source": "https://www.faroldabahia.com.br/noticia/datatrends-flavio-bolsonaro-tem-51-5-dos-votos-validos-contra-48-5-de-lula-na-disputa-presidencial?amp=1",
-      "verification": "provisional-source",
-      "auditNote": "PROVISIONAL — Farol da Bahia published the national stimulated total-respondent figures and all response categories; GP1 independently reported the same. The TSE registry CSV generated 19 October confirms registration, planned fieldwork, sample, national scope and automated telephone method. The institute's original report/PDF was not located and must be rechecked.",
+      "source": "https://www.edmarlyra.com/datatrends-flavio-bolsonaro-tem-515-dos-votos-validos-contra-485-de-lula-na-disputa-presidencial/",
+      "verification": "primary-report",
+      "auditNote": "The original publishing partner's 19 October report states the total-respondent result (Flávio 49%, Lula 46%, blank/null 4%, undecided/no response 1%) and publishes a DataTrends-branded graphic with registration, sample, fieldwork, margin and confidence. DataTrends identifies Blog Edmar Lyra as a partner for original survey releases. The TSE registry CSV generated 19 October independently confirms the national scope and telephone method.",
       "basis": "total respondents",
       "lula": 46,
       "flavio": 49,
@@ -8249,8 +8249,8 @@
       "coverage": "complete",
       "scenario": "Lula × Flávio Bolsonaro",
       "waveId": "DataTrends|BR-04454/2026|R2",
-      "round": 2,
-      "id": "RAW-R2-146"
+      "id": "RAW-R2-146",
+      "round": 2
     }
   ]
 }
