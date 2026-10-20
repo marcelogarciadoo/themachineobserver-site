@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T13:01:53.777022Z",
+  "generatedAt": "2026-10-20T19:19:43.226997Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -8351,10 +8351,10 @@
       "moe": 1.8,
       "confidence": 95,
       "registration": "BR-07896/2026",
-      "method": "CATI telephone interviews with a structured questionnaire, according to the TSE registration",
-      "source": "https://fanf1.com.br/2026/10/20/instituto-franca-flavio-tem-508-e-lula-492-indecisos-sao-quase-9/",
-      "verification": "provisional-source",
-      "auditNote": "PROVISIONAL — Fan F1 published the total-respondent runoff and all response categories at 07:09 on 20 October; Política de Fato independently reports the same figures. The TSE national registration confirms the sample, 16–20 October fieldwork and CATI method. The original institute report was not located. The publication and registered fieldwork end fall on the same date; recheck the completed fieldwork timing and original report when available.",
+      "method": "CATI telephone interviews with a structured questionnaire",
+      "source": "https://static.poder360.com.br/uploads/2026/10/Pesquisa_Presidente_2T_Brasil_Out2026_Instituto_Franca.pdf",
+      "verification": "primary-report",
+      "auditNote": "The original Instituto França report, hosted by Poder360, confirms the 20 October total-respondent runoff and all four response categories. The candidate shares and metadata match the earlier provisional publisher report and the TSE registration. Its valid-vote percentages are not substituted for total-respondent figures. The report was published on the registered final fieldwork date; interview completion time is not specified.",
       "basis": "total respondents",
       "lula": 39.65,
       "flavio": 40.95,
@@ -8369,8 +8369,8 @@
       "coverage": "complete",
       "scenario": "Lula × Flávio Bolsonaro",
       "waveId": "Instituto França|BR-07896/2026|R2",
-      "round": 2,
-      "id": "RAW-R2-154"
+      "id": "RAW-R2-154",
+      "round": 2
     }
   ]
 }

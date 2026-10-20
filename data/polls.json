@@ -738,6 +738,18 @@
   {
    "registration": "BR-07585/2026",
    "reason": "Rio Grande do Norte-only electorate, not a national presidential poll; the TSE 19 October registry CSV methodology and sampling plan explicitly limit the survey to that state."
+  },
+  {
+   "registration": "BR-03875/2026",
+   "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 20 October 2026 states in DS_METODOLOGIA_PESQUISA that this Real Time Big Data survey was conducted in Paraná (PR), despite its BR presidential registration."
+  },
+  {
+   "registration": "BR-02106/2026",
+   "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 20 October 2026 says the IAP sample represents the electorate of Rondônia and DS_DADO_MUNICIPIO lists only its 52 municipalities, despite its BR presidential registration."
+  },
+  {
+   "registration": "BR-04527/2026",
+   "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 20 October 2026 says DATATEMPO interviewed a representative sample of Minas Gerais voters only, despite its BR presidential registration."
   }
  ],
  "polls": [
@@ -2560,9 +2572,9 @@
    "sample": 3000,
    "moe": 1.8,
    "registration": "BR-07896/2026",
-   "source": "https://fanf1.com.br/2026/10/20/instituto-franca-flavio-tem-508-e-lula-492-indecisos-sao-quase-9/",
-   "verification": "provisional-source",
-   "auditNote": "PROVISIONAL — Fan F1 published the total-respondent runoff and all response categories at 07:09 on 20 October; Política de Fato independently reports the same figures. The TSE national registration confirms the sample, 16–20 October fieldwork and CATI method. The original institute report was not located. The publication and registered fieldwork end fall on the same date; recheck the completed fieldwork timing and original report when available."
+   "source": "https://static.poder360.com.br/uploads/2026/10/Pesquisa_Presidente_2T_Brasil_Out2026_Instituto_Franca.pdf",
+   "verification": "primary-report",
+   "auditNote": "The original Instituto França report, hosted by Poder360, confirms the 20 October total-respondent runoff and all four response categories. The candidate shares and metadata match the earlier provisional publisher report and the TSE registration. Its valid-vote percentages are not substituted for total-respondent figures. The report was published on the registered final fieldwork date; interview completion time is not specified."
   },
   {
    "pollster": "Instituto Ranking Pesquisa",
