@@ -750,6 +750,18 @@
   {
    "registration": "BR-04527/2026",
    "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 20 October 2026 says DATATEMPO interviewed a representative sample of Minas Gerais voters only, despite its BR presidential registration."
+  },
+  {
+   "registration": "BR-03534/2026",
+   "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 20 October 2026 says the Quaest survey represents voters residing in Rio de Janeiro state and limits collection to that state; G1 likewise reports 1,302 interviews in 29 Rio de Janeiro municipalities."
+  },
+  {
+   "registration": "BR-03762/2026",
+   "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 20 October 2026 limits the Enfoque survey to voters in Santos, São Paulo, and lists Santos neighborhoods; TVCOM's publisher report confirms 800 Santos voters."
+  },
+  {
+   "registration": "BR-05410/2026",
+   "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 20 October 2026 limits the Ipsensus survey to voters in Tangará da Serra, Mato Grosso; Diário da Serra explicitly warns that its results do not represent Mato Grosso or Brazil."
   }
  ],
  "polls": [
