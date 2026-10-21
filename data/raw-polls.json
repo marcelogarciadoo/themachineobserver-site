@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21T01:09:42.152746Z",
+  "generatedAt": "2026-10-21T14:41:00Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -8371,6 +8371,36 @@
       "waveId": "Instituto França|BR-07896/2026|R2",
       "id": "RAW-R2-154",
       "round": 2
+    },
+    {
+      "pollster": "Meio/Ideia",
+      "start": "2026-10-15",
+      "end": "2026-10-19",
+      "published": "2026-10-21",
+      "sample": 1500,
+      "moe": 2.5,
+      "confidence": 95,
+      "registration": "BR-08251/2026",
+      "method": "Telephone survey using random digit dialing (RDD) and probability proportional to size (PPT)",
+      "source": "https://www.canalmeio.com.br/wp-content/uploads/2026/10/Pesquisa-Meio_Ideia-Outubro.pdf",
+      "verification": "primary-report",
+      "auditNote": "Meio/Ideia's original 59-page October report shows the total-respondent runoff on report page 7: Flávio Bolsonaro 48%, Lula 46%, blank/null 3.4%, and no answer 2.6%. The report confirms 1,500 national telephone interviews using RDD/PPT from 15–19 October, a 2.5-point margin, 95% confidence, and TSE protocol BR-08251/2026. Its separate valid-vote figures are not substituted for the reported total-response percentages.",
+      "basis": "total respondents",
+      "lula": 46,
+      "flavio": 48,
+      "values": {
+        "lula": 46,
+        "flavio": 48
+      },
+      "responses": {
+        "blank_null": 3.4,
+        "undecided_no_response": 2.6
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Meio/Ideia|BR-08251/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-155"
     }
   ]
 }
