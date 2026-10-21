@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21T13:12:49Z",
+  "generatedAt": "2026-10-21T19:25:00Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -8461,6 +8461,65 @@
       "waveId": "Futura Inteligência|BR-06614/2026|R2",
       "round": 2,
       "id": "RAW-R2-157"
+    },
+    {
+      "pollster": "Quaest",
+      "start": "2026-10-17",
+      "end": "2026-10-20",
+      "published": "2026-10-21",
+      "sample": 2154,
+      "moe": 2,
+      "confidence": 95,
+      "registration": "BR-08535/2026",
+      "method": "In-person interviews with voters aged 16 and older",
+      "source": "https://infograficos.oglobo.globo.com/politica/eleicoes-2026/pesquisas-quaest-2026-t2-embed.html?candidato=todos&file=k9x2m-z1mq6&modo=estimulada&pergunta=ESTIMULADA-PRE-201&recorte=TOTAL&segmento=total&turno=2",
+      "verification": "primary-report",
+      "auditNote": "Grupo Globo's original Quaest round-two data file BR-2026-2T-2R-PRE reports the unadjusted total-respondent result: Flávio 45%, Lula 44%, blank/null/not voting 9%, and undecided 2%. Its metadata identifies Quaest, national presidential scope, 17–20 October fieldwork, 21 October publication, 2,154 in-person interviews, ±2 p.p. and registration BR-08535/2026; CNN Brasil and Poder360 independently report 95% confidence. The official TSE CSV generated at 05:46 on 21 October did not yet contain this later-disclosed protocol, so the original commissioning-publisher data and contemporaneous reports are retained as the audit basis. No valid-vote normalization was applied.",
+      "basis": "total respondents",
+      "lula": 44,
+      "flavio": 45,
+      "values": {
+        "lula": 44,
+        "flavio": 45
+      },
+      "responses": {
+        "blank_null": 9,
+        "undecided": 2
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Quaest|BR-08535/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-158"
+    },
+    {
+      "pollster": "Instituto Veritá",
+      "start": "2026-10-15",
+      "end": "2026-10-19",
+      "published": "2026-10-21",
+      "sample": 15554,
+      "moe": 1,
+      "confidence": 95,
+      "registration": "BR-06396/2026",
+      "source": "https://www.revistaoeste.com/politica/verita-flavio-bolsonaro-tem-507-contra-493-de-lula-no-2-turno/",
+      "verification": "provisional-source",
+      "auditNote": "PROVISIONAL — Revista Oeste explicitly reports the national total-respondent figures and complete response categories, field dates, sample, margin, confidence and registration; R7 independently reproduces the same figures and respondent counts. The official institute Instagram publication is described by contemporaneous reports, but no stable original report/PDF URL was located. The official TSE CSV generated at 05:46 on 21 October did not yet contain this later-disclosed protocol, so the original institute report and refreshed registry record remain to be checked. No valid-vote normalization was applied.",
+      "basis": "total respondents",
+      "lula": 48.2,
+      "flavio": 49.7,
+      "values": {
+        "lula": 48.2,
+        "flavio": 49.7
+      },
+      "responses": {
+        "blank_null": 1.4,
+        "undecided": 0.7
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Instituto Veritá|BR-06396/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-159"
     }
   ]
 }
