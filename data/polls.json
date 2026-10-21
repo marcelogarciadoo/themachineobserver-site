@@ -762,6 +762,22 @@
   {
    "registration": "BR-05410/2026",
    "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 20 October 2026 limits the Ipsensus survey to voters in Tangará da Serra, Mato Grosso; Diário da Serra explicitly warns that its results do not represent Mato Grosso or Brazil."
+  },
+  {
+   "registration": "BR-04627/2026",
+   "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 20 October 2026 explicitly defines the Data Plus survey universe as voters in Rio Grande do Norte and distributes all 1,500 interviews within that state."
+  },
+  {
+   "registration": "BR-01683/2026",
+   "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 20 October 2026 explicitly limits the Data Pop survey to voters in Tocantins and lists only Tocantins municipalities."
+  },
+  {
+   "registration": "BR-02500/2026",
+   "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 20 October 2026 explicitly limits the Qualitta survey to 30 municipalities in Rio Grande do Norte."
+  },
+  {
+   "registration": "BR-03163/2026",
+   "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 20 October 2026 explicitly defines the Quaest survey universe as voters resident in the Distrito Federal."
   }
  ],
  "polls": [
@@ -2617,6 +2633,20 @@
    "auditNote": "Real Time Big Data's original 48-page report, hosted by Poder360, shows the stimulated total-respondent runoff on page 8: Flávio 48%, Lula 45%, blank/null 5%, and no answer 2%. Its methodology page states 2,000 interviews, 15–19 October, a two-point margin and 95% confidence. The TSE national registry confirms the protocol, sample and fieldwork."
   },
   {
+   "pollster": "Futura Inteligência",
+   "start": "2026-10-19",
+   "end": "2026-10-20",
+   "published": "2026-10-21",
+   "lula": 46.8,
+   "flavio": 48.9,
+   "sample": 2000,
+   "moe": 2.2,
+   "registration": "BR-06614/2026",
+   "source": "https://www.cartacapital.com.br/politica/flavio-e-lula-seguem-tecnicamente-empatados-mostra-pesquisa-futura/",
+   "verification": "provisional-source",
+   "auditNote": "PROVISIONAL — CartaCapital explicitly publishes the total-respondent figures, all response categories, field dates, sample, margin and registration. The official TSE registry CSV generated 20 October confirms national scope, telephone interviews, 19–20 October fieldwork, 2,000 interviews, 95% confidence and ±2.2 p.p. margin. No original institute report was located, so this record remains provisional pending that report."
+  },
+  {
    "pollster": "Meio/Ideia",
    "start": "2026-10-15",
    "end": "2026-10-19",
@@ -2629,6 +2659,20 @@
    "source": "https://www.canalmeio.com.br/wp-content/uploads/2026/10/Pesquisa-Meio_Ideia-Outubro.pdf",
    "verification": "primary-report",
    "auditNote": "Meio/Ideia's original 59-page October report shows the total-respondent runoff on report page 7: Flávio Bolsonaro 48%, Lula 46%, blank/null 3.4%, and no answer 2.6%. The report confirms 1,500 national telephone interviews using RDD/PPT from 15–19 October, a 2.5-point margin, 95% confidence, and TSE protocol BR-08251/2026. Its separate valid-vote figures are not substituted for the reported total-response percentages."
+  },
+  {
+   "pollster": "Palver",
+   "start": "2026-10-18",
+   "end": "2026-10-20",
+   "published": "2026-10-21",
+   "lula": 48,
+   "flavio": 50,
+   "sample": 5000,
+   "moe": 2.4,
+   "registration": "BR-04612/2026",
+   "source": "https://www.palver.com/api/surveys/voting-intention-2026-october-w8/report",
+   "verification": "primary-report",
+   "auditNote": "The primary Palver report identifies BR-04612/2026 and completed fieldwork from 18–20 October, while the official TSE registry CSV generated 20 October lists planned fieldwork from 16–20 October. The primary report's completed dates were preserved. Its reported effective margin is ±2.4 p.p. after calibration, while the registry plan stated a pre-field maximum of ±3 p.p."
   }
  ]
 }

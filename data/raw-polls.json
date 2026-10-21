@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21T06:52:00Z",
+  "generatedAt": "2026-10-21T13:12:49Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -8401,6 +8401,66 @@
       "waveId": "Meio/Ideia|BR-08251/2026|R2",
       "round": 2,
       "id": "RAW-R2-155"
+    },
+    {
+      "pollster": "Palver",
+      "start": "2026-10-18",
+      "end": "2026-10-20",
+      "published": "2026-10-21",
+      "sample": 5000,
+      "moe": 2.4,
+      "confidence": 95,
+      "registration": "BR-04612/2026",
+      "method": "Online non-probability survey recruited through social-media ads; demographic quotas and iterative raking to IBGE/TSE targets including 2026 first-round vote",
+      "source": "https://www.palver.com/api/surveys/voting-intention-2026-october-w8/report",
+      "verification": "primary-report",
+      "auditNote": "The primary Palver report identifies BR-04612/2026 and completed fieldwork from 18–20 October, while the official TSE registry CSV generated 20 October lists planned fieldwork from 16–20 October. The primary report's completed dates were preserved. Its reported effective margin is ±2.4 p.p. after calibration, while the registry plan stated a pre-field maximum of ±3 p.p.",
+      "basis": "total respondents",
+      "lula": 48,
+      "flavio": 50,
+      "values": {
+        "lula": 48,
+        "flavio": 50
+      },
+      "responses": {
+        "blank_null_not_vote": 1,
+        "undecided": 0
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Palver|BR-04612/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-156"
+    },
+    {
+      "pollster": "Futura Inteligência",
+      "start": "2026-10-19",
+      "end": "2026-10-20",
+      "published": "2026-10-21",
+      "sample": 2000,
+      "moe": 2.2,
+      "confidence": 95,
+      "registration": "BR-06614/2026",
+      "method": "Computer-assisted telephone interviewing (CATI)",
+      "source": "https://www.cartacapital.com.br/politica/flavio-e-lula-seguem-tecnicamente-empatados-mostra-pesquisa-futura/",
+      "verification": "provisional-source",
+      "auditNote": "PROVISIONAL — CartaCapital explicitly publishes the total-respondent figures, all response categories, field dates, sample, margin and registration. The official TSE registry CSV generated 20 October confirms national scope, telephone interviews, 19–20 October fieldwork, 2,000 interviews, 95% confidence and ±2.2 p.p. margin. No original institute report was located, so this record remains provisional pending that report.",
+      "basis": "total respondents",
+      "lula": 46.8,
+      "flavio": 48.9,
+      "values": {
+        "lula": 46.8,
+        "flavio": 48.9
+      },
+      "responses": {
+        "none_blank_null": 2,
+        "undecided_no_response": 2.3
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Futura Inteligência|BR-06614/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-157"
     }
   ]
 }
