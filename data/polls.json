@@ -2668,9 +2668,9 @@
    "sample": 2000,
    "moe": 2.2,
    "registration": "BR-06614/2026",
-   "source": "https://www.cartacapital.com.br/politica/flavio-e-lula-seguem-tecnicamente-empatados-mostra-pesquisa-futura/",
-   "verification": "provisional-source",
-   "auditNote": "PROVISIONAL — CartaCapital explicitly publishes the total-respondent figures, all response categories, field dates, sample, margin and registration. The official TSE registry CSV generated 20 October confirms national scope, telephone interviews, 19–20 October fieldwork, 2,000 interviews, 95% confidence and ±2.2 p.p. margin. No original institute report was located, so this record remains provisional pending that report."
+   "source": "https://static.poder360.com.br/uploads/2026/10/pesquisaFutura-presidente-21out2026.pdf",
+   "verification": "primary-report",
+   "auditNote": "PRIMARY REPORT — Futura Inteligência's original report confirms total-response figures of Flávio Bolsonaro 48.9%, Lula 46.8%, nobody/blank/null 2.0%, and undecided/no response 2.3%. It also confirms 2,000 CATI interviews conducted 19–20 October, a 2.2-point margin of error, 95% confidence, and TSE registration BR-06614/2026. This replaces the provisional secondary citation without changing the published values or applying valid-vote normalization."
   },
   {
    "pollster": "Gerp Mercadologia",
