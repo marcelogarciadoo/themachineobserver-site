@@ -790,6 +790,10 @@
   {
    "registration": "BR-09858/2026",
    "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 22 October 2026 explicitly defines the DataTempo survey universe as voters in Minas Gerais."
+  },
+  {
+   "registration": "BR-01280/2026",
+   "reason": "Not a national presidential sample: the official TSE Pesquisa Eleitoral 2026 CSV defines the survey universe as the electorate of Presidente Prudente, São Paulo, and the original local publication identifies it as a deputy-federal poll in that municipality (registered under SP-07377/2026 and BR-01280/2026)."
   }
  ],
  "polls": [
@@ -2155,6 +2159,20 @@
    "source": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Relatorio_Tracking_Nacional_1_Turno_Final_Votos_Validos-3.pdf"
   },
   {
+   "pollster": "Gerp",
+   "start": "2026-09-30",
+   "end": "2026-10-02",
+   "published": "2026-10-03",
+   "lula": 44,
+   "flavio": 49,
+   "sample": 2400,
+   "moe": 2,
+   "registration": "BR-00509/2026",
+   "source": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-49-contra-44-de-lula-no-2o-turno-diz-gerp/",
+   "verification": "provisional-source",
+   "auditNote": "PROVISIONAL — Poder360 explicitly publishes the complete total-response runoff result: Flávio Bolsonaro 49%, Lula 44%, none 6%, and undecided/no response 1%. It reports 2,400 telephone interviews from 30 September to 2 October, a 2-point margin of error, 95.55% confidence, and TSE registration BR-00509/2026; CNN Brasil independently corroborates the field dates, sample, method, margin, and registration. The official TSE CSV lists a disclosure date before fieldwork began, so this record preserves the actual 3 October publication date. An original Gerp report was not located; no normalization was applied."
+  },
+  {
    "pollster": "Instituto França",
    "start": "2026-09-28",
    "end": "2026-10-02",
@@ -2741,6 +2759,20 @@
    "source": "https://infograficos.oglobo.globo.com/politica/eleicoes-2026/pesquisas-quaest-2026-t2-embed.html?candidato=todos&file=k9x2m-z1mq6&modo=estimulada&pergunta=ESTIMULADA-PRE-201&recorte=TOTAL&segmento=total&turno=2",
    "verification": "primary-report",
    "auditNote": "Grupo Globo's original Quaest round-two data file BR-2026-2T-2R-PRE reports the unadjusted total-respondent result: Flávio 45%, Lula 44%, blank/null/not voting 9%, and undecided 2%. Its metadata identifies Quaest, national presidential scope, 17–20 October fieldwork, 21 October publication, 2,154 in-person interviews, ±2 p.p. and registration BR-08535/2026; CNN Brasil and Poder360 independently report 95% confidence. The official TSE CSV generated at 05:46 on 21 October did not yet contain this later-disclosed protocol, so the original commissioning-publisher data and contemporaneous reports are retained as the audit basis. No valid-vote normalization was applied."
+  },
+  {
+   "pollster": "Indexa/Broadcast",
+   "start": "2026-10-20",
+   "end": "2026-10-21",
+   "published": "2026-10-22",
+   "lula": 44.1,
+   "flavio": 45.2,
+   "sample": 2000,
+   "moe": 2.2,
+   "registration": "BR-02348/2026",
+   "source": "https://sistema.indexapesquisas.com.br/pesquisaspublicadas/nacional?r=8",
+   "verification": "primary-report",
+   "auditNote": "PRIMARY REPORT — Indexa's round-8 national report and the Agência Estado/Broadcast publication report total-response figures of Flávio Bolsonaro 45.2%, Lula 44.1%, no vote 4.8%, blank/null 4.3%, and undecided 1.6%. The report confirms 2,000 CATI interviews on 20–21 October, a 2.2-point margin of error, 95% confidence, and TSE registration BR-02348/2026. The public report presents one-decimal values; no hidden extra precision or valid-vote normalization was used."
   },
   {
    "pollster": "PoderData/Aya",

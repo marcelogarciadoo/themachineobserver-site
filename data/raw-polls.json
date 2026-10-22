@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T12:52:49.928069Z",
+  "generatedAt": "2026-10-22T19:35:54.988142Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -8610,6 +8610,67 @@
       "waveId": "PoderData/Aya|BR-07926/2026|R2",
       "round": 2,
       "id": "RAW-R2-162"
+    },
+    {
+      "pollster": "Indexa/Broadcast",
+      "start": "2026-10-20",
+      "end": "2026-10-21",
+      "published": "2026-10-22",
+      "sample": 2000,
+      "moe": 2.2,
+      "confidence": 95,
+      "registration": "BR-02348/2026",
+      "method": "Computer-assisted telephone interviewing (CATI)",
+      "source": "https://sistema.indexapesquisas.com.br/pesquisaspublicadas/nacional?r=8",
+      "verification": "primary-report",
+      "auditNote": "PRIMARY REPORT — Indexa's round-8 national report and the Agência Estado/Broadcast publication report total-response figures of Flávio Bolsonaro 45.2%, Lula 44.1%, no vote 4.8%, blank/null 4.3%, and undecided 1.6%. The report confirms 2,000 CATI interviews on 20–21 October, a 2.2-point margin of error, 95% confidence, and TSE registration BR-02348/2026. The public report presents one-decimal values; no hidden extra precision or valid-vote normalization was used.",
+      "basis": "total respondents",
+      "lula": 44.1,
+      "flavio": 45.2,
+      "values": {
+        "lula": 44.1,
+        "flavio": 45.2
+      },
+      "responses": {
+        "no_vote": 4.8,
+        "blank_null": 4.3,
+        "undecided": 1.6
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Indexa/Broadcast|BR-02348/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-163"
+    },
+    {
+      "pollster": "Gerp",
+      "start": "2026-09-30",
+      "end": "2026-10-02",
+      "published": "2026-10-03",
+      "sample": 2400,
+      "moe": 2,
+      "confidence": 95.55,
+      "registration": "BR-00509/2026",
+      "method": "Computer-assisted telephone interviewing (GerpCati)",
+      "source": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-49-contra-44-de-lula-no-2o-turno-diz-gerp/",
+      "verification": "provisional-source",
+      "auditNote": "PROVISIONAL — Poder360 explicitly publishes the complete total-response runoff result: Flávio Bolsonaro 49%, Lula 44%, none 6%, and undecided/no response 1%. It reports 2,400 telephone interviews from 30 September to 2 October, a 2-point margin of error, 95.55% confidence, and TSE registration BR-00509/2026; CNN Brasil independently corroborates the field dates, sample, method, margin, and registration. The official TSE CSV lists a disclosure date before fieldwork began, so this record preserves the actual 3 October publication date. An original Gerp report was not located; no normalization was applied.",
+      "basis": "total respondents",
+      "lula": 44,
+      "flavio": 49,
+      "values": {
+        "lula": 44,
+        "flavio": 49
+      },
+      "responses": {
+        "none": 6,
+        "undecided_no_response": 1
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Gerp|BR-00509/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-164"
     }
   ]
 }
