@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T01:14:18Z",
+  "generatedAt": "2026-10-22T12:44:26.454599Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -8580,6 +8580,36 @@
       "waveId": "Instituto Phoenix & Associados|BR-08809/2026|R2",
       "round": 2,
       "id": "RAW-R2-161"
+    },
+    {
+      "pollster": "PoderData/Aya",
+      "start": "2026-10-19",
+      "end": "2026-10-21",
+      "published": "2026-10-22",
+      "sample": 4000,
+      "moe": 1.6,
+      "confidence": 95,
+      "registration": "BR-07926/2026",
+      "method": "Automated telephone interviews (IVR), mobile and landline",
+      "source": "https://static.poder360.com.br/uploads/2026/10/Relatorio-PoderData-Eleitoral-21out26-2.pdf",
+      "verification": "primary-report",
+      "auditNote": "PRIMARY REPORT — PoderData/Aya's complete report publishes total-response figures of Flávio Bolsonaro 49%, Lula 48%, blank/null 3%, and undecided 1%. The report confirms 4,000 IVR interviews in 865 municipalities across all 27 federative units, 19–21 October fieldwork, a 1.6-point margin of error, 95% confidence, and TSE registration BR-07926/2026. No valid-vote normalization was applied.",
+      "basis": "total respondents",
+      "lula": 48,
+      "flavio": 49,
+      "values": {
+        "lula": 48,
+        "flavio": 49
+      },
+      "responses": {
+        "blank_null": 3,
+        "undecided": 1
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "PoderData/Aya|BR-07926/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-162"
     }
   ]
 }

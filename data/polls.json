@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21",
+ "updated": "2026-10-22",
  "version": 1,
  "notes": "AtlasIntel de janeiro usa os percentuais retrospectivos de fevereiro, com campo e amostra corroborados no Poder360. A rodada AtlasIntel de maio não foi incluída: a fonte de julho informa sua retirada da série pelo instituto. Paraná de fevereiro: amostra 2.080 conforme reprodução UOL; Exame informa 2.020. Fontes com divergências: no BTG/Nexus de 17 ago., foram mantidos 47%–44% conforme a publicação original do instituto, embora a comparação retrospectiva de 24 ago. cite 47%–45%. No Datafolha de 3 set., o campo é 1–2 set., conforme a Folha. No BTG/Nexus de 24 ago., a amostra é 2.006, conforme o instituto. Para a rodada BTG/Nexus de 14 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pela publicação da VEJA. Para a rodada Quaest de 14 set. e a CNT/MDA de 15 set., os mesmos campos foram preservados conforme as publicações do UOL. Para a rodada Indexa/Broadcast de 15 set., foram preservados conforme a publicação original do Broadcast. Para a rodada DataTrends de 16 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pela publicação parceira do Correio Braziliense. Para a rodada AtlasIntel/Bloomberg de 17 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pelo UOL. Para a rodada Gerp de 17 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pela CNN Brasil. Para a rodada Futura/100% Cidades de 17 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pela Exame. Para a rodada Datafolha de 17 set., o campo informado pela reportagem é 15–16 set., um dia antes do fim de campo constante do registro na TSE (15–17 set.); demais campos conforme a publicação. Para a rodada Palver de 10 ago., o campo é 3–7 ago. conforme as publicações; o registro na TSE lista o período 3–9 ago. Os registros BR-01720/2026 (Quaest, 3–6 set.) e BR-07065/2026 (Quaest, 30 ago.–1 set.) foram completados nesta atualização por correspondência exata de instituto, campo e amostra com o registro da TSE. A rodada BTG/Nexus de 29 de junho tem amostra de 2.009 entrevistas conforme a publicação do instituto (registro consta 2.000). Para as rodadas BTG/Nexus de 13 e 27 de julho, Gerp de 8 de julho, PoderData/Aya de 16 de julho, Vox Brasil de 27 de junho e Alfa/TMC de 31 de julho, foram preservados os números, o campo, a amostra e a margem informados pelas publicações originais dos institutos ou das reportagens que os divulgaram; a publicação da Vox Brasil de 27 de junho é um dia posterior à data de divulgação constante do registro na TSE (26 de junho). Para a rodada Gerp de 9 de junho, o campo informado pela reportagem é 2–5 jun., um dia depois do início de campo constante do registro na TSE (1–5 jun.); demais campos conforme a publicação. Para as rodadas PoderData/Aya de 25 de junho e 30 de julho, Alfa Inteligência de 11 de junho, BTG/Nexus de 15 de junho, CNT/MDA de 16 de junho e Indexa/Broadcast de 23 de junho, foram preservados os números, o campo, a amostra e a margem informados pelas publicações originais dos institutos ou das reportagens que os divulgaram, com correspondência exata ao registro da TSE.",
  "ignored": [
@@ -778,6 +778,18 @@
   {
    "registration": "BR-03163/2026",
    "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 20 October 2026 explicitly defines the Quaest survey universe as voters resident in the Distrito Federal."
+  },
+  {
+   "registration": "BR-00875/2026",
+   "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 22 October 2026 explicitly defines the Datafolha survey universe and collection area as the electorate of the Distrito Federal."
+  },
+  {
+   "registration": "BR-05704/2026",
+   "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 22 October 2026 explicitly limits Exatus interviews and the target electorate to Rio Grande do Norte."
+  },
+  {
+   "registration": "BR-09858/2026",
+   "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 22 October 2026 explicitly defines the DataTempo survey universe as voters in Minas Gerais."
   }
  ],
  "polls": [
@@ -2729,6 +2741,20 @@
    "source": "https://infograficos.oglobo.globo.com/politica/eleicoes-2026/pesquisas-quaest-2026-t2-embed.html?candidato=todos&file=k9x2m-z1mq6&modo=estimulada&pergunta=ESTIMULADA-PRE-201&recorte=TOTAL&segmento=total&turno=2",
    "verification": "primary-report",
    "auditNote": "Grupo Globo's original Quaest round-two data file BR-2026-2T-2R-PRE reports the unadjusted total-respondent result: Flávio 45%, Lula 44%, blank/null/not voting 9%, and undecided 2%. Its metadata identifies Quaest, national presidential scope, 17–20 October fieldwork, 21 October publication, 2,154 in-person interviews, ±2 p.p. and registration BR-08535/2026; CNN Brasil and Poder360 independently report 95% confidence. The official TSE CSV generated at 05:46 on 21 October did not yet contain this later-disclosed protocol, so the original commissioning-publisher data and contemporaneous reports are retained as the audit basis. No valid-vote normalization was applied."
+  },
+  {
+   "pollster": "PoderData/Aya",
+   "start": "2026-10-19",
+   "end": "2026-10-21",
+   "published": "2026-10-22",
+   "lula": 48,
+   "flavio": 49,
+   "sample": 4000,
+   "moe": 1.6,
+   "registration": "BR-07926/2026",
+   "source": "https://static.poder360.com.br/uploads/2026/10/Relatorio-PoderData-Eleitoral-21out26-2.pdf",
+   "verification": "primary-report",
+   "auditNote": "PRIMARY REPORT — PoderData/Aya's complete report publishes total-response figures of Flávio Bolsonaro 49%, Lula 48%, blank/null 3%, and undecided 1%. The report confirms 4,000 IVR interviews in 865 municipalities across all 27 federative units, 19–21 October fieldwork, a 1.6-point margin of error, 95% confidence, and TSE registration BR-07926/2026. No valid-vote normalization was applied."
   }
  ]
 }
