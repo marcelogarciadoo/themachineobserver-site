@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-21T19:25:00Z",
+  "generatedAt": "2026-10-22T01:14:18Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -8520,6 +8520,66 @@
       "waveId": "Instituto Veritá|BR-06396/2026|R2",
       "round": 2,
       "id": "RAW-R2-159"
+    },
+    {
+      "pollster": "Gerp Mercadologia",
+      "start": "2026-10-19",
+      "end": "2026-10-21",
+      "published": "2026-10-21",
+      "sample": 2400,
+      "moe": 2,
+      "confidence": 95.55,
+      "registration": "BR-03835/2026",
+      "method": "Computer-assisted telephone interviewing (CATI/GerpCati)",
+      "source": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-53-dos-votos-validos-contra-47-de-lula-diz-gerp/",
+      "verification": "provisional-source",
+      "auditNote": "PROVISIONAL — Poder360 explicitly publishes the national total-respondent figures, every response category, sample, margin, confidence, CATI method and registration; Exame independently reproduces the same figures and metadata. The published completed fieldwork is 19–21 October, while the official TSE registration generated on 21 October lists planned fieldwork of 17–20 October and a 2.04-point maximum margin. The published completed dates and rounded two-point margin are preserved, and the discrepancy is not silently reconciled. The reported categories sum to 99% because of whole-number rounding. No original Gerp report/PDF was located.",
+      "basis": "total respondents",
+      "lula": 45,
+      "flavio": 50,
+      "values": {
+        "lula": 45,
+        "flavio": 50
+      },
+      "responses": {
+        "none": 2,
+        "undecided_no_response": 2
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Gerp Mercadologia|BR-03835/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-160"
+    },
+    {
+      "pollster": "Instituto Phoenix & Associados",
+      "start": "2026-10-13",
+      "end": "2026-10-16",
+      "published": "2026-10-19",
+      "sample": 3999,
+      "moe": 1.55,
+      "confidence": 95,
+      "registration": "BR-08809/2026",
+      "method": "Telephone interviews with a structured questionnaire",
+      "source": "https://www.phoenixnewsrondonia.com.br/pesquisa-do-instituto-phoenix-aponta-lula-com-51-3-e-flavio-bolsonaro-com-48-7-dos-votos-validos",
+      "verification": "provisional-source",
+      "auditNote": "PROVISIONAL — Phoenix News Rondônia explicitly publishes the national total-respondent figures and all response categories, 13–16 October fieldwork, 3,999 interviews, a 1.55-point margin and 95% confidence. The official TSE national registry confirms Instituto Phoenix & Associados, telephone collection, the same dates, sample, margin and BR-08809/2026. The article was published on 19 October, one day after the registered disclosure date, and labels the protocol as 'TRE-RO nº 08809-2026'; the official normalized national protocol is retained. No stable original institute report/PDF was located.",
+      "basis": "total respondents",
+      "lula": 47.59,
+      "flavio": 45.21,
+      "values": {
+        "lula": 47.59,
+        "flavio": 45.21
+      },
+      "responses": {
+        "blank_null_none": 3,
+        "undecided_no_response": 4.2
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Instituto Phoenix & Associados|BR-08809/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-161"
     }
   ]
 }
