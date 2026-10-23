@@ -2208,9 +2208,9 @@
    "sample": 2400,
    "moe": 2,
    "registration": "BR-00509/2026",
-   "source": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-49-contra-44-de-lula-no-2o-turno-diz-gerp/",
-   "verification": "provisional-source",
-   "auditNote": "PROVISIONAL — Poder360 explicitly publishes the complete total-response runoff result: Flávio Bolsonaro 49%, Lula 44%, none 6%, and undecided/no response 1%. It reports 2,400 telephone interviews from 30 September to 2 October, a 2-point margin of error, 95.55% confidence, and TSE registration BR-00509/2026; CNN Brasil independently corroborates the field dates, sample, method, margin, and registration. The official TSE CSV lists a disclosure date before fieldwork began, so this record preserves the actual 3 October publication date. An original Gerp report was not located; no normalization was applied."
+   "source": "https://gerp.com.br/relatorios/20261003%20Relat%C3%B3rio%20Presid%C3%AAncia%202026%20-%20DIVULGA%C3%87%C3%83O.pdf",
+   "verification": "primary-report",
+   "auditNote": "PRIMARY REPORT — Gerp's original report confirms the complete total-response runoff result, GerpCati method, 2,400 interviews, fieldwork dates, 2-point margin, 95.55% confidence and registration BR-00509/2026. The TSE metadata's planned disclosure date precedes fieldwork, so the record preserves the report's actual 3 October publication date. Values are unchanged and unnormalized."
   },
   {
    "pollster": "Instituto França",
@@ -2754,9 +2754,9 @@
    "sample": 15554,
    "moe": 1,
    "registration": "BR-06396/2026",
-   "source": "https://www.revistaoeste.com/politica/verita-flavio-bolsonaro-tem-507-contra-493-de-lula-no-2-turno/",
-   "verification": "provisional-source",
-   "auditNote": "PROVISIONAL — Revista Oeste explicitly reports the national total-respondent figures and complete response categories, field dates, sample, margin, confidence and registration; R7 independently reproduces the same figures and respondent counts. The official institute Instagram publication is described by contemporaneous reports, but no stable original report/PDF URL was located. The official TSE CSV generated at 05:46 on 21 October did not yet contain this later-disclosed protocol, so the original institute report and refreshed registry record remain to be checked. No valid-vote normalization was applied."
+   "source": "https://brasil.arvor.co/fontes/verita_21102026.pdf",
+   "verification": "primary-report",
+   "auditNote": "PRIMARY REPORT — An archived copy of the original 17-page Instituto Veritá report confirms the registration, fieldwork, sample, margin, confidence, automated voice-recognition method, 20% quality-control audit and complete total-respondent result. The report separately shows valid-vote figures; this record preserves only the reported total-respondent percentages, unchanged and unnormalized."
   },
   {
    "pollster": "Meio/Ideia",
@@ -2857,6 +2857,34 @@
    "auditNote": "PROVISIONAL — Exame publishes the complete stimulated total-respondent result: Flávio Bolsonaro 49.9%, Lula 46.0%, none/blank/null 2.0%, and no answer 2.1%, with 2,700 in-person interviews conducted 18–22 October, a 1.9-point margin, 95% confidence, and registration BR-08496/2026. The original Alfa report was not located. Registry-derived schedule pages list 1,200 interviews for the same protocol, while Exame and CNN report 2,700; the published sample is retained and the discrepancy remains open pending the current TSE record or primary report."
   },
   {
+   "pollster": "DataTrends",
+   "start": "2026-10-19",
+   "end": "2026-10-21",
+   "published": "2026-10-23",
+   "lula": 46,
+   "flavio": 50,
+   "sample": 2000,
+   "moe": 2.19,
+   "registration": "BR-03365/2026",
+   "source": "https://www.edmarlyra.com/datatrends-flavio-bolsonaro-amplia-vantagem-sobre-lula-e-chega-a-519-dos-votos-validos/",
+   "verification": "provisional-source",
+   "auditNote": "PROVISIONAL — DataTrends' original publishing partner reports the complete national total-respondent result, fieldwork, sample, margin, confidence and registration; Rádio Corredor independently reproduces the figures. The published rounded categories total 101%, so they are preserved exactly without correction or normalization. No stable institute report/PDF was located, and the latest official TSE ZIP does not yet contain this same-day protocol."
+  },
+  {
+   "pollster": "Instituto Veritá",
+   "start": "2026-10-18",
+   "end": "2026-10-22",
+   "published": "2026-10-23",
+   "lula": 47.5,
+   "flavio": 50.2,
+   "sample": 15554,
+   "moe": 1,
+   "registration": "BR-06070/2026",
+   "source": "https://exame.com/brasil/pesquisa-verita-flavio-bolsonaro-tem-513-e-lula-487-dos-votos-validos/",
+   "verification": "provisional-source",
+   "auditNote": "PROVISIONAL — Exame reports the complete national total-respondent result, fieldwork, sample, margin, confidence, automated voice-recognition method, 20% audit and registration; R7 independently corroborates the figures. Instituto Veritá's official report portal was checked, but the report for BR-06070/2026 was not yet posted. The latest official TSE ZIP also does not yet contain this same-day protocol. No valid-vote normalization was applied."
+  },
+  {
    "pollster": "Ipespe/Abrapel",
    "start": "2026-10-20",
    "end": "2026-10-22",
@@ -2885,6 +2913,20 @@
    "auditNote": "PRIMARY REPORT — Real Time Big Data's original national report confirms the stimulated total-respondent runoff: Flávio Bolsonaro 49%, Lula 45%, blank/null 5%, and no answer 1%. It confirms 2,000 interviews conducted 19–22 October, a two-point margin, 95% confidence, publication on 23 October, and TSE registration BR-09670/2026."
   },
   {
+   "pollster": "Vetor/Arrow",
+   "start": "2026-10-22",
+   "end": "2026-10-23",
+   "published": "2026-10-23",
+   "lula": 44.9,
+   "flavio": 50,
+   "sample": 6867,
+   "moe": 1.2,
+   "registration": "BR-06957/2026",
+   "source": "https://agendadopoder.com.br/flavio-bolsonaro-tem-527-dos-votos-validos-contra-473-de-lula-aponta-pesquisa-vetor-arrow/",
+   "verification": "provisional-source",
+   "auditNote": "PROVISIONAL — Agenda do Poder reports the complete national total-respondent result, 6,867 completed interviews, fieldwork, margin, confidence, IVR method and registration; Terra independently corroborates the figures. The schedule listing had shown 3,000 planned interviews, while the publication reports 6,867 completed. It also reports a supplementary 824 interviews among ages 16–24, gender inferred from first name for 616 respondents, and municipality unidentified for 628. No stable primary PDF was located, and the latest official TSE ZIP does not yet contain this same-day protocol. Values were not normalized."
+  },
+  {
    "pollster": "Vox Brasil",
    "start": "2026-10-20",
    "end": "2026-10-22",
@@ -2894,9 +2936,9 @@
    "sample": 2100,
    "moe": 2.15,
    "registration": "BR-03259/2026",
-   "source": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/10/23/em-votos-validos-lula-tem-506-contra-494-de-flavio-mostra-pesquisa-vox-brasil.amp.htm",
-   "verification": "provisional-source",
-   "auditNote": "PROVISIONAL — Estadão Conteúdo, republished by UOL, reports the complete stimulated total-respondent result: Lula 45.4%, Flávio Bolsonaro 44.3%, none/blank/null 6.0%, and undecided/no opinion 4.3%. It reports 2,100 in-person household interviews conducted 20–22 October, a 2.15-point margin, 95% confidence, and registration BR-03259/2026. The original Vox Brasil report remains outstanding. The published categories total 100.0%; no normalization was applied."
+   "source": "https://static.poder360.com.br/uploads/2026/10/RELATORIO-VOX-BRASIL-NACIONAL-11-2-TURNO-23-10-2026.pdf",
+   "verification": "primary-report",
+   "auditNote": "PRIMARY REPORT — The original 38-page Vox Brasil report confirms the national total-respondent result, all response categories, in-person household method, fieldwork dates, sample, margin, confidence and TSE registration. The values are unchanged from the provisional record and were not normalized."
   }
  ]
 }
