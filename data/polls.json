@@ -2740,9 +2740,9 @@
    "sample": 2400,
    "moe": 2,
    "registration": "BR-03835/2026",
-   "source": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-tem-53-dos-votos-validos-contra-47-de-lula-diz-gerp/",
-   "verification": "provisional-source",
-   "auditNote": "PROVISIONAL — Poder360 explicitly publishes the national total-respondent figures, every response category, sample, margin, confidence, CATI method and registration; Exame independently reproduces the same figures and metadata. The published completed fieldwork is 19–21 October, while the official TSE registration generated on 21 October lists planned fieldwork of 17–20 October and a 2.04-point maximum margin. The published completed dates and rounded two-point margin are preserved, and the discrepancy is not silently reconciled. The reported categories sum to 99% because of whole-number rounding. No original Gerp report/PDF was located."
+   "source": "https://static.poder360.com.br/uploads/2026/10/gerp-nacional-2oturno-21.out_.2026.pdf",
+   "verification": "primary-report",
+   "auditNote": "PRIMARY REPORT — Gerp Mercadologia's original 59-page national report confirms the stimulated total-respondent runoff: Flávio Bolsonaro 50%, Lula 45%, none 2%, and no answer 2%. It confirms 2,400 GerpCati telephone interviews in all federative units, completed 19–21 October, a rounded two-point margin, 95.55% confidence, and registration BR-03835/2026. The official TSE registration snapshot records planned fieldwork of 17–20 October and a 2.04-point maximum margin; the completed primary report's dates and rounded published margin are preserved, with the discrepancy explicitly retained. Categories sum to 99% because of rounding; no normalization was applied."
   },
   {
    "pollster": "Instituto Veritá",
@@ -2841,6 +2841,62 @@
    "source": "https://static.poder360.com.br/uploads/2026/10/Relatorio-PoderData-Eleitoral-21out26-2.pdf",
    "verification": "primary-report",
    "auditNote": "PRIMARY REPORT — PoderData/Aya's complete report publishes total-response figures of Flávio Bolsonaro 49%, Lula 48%, blank/null 3%, and undecided 1%. The report confirms 4,000 IVR interviews in 865 municipalities across all 27 federative units, 19–21 October fieldwork, a 1.6-point margin of error, 95% confidence, and TSE registration BR-07926/2026. No valid-vote normalization was applied."
+  },
+  {
+   "pollster": "Alfa Inteligência",
+   "start": "2026-10-18",
+   "end": "2026-10-22",
+   "published": "2026-10-23",
+   "lula": 46,
+   "flavio": 49.9,
+   "sample": 2700,
+   "moe": 1.9,
+   "registration": "BR-08496/2026",
+   "source": "https://exame.com/brasil/pesquisa-alfa-a-dois-dias-do-2o-turno-flavio-bolsonaro-tem-52-e-lula-48/",
+   "verification": "provisional-source",
+   "auditNote": "PROVISIONAL — Exame publishes the complete stimulated total-respondent result: Flávio Bolsonaro 49.9%, Lula 46.0%, none/blank/null 2.0%, and no answer 2.1%, with 2,700 in-person interviews conducted 18–22 October, a 1.9-point margin, 95% confidence, and registration BR-08496/2026. The original Alfa report was not located. Registry-derived schedule pages list 1,200 interviews for the same protocol, while Exame and CNN report 2,700; the published sample is retained and the discrepancy remains open pending the current TSE record or primary report."
+  },
+  {
+   "pollster": "Ipespe/Abrapel",
+   "start": "2026-10-20",
+   "end": "2026-10-22",
+   "published": "2026-10-23",
+   "lula": 47,
+   "flavio": 48,
+   "sample": 1500,
+   "moe": 2.6,
+   "registration": "BR-04350/2026",
+   "source": "https://ipespe.org.br/wp-content/uploads/2026/10/TRK-CAMPANHA-03_-IPESPE-ABRAPEL_2T_-20-a-22-OUT-2026_-VF_.pdf",
+   "verification": "primary-report",
+   "auditNote": "PRIMARY REPORT — The original Ipespe/Abrapel national tracking report confirms the stimulated total-respondent runoff: Flávio Bolsonaro 48%, Lula 47%, blank/null 3%, and no answer 2%. It confirms 1,500 CATI telephone interviews conducted 20–22 October, a 2.6-point margin, 95.45% confidence, and TSE registration BR-04350/2026."
+  },
+  {
+   "pollster": "Real Time Big Data",
+   "start": "2026-10-19",
+   "end": "2026-10-22",
+   "published": "2026-10-23",
+   "lula": 45,
+   "flavio": 49,
+   "sample": 2000,
+   "moe": 2,
+   "registration": "BR-09670/2026",
+   "source": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Presidencial-BR-09670-2026-Out26.pdf",
+   "verification": "primary-report",
+   "auditNote": "PRIMARY REPORT — Real Time Big Data's original national report confirms the stimulated total-respondent runoff: Flávio Bolsonaro 49%, Lula 45%, blank/null 5%, and no answer 1%. It confirms 2,000 interviews conducted 19–22 October, a two-point margin, 95% confidence, publication on 23 October, and TSE registration BR-09670/2026."
+  },
+  {
+   "pollster": "Vox Brasil",
+   "start": "2026-10-20",
+   "end": "2026-10-22",
+   "published": "2026-10-23",
+   "lula": 45.4,
+   "flavio": 44.3,
+   "sample": 2100,
+   "moe": 2.15,
+   "registration": "BR-03259/2026",
+   "source": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2026/10/23/em-votos-validos-lula-tem-506-contra-494-de-flavio-mostra-pesquisa-vox-brasil.amp.htm",
+   "verification": "provisional-source",
+   "auditNote": "PROVISIONAL — Estadão Conteúdo, republished by UOL, reports the complete stimulated total-respondent result: Lula 45.4%, Flávio Bolsonaro 44.3%, none/blank/null 6.0%, and undecided/no opinion 4.3%. It reports 2,100 in-person household interviews conducted 20–22 October, a 2.15-point margin, 95% confidence, and registration BR-03259/2026. The original Vox Brasil report remains outstanding. The published categories total 100.0%; no normalization was applied."
   }
  ]
 }
