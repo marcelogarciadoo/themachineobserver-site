@@ -794,6 +794,18 @@
   {
    "registration": "BR-01280/2026",
    "reason": "Not a national presidential sample: the official TSE Pesquisa Eleitoral 2026 CSV defines the survey universe as the electorate of Presidente Prudente, São Paulo, and the original local publication identifies it as a deputy-federal poll in that municipality (registered under SP-07377/2026 and BR-01280/2026)."
+  },
+  {
+   "registration": "BR-01574/2026",
+   "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV explicitly says the STATS survey covers only Uberaba, Minas Gerais, and that its presidential results represent exclusively that municipality's electorate."
+  },
+  {
+   "registration": "BR-03536/2026",
+   "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV says the AtlasIntel sampling and post-stratification population is the electorate of Rio Grande do Norte, despite the BR-prefixed registration."
+  },
+  {
+   "registration": "BR-09189/2026",
+   "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV defines this Viavox survey as an in-person municipal poll covering only Três Pontas, Minas Gerais."
   }
  ],
  "polls": [
@@ -2759,6 +2771,20 @@
    "source": "https://infograficos.oglobo.globo.com/politica/eleicoes-2026/pesquisas-quaest-2026-t2-embed.html?candidato=todos&file=k9x2m-z1mq6&modo=estimulada&pergunta=ESTIMULADA-PRE-201&recorte=TOTAL&segmento=total&turno=2",
    "verification": "primary-report",
    "auditNote": "Grupo Globo's original Quaest round-two data file BR-2026-2T-2R-PRE reports the unadjusted total-respondent result: Flávio 45%, Lula 44%, blank/null/not voting 9%, and undecided 2%. Its metadata identifies Quaest, national presidential scope, 17–20 October fieldwork, 21 October publication, 2,154 in-person interviews, ±2 p.p. and registration BR-08535/2026; CNN Brasil and Poder360 independently report 95% confidence. The official TSE CSV generated at 05:46 on 21 October did not yet contain this later-disclosed protocol, so the original commissioning-publisher data and contemporaneous reports are retained as the audit basis. No valid-vote normalization was applied."
+  },
+  {
+   "pollster": "Datafolha",
+   "start": "2026-10-20",
+   "end": "2026-10-22",
+   "published": "2026-10-22",
+   "lula": 46,
+   "flavio": 47,
+   "sample": 2520,
+   "moe": 2,
+   "registration": "BR-09709/2026",
+   "source": "https://www1.folha.uol.com.br/poder/2026/10/datafolha-flavio-bolsonaro-e-lula-empatam-com-50-dos-votos-validos-cada.shtml",
+   "verification": "contracting-outlet-result",
+   "auditNote": "CONTRACTING OUTLET RESULT — Folha de S.Paulo, which commissioned the survey with TV Globo, publishes the complete total-response result: Flávio Bolsonaro 47%, Lula 46%, blank/null 5%, and undecided 2%. The official TSE registry confirms national scope, 20–22 October fieldwork, 2,520 in-person interviews at population-flow points, a 2-point margin of error, 95% confidence, and registration BR-09709/2026. No valid-vote normalization was applied."
   },
   {
    "pollster": "Indexa/Broadcast",

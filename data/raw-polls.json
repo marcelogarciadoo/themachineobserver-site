@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-22T19:35:54.988142Z",
+  "generatedAt": "2026-10-23T01:07:31.261419Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -8671,6 +8671,36 @@
       "waveId": "Gerp|BR-00509/2026|R2",
       "round": 2,
       "id": "RAW-R2-164"
+    },
+    {
+      "pollster": "Datafolha",
+      "start": "2026-10-20",
+      "end": "2026-10-22",
+      "published": "2026-10-22",
+      "sample": 2520,
+      "moe": 2,
+      "confidence": 95,
+      "registration": "BR-09709/2026",
+      "method": "In-person interviews at population-flow points",
+      "source": "https://www1.folha.uol.com.br/poder/2026/10/datafolha-flavio-bolsonaro-e-lula-empatam-com-50-dos-votos-validos-cada.shtml",
+      "verification": "contracting-outlet-result",
+      "auditNote": "CONTRACTING OUTLET RESULT — Folha de S.Paulo, which commissioned the survey with TV Globo, publishes the complete total-response result: Flávio Bolsonaro 47%, Lula 46%, blank/null 5%, and undecided 2%. The official TSE registry confirms national scope, 20–22 October fieldwork, 2,520 in-person interviews at population-flow points, a 2-point margin of error, 95% confidence, and registration BR-09709/2026. No valid-vote normalization was applied.",
+      "basis": "total respondents",
+      "lula": 46,
+      "flavio": 47,
+      "values": {
+        "lula": 46,
+        "flavio": 47
+      },
+      "responses": {
+        "blank_null": 5,
+        "undecided": 2
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Datafolha|BR-09709/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-165"
     }
   ]
 }
