@@ -2572,9 +2572,9 @@
    "sample": 2100,
    "moe": 2.15,
    "registration": "BR-04332/2026",
-   "source": "https://exame.com/brasil/pesquisa-vox-brasil-lula-tem-51-e-flavio-bolsonaro-49-em-empate-tecnico/",
-   "verification": "provisional-source",
-   "auditNote": "PROVISIONAL — Exame published the national stimulated runoff over all respondents, and GZH independently reported the same totals, response categories, fieldwork, sample and registration. The institute's original report/PDF was not located and must be rechecked. Published categories total 99.9% because of rounding; no normalization is applied."
+   "source": "https://static.poder360.com.br/uploads/2026/10/RELATORIO-VOX-BRASIL-NACIONAL-10-2-TURNO-18-10-2026.pdf",
+   "verification": "primary-report",
+   "auditNote": "PRIMARY REPORT — Vox Brasil's original 53-page national report confirms the stimulated total-response runoff: Lula 46.4%, Flávio Bolsonaro 44.6%, none/blank/null 5.0%, and undecided/no opinion 3.9%. It also confirms 2,100 in-person household interviews conducted 15–17 October, a 2.15-point margin of error, 95% confidence, publication on 18 October, and TSE registration BR-04332/2026. The published categories total 99.9% because of rounding; no normalization was applied."
   },
   {
    "pollster": "AtlasIntel",
