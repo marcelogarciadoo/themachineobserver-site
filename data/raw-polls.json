@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T12:55:46Z",
+  "generatedAt": "2026-10-24T18:39:34Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -8941,6 +8941,36 @@
       "scenario": "Lula × Flávio Bolsonaro",
       "waveId": "Instituto França|BR-04863/2026|R2",
       "id": "RAW-R2-173",
+      "round": 2
+    },
+    {
+      "pollster": "Instituto Colectta",
+      "start": "2026-10-23",
+      "end": "2026-10-23",
+      "published": "2026-10-24",
+      "sample": 3000,
+      "moe": 2,
+      "confidence": 95,
+      "registration": "BR-05601/2026",
+      "method": "In-person household interviews in 101 municipalities across all 27 federative units",
+      "source": "https://www.congressoemfoco.com.br/noticia/123594/lula-tem-50-3-e-flavio-49-7-dos-votos-validos-diz-colectta",
+      "verification": "provisional-source",
+      "auditNote": "PROVISIONAL — Congresso em Foco explicitly reports the complete national total-respondent result and all response categories from the Colectta survey commissioned by Brazil Economy; Se Ligue Bahia independently corroborates the response categories and metadata. The official TSE CSV confirms national scope, 3,000 in-person household interviews on 23 October, a two-point margin, 95% confidence and registration BR-05601/2026. Brazil Economy's original publication is publicly indexed but returned HTTP 403 during this audit, and no stable Colectta report/PDF was located. Values were preserved without valid-vote normalization.",
+      "basis": "total respondents",
+      "lula": 46.5,
+      "flavio": 46.0,
+      "values": {
+        "lula": 46.5,
+        "flavio": 46.0
+      },
+      "responses": {
+        "blank_null_none": 4.4,
+        "undecided_no_response": 3.1
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Instituto Colectta|BR-05601/2026|R2",
+      "id": "RAW-R2-174",
       "round": 2
     }
   ]
