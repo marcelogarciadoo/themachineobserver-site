@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-23T19:32:40Z",
+  "generatedAt": "2026-10-24T01:21:30Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -8772,26 +8772,26 @@
       "moe": 1.9,
       "confidence": 95,
       "registration": "BR-08496/2026",
-      "method": "In-person interviews across Brazil's five regions, as reported by the publishing source",
-      "source": "https://exame.com/brasil/pesquisa-alfa-a-dois-dias-do-2o-turno-flavio-bolsonaro-tem-52-e-lula-48/",
-      "verification": "provisional-source",
-      "auditNote": "PROVISIONAL — Exame publishes the complete stimulated total-respondent result: Flávio Bolsonaro 49.9%, Lula 46.0%, none/blank/null 2.0%, and no answer 2.1%, with 2,700 in-person interviews conducted 18–22 October, a 1.9-point margin, 95% confidence, and registration BR-08496/2026. The original Alfa report was not located. Registry-derived schedule pages list 1,200 interviews for the same protocol, while Exame and CNN report 2,700; the published sample is retained and the discrepancy remains open pending the current TSE record or primary report.",
+      "method": "In-person interviews with a two-stage cluster sample; 100% interview verification",
+      "source": "https://static.poder360.com.br/uploads/2026/10/PesquisaAlfaInteligencia-presidente-23out2026-1.pdf",
+      "verification": "primary-report",
+      "auditNote": "PRIMARY REPORT — Alfa Inteligência's original 29-page report confirms the complete national total-respondent result, all response categories, in-person two-stage cluster method, 100% interview verification, 2,700 interviews, fieldwork dates, 1.9-point margin, 95% confidence and registration BR-08496/2026. The official TSE CSV's structured QT_ENTREVISTADO field says 1,200, while that registry row's own sampling-plan text and the primary report both specify 2,700; the published completed sample is retained and the discrepancy is documented. Values are unchanged and unnormalized.",
       "basis": "total respondents",
-      "lula": 46,
+      "lula": 46.0,
       "flavio": 49.9,
       "values": {
-        "lula": 46,
+        "lula": 46.0,
         "flavio": 49.9
       },
       "responses": {
-        "none_blank_null": 2,
+        "none_blank_null": 2.0,
         "undecided_no_response": 2.1
       },
       "coverage": "complete",
       "scenario": "Lula × Flávio Bolsonaro",
       "waveId": "Alfa Inteligência|BR-08496/2026|R2",
-      "round": 2,
-      "id": "RAW-R2-168"
+      "id": "RAW-R2-168",
+      "round": 2
     },
     {
       "pollster": "Vox Brasil",
@@ -8859,13 +8859,13 @@
       "end": "2026-10-22",
       "published": "2026-10-23",
       "sample": 15554,
-      "moe": 1,
+      "moe": 1.0,
       "confidence": 95,
       "registration": "BR-06070/2026",
-      "method": "Automated response unit with voice recognition and audio-to-text transcription",
-      "source": "https://exame.com/brasil/pesquisa-verita-flavio-bolsonaro-tem-513-e-lula-487-dos-votos-validos/",
-      "verification": "provisional-source",
-      "auditNote": "PROVISIONAL — Exame reports the complete national total-respondent result, fieldwork, sample, margin, confidence, automated voice-recognition method, 20% audit and registration; R7 independently corroborates the figures. Instituto Veritá's official report portal was checked, but the report for BR-06070/2026 was not yet posted. The latest official TSE ZIP also does not yet contain this same-day protocol. No valid-vote normalization was applied.",
+      "method": "Automated response unit with voice recognition and audio-to-text transcription; 20% quality-control audit",
+      "source": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/10/Relatorio-Brasil-22-de-outubro-de-2026.pdf",
+      "verification": "primary-report",
+      "auditNote": "PRIMARY REPORT — Instituto Veritá's original 15-page report confirms the national scope, registration, fieldwork, sample, margin, confidence, automated voice-recognition method, 20% quality-control audit and complete total-respondent result. The report separately presents valid-vote percentages; this record preserves only the reported total-respondent percentages, unchanged and unnormalized.",
       "basis": "total respondents",
       "lula": 47.5,
       "flavio": 50.2,
@@ -8880,8 +8880,8 @@
       "coverage": "complete",
       "scenario": "Lula × Flávio Bolsonaro",
       "waveId": "Instituto Veritá|BR-06070/2026|R2",
-      "round": 2,
-      "id": "RAW-R2-171"
+      "id": "RAW-R2-171",
+      "round": 2
     },
     {
       "pollster": "Vetor/Arrow",
