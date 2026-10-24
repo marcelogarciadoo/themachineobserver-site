@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T07:31:00Z",
+  "generatedAt": "2026-10-24T12:55:46Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -8912,6 +8912,36 @@
       "waveId": "Vetor/Arrow|BR-06957/2026|R2",
       "round": 2,
       "id": "RAW-R2-172"
+    },
+    {
+      "pollster": "Instituto França",
+      "start": "2026-10-21",
+      "end": "2026-10-23",
+      "published": "2026-10-24",
+      "sample": 1537,
+      "moe": 2.5,
+      "confidence": 95,
+      "registration": "BR-04863/2026",
+      "method": "CATI telephone interviews with geographic stratification and final selection by quotas",
+      "source": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-presidencial-Instituto-Franca-24out2026.pdf",
+      "verification": "primary-report",
+      "auditNote": "PRIMARY REPORT — Instituto França's original seven-page national report confirms the complete total-respondent runoff result, fieldwork, publication date, sample, margin, confidence, registration and all response categories. Its methodology summary describes final selection by quotas; the official TSE CSV describes telephone sampling from fixed and mobile databases with geographic stratification. Both details are preserved in the method note. The separately reported valid-vote percentages were not used, and no value was corrected or normalized.",
+      "basis": "total respondents",
+      "lula": 43.1,
+      "flavio": 45.6,
+      "values": {
+        "lula": 43.1,
+        "flavio": 45.6
+      },
+      "responses": {
+        "blank_null": 7.4,
+        "undecided_no_response": 3.9
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Instituto França|BR-04863/2026|R2",
+      "id": "RAW-R2-173",
+      "round": 2
     }
   ]
 }

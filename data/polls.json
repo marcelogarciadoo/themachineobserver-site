@@ -866,6 +866,22 @@
   {
    "registration": "BR-06158/2026",
    "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 23 October 2026 defines Instituto França's universe and collection area as the electorate of the State of São Paulo."
+  },
+  {
+   "registration": "BR-07937/2026",
+   "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 24 October 2026 defines Instituto França's universe and collection area as the electorate of the State of Sergipe."
+  },
+  {
+   "registration": "BR-09459/2026",
+   "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 24 October 2026 defines Instituto França's universe and collection area as voters in the Federal District/Brasília."
+  },
+  {
+   "registration": "BR-06649/2026",
+   "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 24 October 2026 defines Instituto França's universe and collection area as the electorate of Rio de Janeiro, with state-specific demographic parameters."
+  },
+  {
+   "registration": "BR-09907/2026",
+   "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 24 October 2026 defines Instituto Perfil's universe and collection area as the electorate of the State of Espírito Santo."
   }
  ],
  "polls": [
@@ -2971,6 +2987,20 @@
    "source": "https://static.poder360.com.br/uploads/2026/10/RELATORIO-VOX-BRASIL-NACIONAL-11-2-TURNO-23-10-2026.pdf",
    "verification": "primary-report",
    "auditNote": "PRIMARY REPORT — The original 38-page Vox Brasil report confirms the national total-respondent result, all response categories, in-person household method, fieldwork dates, sample, margin, confidence and TSE registration. The values are unchanged from the provisional record and were not normalized."
+  },
+  {
+   "pollster": "Instituto França",
+   "start": "2026-10-21",
+   "end": "2026-10-23",
+   "published": "2026-10-24",
+   "lula": 43.1,
+   "flavio": 45.6,
+   "sample": 1537,
+   "moe": 2.5,
+   "registration": "BR-04863/2026",
+   "source": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-presidencial-Instituto-Franca-24out2026.pdf",
+   "verification": "primary-report",
+   "auditNote": "PRIMARY REPORT — Instituto França's original seven-page national report confirms the complete total-respondent runoff result, fieldwork, publication date, sample, margin, confidence, registration and all response categories. Its methodology summary describes final selection by quotas; the official TSE CSV describes telephone sampling from fixed and mobile databases with geographic stratification. Both details are preserved in the method note. The separately reported valid-vote percentages were not used, and no value was corrected or normalized."
   }
  ]
 }
