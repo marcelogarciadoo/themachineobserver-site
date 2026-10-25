@@ -918,6 +918,26 @@
   {
    "registration": "BR-05654/2026",
    "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 24 October 2026 defines Data Control's survey universe and demographic strata as the electorate of Acre."
+  },
+  {
+   "registration": "BR-07323/2026",
+   "reason": "Pernambuco-only presidential poll; the official TSE Pesquisa Eleitoral 2026 CSV generated 24 October 2026 defines American Analytics' universe and sample as the electorate of the State of Pernambuco, so it is not a national presidential poll."
+  },
+  {
+   "registration": "BR-09783/2026",
+   "reason": "Parana-only presidential poll; the official TSE Pesquisa Eleitoral 2026 CSV generated 24 October 2026 defines Neobe/Neokemp's IVR universe and sample as voters in the State of Parana, so it is not a national presidential poll."
+  },
+  {
+   "registration": "BR-06243/2026",
+   "reason": "Rio Grande do Norte-only presidential poll; the official TSE Pesquisa Eleitoral 2026 CSV generated 24 October 2026 defines AtlasIntel's sample and weighting universe as the electorate of Rio Grande do Norte, so it is not a national presidential poll."
+  },
+  {
+   "registration": "BR-06289/2026",
+   "reason": "Minas Gerais-only presidential poll; the official TSE Pesquisa Eleitoral 2026 CSV generated 24 October 2026 defines Real Time Big Data's survey as representative of the electorate of Minas Gerais, so it is not a national presidential poll."
+  },
+  {
+   "registration": "BR-08545/2026",
+   "reason": "Amazonas-only presidential poll; the official TSE Pesquisa Eleitoral 2026 CSV generated 24 October 2026 defines IPEN's face-to-face sample as Manaus and municipalities in the State of Amazonas, so it is not a national presidential poll."
   }
  ],
  "polls": [
