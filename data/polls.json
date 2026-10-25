@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24",
+ "updated": "2026-10-25",
  "version": 1,
  "notes": "AtlasIntel de janeiro usa os percentuais retrospectivos de fevereiro, com campo e amostra corroborados no Poder360. A rodada AtlasIntel de maio não foi incluída: a fonte de julho informa sua retirada da série pelo instituto. Paraná de fevereiro: amostra 2.080 conforme reprodução UOL; Exame informa 2.020. Fontes com divergências: no BTG/Nexus de 17 ago., foram mantidos 47%–44% conforme a publicação original do instituto, embora a comparação retrospectiva de 24 ago. cite 47%–45%. No Datafolha de 3 set., o campo é 1–2 set., conforme a Folha. No BTG/Nexus de 24 ago., a amostra é 2.006, conforme o instituto. Para a rodada BTG/Nexus de 14 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pela publicação da VEJA. Para a rodada Quaest de 14 set. e a CNT/MDA de 15 set., os mesmos campos foram preservados conforme as publicações do UOL. Para a rodada Indexa/Broadcast de 15 set., foram preservados conforme a publicação original do Broadcast. Para a rodada DataTrends de 16 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pela publicação parceira do Correio Braziliense. Para a rodada AtlasIntel/Bloomberg de 17 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pelo UOL. Para a rodada Gerp de 17 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pela CNN Brasil. Para a rodada Futura/100% Cidades de 17 set., foram preservados os números, o campo, a amostra, a margem e o registro informados pela Exame. Para a rodada Datafolha de 17 set., o campo informado pela reportagem é 15–16 set., um dia antes do fim de campo constante do registro na TSE (15–17 set.); demais campos conforme a publicação. Para a rodada Palver de 10 ago., o campo é 3–7 ago. conforme as publicações; o registro na TSE lista o período 3–9 ago. Os registros BR-01720/2026 (Quaest, 3–6 set.) e BR-07065/2026 (Quaest, 30 ago.–1 set.) foram completados nesta atualização por correspondência exata de instituto, campo e amostra com o registro da TSE. A rodada BTG/Nexus de 29 de junho tem amostra de 2.009 entrevistas conforme a publicação do instituto (registro consta 2.000). Para as rodadas BTG/Nexus de 13 e 27 de julho, Gerp de 8 de julho, PoderData/Aya de 16 de julho, Vox Brasil de 27 de junho e Alfa/TMC de 31 de julho, foram preservados os números, o campo, a amostra e a margem informados pelas publicações originais dos institutos ou das reportagens que os divulgaram; a publicação da Vox Brasil de 27 de junho é um dia posterior à data de divulgação constante do registro na TSE (26 de junho). Para a rodada Gerp de 9 de junho, o campo informado pela reportagem é 2–5 jun., um dia depois do início de campo constante do registro na TSE (1–5 jun.); demais campos conforme a publicação. Para as rodadas PoderData/Aya de 25 de junho e 30 de julho, Alfa Inteligência de 11 de junho, BTG/Nexus de 15 de junho, CNT/MDA de 16 de junho e Indexa/Broadcast de 23 de junho, foram preservados os números, o campo, a amostra e a margem informados pelas publicações originais dos institutos ou das reportagens que os divulgaram, com correspondência exata ao registro da TSE.",
  "ignored": [
@@ -3019,6 +3019,20 @@
    "auditNote": "PROVISIONAL — Exame explicitly reports the complete AtlasIntel/Bloomberg national total-respondent result, grouped residual category, fieldwork, 4,990 completed interviews, margin, confidence, Atlas RDR method and registration; UOL independently corroborates the figures. The TSE registration planned 5,000 interviews, while the publication reports 4,990 completed. No stable primary report was located during this audit, and values were not normalized."
   },
   {
+   "pollster": "CNT/MDA",
+   "start": "2026-10-21",
+   "end": "2026-10-23",
+   "published": "2026-10-24",
+   "lula": 45,
+   "flavio": 46.3,
+   "sample": 2032,
+   "moe": 2.2,
+   "registration": "BR-02136/2026",
+   "source": "https://data.cnt.org.br/wp-content/uploads/2026/10/Apresentacao-Pesquisa-CNT-de-Opiniao-R173-OUTUBRO26.pdf",
+   "verification": "primary-report",
+   "auditNote": "PRIMARY REPORT — CNT/MDA's original 173rd-round report confirms the stimulated total-respondent runoff: Flávio Bolsonaro 46.3%, Lula 45.0%, blank/null 5.8%, and undecided 2.9%. It confirms 2,032 completed in-person household and street-intercept interviews in 140 municipalities, fieldwork on 21–23 October, a 2.2-point margin of error, 95% confidence, and registration BR-02136/2026. The TSE registration snapshot lists a planned sample of 2,002; the completed sample reported by the institute is preserved. No valid-vote normalization was applied."
+  },
+  {
    "pollster": "Datafolha",
    "start": "2026-10-23",
    "end": "2026-10-24",
@@ -3031,6 +3045,34 @@
    "source": "https://www1.folha.uol.com.br/poder/2026/10/datafolha-flavio-bolsonaro-tem-51-dos-votos-validos-e-lula-49-em-empate-tecnico.shtml",
    "verification": "contracting-outlet-result",
    "auditNote": "CONTRACTING OUTLET RESULT — Folha, which commissioned the survey with TV Globo, reports the complete national total-respondent result, fieldwork, completed sample, municipality count, margin and registration. The official TSE CSV confirms the national in-person design and 95% confidence. Only total-respondent values are stored, unchanged and unnormalized."
+  },
+  {
+   "pollster": "Futura Inteligência",
+   "start": "2026-10-23",
+   "end": "2026-10-24",
+   "published": "2026-10-24",
+   "lula": 47.9,
+   "flavio": 48.2,
+   "sample": 2000,
+   "moe": 2.2,
+   "registration": "BR-09726/2026",
+   "source": "https://exame.com/eleicoes/pesquisa-futura-flavio-bolsonaro-tem-501-e-lula-499-no-2o-turno/",
+   "verification": "provisional-source",
+   "auditNote": "PROVISIONAL — EXAME's published disclosure reports the stimulated total-respondent runoff as Flávio Bolsonaro 48.2%, Lula 47.9%, blank/null 2.3%, and undecided 1.6%. It confirms 2,000 CATI interviews on 23–24 October, a 2.2-point margin of error, 95% confidence, and registration BR-09726/2026. The accessible CNN Brasil report independently confirms the sample, field dates, margin, confidence, and registration. No original institute report was accessible at ingestion time; retain for primary-source recheck. No valid-vote normalization was applied."
+  },
+  {
+   "pollster": "Gerp Mercadologia",
+   "start": "2026-10-22",
+   "end": "2026-10-24",
+   "published": "2026-10-24",
+   "lula": 46,
+   "flavio": 49,
+   "sample": 2400,
+   "moe": 2,
+   "registration": "BR-09327/2026",
+   "source": "https://blogdomagno.com.br/wp-content/uploads/2026/10/PRESIDENCIA-DO-BRASIL-35o-Relatorio-Presidencia-2026-2o-Turno-DIVULGACAO-com-projecao-1.pdf",
+   "verification": "primary-report",
+   "auditNote": "PRIMARY REPORT — Gerp Mercadologia's original national report confirms the stimulated total-respondent runoff: Flávio Bolsonaro 49%, Lula 46%, no answer 3%, and none 1%. It confirms 2,400 GerpCati telephone interviews in all federative units on 22–24 October, a two-point margin of error, 95.55% confidence, and registration BR-09327/2026. Categories sum to 99% because of published rounding; no normalization was applied."
   },
   {
    "pollster": "Instituto Colectta",
@@ -3059,6 +3101,20 @@
    "source": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-presidencial-Instituto-Franca-24out2026.pdf",
    "verification": "primary-report",
    "auditNote": "PRIMARY REPORT — Instituto França's original seven-page national report confirms the complete total-respondent runoff result, fieldwork, publication date, sample, margin, confidence, registration and all response categories. Its methodology summary describes final selection by quotas; the official TSE CSV describes telephone sampling from fixed and mobile databases with geographic stratification. Both details are preserved in the method note. The separately reported valid-vote percentages were not used, and no value was corrected or normalized."
+  },
+  {
+   "pollster": "Instituto Veritá",
+   "start": "2026-10-19",
+   "end": "2026-10-23",
+   "published": "2026-10-24",
+   "lula": 46.46,
+   "flavio": 49.44,
+   "sample": 15554,
+   "moe": 1,
+   "registration": "BR-03181/2026",
+   "source": "https://noticias.r7.com/eleicoes/2026/verita-flavio-bolsonaro-tem-5156-dos-votos-validos-e-lula-4844-25102026/",
+   "verification": "provisional-source",
+   "auditNote": "PROVISIONAL — R7's complete publisher disclosure reports the stimulated total-respondent runoff as Flávio Bolsonaro 49.44%, Lula 46.46%, undecided/no response 2.67%, and blank/null 1.43%. It confirms 15,554 automated interviews in 905 municipalities on 19–23 October, a one-point margin of error, 95% confidence, registration BR-03181/2026, and the institute's automated voice-recognition method. No original institute report was accessible at ingestion time; retain for primary-source recheck. No valid-vote normalization was applied."
   },
   {
    "pollster": "Nexus",

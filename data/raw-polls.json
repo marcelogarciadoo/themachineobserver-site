@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T00:46:45Z",
+  "generatedAt": "2026-10-25T07:29:17Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -9120,6 +9120,126 @@
       "waveId": "Quaest|BR-09158/2026|R2",
       "round": 2,
       "id": "RAW-R2-179"
+    },
+    {
+      "pollster": "CNT/MDA",
+      "start": "2026-10-21",
+      "end": "2026-10-23",
+      "published": "2026-10-24",
+      "sample": 2032,
+      "moe": 2.2,
+      "confidence": 95,
+      "registration": "BR-02136/2026",
+      "method": "In-person, household and street-intercept interviews",
+      "source": "https://data.cnt.org.br/wp-content/uploads/2026/10/Apresentacao-Pesquisa-CNT-de-Opiniao-R173-OUTUBRO26.pdf",
+      "verification": "primary-report",
+      "auditNote": "PRIMARY REPORT — CNT/MDA's original 173rd-round report confirms the stimulated total-respondent runoff: Flávio Bolsonaro 46.3%, Lula 45.0%, blank/null 5.8%, and undecided 2.9%. It confirms 2,032 completed in-person household and street-intercept interviews in 140 municipalities, fieldwork on 21–23 October, a 2.2-point margin of error, 95% confidence, and registration BR-02136/2026. The TSE registration snapshot lists a planned sample of 2,002; the completed sample reported by the institute is preserved. No valid-vote normalization was applied.",
+      "basis": "total respondents",
+      "lula": 45,
+      "flavio": 46.3,
+      "values": {
+        "lula": 45,
+        "flavio": 46.3
+      },
+      "responses": {
+        "blank_null": 5.8,
+        "undecided": 2.9
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "CNT/MDA|BR-02136/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-180"
+    },
+    {
+      "pollster": "Gerp Mercadologia",
+      "start": "2026-10-22",
+      "end": "2026-10-24",
+      "published": "2026-10-24",
+      "sample": 2400,
+      "moe": 2,
+      "confidence": 95.55,
+      "registration": "BR-09327/2026",
+      "method": "Computer-assisted telephone interviewing (CATI/GerpCati)",
+      "source": "https://blogdomagno.com.br/wp-content/uploads/2026/10/PRESIDENCIA-DO-BRASIL-35o-Relatorio-Presidencia-2026-2o-Turno-DIVULGACAO-com-projecao-1.pdf",
+      "verification": "primary-report",
+      "auditNote": "PRIMARY REPORT — Gerp Mercadologia's original national report confirms the stimulated total-respondent runoff: Flávio Bolsonaro 49%, Lula 46%, no answer 3%, and none 1%. It confirms 2,400 GerpCati telephone interviews in all federative units on 22–24 October, a two-point margin of error, 95.55% confidence, and registration BR-09327/2026. Categories sum to 99% because of published rounding; no normalization was applied.",
+      "basis": "total respondents",
+      "lula": 46,
+      "flavio": 49,
+      "values": {
+        "lula": 46,
+        "flavio": 49
+      },
+      "responses": {
+        "none": 1,
+        "undecided_no_response": 3
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Gerp Mercadologia|BR-09327/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-181"
+    },
+    {
+      "pollster": "Futura Inteligência",
+      "start": "2026-10-23",
+      "end": "2026-10-24",
+      "published": "2026-10-24",
+      "sample": 2000,
+      "moe": 2.2,
+      "confidence": 95,
+      "registration": "BR-09726/2026",
+      "method": "Computer-assisted telephone interviewing (CATI)",
+      "source": "https://exame.com/eleicoes/pesquisa-futura-flavio-bolsonaro-tem-501-e-lula-499-no-2o-turno/",
+      "verification": "provisional-source",
+      "auditNote": "PROVISIONAL — EXAME's published disclosure reports the stimulated total-respondent runoff as Flávio Bolsonaro 48.2%, Lula 47.9%, blank/null 2.3%, and undecided 1.6%. It confirms 2,000 CATI interviews on 23–24 October, a 2.2-point margin of error, 95% confidence, and registration BR-09726/2026. The accessible CNN Brasil report independently confirms the sample, field dates, margin, confidence, and registration. No original institute report was accessible at ingestion time; retain for primary-source recheck. No valid-vote normalization was applied.",
+      "basis": "total respondents",
+      "lula": 47.9,
+      "flavio": 48.2,
+      "values": {
+        "lula": 47.9,
+        "flavio": 48.2
+      },
+      "responses": {
+        "blank_null": 2.3,
+        "undecided_no_response": 1.6
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Futura Inteligência|BR-09726/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-182"
+    },
+    {
+      "pollster": "Instituto Veritá",
+      "start": "2026-10-19",
+      "end": "2026-10-23",
+      "published": "2026-10-24",
+      "sample": 15554,
+      "moe": 1,
+      "confidence": 95,
+      "registration": "BR-03181/2026",
+      "method": "Automated response system with voice recognition and audio transcription",
+      "source": "https://noticias.r7.com/eleicoes/2026/verita-flavio-bolsonaro-tem-5156-dos-votos-validos-e-lula-4844-25102026/",
+      "verification": "provisional-source",
+      "auditNote": "PROVISIONAL — R7's complete publisher disclosure reports the stimulated total-respondent runoff as Flávio Bolsonaro 49.44%, Lula 46.46%, undecided/no response 2.67%, and blank/null 1.43%. It confirms 15,554 automated interviews in 905 municipalities on 19–23 October, a one-point margin of error, 95% confidence, registration BR-03181/2026, and the institute's automated voice-recognition method. No original institute report was accessible at ingestion time; retain for primary-source recheck. No valid-vote normalization was applied.",
+      "basis": "total respondents",
+      "lula": 46.46,
+      "flavio": 49.44,
+      "values": {
+        "lula": 46.46,
+        "flavio": 49.44
+      },
+      "responses": {
+        "undecided_no_response": 2.67,
+        "blank_null": 1.43
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Instituto Veritá|BR-03181/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-183"
     }
   ]
 }
