@@ -898,6 +898,26 @@
   {
    "registration": "BR-08499/2026",
    "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 24 October 2026 states that Instituto Seta's methodology uses a representative sample of the electorate of Rio Grande do Norte."
+  },
+  {
+   "registration": "BR-06341/2026",
+   "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 24 October 2026 defines the Metadata survey universe and collection area as the electorate of Rio Grande do Norte."
+  },
+  {
+   "registration": "BR-01202/2026",
+   "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 24 October 2026 states that Correio do Povo Tocantinense interviewed voters in 52 municipalities across the State of Tocantins and designed the sample to represent that state's electorate."
+  },
+  {
+   "registration": "BR-02960/2026",
+   "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 24 October 2026 defines Data Capital's survey universe as voters residing in Rio Grande do Norte and builds the sample from that state's electorate."
+  },
+  {
+   "registration": "BR-05585/2026",
+   "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 24 October 2026 explicitly defines the INOPE survey universe as voters residing in Roraima, with 481 interviews in Boa Vista and 319 in the state's interior."
+  },
+  {
+   "registration": "BR-05654/2026",
+   "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 24 October 2026 defines Data Control's survey universe and demographic strata as the electorate of Acre."
   }
  ],
  "polls": [
@@ -3157,6 +3177,20 @@
    "source": "https://exame.com/brasil/pesquisa-quaest-na-vespera-do-2o-turno-flavio-bolsonaro-tem-51-e-lula-49/",
    "verification": "provisional-source",
    "auditNote": "PROVISIONAL — Exame explicitly reports the complete Quaest national total-respondent result, all residual categories, fieldwork, completed sample, margin, confidence, commissioning outlets and registration; UOL independently corroborates the figures. The official TSE CSV confirms the national in-person household design. No stable original Quaest or commissioning-outlet report was located during this audit. Values were preserved exactly without normalization."
+  },
+  {
+   "pollster": "PoderData/Aya",
+   "start": "2026-10-23",
+   "end": "2026-10-24",
+   "published": "2026-10-25",
+   "lula": 47,
+   "flavio": 49,
+   "sample": 4000,
+   "moe": 1.6,
+   "registration": "BR-02828/2026",
+   "source": "https://static.poder360.com.br/uploads/2026/10/Relatorio-PoderData-Eleitoral-24out26-1.pdf",
+   "verification": "primary-report",
+   "auditNote": "PRIMARY REPORT — PoderData/Aya's complete report publishes total-response figures of Flávio Bolsonaro 49%, Lula 47%, blank/null 3%, and undecided 1%. The report confirms 4,000 IVR interviews in 914 municipalities across all 27 federative units, 23–24 October fieldwork, a 1.6-point margin of error, 95% confidence, and TSE registration BR-02828/2026. No valid-vote normalization was applied."
   }
  ]
 }
