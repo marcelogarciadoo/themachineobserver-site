@@ -894,6 +894,10 @@
   {
    "registration": "BR-00339/2026",
    "reason": "Espirito Santo-only presidential poll; the official TSE CSV generated on 24 October 2026 states that its methodology and sample plan represent the Espirito Santo electorate, so it is not a national presidential poll."
+  },
+  {
+   "registration": "BR-08499/2026",
+   "reason": "Not a national sample: the official TSE Pesquisa Eleitoral 2026 CSV generated 24 October 2026 states that Instituto Seta's methodology uses a representative sample of the electorate of Rio Grande do Norte."
   }
  ],
  "polls": [
@@ -3001,6 +3005,34 @@
    "auditNote": "PRIMARY REPORT — The original 38-page Vox Brasil report confirms the national total-respondent result, all response categories, in-person household method, fieldwork dates, sample, margin, confidence and TSE registration. The values are unchanged from the provisional record and were not normalized."
   },
   {
+   "pollster": "AtlasIntel/Bloomberg",
+   "start": "2026-10-18",
+   "end": "2026-10-23",
+   "published": "2026-10-24",
+   "lula": 48.4,
+   "flavio": 49.9,
+   "sample": 4990,
+   "moe": 1,
+   "registration": "BR-06380/2026",
+   "source": "https://exame.com/brasil/pesquisa-atlasintel-flavio-bolsonaro-tem-508-e-lula-492-na-vespera-do-2o-turno/",
+   "verification": "provisional-source",
+   "auditNote": "PROVISIONAL — Exame explicitly reports the complete AtlasIntel/Bloomberg national total-respondent result, grouped residual category, fieldwork, 4,990 completed interviews, margin, confidence, Atlas RDR method and registration; UOL independently corroborates the figures. The TSE registration planned 5,000 interviews, while the publication reports 4,990 completed. No stable primary report was located during this audit, and values were not normalized."
+  },
+  {
+   "pollster": "Datafolha",
+   "start": "2026-10-23",
+   "end": "2026-10-24",
+   "published": "2026-10-24",
+   "lula": 47,
+   "flavio": 48,
+   "sample": 4050,
+   "moe": 2,
+   "registration": "BR-09540/2026",
+   "source": "https://www1.folha.uol.com.br/poder/2026/10/datafolha-flavio-bolsonaro-tem-51-dos-votos-validos-e-lula-49-em-empate-tecnico.shtml",
+   "verification": "contracting-outlet-result",
+   "auditNote": "CONTRACTING OUTLET RESULT — Folha, which commissioned the survey with TV Globo, reports the complete national total-respondent result, fieldwork, completed sample, municipality count, margin and registration. The official TSE CSV confirms the national in-person design and 95% confidence. Only total-respondent values are stored, unchanged and unnormalized."
+  },
+  {
    "pollster": "Instituto Colectta",
    "start": "2026-10-23",
    "end": "2026-10-23",
@@ -3027,6 +3059,48 @@
    "source": "https://static.poder360.com.br/uploads/2026/10/Pesquisa-presidencial-Instituto-Franca-24out2026.pdf",
    "verification": "primary-report",
    "auditNote": "PRIMARY REPORT — Instituto França's original seven-page national report confirms the complete total-respondent runoff result, fieldwork, publication date, sample, margin, confidence, registration and all response categories. Its methodology summary describes final selection by quotas; the official TSE CSV describes telephone sampling from fixed and mobile databases with geographic stratification. Both details are preserved in the method note. The separately reported valid-vote percentages were not used, and no value was corrected or normalized."
+  },
+  {
+   "pollster": "Nexus",
+   "start": "2026-10-23",
+   "end": "2026-10-24",
+   "published": "2026-10-24",
+   "lula": 46,
+   "flavio": 47,
+   "sample": 2000,
+   "moe": 2.2,
+   "registration": "BR-08234/2026",
+   "source": "https://www.nexus.fsb.com.br/estudos-divulgados/pesquisa-btg-nexus-de-intencao-de-votos-para-presidente-do-brasil-24-de-outubro-de-2026/",
+   "verification": "primary-institute-release",
+   "auditNote": "PRIMARY INSTITUTE RELEASE — Nexus publishes the complete national total-respondent result, fieldwork, completed sample, margin, confidence, telephone method and registration. The published margin is 2.2 points while the TSE registration CSV listed a planned two-point margin; the completed-study value is preserved. No figure was corrected or normalized."
+  },
+  {
+   "pollster": "Palver",
+   "start": "2026-10-22",
+   "end": "2026-10-24",
+   "published": "2026-10-24",
+   "lula": 49,
+   "flavio": 50,
+   "sample": 5000,
+   "moe": 2.2,
+   "registration": "BR-01794/2026",
+   "source": "https://exame.com/brasil/pesquisa-para-presidente-palver-flavio-bolsonaro-tem-50-e-lula-49-no-2o-turno/",
+   "verification": "provisional-source",
+   "auditNote": "PROVISIONAL — Exame explicitly reports Palver's complete national total-respondent result, grouped residual category, fieldwork, sample, margin, confidence, online non-probability method and registration; UOL independently corroborates the figures. The official TSE CSV confirms national scope and describes calibration of the opt-in sample. No stable Palver report/API release was located during this audit. Values were preserved exactly without normalization."
+  },
+  {
+   "pollster": "Quaest",
+   "start": "2026-10-23",
+   "end": "2026-10-24",
+   "published": "2026-10-24",
+   "lula": 45,
+   "flavio": 46,
+   "sample": 3702,
+   "moe": 2,
+   "registration": "BR-09158/2026",
+   "source": "https://exame.com/brasil/pesquisa-quaest-na-vespera-do-2o-turno-flavio-bolsonaro-tem-51-e-lula-49/",
+   "verification": "provisional-source",
+   "auditNote": "PROVISIONAL — Exame explicitly reports the complete Quaest national total-respondent result, all residual categories, fieldwork, completed sample, margin, confidence, commissioning outlets and registration; UOL independently corroborates the figures. The official TSE CSV confirms the national in-person household design. No stable original Quaest or commissioning-outlet report was located during this audit. Values were preserved exactly without normalization."
   }
  ]
 }

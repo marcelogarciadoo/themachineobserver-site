@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-24T18:39:34Z",
+  "generatedAt": "2026-10-25T00:46:45Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -8972,6 +8972,154 @@
       "waveId": "Instituto Colectta|BR-05601/2026|R2",
       "id": "RAW-R2-174",
       "round": 2
+    },
+    {
+      "pollster": "Nexus",
+      "start": "2026-10-23",
+      "end": "2026-10-24",
+      "published": "2026-10-24",
+      "sample": 2000,
+      "moe": 2.2,
+      "confidence": 95,
+      "registration": "BR-08234/2026",
+      "method": "Telephone interviews in all 27 federative units",
+      "source": "https://www.nexus.fsb.com.br/estudos-divulgados/pesquisa-btg-nexus-de-intencao-de-votos-para-presidente-do-brasil-24-de-outubro-de-2026/",
+      "verification": "primary-institute-release",
+      "auditNote": "PRIMARY INSTITUTE RELEASE — Nexus publishes the complete national total-respondent result, fieldwork, completed sample, margin, confidence, telephone method and registration. The published margin is 2.2 points while the TSE registration CSV listed a planned two-point margin; the completed-study value is preserved. No figure was corrected or normalized.",
+      "basis": "total respondents",
+      "lula": 46,
+      "flavio": 47,
+      "values": {
+        "lula": 46,
+        "flavio": 47
+      },
+      "responses": {
+        "blank_null_none": 5.2,
+        "undecided": 1.8
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Nexus|BR-08234/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-175"
+    },
+    {
+      "pollster": "Datafolha",
+      "start": "2026-10-23",
+      "end": "2026-10-24",
+      "published": "2026-10-24",
+      "sample": 4050,
+      "moe": 2,
+      "confidence": 95,
+      "registration": "BR-09540/2026",
+      "method": "In-person interviews at population-flow points in 124 municipalities",
+      "source": "https://www1.folha.uol.com.br/poder/2026/10/datafolha-flavio-bolsonaro-tem-51-dos-votos-validos-e-lula-49-em-empate-tecnico.shtml",
+      "verification": "contracting-outlet-result",
+      "auditNote": "CONTRACTING OUTLET RESULT — Folha, which commissioned the survey with TV Globo, reports the complete national total-respondent result, fieldwork, completed sample, municipality count, margin and registration. The official TSE CSV confirms the national in-person design and 95% confidence. Only total-respondent values are stored, unchanged and unnormalized.",
+      "basis": "total respondents",
+      "lula": 47,
+      "flavio": 48,
+      "values": {
+        "lula": 47,
+        "flavio": 48
+      },
+      "responses": {
+        "blank_null": 3,
+        "undecided": 2
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Datafolha|BR-09540/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-176"
+    },
+    {
+      "pollster": "AtlasIntel/Bloomberg",
+      "start": "2026-10-18",
+      "end": "2026-10-23",
+      "published": "2026-10-24",
+      "sample": 4990,
+      "moe": 1,
+      "confidence": 95,
+      "registration": "BR-06380/2026",
+      "method": "Random digital recruitment (Atlas RDR) during internet browsing",
+      "source": "https://exame.com/brasil/pesquisa-atlasintel-flavio-bolsonaro-tem-508-e-lula-492-na-vespera-do-2o-turno/",
+      "verification": "provisional-source",
+      "auditNote": "PROVISIONAL — Exame explicitly reports the complete AtlasIntel/Bloomberg national total-respondent result, grouped residual category, fieldwork, 4,990 completed interviews, margin, confidence, Atlas RDR method and registration; UOL independently corroborates the figures. The TSE registration planned 5,000 interviews, while the publication reports 4,990 completed. No stable primary report was located during this audit, and values were not normalized.",
+      "basis": "total respondents",
+      "lula": 48.4,
+      "flavio": 49.9,
+      "values": {
+        "lula": 48.4,
+        "flavio": 49.9
+      },
+      "responses": {
+        "blank_null_undecided": 1.7
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "AtlasIntel/Bloomberg|BR-06380/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-177"
+    },
+    {
+      "pollster": "Palver",
+      "start": "2026-10-22",
+      "end": "2026-10-24",
+      "published": "2026-10-24",
+      "sample": 5000,
+      "moe": 2.2,
+      "confidence": 95,
+      "registration": "BR-01794/2026",
+      "method": "Online questionnaire with non-probability sampling and demographic calibration",
+      "source": "https://exame.com/brasil/pesquisa-para-presidente-palver-flavio-bolsonaro-tem-50-e-lula-49-no-2o-turno/",
+      "verification": "provisional-source",
+      "auditNote": "PROVISIONAL — Exame explicitly reports Palver's complete national total-respondent result, grouped residual category, fieldwork, sample, margin, confidence, online non-probability method and registration; UOL independently corroborates the figures. The official TSE CSV confirms national scope and describes calibration of the opt-in sample. No stable Palver report/API release was located during this audit. Values were preserved exactly without normalization.",
+      "basis": "total respondents",
+      "lula": 49,
+      "flavio": 50,
+      "values": {
+        "lula": 49,
+        "flavio": 50
+      },
+      "responses": {
+        "blank_null_undecided": 1
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Palver|BR-01794/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-178"
+    },
+    {
+      "pollster": "Quaest",
+      "start": "2026-10-23",
+      "end": "2026-10-24",
+      "published": "2026-10-24",
+      "sample": 3702,
+      "moe": 2,
+      "confidence": 95,
+      "registration": "BR-09158/2026",
+      "method": "In-person household interviews",
+      "source": "https://exame.com/brasil/pesquisa-quaest-na-vespera-do-2o-turno-flavio-bolsonaro-tem-51-e-lula-49/",
+      "verification": "provisional-source",
+      "auditNote": "PROVISIONAL — Exame explicitly reports the complete Quaest national total-respondent result, all residual categories, fieldwork, completed sample, margin, confidence, commissioning outlets and registration; UOL independently corroborates the figures. The official TSE CSV confirms the national in-person household design. No stable original Quaest or commissioning-outlet report was located during this audit. Values were preserved exactly without normalization.",
+      "basis": "total respondents",
+      "lula": 45,
+      "flavio": 46,
+      "values": {
+        "lula": 45,
+        "flavio": 46
+      },
+      "responses": {
+        "blank_null_not_vote": 8,
+        "undecided_no_response": 1
+      },
+      "coverage": "complete",
+      "scenario": "Lula × Flávio Bolsonaro",
+      "waveId": "Quaest|BR-09158/2026|R2",
+      "round": 2,
+      "id": "RAW-R2-179"
     }
   ]
 }
