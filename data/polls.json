@@ -1006,6 +1006,30 @@
   {
    "registration": "BR-01088/2026",
    "reason": "Official TSE registry CSV identifies a Tocantins governor survey (SG_UF TO, NM_UE TOCANTINS), not a national presidential poll."
+  },
+  {
+   "registration": "BR-03453/2026",
+   "reason": "Official TSE registry CSV identifies a Distrito Federal governor survey (SG_UF DF, NM_UE DISTRITO FEDERAL), not a national presidential poll."
+  },
+  {
+   "registration": "BR-08658/2026",
+   "reason": "Official TSE registry CSV identifies a Distrito Federal governor survey (SG_UF DF, NM_UE DISTRITO FEDERAL), not a national presidential poll."
+  },
+  {
+   "registration": "BR-07127/2026",
+   "reason": "Official TSE registry CSV identifies a Rio Grande do Norte governor survey (SG_UF RN, NM_UE RIO GRANDE DO NORTE), not a national presidential poll."
+  },
+  {
+   "registration": "BR-09902/2026",
+   "reason": "Official TSE registry CSV identifies an Amazonas governor survey (SG_UF AM, NM_UE AMAZONAS), not a national presidential poll."
+  },
+  {
+   "registration": "BR-02344/2026",
+   "reason": "Official TSE registry CSV identifies an Acre governor survey (SG_UF AC, NM_UE ACRE), not a national presidential poll."
+  },
+  {
+   "registration": "BR-04365/2026",
+   "reason": "Official TSE registry CSV identifies an Espírito Santo governor survey (SG_UF ES, NM_UE ESPÍRITO SANTO), not a national presidential poll."
   }
  ],
  "polls": [
