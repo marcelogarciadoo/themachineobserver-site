@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-25T18:40:00Z",
+  "generatedAt": "2026-10-26T00:50:00Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -9063,6 +9063,7 @@
       "id": "RAW-R2-177"
     },
     {
+      "id": "RAW-R2-178",
       "pollster": "Palver",
       "start": "2026-10-22",
       "end": "2026-10-24",
@@ -9071,10 +9072,10 @@
       "moe": 2.2,
       "confidence": 95,
       "registration": "BR-01794/2026",
-      "method": "Online questionnaire with non-probability sampling and demographic calibration",
-      "source": "https://exame.com/brasil/pesquisa-para-presidente-palver-flavio-bolsonaro-tem-50-e-lula-49-no-2o-turno/",
-      "verification": "provisional-source",
-      "auditNote": "PROVISIONAL — Exame explicitly reports Palver's complete national total-respondent result, grouped residual category, fieldwork, sample, margin, confidence, online non-probability method and registration; UOL independently corroborates the figures. The official TSE CSV confirms national scope and describes calibration of the opt-in sample. No stable Palver report/API release was located during this audit. Values were preserved exactly without normalization.",
+      "method": "Online structured questionnaire with non-probability recruitment through social-media advertisements and iterative calibration",
+      "source": "https://brasil.arvor.co/fontes/palver_24102026.pdf",
+      "verification": "primary-report",
+      "auditNote": "PRIMARY REPORT — Palver's original 112-page Onda 9 report confirms the national stimulated total-respondent result: Flávio Bolsonaro 50%, Lula 49%, blank/null/would not vote 1%, and undecided 0%. It confirms 5,000 online interviews on 22–24 October, a non-probability social-media recruitment design with iterative calibration, an effective sample of 1,943, a maximum 2.2-point sampling margin, 95% confidence, and registration BR-01794/2026. The source URL is an archived copy of the original Palver report. No valid-vote normalization was applied.",
       "basis": "total respondents",
       "lula": 49,
       "flavio": 50,
@@ -9083,13 +9084,13 @@
         "flavio": 50
       },
       "responses": {
-        "blank_null_undecided": 1
+        "blank_null_not_vote": 1,
+        "undecided": 0
       },
       "coverage": "complete",
       "scenario": "Lula × Flávio Bolsonaro",
       "waveId": "Palver|BR-01794/2026|R2",
-      "round": 2,
-      "id": "RAW-R2-178"
+      "round": 2
     },
     {
       "pollster": "Quaest",

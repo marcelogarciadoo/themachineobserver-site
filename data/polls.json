@@ -938,6 +938,26 @@
   {
    "registration": "BR-08545/2026",
    "reason": "Amazonas-only presidential poll; the official TSE Pesquisa Eleitoral 2026 CSV generated 24 October 2026 defines IPEN's face-to-face sample as Manaus and municipalities in the State of Amazonas, so it is not a national presidential poll."
+  },
+  {
+   "registration": "BR-08984/2026",
+   "reason": "Minas Gerais-only presidential poll; the official TSE Pesquisa Eleitoral 2026 CSV generated 25 October 2026 defines AtlasIntel's sample and weighting universe as the electorate of Minas Gerais."
+  },
+  {
+   "registration": "BR-00891/2026",
+   "reason": "Pará-only presidential poll; the official TSE Pesquisa Eleitoral 2026 CSV generated 25 October 2026 defines Real Time Big Data's survey as representative of the electorate of Pará."
+  },
+  {
+   "registration": "BR-07401/2026",
+   "reason": "Rio de Janeiro-only presidential poll; the official TSE Pesquisa Eleitoral 2026 CSV generated 25 October 2026 defines the AtlasIntel and paired state-survey records as representative of the electorate of Rio de Janeiro."
+  },
+  {
+   "registration": "BR-09144/2026",
+   "reason": "Grande ABC-only presidential poll; the official TSE Pesquisa Eleitoral 2026 CSV generated 25 October 2026 limits Real Time Big Data's survey to Diadema, Mauá, Ribeirão Pires, Rio Grande da Serra, Santo André, São Bernardo do Campo and São Caetano do Sul."
+  },
+  {
+   "registration": "BR-09278/2026",
+   "reason": "São Paulo-only presidential poll; the official TSE Pesquisa Eleitoral 2026 CSV generated 25 October 2026 defines AtlasIntel's sample and weighting universe as the electorate of the State of São Paulo."
   }
  ],
  "polls": [
@@ -3180,9 +3200,9 @@
    "sample": 5000,
    "moe": 2.2,
    "registration": "BR-01794/2026",
-   "source": "https://exame.com/brasil/pesquisa-para-presidente-palver-flavio-bolsonaro-tem-50-e-lula-49-no-2o-turno/",
-   "verification": "provisional-source",
-   "auditNote": "PROVISIONAL — Exame explicitly reports Palver's complete national total-respondent result, grouped residual category, fieldwork, sample, margin, confidence, online non-probability method and registration; UOL independently corroborates the figures. The official TSE CSV confirms national scope and describes calibration of the opt-in sample. No stable Palver report/API release was located during this audit. Values were preserved exactly without normalization."
+   "source": "https://brasil.arvor.co/fontes/palver_24102026.pdf",
+   "verification": "primary-report",
+   "auditNote": "PRIMARY REPORT — Palver's original 112-page Onda 9 report confirms the national stimulated total-respondent result: Flávio Bolsonaro 50%, Lula 49%, blank/null/would not vote 1%, and undecided 0%. It confirms 5,000 online interviews on 22–24 October, a non-probability social-media recruitment design with iterative calibration, an effective sample of 1,943, a maximum 2.2-point sampling margin, 95% confidence, and registration BR-01794/2026. The source URL is an archived copy of the original Palver report. No valid-vote normalization was applied."
   },
   {
    "pollster": "Quaest",
