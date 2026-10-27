@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T19:30:00Z",
+  "generatedAt": "2026-10-27T00:51:00Z",
   "records": [
     {
       "pollster": "BTG/Nexus",
@@ -9213,6 +9213,7 @@
       "id": "RAW-R2-182"
     },
     {
+      "id": "RAW-R2-183",
       "pollster": "Instituto Veritá",
       "start": "2026-10-19",
       "end": "2026-10-23",
@@ -9221,10 +9222,10 @@
       "moe": 1,
       "confidence": 95,
       "registration": "BR-03181/2026",
-      "method": "Automated response system with voice recognition and audio transcription",
-      "source": "https://noticias.r7.com/eleicoes/2026/verita-flavio-bolsonaro-tem-5156-dos-votos-validos-e-lula-4844-25102026/",
-      "verification": "provisional-source",
-      "auditNote": "PROVISIONAL — R7's complete publisher disclosure reports the stimulated total-respondent runoff as Flávio Bolsonaro 49.44%, Lula 46.46%, undecided/no response 2.67%, and blank/null 1.43%. It confirms 15,554 automated interviews in 905 municipalities on 19–23 October, a one-point margin of error, 95% confidence, registration BR-03181/2026, and the institute's automated voice-recognition method. No original institute report was accessible at ingestion time; retain for primary-source recheck. No valid-vote normalization was applied.",
+      "method": "Automated response unit with voice recognition and audio-to-text transcription",
+      "source": "https://brasil.arvor.co/fontes/verita_24102026.pdf",
+      "verification": "primary-report",
+      "auditNote": "Original Instituto Veritá report confirms a national stimulated Lula–Flávio runoff among all respondents: Flávio Bolsonaro 49.44%, Lula 46.46%, NS/NR 2.67%, and blank/null 1.43%. The report states 15,554 interviews in 905 municipalities on 19–23 October, a one-point margin of error, 95% confidence, registration BR-03181/2026, and automated voice-recognition interviewing. Percentages are preserved exactly; no valid-vote normalization was applied.",
       "basis": "total respondents",
       "lula": 46.46,
       "flavio": 49.44,
@@ -9239,8 +9240,7 @@
       "coverage": "complete",
       "scenario": "Lula × Flávio Bolsonaro",
       "waveId": "Instituto Veritá|BR-03181/2026|R2",
-      "round": 2,
-      "id": "RAW-R2-183"
+      "round": 2
     },
     {
       "pollster": "PoderData/Aya",

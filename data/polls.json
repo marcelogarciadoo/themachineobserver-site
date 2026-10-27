@@ -1030,6 +1030,30 @@
   {
    "registration": "BR-04365/2026",
    "reason": "Official TSE registry CSV identifies an Espírito Santo governor survey (SG_UF ES, NM_UE ESPÍRITO SANTO), not a national presidential poll."
+  },
+  {
+   "registration": "BR-03069/2026",
+   "reason": "Official TSE registry CSV identifies a Tocantins governor survey (SG_UF TO, NM_UE TOCANTINS), not a national presidential poll."
+  },
+  {
+   "registration": "BR-03271/2026",
+   "reason": "Official TSE registry CSV identifies a Rio Grande do Norte governor survey (SG_UF RN, NM_UE RIO GRANDE DO NORTE), not a national presidential poll."
+  },
+  {
+   "registration": "BR-01264/2026",
+   "reason": "Official TSE registry CSV identifies a Rio Grande do Norte governor survey (SG_UF RN, NM_UE RIO GRANDE DO NORTE), not a national presidential poll."
+  },
+  {
+   "registration": "BR-09515/2026",
+   "reason": "Official TSE registry CSV identifies an Acre governor survey (SG_UF AC, NM_UE ACRE), not a national presidential poll."
+  },
+  {
+   "registration": "BR-06203/2026",
+   "reason": "Official TSE registry CSV identifies a Tocantins governor survey (SG_UF TO, NM_UE TOCANTINS), not a national presidential poll."
+  },
+  {
+   "registration": "BR-05969/2026",
+   "reason": "Official TSE registry CSV identifies a Rio Grande do Norte governor survey (SG_UF RN, NM_UE RIO GRANDE DO NORTE), not a national presidential poll."
   }
  ],
  "polls": [
@@ -3244,9 +3268,9 @@
    "sample": 15554,
    "moe": 1,
    "registration": "BR-03181/2026",
-   "source": "https://noticias.r7.com/eleicoes/2026/verita-flavio-bolsonaro-tem-5156-dos-votos-validos-e-lula-4844-25102026/",
-   "verification": "provisional-source",
-   "auditNote": "PROVISIONAL — R7's complete publisher disclosure reports the stimulated total-respondent runoff as Flávio Bolsonaro 49.44%, Lula 46.46%, undecided/no response 2.67%, and blank/null 1.43%. It confirms 15,554 automated interviews in 905 municipalities on 19–23 October, a one-point margin of error, 95% confidence, registration BR-03181/2026, and the institute's automated voice-recognition method. No original institute report was accessible at ingestion time; retain for primary-source recheck. No valid-vote normalization was applied."
+   "source": "https://brasil.arvor.co/fontes/verita_24102026.pdf",
+   "verification": "primary-report",
+   "auditNote": "Original Instituto Veritá report confirms a national stimulated Lula–Flávio runoff among all respondents: Flávio Bolsonaro 49.44%, Lula 46.46%, NS/NR 2.67%, and blank/null 1.43%. The report states 15,554 interviews in 905 municipalities on 19–23 October, a one-point margin of error, 95% confidence, registration BR-03181/2026, and automated voice-recognition interviewing. Percentages are preserved exactly; no valid-vote normalization was applied."
   },
   {
    "pollster": "Nexus",
